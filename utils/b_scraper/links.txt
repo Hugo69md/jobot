@@ -1,0 +1,3 @@
+https://www.jobteaser.com/en/job-offers?contract=internship&lat=46.711046499999995&lng=2.1811786692949857&localized_location=France&location=France%3A%3A_Y291bnRyeTo6OnVGaW9mQWV3VEVWbzlSc056bVZmZU5jOEFyTT0%3D&q=Data&sort=recency
+https://www.jobteaser.com/en/job-offers?contract=internship&lat=46.711046499999995&lng=2.1811786692949857&localized_location=France&location=France%3A%3A_Y291bnRyeTo6OnVGaW9mQWV3VEVWbzlSc056bVZmZU5jOEFyTT0%3D&q=python&sort=recency
+https://www.jobteaser.com/en/job-offers?contract=internship&lat=46.711046499999995&lng=2.1811786692949857&localized_location=France&location=France%3A%3A_Y291bnRyeTo6OnVGaW9mQWV3VEVWbzlSc056bVZmZU5jOEFyTT0%3D&sort=recency&q=supply+chain

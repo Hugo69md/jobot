@@ -161,110 +161,109 @@
   ],
   "skills": [
     {
-  "supply_chain": {
-    "t_prio": [
-      "Supply Chain",
-      "Supply Chain Management",
-      "SCM",
-      "Logistique",
-      "Distribution",
-      "Prévision de la demande",
-      "Gestion des stocks",
-      "Planification de production",
-      "Warehouse Management",
-      "Entrepôt",
-      "WMS",
-      "Transport",
-      "TMS"
-    ],
-    "prio": [
-      "Forecasting",
-      "Réapprovisionnement",
-      "Data-driven decision making",
-      "Analyse Pareto",
-      "Process monitoring",
-      "SOP"
-    ],
-    "bonus": [
-      "Excel avancé",
-      "Pivot Tables",
-      "Power Query",
-      "Reporting",
-      "Analyse de données",
-      "Python",
-      "data processing",
-      "automation",
-      "Simulation",
-      "FlexSim",
-      "SimLAB VR",
-      "Automatisation",
-      "Reporting automatisé",
-      "Workflows",
-      "Web scraping",
-      "market/lead-time data",
-      "ERP Oracle",
-      "Qualité",
-      "Non-conformities analysis"
-    ]
-  },
-  "data": {
-    "t_prio": [
-      "Data Analyst",
-      "Data Analytics",
-      "Data Cleaning",
-      "Data Preparation",
-      "Dashboards",
-      "Reporting",
-      "KPI",
-      "Data Visualization",
-      "grahiques",
-      "storytelling",
-      "Excel (advanced)",
-      "Power Query",
-      "Power Pivot",
-      "Python",
-      "pandas",
-      "numpy",
-      "seaborn",
-      "matplotlib",
-      "scikitlearn"
-    ],
-    "prio": [
-      "ETL",
-      "extract-transform-load",
-      "Data pipelines",
-      "Statistiques",
-      "Statistiques descriptive",
-      "Statistiques inferentielle",
-      "Automatisation",
-      "Reporting automatisé",
-      "scripts",
-      "APIs",
-      "JSON",
-      "Extraction de données",
-      "Web scraping",
-      "Urllib",
-      "Scrapy",
-      "Chromium",
-      "Html parsing"
-    ],
-    "bonus": [
-      "Forecasting",
-      "time series basics",
-      "Github basics"
-    ]
-  }
-}
+      "supply_chain": {
+        "t_prio": [
+          "Supply Chain",
+          "Supply Chain Management",
+          "SCM",
+          "Logistique",
+          "Distribution",
+          "Prévision de la demande",
+          "Gestion des stocks",
+          "Planification de production",
+          "Warehouse Management",
+          "Entrepôt",
+          "WMS",
+          "Transport",
+          "TMS"
+        ],
+        "prio": [
+          "Forecasting",
+          "Réapprovisionnement",
+          "Data-driven decision making",
+          "Analyse Pareto",
+          "Process monitoring",
+          "SOP"
+        ],
+        "bonus": [
+          "Excel avancé",
+          "Pivot Tables",
+          "Power Query",
+          "Reporting",
+          "Analyse de données",
+          "Python",
+          "data processing",
+          "automation",
+          "Simulation",
+          "FlexSim",
+          "SimLAB VR",
+          "Automatisation",
+          "Reporting automatisé",
+          "Workflows",
+          "Web scraping",
+          "market/lead-time data",
+          "ERP Oracle",
+          "Qualité",
+          "Non-conformities analysis"
+        ]
+      },
+      "data": {
+        "t_prio": [
+          "Data Analyst",
+          "Data Analytics",
+          "Data Cleaning",
+          "Data Preparation",
+          "Dashboards",
+          "Reporting",
+          "KPI",
+          "Data Visualization",
+          "grahiques",
+          "storytelling",
+          "Excel (advanced)",
+          "Power Query",
+          "Power Pivot",
+          "Python",
+          "pandas",
+          "numpy",
+          "seaborn",
+          "matplotlib",
+          "scikitlearn"
+        ],
+        "prio": [
+          "ETL",
+          "extract-transform-load",
+          "Data pipelines",
+          "Statistiques",
+          "Statistiques descriptive",
+          "Statistiques inferentielle",
+          "Automatisation",
+          "Reporting automatisé",
+          "scripts",
+          "APIs",
+          "JSON",
+          "Extraction de données",
+          "Web scraping",
+          "Urllib",
+          "Scrapy",
+          "Chromium",
+          "Html parsing"
+        ],
+        "bonus": [
+          "Forecasting",
+          "time series basics",
+          "Github basics"
+        ]
+      }
+    }
   ],
-  "Perso":[
+  "Perso": [
     {
-      "nom":"Hugo MANIPOUD",
+      "nom": "Hugo MANIPOUD",
       "numero": "+33 6 51 58 95 51",
       "mail": "hugo69md@gmail.com",
-      "phrase_intro":
-      {
-        "data" : "Actuellement en 5eme année en Ecole d'ingénieur, Je recherche un stage de fin d'étude dans le domaine de la Data à partir du 1er juin 2026",
-        "supply_chain" :"Actuellement en 5eme année en Ecole d'ingénieur, Je recherche un stage de fin d'étude dans le domaine de la Supply chain à partir du 1er juin 2026"
+      "phrase_intro": {
+        "data": "Actuellement en 5eme année en Ecole d'ingénieur, Je recherche un stage de fin d'étude dans le domaine de la Data à partir du 1er juin 2026",
+        "supply_chain": "Actuellement en 5eme année en Ecole d'ingénieur, Je recherche un stage de fin d'étude dans le domaine de la Supply chain à partir du 1er juin 2026"
       }
     }
   ]

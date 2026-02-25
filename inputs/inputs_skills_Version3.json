@@ -1,11 +1,15 @@
 {
-  "skills": [
+  "experiences": [
     {
       "index": 1,
       "name": "Etudiant - ECAM Lyon",
       "period": "Septembre 2020 / Aujourd'hui",
       "description": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
-      "skills": [],
+      "skills": [
+        "Supply Chain Management",
+        "Génie Mécanique",
+        "Génie Électrique"
+      ],
       "link": "",
       "categorization": "etudes"
     },
@@ -62,7 +66,9 @@
       "description": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets, open source, semi - automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boites de comptabilités",
       "skills": [
         "Maitrise approfondie de Python et Excel",
-        "Statistiques inférentielle, descriptive, analyse de data"
+        "Statistiques inférentielle",
+        "Statistiques descriptive",
+        "Analyse de data"
       ],
       "link": "https://hugo69md.github.io/Portfolio/#home",
       "categorization": "projets_perso"
@@ -79,7 +85,7 @@
     {
       "index": 8,
       "name": "Kryptosphere",
-      "period": "Année scolaire 2024-2025",
+      "period": "Année scolaire 2025-2026",
       "description": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
       "skills": [],
       "link": "",
@@ -88,7 +94,7 @@
     {
       "index": 9,
       "name": "Quasar",
-      "period": "2024 / Aujourd'hui",
+      "period": "2024 / 2025",
       "description": "Membre de l'association de musique électronique du Creusot, installation de matériel audio et visuels, préparation de playlists, mixage en direct.",
       "skills": [
         "Installation de matériel audio et visuels",
@@ -120,7 +126,7 @@
       "description": "Préparation et transport de palettes, initiation à la logistique avec le chef d'entrepôt.",
       "skills": [
         "Préparation et transport de palettes",
-        "Initiation à la logistique"
+        "Initiation à la gestion logistique"
       ],
       "link": "",
       "categorization": "experiences_pro"
@@ -146,10 +152,14 @@
       "description": "Stage ouvrier dans le cadre d'études d'ingénieur, préparation de routes, initiation et maîtrise du 5S.",
       "skills": [
         "Préparation de routes",
-        "Initiation et maîtrise du 5S"
+        "Initiation et maîtrise du 5S",
+        "Picking"
       ],
       "link": "",
       "categorization": "experiences_pro"
     }
+  ],
+  "skills": [
+
   ]
 }

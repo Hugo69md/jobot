@@ -28,7 +28,7 @@ def build_scoring_prompt(cv_data: dict, internships_data: list, user_prompt: str
             "name": offer.get("name", ""),
             "company": offer.get("company", ""),
             "location": offer.get("location", ""),
-            "content": offer.get("content", "")[:2000]  # Truncate very long descriptions
+            "content": offer.get("content", "")[:1000]  # Truncate very long descriptions
         })
 
     prompt = f"""Tu es un expert en recrutement et en matching de profils candidats avec des offres de stage.
@@ -81,6 +81,11 @@ Réponds UNIQUEMENT avec un JSON valide au format suivant :
 Classe les résultats du score le plus élevé au plus bas.
 Ne rajoute AUCUN texte en dehors du JSON.
 """
+    
+    estimated_tokens = len(prompt) // 4
+    print(f"  [INFO] Scoring prompt estimated tokens: ~{estimated_tokens} tokens")
+    if estimated_tokens > 32768:
+        print("  [WARNING] Scoring prompt may exceed model context window!")
     return prompt
 
 

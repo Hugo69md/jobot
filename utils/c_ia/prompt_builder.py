@@ -1,175 +1,106 @@
 import json
 
 
-def build_scoring_prompt(cv_data: dict, internships_data: list, user_prompt: str) -> str:
-    """
-    Build the prompt that asks the AI to score ALL job offers against the CV.
-    Returns a structured prompt instructing the model to output JSON.
-    """
-
-    # Extract key CV info for the prompt
+# ── Compact CV profile (reused across all per-offer prompts) ────────────────
+def _build_cv_summary(cv_data: dict) -> str:
+    perso = cv_data.get("Perso", [{}])[0]
     experiences_summary = []
     for exp in cv_data.get("experiences", []):
         experiences_summary.append({
             "index": exp["index"],
             "name": exp["name"],
-            "period": exp["period"],
             "categorization": exp["categorization"],
-            "skills": exp.get("skills", [])
+            "skills": exp.get("skills", [])[:5]  # top 5 skills per experience
         })
-
-    skills_summary = cv_data.get("skills", [])
-    perso_info = cv_data.get("Perso", [{}])[0]
-
-    # Simplify internship data to reduce token count
-    internships_simplified = []
-    for offer in internships_data:
-        internships_simplified.append({
-            "name": offer.get("name", ""),
-            "company": offer.get("company", ""),
-            "location": offer.get("location", ""),
-            "content": offer.get("content", "")[:1000]  # Truncate very long descriptions
-        })
-
-    prompt = f"""Tu es un expert en recrutement et en matching de profils candidats avec des offres de stage.
-
-CONTEXTE UTILISATEUR : {user_prompt}
-
-PROFIL DU CANDIDAT :
-- Nom : {perso_info.get("nom", "Hugo MANIPOUD")}
-- Formation : Étudiant en 5ème année école d'ingénieur (ECAM Lyon), spécialisation Supply Chain Management
-- Compétences supplementaires : Fort interet pour la Data, maîtrise de Python, Excel avancé, pandas, numpy, matplotlib, seaborn, scikit-learn, et à de multiples projets à son actif
-- Recherche : Stage de fin d'études à partir de juin 2026
-- Domaines cibles : Data Analysis ET/OU Supply Chain
-
-EXPÉRIENCES DU CANDIDAT :
-{json.dumps(experiences_summary, ensure_ascii=False, indent=2)}
-
-COMPÉTENCES DU CANDIDAT (indexées par domaine et priorité) :
-{json.dumps(skills_summary, ensure_ascii=False, indent=2)}
-
----
-
-LISTE DES OFFRES DE STAGE À ÉVALUER :
-{json.dumps(internships_simplified, ensure_ascii=False, indent=2)}
-
----
-
-INSTRUCTIONS :
-Tu dois scorer CHAQUE offre de stage sur 100 points en fonction des critères suivants :
-1. **Correspondance compétences** (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
-   - t_prio skills match = max points
-   - prio skills match = points moyens
-   - bonus skills match = points bonus
-2. **Correspondance formation/niveau** (10 pts) : L'offre demande-t-elle un Bac+4/5, école d'ingénieur, stage de fin d'études ? Si oui, points complets, sinon 0
-3. **Prestige de l'entreprise** (20 pts) : Point maximum si la boite fait parti du Cac40, du S&P 500, si cest une big 3 ou une big 4. Point maximum pour les offres d'audit ou conseil, sinon réduire en fonction de la notoriété de l'entreprise (ex: 15 pts pour une entreprise de taille intermédiaire, 5 pts pour une petite entreprise locale)
-4. **Localisation** (15 pts) : Point maximum si L'offres est à Lyon, Paris, ou Montpellier, reduire de 1 point pour chaque 1km au-delà, des villes citées, (ex 10 km de la ville = 5 pts, 20 km = 0 pts)
-5. **Période** (15 pts) : L'offre commence-t-elle autour de juin/juillet 2026 ?
+    skills = cv_data.get("skills", [])
+    return f"""CANDIDAT: {perso.get("nom", "Hugo MANIPOUD")} — Ingénieur 5A ECAM Lyon (Supply Chain + Data)
+RECHERCHE: Stage fin d'études 4-6 mois à partir juin 2026 — Data OU Supply Chain — Mobile France
+COMPÉTENCES: Python, pandas, numpy, scikit-learn, Excel avancé, Supply Chain (Arrow, Amazon)
+EXPÉRIENCES:
+{json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
+SKILLS INDEXÉS:
+{json.dumps(skills, ensure_ascii=False, separators=(',', ':'))}"""
 
 
-Réponds UNIQUEMENT avec un JSON valide au format suivant :
-{{
-  "scoring": [
-    {{
-      "name": "nom exact de l'offre tel que dans la liste",
-      "score": 85
-    }},
-    ...
-  ]
-}}
+def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: str) -> str:
+    """Score a SINGLE offer. Returns a compact prompt (~2000-3000 tokens max)."""
+    cv_summary = _build_cv_summary(cv_data)
+    offer_text = json.dumps({
+        "name": offer.get("name", ""),
+        "company": offer.get("company", ""),
+        "location": offer.get("location", ""),
+        "content": offer.get("content", "")[:800]
+    }, ensure_ascii=False)
 
-Classe les résultats du score le plus élevé au plus bas.
-Ne rajoute AUCUN texte en dehors du JSON.
-"""
-    
-    estimated_tokens = len(prompt) // 4
-    print(f"  [INFO] Scoring prompt estimated tokens: ~{estimated_tokens} tokens")
-    if estimated_tokens > 32768:
-        print("  [WARNING] Scoring prompt may exceed model context window!")
-    return prompt
+    return f"""Tu es un expert recrutement. Score cette offre de stage pour ce candidat.
+
+{cv_summary}
+
+OFFRE:
+{offer_text}
+
+CRITÈRES DE SCORING (total 100 pts):
+1. Correspondance compétences (40 pts): skills supply_chain/data du candidat vs offre
+2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
+3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, ETI = 15, PME = 5
+4. Localisation (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
+5. Période (15 pts): début autour juin/juillet 2026 = max
+
+Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
+{{"name": "nom exact de l'offre", "score": 85, "reason": "justification courte en 1 phrase"}}"""
 
 
-def build_match_prompt(cv_data: dict, top_offers: list, internships_data: list, user_prompt: str) -> str:
+def build_match_prompt(cv_data: dict, best_offer_full: dict, user_prompt: str) -> str:
     """
-    Build the prompt for the top 5 offers: extract detailed match info,
-    relevant skill indexes, and generate a cover letter for each.
+    Generate skills selection + cover letter for the SINGLE best offer.
+    best_offer_full: the complete offer dict (with full content) plus "score" key.
     """
-
-    # Get the full offer data for the top 5
-    top_offers_full = []
-    for scored_offer in top_offers:
-        offer_name = scored_offer["name"]
-        for internship in internships_data:
-            if internship.get("name", "") == offer_name:
-                top_offers_full.append({
-                    "name": internship["name"],
-                    "URL": internship.get("URL", ""),
-                    "company": internship.get("company", ""),
-                    "location": internship.get("location", ""),
-                    "content": internship.get("content", ""),
-                    "score": scored_offer["score"]
-                })
-                break
-
-    skills_summary = cv_data.get("skills", [])
+    perso = cv_data.get("Perso", [{}])[0]
     experiences = cv_data.get("experiences", [])
-    perso_info = cv_data.get("Perso", [{}])[0]
+    skills = cv_data.get("skills", [])
 
-    prompt = f"""Tu es un expert en recrutement. Le candidat suivant cherche un stage de fin d'études.
+    return f"""Tu es un expert en recrutement. Le candidat suivant cherche un stage de fin d'études.
 
-CONTEXTE : {user_prompt}
+CONTEXTE: {user_prompt}
 
-PROFIL DU CANDIDAT :
-- Nom : {perso_info.get("nom", "Hugo MANIPOUD")}
-- Email : {perso_info.get("mail", "")}
-- Téléphone : {perso_info.get("numero", "")}
-- Formation : 5ème année école d'ingénieur ECAM Lyon, spécialisation Supply Chain Management
-- Phrase d'intro Data : {perso_info.get("phrase_intro", {}).get("data", "")}
-- Phrase d'intro Supply Chain : {perso_info.get("phrase_intro", {}).get("supply_chain", "")}
+PROFIL DU CANDIDAT:
+- Nom: {perso.get("nom", "Hugo MANIPOUD")}
+- Email: {perso.get("mail", "")}
+- Téléphone: {perso.get("numero", "")}
+- Formation: 5ème année école d'ingénieur ECAM Lyon, spécialisation Supply Chain Management
+- Phrase intro Data: {perso.get("phrase_intro", {}).get("data", "")}
+- Phrase intro Supply Chain: {perso.get("phrase_intro", {}).get("supply_chain", "")}
 
-EXPÉRIENCES DU CANDIDAT (avec index) :
+EXPÉRIENCES (avec index):
 {json.dumps(experiences, ensure_ascii=False, indent=2)}
 
-COMPÉTENCES DU CANDIDAT (indexées par domaine et niveau de priorité) :
-{json.dumps(skills_summary, ensure_ascii=False, indent=2)}
+COMPÉTENCES (indexées):
+{json.dumps(skills, ensure_ascii=False, indent=2)}
 
 ---
 
-TOP 5 OFFRES SÉLECTIONNÉES (avec leur score) :
-{json.dumps(top_offers_full, ensure_ascii=False, indent=2)}
+OFFRE SÉLECTIONNÉE (score: {best_offer_full.get("score")}):
+{json.dumps(best_offer_full, ensure_ascii=False, indent=2)}
 
 ---
 
-INSTRUCTIONS :
-Pour l'offre avec le meileur score, tu dois produire :
-
-1. **skills** : une liste des INDEX des expériences du CV (champ "index" dans les expériences) qui sont les plus pertinentes à mettre en avant pour CETTE offre spécifique. Choisis les 6 expériences les plus pertinentes.
-
-2. **cover_letter** : une lettre de motivation en FRANÇAIS, professionnelle mais naturelle, personnalisée pour cette offre.
-   - Sert toi de la description de l'offre et des expériences/compétences du candidat pour faire le lien et montrer pourquoi il est un bon match
-   - Mentionne l'entreprise et le poste par leur nom
-   - Mets en avant les expériences et compétences du candidat qui matchent le mieux
-   - Environ 250-350 mots
+INSTRUCTIONS:
+1. **skills**: liste des INDEX des 6 expériences les plus pertinentes pour cette offre.
+2. **cover_letter**: lettre de motivation en FRANÇAIS (250-350 mots), personnalisée.
+   - Commence par "Madame, Monsieur,"
+   - Termine par "En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
    - Utilise \\n pour les sauts de ligne
-   - NE PAS inclure d'en-tête (pas de date, pas d'adresse) — juste le corps de la lettre
-   - Commence par "Madame, Monsieur," et termine par la formule de politesse suivante : "En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations." 
+   - PAS d'en-tête (pas de date, pas d'adresse)
 
-Réponds UNIQUEMENT avec un JSON valide au format suivant :
+Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{
-  "match": [
-    {{
-      "name": "nom exact de l'offre",
-      "URL": "URL de l'offre",
-      "company": "nom de l'entreprise",
-      "location": "localisation",
-      "score": 85,
-      "skills": [1, 2, 4, 6],
-      "cover_letter": "Madame, Monsieur,\\n\\nActuellement en 5ème année...\\n\\n..."
-    }},
-    ...
-  ]
-}}
-
-Ne rajoute AUCUN texte en dehors du JSON.
-"""
-    return prompt
+  "match": {{
+    "name": "nom exact de l'offre",
+    "URL": "url de l'offre",
+    "company": "entreprise",
+    "location": "localisation",
+    "score": {best_offer_full.get("score")},
+    "skills": [1, 2, 4, 6],
+    "cover_letter": "Madame, Monsieur,\\n\\n..."
+  }}
+}}"""

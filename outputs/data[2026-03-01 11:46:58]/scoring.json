@@ -1,0 +1,19 @@
+{
+    "scoring": [
+        {
+            "name": "Stage Assistant.e de gestion des données douanières H/F",
+            "score": 40,
+            "reason": "Le candidat possède les compétences techniques requises mais l'offre ne correspond pas à son niveau d'études et n'est pas dans sa localisation souhaitée."
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 30,
+            "reason": "Le profil technique du candidat ne correspond pas aux compétences requises pour cette offre."
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 30,
+            "reason": "Compétences techniques et expériences du candidat ne correspondent pas aux missions de l'offre"
+        }
+    ]
+}

@@ -38,7 +38,16 @@ def run_pdf_generation(date: str):
     with open(match_path, "r", encoding="utf-8") as f:
         match_data = json.load(f)
 
-    matches = match_data.get("match", [])
+
+
+    # After — handles both formats
+    raw_match = match_data.get("match", [])
+    if isinstance(raw_match, dict):
+        matches = [raw_match]       # new format: wrap single object in a list
+    elif isinstance(raw_match, list):
+        matches = raw_match         # old format: use as-is
+    else:
+        matches = []
     print(f"  [INFO] Found {len(matches)} matched offers to generate PDFs for\n")
 
     # ─── Determine offer type (supply_chain or data) ─────────────

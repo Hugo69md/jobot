@@ -1,0 +1,114 @@
+{
+    "scoring": [
+        {
+            "name": "STAGE 6MOIS - À partir dejuillet/septembre 2026 - Data - Master 1/2 - 1700EUR/mois",
+            "score": 85,
+            "reason": "Correspondance forte en compétences data et prestige de l'entreprise, mais légère pénalité pour la localisation"
+        },
+        {
+            "name": "Stage Data Consultant – Paris",
+            "score": 85,
+            "reason": "Correspondance forte en compétences data et stage fin d'études, entreprise prestigieuse à Paris"
+        },
+        {
+            "name": "Stage Data Consultant – Paris",
+            "score": 85,
+            "reason": "Correspondance forte en compétences data et formation ingénieur, moins sur la localisation"
+        },
+        {
+            "name": "Operations Intern - Région Grand Est - Start Date 2026",
+            "score": 85,
+            "reason": "Correspondance forte entre les compétences du candidat et les missions de l'offre, prestige d'Amazon et date de début appropriée"
+        },
+        {
+            "name": "Operations Intern - Région Sud - Start Date 2026",
+            "score": 85,
+            "reason": "Correspondance forte entre les compétences du candidat et les missions de l'offre, prestige d'Amazon et période idéale"
+        },
+        {
+            "name": "Operations Intern - Région Centre - Start Date 2026",
+            "score": 85,
+            "reason": "Correspondance forte entre les compétences du candidat et les missions de l'offre, prestige d'Amazon, localisation proche"
+        },
+        {
+            "name": "Operations Intern - Île de France - Start Date 2026",
+            "score": 85,
+            "reason": "Correspondance forte entre les compétences du candidat et les missions proposées, avec un profil d'étudiant en fin de cursus."
+        },
+        {
+            "name": "Consultant stagiaire Data for Sales, Marketing & Pricing Strategy (H/F)",
+            "score": 78,
+            "reason": "Correspondance partielle des compétences et formation adéquate"
+        },
+        {
+            "name": "Data Scientist - Audit Data-Driven H/F",
+            "score": 76,
+            "reason": "Correspondance partielle des compétences et formation adéquate"
+        },
+        {
+            "name": "Alternance - Assistant(e) Chargé.e de digitalisation RH/Data analyst – spécialisation technique – Corporate – septembre 2026 – F/H/X",
+            "score": 73,
+            "reason": "Correspondance partielle des compétences, niveau d'étude correspondant mais absence de compétences spécifiques demandées par l'offre"
+        },
+        {
+            "name": "INTERNSHIP - SUSTAINABILITY & IMPACT - Performance & Data - PARIS - Juillet 2026",
+            "score": 73,
+            "reason": "Correspondance partielle des compétences et formation adéquate, mais faible pertinence du domaine d'expertise de l'offre pour le candidat"
+        },
+        {
+            "name": "Stagiaire Data Scientist - Products Data (H/F)",
+            "score": 72,
+            "reason": "Correspondance partielle des compétences et niveau d'études approprié"
+        },
+        {
+            "name": "Data Scientist - Audit Data-Driven H/F",
+            "score": 70,
+            "reason": "Correspondance partielle des compétences et niveau d'études approprié"
+        },
+        {
+            "name": "REPORTING & DATA ANALYST INTERN W/M",
+            "score": 70,
+            "reason": "Correspondance partielle des compétences et formation appropriée"
+        },
+        {
+            "name": "Data Scientist - Voice Agents (F/H) - Stage de 6 mois",
+            "score": 70,
+            "reason": "Correspondance partielle des compétences et formation adéquate"
+        },
+        {
+            "name": "Stagiaire DevOps - Products Data (H/F)",
+            "score": 60,
+            "reason": "Correspondance limitée entre les compétences du candidat et le profil recherché pour l'offre."
+        },
+        {
+            "name": "Stage Assistant.e de gestion des données douanières H/F",
+            "score": 40,
+            "reason": "Le candidat possède les compétences techniques requises mais l'offre ne correspond pas à son niveau d'études et n'est pas dans sa localisation souhaitée."
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 40,
+            "reason": "Le candidat possède des compétences techniques en supply chain et data analytics, mais l'offre ne correspond pas à ses domaines d'intérêt."
+        },
+        {
+            "name": "Security Specialist Intern, Data Centre Security",
+            "score": 30,
+            "reason": "Correspondance limitée entre les compétences du candidat et le profil recherché pour l'offre."
+        },
+        {
+            "name": "STAGE - Marketing Data Management - F/H",
+            "score": 30,
+            "reason": "Le candidat possède des compétences techniques pertinentes mais l'offre ne correspond pas à ses domaines d'intérêt principaux en supply chain et data."
+        },
+        {
+            "name": "🚀 Offre de stage de fin d'études – Ingénieur Électricité - Data centre / Analyse de réseau / Haute Tension",
+            "score": 30,
+            "reason": "Le profil technique du candidat ne correspond pas aux compétences requises pour l'offre."
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 30,
+            "reason": "Le candidat ne possède pas les compétences requises pour cette offre dans le domaine de la conformité et du contrôle interne."
+        }
+    ]
+}

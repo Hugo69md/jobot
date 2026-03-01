@@ -1,7 +1,7 @@
 import json
 
 
-# ── Compact CV profile (reused across all per-offer prompts) ────────────────
+# ── Compact CV profile (reused across all per-offer prompts) to save tokens ────────────────
 def _build_cv_summary(cv_data: dict) -> str:
     perso = cv_data.get("Perso", [{}])[0]
     experiences_summary = []
@@ -10,7 +10,7 @@ def _build_cv_summary(cv_data: dict) -> str:
             "index": exp["index"],
             "name": exp["name"],
             "categorization": exp["categorization"],
-            "skills": exp.get("skills", [])[:5]  # top 5 skills per experience
+            "skills": exp.get("skills", [])  
         })
     skills = cv_data.get("skills", [])
     return f"""CANDIDAT: {perso.get("nom", "Hugo MANIPOUD")} — Ingénieur 5A ECAM Lyon (Supply Chain + Data)
@@ -81,14 +81,17 @@ OFFRE:
 {offer_text}
 
 CRITÈRES DE SCORING (total 100 pts):
-1. Correspondance compétences (40 pts): skills supply_chain/data du candidat vs offre
-2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
+1. **Correspondance compétences** (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
+   - t_prio skills match avec section competence = max points
+   - prio skills match avec section competence = points moyens
+   - bonus skills match avec section competence = points bonus
+2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max, si certains criteres remplis, moins de points
 3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, ETI = 15, PME = 5
 4. Localisation (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
 5. Période (15 pts): début autour juin/juillet 2026 = max
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
-{{"name": "nom exact de l'offre", "score": 85, "reason": "justification courte en 1 phrase"}}"""
+{{"name": "nom exact de l'offre", "score": 80 (for example)}}"""
 
 
 def build_match_prompt(cv_data: dict, best_offer_full: dict, user_prompt: str) -> str:
@@ -141,7 +144,7 @@ Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
     "company": "entreprise",
     "location": "localisation",
     "score": {best_offer_full.get("score")},
-    "skills": [1, 2, 4, 6],
+    "skills": [index1, index2, ...],
     "cover_letter": "Madame, Monsieur,\\n\\n..."
   }}
 }}"""

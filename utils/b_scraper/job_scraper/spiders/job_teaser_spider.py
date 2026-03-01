@@ -32,6 +32,11 @@ class JobteaserSpider(scrapy.Spider):
 
     def parse(self, response):
         offers = response.css('a.JobAdCard_link__LMtBN')
+
+        max_offers = getattr(self, 'max_offers', None)
+        if max_offers:
+            offers = offers[:int(max_offers)]
+
         for offer in offers:
             yield response.follow(
                 offer, 

@@ -5,8 +5,26 @@
 
 
 # useful for handling different item types with a single interface
+import re
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
+
+BOILERPLATE_PATTERNS = [
+    r"Cookies?.*?(accept|agree|policy)",
+    r"(Share|Apply|Save) (this )?job",
+    r"Back to (search|results|top)",
+    r"\d+ (views|applicants|days? ago)",
+]
+
+
+def clean_content(text: str, max_chars: int = 800) -> str:
+    """Remove boilerplate and truncate to max_chars meaningful characters."""
+    for pattern in BOILERPLATE_PATTERNS:
+        text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+    # Collapse multiple spaces/newlines
+    text = " ".join(text.split())
+    return text[:max_chars]
+
 
 class JobScraperPipeline:
     def process_item(self, item, spider):
@@ -29,7 +47,9 @@ class JobScraperPipeline:
         if adapter.get('company') is not None:
             adapter['company'] = " ".join(adapter['company'].split())
         if adapter.get('content') is not None:
-            adapter['content'] = " ".join(adapter['content'].split())
+            cleaned = clean_content(adapter['content'])
+            adapter['content'] = cleaned
+            adapter['content_tokens_approx'] = len(cleaned) // 4
 
         if adapter.get('URL') and not adapter.get('URL').startswith("http"):
             adapter['URL'] = spider.starts_urls[0] + adapter['URL']

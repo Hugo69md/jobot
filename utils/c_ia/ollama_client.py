@@ -17,7 +17,7 @@ def _waiting_indicator(start_time, stop_event):
         stop_event.wait(10)
 
 
-def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3) -> str:
+def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, num_predict: int = 4096) -> str:
     payload = {
         "model": MODEL_NAME,
         "prompt": prompt,
@@ -25,7 +25,7 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3) ->
         "options": {
             "temperature": temperature,
             "num_ctx": 32768,
-            "num_predict": 8192,
+            "num_predict": num_predict,
         },
         "format": "json"
     }
@@ -112,3 +112,28 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3) ->
             time.sleep(10)
 
     return ""
+
+
+def query_ollama_json(prompt: str, temperature: float = 0.1, num_predict: int = 512, max_retries: int = 3) -> dict | None:
+    """
+    Call Ollama and parse the response as JSON.
+    Retries up to max_retries times on parse failure.
+    Returns the parsed dict, or None on complete failure.
+    """
+    for attempt in range(max_retries):
+        raw = query_ollama(prompt, temperature=temperature, max_retries=1, num_predict=num_predict)
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            # Try to extract JSON block
+            start = raw.find("{")
+            end = raw.rfind("}") + 1
+            if start != -1 and end > start:
+                try:
+                    return json.loads(raw[start:end])
+                except json.JSONDecodeError:
+                    pass
+            print(f"  [Ollama] ⚠️  JSON parse failed (attempt {attempt+1}/{max_retries}), retrying...")
+            time.sleep(2 ** attempt)  # exponential backoff: 1s, 2s, 4s
+    print(f"  [Ollama] ❌ All {max_retries} parse attempts failed.")
+    return None

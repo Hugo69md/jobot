@@ -25,7 +25,7 @@ SKILLS INDEXÉS:
 def build_extraction_prompt(offer: dict) -> str:
     """
     Extract structured profil/missions/skills from the full raw description of a single offer.
-    Uses the complete content field with no truncation.
+    Also asks the AI to classify the offer domain and drop irrelevant ones.
     """
     return f"""Tu es un assistant RH. Analyse cette offre de stage et extrais les informations clés.
 
@@ -41,12 +41,17 @@ Extrais UNIQUEMENT les informations suivantes depuis la description :
 1. **profil_recherche**: Le niveau d'études et la spécialisation recherchés (ex: "Master 2 ou école ingénieur, spécialisation Data Science")
 2. **missions**: Liste des principales missions/tâches du stage (phrases courtes)
 3. **competences**: Liste des compétences techniques requises ou souhaitées (outils, langages, frameworks)
+4. **domain**: Classifie cette offre parmi ces 3 valeurs UNIQUEMENT :
+   - "data"         → si le poste est principalement axé Data (analyse, science des données, BI, reporting, Python/SQL, dashboards, ML, ETL...)
+   - "supply_chain" → si le poste est principalement axé Supply Chain (logistique, stocks, planification, S&OP, WMS, approvisionnement, transport...)
+   - "hors_domaine" → si le poste n'appartient ni à la Data ni à la Supply Chain (finance pure, marketing, droit, RH, commerce sans data, douanes...)
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{
   "profil_recherche": "...",
   "missions": ["mission 1", "mission 2", "..."],
-  "competences": ["Python", "SQL", "..."]
+  "competences": ["Python", "SQL", "..."],
+  "domain": "data" | "supply_chain" | "hors_domaine"
 }}"""
 
 
@@ -147,6 +152,7 @@ Voici les {len(selected_experiences)} expériences sélectionnées pour ce CV :
 {json.dumps(selected_experiences, ensure_ascii=False, indent=2)}
 
 ---
+***ATTENTION*** : Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 : Etudiant ECAM LYON, même si ce n'est pas important pour l'experience, choisi 5 autres experiences, le total doit toujours etre de 6 expériences.
 
 INSTRUCTIONS :
 Pour CHAQUE expérience, tu dois :
@@ -158,8 +164,6 @@ Pour CHAQUE expérience, tu dois :
    - Conserver le sens original et rester factuel
    - Garder un style professionnel et concis (max 3-4 phrases)
    - Ne PAS inventer de chiffres ou de résultats qui ne sont pas dans la description originale
-
-***ATTENTION*** : Tu dois TOUJOURS incorporer l'index numero 1 : Etudiant ECAM LYON, même si ce n'est pas important pour l'experience, choisi 5 autres experiences, le total doit toujours etre de 6 expériences.
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après) :
 {{

@@ -1,0 +1,82 @@
+{
+    "offer_name": "Operations Intern - Région Centre - Start Date 2026",
+    "offer_company": "Amazon",
+    "score": 75,
+    "selected_indexes": [
+        2,
+        6,
+        5,
+        10,
+        11,
+        13
+    ],
+    "skills_section": [
+        "analyse de données",
+        "Python",
+        "statistiques",
+        "supply chain",
+        "data-driven decision making",
+        "création d'outils d'analyse"
+    ],
+    "resume": [
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai travaillé sur les schémas de ruptures et non-conformités en entrepôt, appliquant une approche data-driven pour résoudre des problèmes opérationnels.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils d'analyse",
+                "automatisation",
+                "data-driven decision making"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur les modèles de prédiction avec Python et ScikitLearn pour approfondir mes compétences en data science. J'ai appris à utiliser des outils d'analyse de données pour résoudre des problèmes complexes.",
+            "keywords_injected": [
+                "data science",
+                "modèles de prediction",
+                "Python"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la statistique et créé un portfolio avec plusieurs projets open source. J'ai également développé des outils semi-automatisés pour analyser les données.",
+            "keywords_injected": [
+                "statistiques",
+                "analyse de données",
+                "Python"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Préparateur de commande - Parfumerie Burdin",
+            "description_tailored": "Expérience en préparation de commandes internet, inventaire et mise en rayon. J'ai acquis une compréhension pratique du flux logistique des commandes en ligne.",
+            "keywords_injected": [
+                "préparation de commandes",
+                "inventaire",
+                "mise en rayon"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Logisticien - VJ logistique",
+            "description_tailored": "Stage dans le domaine de la logistique où j'ai préparé et transporté des palettes, initiant ainsi ma compréhension de la gestion logistique.",
+            "keywords_injected": [
+                "préparation de palettes",
+                "initiation à la gestion logistique"
+            ]
+        },
+        {
+            "index": 13,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier chez Amazon où j'ai préparé des routes et maîtrisé le principe du 5S. J'ai également effectué du picking.",
+            "keywords_injected": [
+                "préparation de routes",
+                "initiation au 5S"
+            ]
+        }
+    ]
+}

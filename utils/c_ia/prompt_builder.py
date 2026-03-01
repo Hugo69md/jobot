@@ -87,16 +87,16 @@ OFFRE:
 
 CRITÈRES DE SCORING (total 100 pts):
 1. **Correspondance compétences** (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
-   - t_prio skills match avec section competence = max points
-   - prio skills match avec section competence = points moyens
-   - bonus skills match avec section competence = points bonus
+   - t_prio skills match avec section competence = 2 points par compétence matchée
+   - prio skills match avec section competence = 1 points par compétence matchée
+   - bonus skills match avec section competence = 0,5 point par compétence matchée
 2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max, si certains criteres remplis, moins de points
-3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, ETI = 15, PME = 5
+3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, baisse en fonction de la renommée de l'entreprise, ETI = 15, PME = 5
 4. Localisation (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
 5. Période (15 pts): début autour juin/juillet 2026 = max
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
-{{"name": "nom exact de l'offre", "score": 80 (for example)}}"""
+{{"name": "nom exact de l'offre", "score": 80.0 (for example)}}"""
 
 
 def build_resume_prompt(cv_data: dict, best_offer: dict, selected_indexes: list) -> str:
@@ -152,10 +152,11 @@ Voici les {len(selected_experiences)} expériences sélectionnées pour ce CV :
 {json.dumps(selected_experiences, ensure_ascii=False, indent=2)}
 
 ---
-***ATTENTION*** : Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 : Etudiant ECAM LYON, même si ce n'est pas important pour l'experience, choisi 5 autres experiences, le total doit toujours etre de 6 expériences.
 
 INSTRUCTIONS :
-Pour CHAQUE expérience, tu dois :
+- il doit y avoir Excatement 6 experiences selcionnées (pas plus, pas moins)
+-Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 : Etudiant ECAM LYON, même si ce n'est pas pertinent pour l'offre.
+Pour les 5 expériences restantes, tu dois :
 
 1. Identifier les mots-clés de l'offre (champs "competences" et "missions") qui sont pertinents pour cette expérience spécifique.
 2. Vérifier que ces mots-clés sont présents dans le catalogue "skills" du candidat — n'invente JAMAIS de compétences que le candidat ne possède pas.
@@ -319,3 +320,34 @@ Règles de sélection :
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après) :
 {{"skills_section": ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"]}}"""
+
+
+
+def build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
+    """Pick the 6 best experience indexes for this offer."""
+    experiences_summary = []
+    for exp in cv_data.get("experiences", []):
+        experiences_summary.append({
+            "index":          exp["index"],
+            "name":           exp["name"],
+            "categorization": exp["categorization"],
+            "skills":         exp.get("skills", []),
+        })
+
+    offer_summary = {
+        "name":        best_offer.get("name", ""),
+        "company":     best_offer.get("company", ""),
+        "missions":    best_offer.get("missions", []),
+        "competences": best_offer.get("competences", []),
+    }
+
+    return f"""Tu es un expert recrutement. Sélectionne les 6 expériences du CV les plus pertinentes pour cette offre.
+
+EXPÉRIENCES DU CANDIDAT:
+{json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
+
+OFFRE:
+{json.dumps(offer_summary, ensure_ascii=False, indent=2)}
+
+Réponds UNIQUEMENT avec ce JSON:
+{{"skills": [index1, index2, index3, index4, index5, index6]}}"""

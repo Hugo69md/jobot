@@ -4,6 +4,7 @@ from utils.c_ia.ollama_client import query_ollama_json
 from utils.c_ia.prompt_builder import (
     build_extraction_prompt,
     build_single_offer_scoring_prompt,
+    build_experience_selection_prompt,
     build_resume_prompt,
     build_cover_letter_prompt,
     build_skills_section_prompt,
@@ -160,7 +161,7 @@ def run_ia(date: str):
     # ══════════════════════════════════════════════════════════════
     print("\n  [STEP 3a] Selecting experiences + tailoring resume descriptions...")
 
-    selection_prompt = _build_experience_selection_prompt(cv_data, best_offer_full)
+    selection_prompt = build_experience_selection_prompt(cv_data, best_offer_full)
     selection_result = query_ollama_json(selection_prompt, temperature=0.1, num_predict=128)
 
     if selection_result and "skills" in selection_result:
@@ -272,37 +273,3 @@ def run_ia(date: str):
     print(f"  Type:            {best_offer_full.get('offer_type', '?')}")
     print(f"  Skills section:  {cv_skills_section}")
     print("=" * 60)
-
-
-# ══════════════════════════════════════════════════════════════
-# HELPERS (private)
-# ══════════════════════════════════════════════════════════════
-
-def _build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
-    """Small focused prompt: pick the 6 best experience indexes for this offer."""
-    experiences_summary = []
-    for exp in cv_data.get("experiences", []):
-        experiences_summary.append({
-            "index":           exp["index"],
-            "name":            exp["name"],
-            "categorization":  exp["categorization"],
-            "skills":          exp.get("skills", []),
-        })
-
-    offer_summary = {
-        "name":        best_offer.get("name", ""),
-        "company":     best_offer.get("company", ""),
-        "missions":    best_offer.get("missions", []),
-        "competences": best_offer.get("competences", []),
-    }
-
-    return f"""Tu es un expert recrutement. Sélectionne les 6 expériences du CV les plus pertinentes pour cette offre.
-
-EXPÉRIENCES DU CANDIDAT:
-{json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
-
-OFFRE:
-{json.dumps(offer_summary, ensure_ascii=False, indent=2)}
-
-Réponds UNIQUEMENT avec ce JSON:
-{{"skills": [index1, index2, index3, index4, index5, index6]}}"""

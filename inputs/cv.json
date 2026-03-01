@@ -31,7 +31,11 @@
       "name": "Campus Création Edition 2023-2024",
       "period": "2023-2024",
       "description": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
-      "skills": [],
+      "skills": [
+        "Travail en Autonomie",
+        "Travail en équipe",
+        "Entreprenariat"
+      ],
       "link": "",
       "categorization": "certifications"
     },
@@ -161,6 +165,10 @@
   ],
   "skills": [
     {
+      "langue": [
+        { "name": "Français", "level": "Natif" },
+        { "name": "Anglais",  "level": "C1 (IELTS 7,5/9)" }
+      ],
       "supply_chain": {
         "t_prio": [
           "Supply Chain",
@@ -204,22 +212,20 @@
           "market/lead-time data",
           "ERP Oracle",
           "Qualité",
-          "Non-conformities analysis"
+          "Analyse de Non-conformités"
         ]
       },
       "data": {
         "t_prio": [
-          "Data Analyst",
-          "Data Analytics",
-          "Data Cleaning",
-          "Data Preparation",
+          "Nettoyage des données",
+          "Preparation des données",
           "Dashboards",
           "Reporting",
           "KPI",
           "Data Visualization",
           "grahiques",
           "storytelling",
-          "Excel (advanced)",
+          "Excel avancé",
           "Power Query",
           "Power Pivot",
           "Python",
@@ -227,7 +233,8 @@
           "numpy",
           "seaborn",
           "matplotlib",
-          "scikitlearn"
+          "scikitlearn",
+          "Automatisation"
         ],
         "prio": [
           "ETL",

@@ -1,0 +1,76 @@
+{
+    "offer_name": "Stage Assistant.e de gestion des données douanières H/F",
+    "offer_company": "Sisley",
+    "score": 52,
+    "selected_indexes": [
+        2,
+        6,
+        4,
+        5,
+        10,
+        13
+    ],
+    "resume": [
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et d'automatisation de processus pour assurer la conformité avec les réglementations. J'ai utilisé Python et Excel pour créer des outils de monitoring et travaillé sur les schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Analyse des données",
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation visant à apprendre les bases de l'analyse de données avec Python, incluant l'utilisation des librairies Numpy, pandas, Matplotlib et Seaborn pour la saisie et analyse des données.",
+            "keywords_injected": [
+                "Data Analyst",
+                "Python",
+                "pandas",
+                "numpy"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur les modèles de prédiction avec Python et la librairie ScikitLearn pour l'analyse des données et la conformité réglementaire.",
+            "keywords_injected": [
+                "Data Analyst",
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "Approfondissement de mon intérêt pour l'analyse des données et la statistique, création d'un portfolio avec plusieurs projets open source, semi-automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boites de comptabilités.",
+            "keywords_injected": [
+                "Data Analyst",
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Préparateur de commande - Parfumerie Burdin",
+            "description_tailored": "Préparation de commandes internet, inventaire et mise en rayon pour assurer la conformité avec les procédures logistiques. Expérience du flux logistique de commande internet.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Inventaire",
+                "Picking"
+            ]
+        },
+        {
+            "index": 13,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier dans le cadre d'études d'ingénieur, préparation de routes et initiation au 5S pour assurer la conformité avec les procédures logistiques.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Préparation de commandes"
+            ]
+        }
+    ]
+}

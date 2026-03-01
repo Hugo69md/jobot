@@ -22,15 +22,56 @@ SKILLS INDEXÉS:
 {json.dumps(skills, ensure_ascii=False, separators=(',', ':'))}"""
 
 
+def build_extraction_prompt(offer: dict) -> str:
+    """
+    Extract structured profil/missions/skills from the full raw description of a single offer.
+    Uses the complete content field with no truncation.
+    """
+    return f"""Tu es un assistant RH. Analyse cette offre de stage et extrais les informations clés.
+
+OFFRE: {offer.get("name", "")} chez {offer.get("company", "")} ({offer.get("location", "")})
+
+DESCRIPTION COMPLÈTE:
+{offer.get("content", "")}
+
+---
+
+INSTRUCTIONS:
+Extrais UNIQUEMENT les informations suivantes depuis la description :
+1. **profil_recherche**: Le niveau d'études et la spécialisation recherchés (ex: "Master 2 ou école ingénieur, spécialisation Data Science")
+2. **missions**: Liste des principales missions/tâches du stage (max 6 items, phrases courtes)
+3. **competences**: Liste des compétences techniques requises ou souhaitées (outils, langages, frameworks)
+
+Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
+{{
+  "profil_recherche": "...",
+  "missions": ["mission 1", "mission 2", "..."],
+  "competences": ["Python", "SQL", "..."]
+}}"""
+
+
 def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: str) -> str:
-    """Score a SINGLE offer. Returns a compact prompt (~2000-3000 tokens max)."""
+    """Score a SINGLE enriched offer using structured fields when available."""
     cv_summary = _build_cv_summary(cv_data)
-    offer_text = json.dumps({
-        "name": offer.get("name", ""),
-        "company": offer.get("company", ""),
-        "location": offer.get("location", ""),
-        "content": offer.get("content", "")[:800]
-    }, ensure_ascii=False)
+
+    # Use structured fields if available (from extraction step), else fall back to content
+    if offer.get("competences"):
+        offer_text = json.dumps({
+            "name": offer.get("name", ""),
+            "company": offer.get("company", ""),
+            "location": offer.get("location", ""),
+            "profil_recherche": offer.get("profil_recherche", ""),
+            "missions": offer.get("missions", []),
+            "competences": offer.get("competences", []),
+        }, ensure_ascii=False)
+    else:
+        # Fallback: use first 800 chars of raw content
+        offer_text = json.dumps({
+            "name": offer.get("name", ""),
+            "company": offer.get("company", ""),
+            "location": offer.get("location", ""),
+            "content": offer.get("content", "")[:800],
+        }, ensure_ascii=False)
 
     return f"""Tu es un expert recrutement. Score cette offre de stage pour ce candidat.
 

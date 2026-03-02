@@ -2,6 +2,7 @@ import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
 from utils.c_ia.prompt_builder import (
+    build_domain_classification_prompt,
     build_extraction_prompt,
     build_single_offer_scoring_prompt,
     build_experience_selection_prompt,
@@ -47,30 +48,57 @@ def run_ia(date: str):
     print(f"  [INFO] Loaded CV + {len(internships_data)} offers")
 
     # ══════════════════════════════════════════════════════════════
-    # STEP 1 — Extract structured info + domain classification + filter
+    # STEP 0 — Domain classification (fast filter)
     # ══════════════════════════════════════════════════════════════
-    print(f"\n  [STEP 1] Extracting + classifying {len(internships_data)} offers...")
-    enriched_offers = []
-    dropped_count   = 0
+    print(f"\n  [STEP 0] Classifying domains for {len(internships_data)} offers...")
+    classified_offers = []
+    dropped_count = 0
 
     for i, offer in enumerate(internships_data):
         offer_name = offer.get("name", f"offer_{i}")
-        print(f"\n  [{i+1}/{len(internships_data)}] Extracting: {offer_name[:60]}...")
-        print(f"  [INFO] Content length: {len(offer.get('content', ''))} chars")
+        print(f"  [{i+1}/{len(internships_data)}] {offer_name[:60]}...", end=" ")
+
+        classification_prompt = build_domain_classification_prompt(offer)
+        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=32)
+
+        domain = classification.get("domain", "") if classification else ""
+
+        if domain not in ("data", "supply_chain"):
+            print(f"❌ DROPPED (domain='{domain}')")
+            dropped_count += 1
+            continue
+
+        classified_offers.append({**offer, "offer_type": domain})
+        print(f"✅ {domain}")
+
+    print(f"\n  [STEP 0] Kept {len(classified_offers)} / {len(internships_data)} "
+          f"({dropped_count} dropped)")
+
+    if not classified_offers:
+        print("  [ERROR] No offers left after classification — aborting.")
+        return
+
+    # ══════════════════════════════════════════════════════════════
+    # STEP 1 — Extract structured info (only on classified offers)
+    # ══════════════════════════════════════════════════════════════
+    print(f"\n  [STEP 1] Extracting structured info from {len(classified_offers)} offers...")
+    enriched_offers = []
+
+    for i, offer in enumerate(classified_offers):
+        offer_name = offer.get("name", f"offer_{i}")
+        print(f"\n  [{i+1}/{len(classified_offers)}] Extracting: {offer_name[:60]}...")
 
         extraction_prompt = build_extraction_prompt(offer)
         extraction = query_ollama_json(extraction_prompt, temperature=0.1, num_predict=512)
 
         if extraction:
-            offer_type = extraction.get("domain", "hors_domaine")
             enriched_offer = {
-                **offer,
+                **offer,                  # ← already has offer_type from STEP 0
                 "profil_recherche": extraction.get("profil_recherche", ""),
                 "missions":         extraction.get("missions", []),
                 "competences":      extraction.get("competences", []),
-                "offer_type":       offer_type,
             }
-            print(f"  ✅ domain={offer_type} | "
+            print(f"  ✅ {enriched_offer['offer_type']} | "
                   f"{len(enriched_offer['competences'])} skills | "
                   f"{len(enriched_offer['missions'])} missions")
         else:
@@ -79,15 +107,8 @@ def run_ia(date: str):
                 "profil_recherche": "",
                 "missions":         [],
                 "competences":      [],
-                "offer_type":       "hors_domaine",
             }
-            print(f"  ⚠️  Extraction failed — tagged as hors_domaine")
-
-        # Drop offers outside our target domains
-        if enriched_offer["offer_type"] == "hors_domaine":
-            print(f"  ❌ DROPPED — hors domaine (data / supply chain)")
-            dropped_count += 1
-            continue
+            print(f"  ⚠️  Extraction failed")
 
         enriched_offers.append(enriched_offer)
 

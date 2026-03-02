@@ -41,17 +41,12 @@ Extrais UNIQUEMENT les informations suivantes depuis la description :
 1. **profil_recherche**: Le niveau d'études et la spécialisation recherchés (ex: "Master 2 ou école ingénieur, spécialisation Data Science")
 2. **missions**: Liste des principales missions/tâches du stage (phrases courtes)
 3. **competences**: Liste des compétences techniques requises ou souhaitées (outils, langages, frameworks)
-4. **domain**: Classifie cette offre parmi ces 3 valeurs UNIQUEMENT :
-   - "data"         → si le poste est principalement axé Data (analyse, science des données, BI, reporting, Python/SQL, dashboards, ML, ETL...)
-   - "supply_chain" → si le poste est principalement axé Supply Chain (logistique, stocks, planification, S&OP, WMS, approvisionnement, transport...)
-   - "hors_domaine" → si le poste n'appartient ni à la Data ni à la Supply Chain (finance pure, marketing, droit, RH, commerce sans data, douanes...)
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{
   "profil_recherche": "...",
   "missions": ["mission 1", "mission 2", "..."],
-  "competences": ["Python", "SQL", "..."],
-  "domain": "data" | "supply_chain" | "hors_domaine"
+  "competences": ["Python", "SQL", "..."]
 }}"""
 
 
@@ -87,13 +82,13 @@ OFFRE:
 
 CRITÈRES DE SCORING (total 100 pts):
 1. **Correspondance compétences** (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
-   - t_prio skills match avec section competence = 2 points par compétence matchée
-   - prio skills match avec section competence = 1 points par compétence matchée
-   - bonus skills match avec section competence = 0,5 point par compétence matchée
-2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max, si certains criteres remplis, moins de points
-3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, baisse en fonction de la renommée de l'entreprise, ETI = 15, PME = 5
+   - t_prio skills match avec section competence = 1 point pour chaque compétence matchée
+   - prio skills match avec section competence = 0.5 point pour chaque compétence matchée
+   - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée
+2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
+3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
 4. Localisation (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
-5. Période (15 pts): début autour juin/juillet 2026 = max
+5. Période (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{"name": "nom exact de l'offre", "score": 80.0 (for example)}}"""
@@ -154,8 +149,8 @@ Voici les {len(selected_experiences)} expériences sélectionnées pour ce CV :
 ---
 
 INSTRUCTIONS :
-- il doit y avoir Excatement 6 experiences selcionnées (pas plus, pas moins)
--Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 : Etudiant ECAM LYON, même si ce n'est pas pertinent pour l'offre.
+- il doit y avoir Exactement 6 experiences selcionnées (pas plus, pas moins)
+- Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 , "name" : 'Etudiant - ECAM Lyon', même si ce n'est pas pertinent pour l'offre.
 Pour les 5 expériences restantes, tu dois :
 
 1. Identifier les mots-clés de l'offre (champs "competences" et "missions") qui sont pertinents pour cette expérience spécifique.
@@ -167,6 +162,8 @@ Pour les 5 expériences restantes, tu dois :
    - Ne PAS inventer de chiffres ou de résultats qui ne sont pas dans la description originale
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après) :
+
+***ATTENTION***: LA PREMIERE EXPERIENCE DOIT TOUJOURS AVOIR L'INDEX 1 ET LE NAME "Etudiant - ECAM Lyon" C'EST LA BASE DU CV. LES 5 EXPERIENCES SUIVANTES SONT À OPTIMISER POUR L'OFFRE EN QUESTION SELON LES INSTRUCTIONS CI-DESSUS.
 {{
   "resume": [
     {{
@@ -351,3 +348,21 @@ OFFRE:
 
 Réponds UNIQUEMENT avec ce JSON:
 {{"skills": [index1, index2, index3, index4, index5, index6]}}"""
+
+def build_domain_classification_prompt(offer: dict) -> str:
+    """
+    STEP 0 — Classify the offer domain before any extraction.
+    Lightweight prompt: only uses name + first 400 chars of content.
+    Returns: {"domain": "data"} or {"domain": "supply_chain"}
+    """
+    return f"""Tu es un assistant RH. Classe cette offre de stage dans l'un des deux domaines suivants UNIQUEMENT.
+
+OFFRE: {offer.get("name", "")} chez {offer.get("company", "")}
+DESCRIPTION (extrait): {offer.get("content", "")[:2000]}
+
+DOMAINES POSSIBLES:
+- "data"         → Data Analyst, Data Engineer, Data Science, BI, reporting, dashboards, Python/SQL, ML, ETL, analytics...
+- "supply_chain" → Logistique, Supply Chain, planification, S&OP, stocks, WMS, approvisionnement, transport, entrepôt...
+
+Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
+{{"domain": "data"}} ou {{"domain": "supply_chain"}}"""

@@ -87,8 +87,17 @@ def run_pdf_generation(date: str):
         company    = match.get("company", "Unknown")
         safe_name  = _sanitize_filename(f"{company}_{offer_name}")
 
-        content_check   = f"{offer_name} {company}".lower()
-        is_supply_chain = any(kw in content_check for kw in sc_keywords)
+        # ── Use offer_type from resume.json (set by the AI in STEP 0) ────────
+        offer_type      = resume_data.get("offer_type", "")
+        is_supply_chain = (offer_type == "supply_chain")
+
+        # Fallback: keyword detection if resume.json is missing or has no offer_type
+        if not offer_type:
+            content_check   = f"{offer_name} {company}".lower()
+            is_supply_chain = any(kw in content_check for kw in sc_keywords)
+            print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} (keyword fallback)")
+        else:
+            print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} (from resume.json ✅)")
 
         print(f"  [{i+1}/{len(matches)}] {company} — {offer_name}")
         print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'}")

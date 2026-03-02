@@ -1,0 +1,78 @@
+{
+    "offer_name": "Operations Intern - Région Grand Est - Start Date 2026",
+    "offer_company": "Amazon",
+    "offer_type": "supply_chain",
+    "score": 75,
+    "selected_indexes": [
+        2,
+        6,
+        5,
+        4,
+        9,
+        11
+    ],
+    "skills_section": [
+        "Analyse Pareto",
+        "Gestion des stocks",
+        "Python",
+        "Data Visualization",
+        "Statistiques inferentielle",
+        "Automatisation"
+    ],
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Poursuite d'études en ingénierie à l'ECAM Lyon, avec une spécialisation dans la supply chain et la gestion des opérations.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai travaillé sur les schémas de ruptures et les non-conformités en WH pour améliorer la gestion des stocks.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Analyse Pareto",
+                "Gestion des stocks",
+                "Réapprovisionnement"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn pour développer des compétences analytiques.",
+            "keywords_injected": [
+                "Analyse de données",
+                "Python"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur la data science avec Python, approfondissant l'utilisation des modèles de prédiction et de la librairie ScikitLearn.",
+            "keywords_injected": [
+                "Data Visualization",
+                "Statistiques inferentielle"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mes compétences en Python et Excel pour analyser des données et automatiser des processus. J'ai également créé un portfolio avec plusieurs projets open source.",
+            "keywords_injected": [
+                "Python",
+                "Excel avancé",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Logisticien - VJ logistique",
+            "description_tailored": "Stage en préparation et transport de palettes, initiation à la gestion logistique avec le chef d'entrepôt.",
+            "keywords_injected": [
+                "Préparation et transport de palettes",
+                "Initiation à la gestion logistique"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "offer_name": "Data Engineering Intern",
+    "offer_company": "Procter & Gamble",
+    "offer_type": "data",
+    "score": 75,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "Analyse de données",
+        "Supply Chain Management",
+        "Statistiques"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'Ingénieur Data Engineering au sein de Procter & Gamble. Actuellement en cinquième année à l’ECAM Lyon, je recherche activement un stage de fin d’études dans le domaine du data engineering ou de la supply chain, et votre offre correspond parfaitement à mes aspirations.\n\nAu cours de mon parcours académique et professionnel, j'ai développé une solide expertise en Python, pandas, numpy, seaborn et scikitlearn. Ces compétences m'ont permis d’assister à la création de plusieurs outils automatisés lors de mon stage chez Arrow, où j’ai pu concevoir des solutions pour améliorer l'efficacité opérationnelle dans le contexte supply chain.\n\nJe suis particulièrement attiré par les missions proposées au sein du poste d’Ingénieur Data Engineering. La conception et l’implémentation de pipelines de données, ainsi que la création d’outils et de tableaux de bord pour visualiser des insights sont en accord avec mes compétences et mon intérêt pour le data engineering.\n\nDe plus, ma formation à l'ECAM Lyon m'a permis d'acquérir une compréhension approfondie du supply chain management. J'ai appliqué ces connaissances lors de mon stage chez Amazon où j’ai été initié aux concepts clés comme le 5S et la préparation des routes.\n\nJe suis convaincu que ma capacité à analyser les données, à développer des solutions automatisées et à collaborer efficacement avec différentes équipes me permettrait de contribuer significativement au projet de Procter & Gamble. Mon anglais C1 (IELTS 7,5/9) m'offre également la possibilité d’interagir facilement dans un environnement international.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai utilisé Python pour le monitoring et travaillé sur les schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "Data Analysis"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur la data science avec Python, approfondissant l'utilisation de ScikitLearn et les modèles de prédiction.",
+            "keywords_injected": [
+                "Python",
+                "Data Science"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio avec plusieurs projets open source et semi-automatisés.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

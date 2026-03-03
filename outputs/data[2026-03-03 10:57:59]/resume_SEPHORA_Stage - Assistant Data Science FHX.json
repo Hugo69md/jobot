@@ -1,0 +1,74 @@
+{
+    "offer_name": "Stage - Assistant Data Science (F/H/X)",
+    "offer_company": "SEPHORA",
+    "offer_type": "data",
+    "score": 75,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "skills_section": [
+        "python",
+        "pandas",
+        "data science",
+        "scikit-learn",
+        "supply chain",
+        "Machine Learning"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Assistant Data Science (F/H/X) au sein de Sephora. En tant qu'étudiant en 5ème année à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui me permettrait d'appliquer mes connaissances théoriques et pratiques dans le domaine de la Data Science.\n\nDurant mon stage chez Arrow, j'ai pu développer plusieurs outils d'analyse de données en utilisant Python et Excel. Ces expériences m'ont permis de maîtriser des techniques clés comme l'extraction, le nettoyage et le traitement des données, ainsi que la création de dashboards pour visualiser les informations de manière efficace.\n\nDe plus, j'ai suivi une formation en Data Analysis avec Python qui a renforcé mes compétences en utilisant des bibliothèques telles que pandas, numpy, matplotlib et seaborn. J'ai également approfondi mon apprentissage des modèles de prédiction grâce à la formation CS109x d'HarvardX, ce qui me permettrait de contribuer efficacement aux projets liés au machine learning proposés par Sephora.\n\nJe suis particulièrement attiré par les missions de développement et d'optimisation des algorithmes de Machine Learning que vous proposez. Mes expériences en automatisation et mon intérêt pour la génération automatique de rapports me permettraient de prendre en main l’écosystème Data de Sephora (DSS Dataiku, Google Cloud Platform).\n\nEnfin, je suis convaincu que ma capacité à identifier des pistes d’optimisation et à implémenter les algorithmes dans DSS serait un atout pour vos projets à impact concret.\n\nJe reste à votre disposition pour échanger sur cette proposition de stage qui correspond parfaitement à mes aspirations professionnelles.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai travaillé sur les schémas de ruptures et les non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils",
+                "python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant les librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "python",
+                "pandas"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science avec Python et ScikitLearn, incluant les modèles de prédiction.",
+            "keywords_injected": [
+                "data science",
+                "scikit-learn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "Approfondissement de mon intérêt pour la data et les statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés.",
+            "keywords_injected": [
+                "data analysis",
+                "python"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -44,4 +44,4 @@ Pour les 5 expériences restantes, tu dois :
 
 *** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:
-{{"skills": [index1, index2, index3, index4, index5, index6]}}"""
+{{"skills": [1, index, ... last Index ]}}"""

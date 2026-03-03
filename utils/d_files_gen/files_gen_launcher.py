@@ -1,25 +1,27 @@
 import os
 import json
+import datetime
 from utils.d_files_gen.pdf_generator import generate_cv_pdf, generate_cover_letter_pdf
 
 
 def run_pdf_generation(date: str):
     """
     Main entry point for PDF generation.
-    Reads resume.json + match.json + cv.json.
-    Generates 1 CV + 1 cover letter for the best offer.
-    Outputs go into outputs/data[{date}]/pdf/
+    Reads match.json + cv.json.
+    For each offer in match.json:
+      - reads offer_type, skills_section, tailored descriptions directly from the match entry
+      - creates a subfolder: outputs/data[{date}]/pdf/{offer_name}_{generation_datetime}/
+      - generates CV.pdf + LM.pdf inside that folder
     """
 
     print("=" * 60)
     print("[D_PDF] Starting PDF generation...")
     print("=" * 60)
 
-    # ─── Paths ───────────────────────────────────────────────────
+    # ─── Paths ��──────────────────────────────────────────────────
     cv_path        = os.path.join("inputs", "cv.json")
     photo_path     = os.path.join("inputs", "photo.jpeg")
     match_path     = os.path.join("outputs", f"data[{date}]", "match.json")
-    resume_path    = os.path.join("outputs", f"data[{date}]", "resume.json")
     pdf_output_dir = os.path.join("outputs", f"data[{date}]", "pdf")
 
     # ─── Validation ──────────────────────────────────────────────
@@ -41,15 +43,6 @@ def run_pdf_generation(date: str):
     with open(match_path, "r", encoding="utf-8") as f:
         match_data = json.load(f)
 
-    # Load resume.json if available (contains tailored descriptions + skills_section)
-    resume_data = {}
-    if os.path.exists(resume_path):
-        with open(resume_path, "r", encoding="utf-8") as f:
-            resume_data = json.load(f)
-        print(f"  [INFO] Loaded resume.json")
-    else:
-        print(f"  [WARN] resume.json not found — no tailored descriptions, no AI skills section")
-
     # ─── Build match list ────────────────────────────────────────
     raw_match = match_data.get("match", [])
     if isinstance(raw_match, dict):
@@ -58,90 +51,84 @@ def run_pdf_generation(date: str):
         matches = raw_match
     else:
         matches = []
+
     print(f"  [INFO] Found {len(matches)} matched offer(s)\n")
 
-    # ─── Build tailored descriptions lookup {index: description} ─
-    tailored_descriptions = {
-        entry["index"]: entry["description_tailored"]
-        for entry in resume_data.get("resume", [])
-        if "index" in entry and "description_tailored" in entry
-    }
-
-    # ─── Extract AI-selected skills section (6 items) ────────────
-    cv_skills_section = resume_data.get("skills_section", [])
-    if cv_skills_section:
-        print(f"  [INFO] Skills section from resume.json: {cv_skills_section}")
-    else:
-        print(f"  [WARN] No skills_section in resume.json — skills section will be empty")
-
-    # ─── SC / Data keyword detection ─────────────────────────────
-    sc_keywords = [
-        "supply chain", "logistique", "logisticien", "approvisionnement",
-        "entrepôt", "warehouse", "flux", "gestionnaire logistique",
-        "s&op", "planification", "inventory", "stock"
-    ]
+    # ─── Generation timestamp (same for all PDFs in this run) ────
+    gen_dt       = datetime.datetime.now()
+    gen_dt_str   = gen_dt.strftime("%Y-%m-%d_%Hh%m%S%f")   # to ensure unique folder names
 
     # ─── Generate one PDF pair per match ─────────────────────────
     for i, match in enumerate(matches):
         offer_name = match.get("name", f"offer_{i+1}")
         company    = match.get("company", "Unknown")
-        safe_name  = _sanitize_filename(f"{company}_{offer_name}")
-
-        # ── Use offer_type from resume.json (set by the AI in STEP 0) ────────
-        offer_type      = resume_data.get("offer_type", "")
-        is_supply_chain = (offer_type == "supply_chain")
-
-        # Fallback: keyword detection if resume.json is missing or has no offer_type
-        if not offer_type:
-            content_check   = f"{offer_name} {company}".lower()
-            is_supply_chain = any(kw in content_check for kw in sc_keywords)
-            print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} (keyword fallback)")
-        else:
-            print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} (from resume.json ✅)")
+        score      = match.get("score", "?")
 
         print(f"  [{i+1}/{len(matches)}] {company} — {offer_name}")
-        print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'}")
-        print(f"    Score : {match.get('score', '?')}/100")
+        print(f"    Score : {score}/100")
 
-        # Filter experiences from cv.json using the indexes the AI selected
+        # ── offer_type comes directly from the match entry (set in ia_launcher STEP 0) ──
+        offer_type      = match.get("offer_type", "")
+        is_supply_chain = (offer_type == "supply_chain")
+        print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} "
+              f"({'from match.json ✅' if offer_type else 'default → data'})")
+
+        # ── skills_section comes directly from the match entry (set in ia_launcher STEP 4) ──
+        cv_skills_section = match.get("skills_section", [])
+        print(f"    Skills section: {cv_skills_section}")
+
+        # ── tailored descriptions from match entry ────────────────
+        tailored_descriptions = {
+            entry["index"]: entry["description_tailored"]
+            for entry in match.get("resume", [])
+            if "index" in entry and "description_tailored" in entry
+        }
+
+        # ── selected experience indexes ───────────────────────────
         skill_indexes = match.get("skills", [])
         selected_experiences = [
             exp for exp in cv_data.get("experiences", [])
             if exp.get("index") in skill_indexes
         ]
-        print(f"    Exp indexes selected: {skill_indexes}")
+        print(f"    Exp indexes: {skill_indexes}")
 
-        # ─── Generate CV PDF ─────────────────────────────────────
-        cv_filename = os.path.join(pdf_output_dir, f"CV_{safe_name}.pdf")
+        # ── Create subfolder: pdf/{offer_name}_{gen_datetime}/ ────
+        safe_offer  = _sanitize_filename(offer_name)
+        folder_name = f"{safe_offer}_{gen_dt_str}"
+        offer_dir   = os.path.join(pdf_output_dir, folder_name)
+        os.makedirs(offer_dir, exist_ok=True)
+
+        # ── Generate CV PDF ───────────────────────────────────────
+        cv_filename = os.path.join(offer_dir, "CV.pdf")
         generate_cv_pdf(
             output_path=cv_filename,
             cv_data=cv_data,
             selected_experiences=selected_experiences,
             is_supply_chain=is_supply_chain,
             photo_path=photo_path,
-            tailored_descriptions=tailored_descriptions,  # ← from resume.json
-            cv_skills_section=cv_skills_section,          # ← from resume.json
+            tailored_descriptions=tailored_descriptions,
+            cv_skills_section=cv_skills_section,
         )
         print(f"    ✅ CV  → {cv_filename}")
 
-        # ─── Generate Cover Letter PDF ───────────────────────────
-        cl_filename = os.path.join(pdf_output_dir, f"LM_{safe_name}.pdf")
+        # ── Generate Cover Letter PDF ─────────────────────────────
+        cl_filename = os.path.join(offer_dir, "LM.pdf")
         generate_cover_letter_pdf(
             output_path=cl_filename,
             cv_data=cv_data,
             match=match,
-            is_supply_chain=is_supply_chain,
             date=date,
         )
         print(f"    ✅ LM  → {cl_filename}")
         print()
 
     print("=" * 60)
-    print(f"[D_PDF] Generated {len(matches) * 2} PDFs → {pdf_output_dir}")
+    print(f"[D_PDF] Generated {len(matches) * 2} PDFs in {len(matches)} folder(s)")
+    print(f"  Root: {pdf_output_dir}")
     print("=" * 60)
 
 
 def _sanitize_filename(name: str) -> str:
     keepchars = (" ", "-", "_")
     name = "".join(c for c in name if c.isalnum() or c in keepchars).rstrip()
-    return name[:80]
+    return name[:50]

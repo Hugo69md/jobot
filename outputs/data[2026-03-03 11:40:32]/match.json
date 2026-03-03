@@ -1,0 +1,79 @@
+{
+    "match": [
+        {
+            "name": "Data Engineering Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/1d834738-61b8-4ad5-85a5-fda64213f44b-procter-gamble-data-engineering-intern",
+            "company": "Procter & Gamble",
+            "location": "92600 Asnières-sur-Seine (France)",
+            "offer_type": "data",
+            "score": 83,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "Analyse de données",
+                "Statistiques",
+                "Matplotlib",
+                "ScikitLearn"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Engineering Intern au sein de Procter & Gamble. En tant qu'étudiant en 5ème année à l'ECAM Lyon avec une spécialisation en Supply Chain Management et un intérêt marqué pour les domaines du data engineering et de la gestion des données, je suis particulièrement motivé par cette opportunité.\n\nAu cours de mon stage chez Arrow, j'ai eu l'occasion d'utiliser Python pour créer plusieurs outils d'analyse de données et d'automatisation de processus. Ces expériences m'ont permis de développer une solide compréhension des pipelines de données et de la gestion des données, compétences qui sont directement liées aux missions du poste.\n\nEn parallèle, j'ai suivi plusieurs formations en data analysis avec Python (FreeCodeCamp) et en data science (HarvardX), ce qui m'a permis d'approfondir mes connaissances dans les domaines de l'extraction, du nettoyage et de la préparation des données. J'ai également créé un portfolio open source regroupant plusieurs projets de data analyst freelance, mettant en pratique ces compétences.\n\nJe suis convaincu que mon expérience en supply chain et mes compétences techniques en Python (pandas, numpy, matplotlib, seaborn) me permettront d'apporter une contribution significative à votre équipe. Je serais ravi de participer activement aux initiatives de gestion des données pour améliorer leur intégrité et disponibilité, tout en collaborant avec les différentes fonctions pour comprendre leurs besoins en données.\n\nJe suis disponible pour un stage de 4 à 6 mois à partir du 1er juin 2026 et je serais ravi d'avoir l'opportunité de discuter plus en détail des missions proposées lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/e76baaa4-39ca-4793-b181-06fd25fca6a6-back-market-customer-care-data-analyst-intern",
+            "company": "Back Market",
+            "location": "Bordeaux, Gironde (France)",
+            "offer_type": "data",
+            "score": 78,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "scikitlearn",
+                "Statistiques",
+                "Tableau"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Customer Care Data Analyst Intern au sein de Back Market. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé une solide expérience en analyse de données.\n\nAu cours de mon stage chez Laboratoire Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce au Python. Cette expérience m'a permis non seulement de développer mes compétences techniques mais aussi de comprendre l'importance du data-driven decision making en supply chain.\n\nPar ailleurs, mon stage chez Amazon DAR1 m'a donné une première immersion dans le monde professionnel et j'ai pu mettre en pratique des concepts clés tels que la prévision de la demande et la gestion des stocks. Ces expériences ont renforcé ma compréhension du lien étroit entre les données et l'efficacité opérationnelle.\n\nJe suis également formé à l'utilisation d'outils comme Excel avancé, pandas, numpy, seaborn, matplotlib et scikitlearn, ce qui me permet de mener des analyses complexes et de visualiser efficacement les résultats. De plus, j'ai réalisé plusieurs projets en tant que data analyst freelance, créant un portfolio avec diverses applications pratiques.\n\nJe suis particulièrement intéressé par le poste proposé chez Back Market car il correspond parfaitement à mes compétences et mon intérêt pour l'analyse de données dans un contexte d'amélioration continue du service client. Je serais ravi de contribuer aux objectifs de la société en utilisant les outils et méthodes que j'ai appris tout au long de ma formation.\n\nJe suis disponible à partir du 1er juin 2026 pour un stage de 4 à 6 mois basé à Bordeaux. Je reste à votre disposition pour toute information complémentaire.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "Data Analyst Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/5631edd1-ac20-4de2-aeb5-29dd8ab26266-wooclap-data-analyst-intern",
+            "company": "Wooclap",
+            "location": "France (France)",
+            "offer_type": "data",
+            "score": 76,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "statistiques inférentielles",
+                "création d'outils d'analyse de données",
+                "automatisation"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Analyst Intern au sein de Wooclap. Actuellement en cinquième année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé des compétences solides en analyse de données.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données utilisant Python et Excel. Ces expériences m'ont permis de développer une expertise en nettoyage et préparation des données, ainsi qu'en création de tableaux de bord et KPIs pour les équipes commerciales.\n\nDe plus, ma formation à FreeCodeCamp et sur HarvardX a renforcé mes compétences en Python (pandas, numpy, matplotlib, seaborn) et en statistiques. J'ai également approfondi mon expérience avec ScikitLearn lors de la formation CS109x d'HarvardX.\n\nJe suis particulièrement intéressé par les missions liées à l'analyse des données pour aider aux décisions produits et au soutien des équipes commerciales. Mon stage chez Amazon m'a également permis d'avoir une première expérience en gestion de stocks et prévision de la demande, compétences qui me seront utiles dans le cadre de ce poste.\n\nJe suis à l'aise avec les outils de visualisation de données et je possède une bonne compréhension des statistiques. Je suis également capable d'utiliser Git pour gérer mes projets et j'ai une connaissance de base en AWS, qui seraient des atouts dans ce poste.\n\nJe serais ravi de pouvoir discuter plus en détail de ma candidature et de la façon dont je peux apporter ma contribution à Wooclap.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        }
+    ]
+}

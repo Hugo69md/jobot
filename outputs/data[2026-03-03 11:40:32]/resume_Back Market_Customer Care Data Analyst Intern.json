@@ -1,0 +1,75 @@
+{
+    "offer_name": "Customer Care Data Analyst Intern",
+    "offer_company": "Back Market",
+    "offer_type": "data",
+    "score": 78,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "scikitlearn",
+        "Statistiques",
+        "Tableau"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Customer Care Data Analyst Intern au sein de Back Market. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé une solide expérience en analyse de données.\n\nAu cours de mon stage chez Laboratoire Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce au Python. Cette expérience m'a permis non seulement de développer mes compétences techniques mais aussi de comprendre l'importance du data-driven decision making en supply chain.\n\nPar ailleurs, mon stage chez Amazon DAR1 m'a donné une première immersion dans le monde professionnel et j'ai pu mettre en pratique des concepts clés tels que la prévision de la demande et la gestion des stocks. Ces expériences ont renforcé ma compréhension du lien étroit entre les données et l'efficacité opérationnelle.\n\nJe suis également formé à l'utilisation d'outils comme Excel avancé, pandas, numpy, seaborn, matplotlib et scikitlearn, ce qui me permet de mener des analyses complexes et de visualiser efficacement les résultats. De plus, j'ai réalisé plusieurs projets en tant que data analyst freelance, créant un portfolio avec diverses applications pratiques.\n\nJe suis particulièrement intéressé par le poste proposé chez Back Market car il correspond parfaitement à mes compétences et mon intérêt pour l'analyse de données dans un contexte d'amélioration continue du service client. Je serais ravi de contribuer aux objectifs de la société en utilisant les outils et méthodes que j'ai appris tout au long de ma formation.\n\nJe suis disponible à partir du 1er juin 2026 pour un stage de 4 à 6 mois basé à Bordeaux. Je reste à votre disposition pour toute information complémentaire.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai utilisé Python pour le monitoring et travaillé sur les schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Monitoring",
+                "Non conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant les librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "Pandas"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur la data science avec Python, approfondissant l'utilisation de ScikitLearn pour les modèles de prédiction.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la statistique et créé un portfolio avec plusieurs projets open source et semi-automatisés.",
+            "keywords_injected": [
+                "Python",
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

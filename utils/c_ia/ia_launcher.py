@@ -10,6 +10,8 @@ from utils.c_ia.prompts.step_3b.build_cover_letter_prompt import build_cover_let
 from utils.c_ia.prompts.step_4.build_skills_section_prompt import build_skills_section_prompt
 
 
+SCORE_THRESHOLD = 75  # Only generate CV + cover letter for offers above this score
+
 USER_PROMPT = (
     "Je suis Hugo MANIPOUD, étudiant en 5ème année d'école d'ingénieur à l'ECAM Lyon. "
     "Je cherche un stage de fin d'études de 4 à 6 mois à partir de juin 2026, "
@@ -50,14 +52,14 @@ def run_ia(date: str):
     # ══════════════════════════════════════════════════════════════
     print(f"\n  [STEP 0] Classifying domains for {len(internships_data)} offers...")
     classified_offers = []
-    dropped_count = 0
+    dropped_count     = 0
 
     for i, offer in enumerate(internships_data):
         offer_name = offer.get("name", f"offer_{i}")
         print(f"  [{i+1}/{len(internships_data)}] {offer_name[:60]}...", end=" ")
 
         classification_prompt = build_domain_classification_prompt(offer)
-        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=32)
+        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=64)
 
         domain = classification.get("domain", "") if classification else ""
 
@@ -87,11 +89,11 @@ def run_ia(date: str):
         print(f"\n  [{i+1}/{len(classified_offers)}] Extracting: {offer_name[:60]}...")
 
         extraction_prompt = build_extraction_prompt(offer)
-        extraction = query_ollama_json(extraction_prompt, temperature=0.1, num_predict=512)
+        extraction = query_ollama_json(extraction_prompt, temperature=0.1, num_predict=1024)
 
         if extraction:
             enriched_offer = {
-                **offer,                  # ← already has offer_type from STEP 0
+                **offer,
                 "profil_recherche": extraction.get("profil_recherche", ""),
                 "missions":         extraction.get("missions", []),
                 "competences":      extraction.get("competences", []),
@@ -110,16 +112,13 @@ def run_ia(date: str):
 
         enriched_offers.append(enriched_offer)
 
-    # Save enriched + filtered offers
     enriched_path = os.path.join(output_dir, "internships_enriched.json")
     with open(enriched_path, "w", encoding="utf-8") as f:
         json.dump(enriched_offers, f, ensure_ascii=False, indent=4)
     print(f"\n  [SAVED] Enriched offers → {enriched_path}")
-    print(f"  [FILTER] Kept {len(enriched_offers)} / {len(internships_data)} "
-          f"({dropped_count} dropped)")
 
     if not enriched_offers:
-        print("  [ERROR] No offers left after filtering — aborting.")
+        print("  [ERROR] No offers left after extraction — aborting.")
         return
 
     # ══════════════════════════════════════════════════════════════
@@ -133,13 +132,13 @@ def run_ia(date: str):
         print(f"\n  [{i+1}/{len(enriched_offers)}] Scoring: {offer_name[:60]}...")
 
         prompt = build_single_offer_scoring_prompt(cv_data, offer, USER_PROMPT)
-        result = query_ollama_json(prompt, temperature=0.1, num_predict=256)
+        result = query_ollama_json(prompt, temperature=0.1, num_predict=650)
 
         if result and "score" in result:
             score_entry = {
                 "name":   result.get("name", offer_name),
                 "score":  int(result.get("score", 0)),
-                "reason": result.get("reason", ""),
+                "reasoning": result.get("reasoning", ""),
             }
             print(f"  ✅ Score: {score_entry['score']}/100")
         else:
@@ -148,7 +147,7 @@ def run_ia(date: str):
 
         scoring_list.append(score_entry)
 
-        # Crash-safe intermediate save after each offer
+        # Crash-safe intermediate save
         scoring_list_sorted = sorted(scoring_list, key=lambda x: x["score"], reverse=True)
         with open(os.path.join(output_dir, "scoring.json"), "w", encoding="utf-8") as f:
             json.dump({"scoring": scoring_list_sorted}, f, ensure_ascii=False, indent=4)
@@ -159,136 +158,149 @@ def run_ia(date: str):
         print(f"    {i+1:2d}. [{s['score']:3d}/100] {s['name'][:55]}")
 
     # ══════════════════════════════════════════════════════════════
-    # STEP 3 — Find best offer deterministically in Python
+    # STEP 3 — Filter offers above threshold + build lookup
     # ══════════════════════════════════════════════════════════════
-    best_scored     = scoring_list[0]
-    best_offer_full = None
-    for offer in enriched_offers:
-        if offer.get("name", "") == best_scored["name"]:
-            best_offer_full = {**offer, "score": best_scored["score"]}
-            break
+    scored_above_threshold = [s for s in scoring_list if s["score"] >= SCORE_THRESHOLD]
 
-    if best_offer_full is None:
-        print(f"  [ERROR] Could not find full data for: {best_scored['name']}")
-        return
+    if not scored_above_threshold:
+        print(f"\n  [WARN] No offer scored ≥ {SCORE_THRESHOLD} — using best offer only.")
+        scored_above_threshold = [scoring_list[0]]
 
-    print(f"\n  [BEST OFFER] Score {best_scored['score']}/100: {best_scored['name']}")
-    print(f"  [BEST OFFER] Type: {best_offer_full.get('offer_type', '?')}")
+    print(f"\n  [STEP 3] {len(scored_above_threshold)} offer(s) with score ≥ {SCORE_THRESHOLD} → generating CVs...")
 
-    # ══════════════════════════════════════════════════════════════
-    # STEP 3a — Select 6 best experiences + tailor descriptions
-    # ══════════════════════════════════════════════════════════════
-    print("\n  [STEP 3a] Selecting experiences + tailoring resume descriptions...")
+    # Build a lookup dict: offer name → full enriched offer data
+    enriched_lookup = {offer.get("name", ""): offer for offer in enriched_offers}
 
-    selection_prompt = build_experience_selection_prompt(cv_data, best_offer_full)
-    selection_result = query_ollama_json(selection_prompt, temperature=0.1, num_predict=128)
-
-    if selection_result and "skills" in selection_result:
-        selected_indexes = selection_result["skills"]
-        print(f"  ✅ Selected experience indexes: {selected_indexes}")
-    else:
-        selected_indexes = [exp["index"] for exp in cv_data.get("experiences", [])][:6]
-        print(f"  ⚠️  Selection failed, fallback to first 6: {selected_indexes}")
-
-    resume_prompt  = build_resume_prompt(cv_data, best_offer_full, selected_indexes)
-    resume_result  = query_ollama_json(resume_prompt, temperature=0.2, num_predict=2048)
-
-    if resume_result and "resume" in resume_result:
-        print(f"  ✅ Tailored {len(resume_result['resume'])} descriptions")
-        for exp in resume_result["resume"]:
-            print(f"    → [{exp.get('index')}] {exp.get('name', '')[:50]}"
-                  f" | keywords: {exp.get('keywords_injected', [])}")
-    else:
-        print("  ⚠️  Resume tailoring failed")
-        resume_result = {"resume": []}
-
-    # Flatten all injected keywords across all experiences (used in STEP 4)
-    all_keywords_injected = []
-    seen_kw = set()
-    for exp_entry in resume_result.get("resume", []):
-        for kw in exp_entry.get("keywords_injected", []):
-            kw_norm = kw.strip()
-            if kw_norm and kw_norm.lower() not in seen_kw:
-                seen_kw.add(kw_norm.lower())
-                all_keywords_injected.append(kw_norm)
-    print(f"  [INFO] Unique keywords injected: {len(all_keywords_injected)} → {all_keywords_injected}")
+    # Will accumulate all match entries for match.json
+    all_matches = []
 
     # ══════════════════════════════════════════════════════════════
-    # STEP 3b — Generate cover letter
+    # LOOP — Run STEP 3a + 3b + 4 for each qualifying offer
     # ══════════════════════════════════════════════════════════════
-    print("\n  [STEP 3b] Generating cover letter...")
+    for j, scored in enumerate(scored_above_threshold):
+        offer_full = enriched_lookup.get(scored["name"])
+        if offer_full is None:
+            print(f"  [ERROR] Could not find full data for: {scored['name']} — skipping")
+            continue
 
-    cover_letter_prompt  = build_cover_letter_prompt(cv_data, best_offer_full, USER_PROMPT)
-    cover_letter_result  = query_ollama_json(cover_letter_prompt, temperature=0.4, num_predict=2048)
+        offer_full = {**offer_full, "score": scored["score"]}
+        offer_name = offer_full["name"]
+        offer_type = offer_full.get("offer_type", "data")
 
-    if cover_letter_result is None:
-        print("  ⚠️  Cover letter generation failed")
-        cover_letter_result = {"cover_letter": {"name": best_offer_full["name"], "error": "generation_failed"}}
+        print(f"\n  {'═' * 56}")
+        print(f"  [{j+1}/{len(scored_above_threshold)}] Processing: {offer_name[:55]}")
+        print(f"  Score: {scored['score']}/100 | Type: {offer_type}")
+        print(f"  {'═' * 56}")
 
-    cover_letter_output_path = os.path.join(output_dir, "cover_letter.json")
-    with open(cover_letter_output_path, "w", encoding="utf-8") as f:
-        json.dump(cover_letter_result, f, ensure_ascii=False, indent=4)
-    print(f"  [SAVED] Cover letter → {cover_letter_output_path}")
+        # ── STEP 3a — Select experiences + tailor descriptions ────
+        print("\n  [STEP 3a] Selecting experiences + tailoring descriptions...")
 
+        selection_prompt = build_experience_selection_prompt(cv_data, offer_full)
+        selection_result = query_ollama_json(selection_prompt, temperature=0.1, num_predict=800)
+
+        if selection_result and "skills" in selection_result:
+            selected_indexes = selection_result["skills"]
+            print(f"  ✅ Selected indexes: {selected_indexes}")
+        else:
+            selected_indexes = [exp["index"] for exp in cv_data.get("experiences", [])][:6]
+            print(f"  ⚠️  Selection failed, fallback: {selected_indexes}")
+
+        resume_prompt = build_resume_prompt(cv_data, offer_full, selected_indexes)
+        resume_result = query_ollama_json(resume_prompt, temperature=0.2, num_predict=4096)
+
+        if resume_result and "resume" in resume_result:
+            print(f"  ✅ Tailored {len(resume_result['resume'])} descriptions")
+            for exp in resume_result["resume"]:
+                print(f"    → [{exp.get('index')}] {exp.get('name', '')[:45]}"
+                      f" | {exp.get('keywords_injected', [])}")
+        else:
+            print("  ⚠️  Resume tailoring failed")
+            resume_result = {"resume": []}
+
+        # Flatten injected keywords (used in STEP 4)
+        all_keywords_injected = []
+        seen_kw = set()
+        for exp_entry in resume_result.get("resume", []):
+            for kw in exp_entry.get("keywords_injected", []):
+                kw_norm = kw.strip()
+                if kw_norm and kw_norm.lower() not in seen_kw:
+                    seen_kw.add(kw_norm.lower())
+                    all_keywords_injected.append(kw_norm)
+
+        # ── STEP 3b — Cover letter ────────────────────────────────
+        print("\n  [STEP 3b] Generating cover letter...")
+
+        cover_letter_prompt = build_cover_letter_prompt(cv_data, offer_full, USER_PROMPT)
+        cover_letter_result = query_ollama_json(cover_letter_prompt, temperature=0.3, num_predict=4096)
+
+        if cover_letter_result is None:
+            print("  ⚠️  Cover letter generation failed")
+            cover_letter_result = {"cover_letter": {"name": offer_name, "error": "generation_failed"}}
+
+        # ── STEP 4 — Skills section ───────────────────────────────
+        print("\n  [STEP 4] Selecting 6 skills for CV skills section...")
+
+        skills_section_prompt = build_skills_section_prompt(cv_data, offer_full, resume_result)
+        skills_section_result = query_ollama_json(skills_section_prompt, temperature=0.1, num_predict=128)
+
+        if skills_section_result and "skills_section" in skills_section_result:
+            cv_skills_section = skills_section_result["skills_section"][:6]
+            print(f"  ✅ Skills section: {cv_skills_section}")
+        else:
+            cv_skills_section = all_keywords_injected[:6]
+            print(f"  ⚠️  Fallback: {cv_skills_section}")
+
+        # ── SAVE — one resume.json per offer ─────────────────────
+        cover_letter_data  = cover_letter_result.get("cover_letter", {})
+        safe_name          = _sanitize_filename(f"{offer_full.get('company', '')}_{offer_name}")
+        resume_output_path = os.path.join(output_dir, f"resume_{safe_name}.json")
+
+        with open(resume_output_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "offer_name":       offer_name,
+                "offer_company":    offer_full.get("company", ""),
+                "offer_type":       offer_type,
+                "score":            scored["score"],
+                "selected_indexes": selected_indexes,
+                "skills_section":   cv_skills_section,
+                "cover_letter":     cover_letter_data.get("text", ""),
+                **resume_result,
+            }, f, ensure_ascii=False, indent=4)
+        print(f"  [SAVED] Resume → {resume_output_path}")
+
+        all_matches.append({
+            "name":         offer_name,
+            "URL":          offer_full.get("URL", ""),
+            "company":      offer_full.get("company", ""),
+            "location":     offer_full.get("location", ""),
+            "offer_type":   offer_type,
+            "score":        scored["score"],
+            "skills":       selected_indexes,
+            "skills_section": cv_skills_section,
+            "cover_letter": cover_letter_data.get("text", ""),
+        })
+
+    # ════���═════════════════════════════════════════════════════════
+    # SAVE — match.json (all qualifying offers, for d_files_gen)
     # ══════════════════════════════════════════════════════════════
-    # STEP 4 — Select 6 skills for CV skills section
-    # ══════════════════════════════════════════════════════════════
-    print("\n  [STEP 4] Selecting 6 skills for CV skills section...")
-
-    skills_section_prompt  = build_skills_section_prompt(cv_data, best_offer_full, resume_result)
-    skills_section_result  = query_ollama_json(skills_section_prompt, temperature=0.1, num_predict=128)
-
-    if skills_section_result and "skills_section" in skills_section_result:
-        cv_skills_section = skills_section_result["skills_section"][:6]
-        print(f"  ✅ Skills section: {cv_skills_section}")
-    else:
-        cv_skills_section = all_keywords_injected[:6]
-        print(f"  ⚠️  Fallback to first 6 injected keywords: {cv_skills_section}")
-
-    # ══════════════════════════════════════════════════════════════
-    # SAVE — resume.json (final, includes skills_section + offer_type)
-    # ══════════════════════════════════════════════════════════════
-    resume_output_path = os.path.join(output_dir, "resume.json")
-    with open(resume_output_path, "w", encoding="utf-8") as f:
-        json.dump({
-            "offer_name":       best_offer_full["name"],
-            "offer_company":    best_offer_full["company"],
-            "offer_type":       best_offer_full.get("offer_type", "data"),
-            "score":            best_scored["score"],
-            "selected_indexes": selected_indexes,
-            "skills_section":   cv_skills_section,
-            **resume_result,
-        }, f, ensure_ascii=False, indent=4)
-    print(f"  [SAVED] Resume → {resume_output_path}")
-
-    # ══════════════════════════════════════════════════════════════
-    # SAVE — match.json (backward compat with d_files_gen)
-    # ══════════════════════════════════════════════════════════════
-    cover_letter_data  = cover_letter_result.get("cover_letter", {})
-    match_output_path  = os.path.join(output_dir, "match.json")
+    match_output_path = os.path.join(output_dir, "match.json")
     with open(match_output_path, "w", encoding="utf-8") as f:
-        json.dump({
-            "match": {
-                "name":         best_offer_full["name"],
-                "URL":          best_offer_full.get("URL", ""),
-                "company":      best_offer_full["company"],
-                "location":     best_offer_full.get("location", ""),
-                "score":        best_scored["score"],
-                "skills":       selected_indexes,
-                "cover_letter": cover_letter_data.get("text", ""),
-            }
-        }, f, ensure_ascii=False, indent=4)
-    print(f"  [SAVED] Match (compat) → {match_output_path}")
+        json.dump({"match": all_matches}, f, ensure_ascii=False, indent=4)
+    print(f"\n  [SAVED] Match → {match_output_path} ({len(all_matches)} offers)")
 
     # ══════════════════════════════════════════════════════════════
     # DONE
     # ══════════════════════════════════════════════════════════════
     print("\n" + "=" * 60)
     print("[C_IA] AI analysis complete!")
-    print(f"  Offers scraped:  {len(internships_data)}")
-    print(f"  Offers kept:     {len(enriched_offers)} ({dropped_count} dropped)")
-    print(f"  Offers scored:   {len(scoring_list)}")
-    print(f"  Best offer:      [{best_scored['score']}/100] {best_scored['name']}")
-    print(f"  Type:            {best_offer_full.get('offer_type', '?')}")
-    print(f"  Skills section:  {cv_skills_section}")
+    print(f"  Offers scraped:   {len(internships_data)}")
+    print(f"  Offers kept:      {len(enriched_offers)} ({dropped_count} dropped)")
+    print(f"  Offers scored:    {len(scoring_list)}")
+    print(f"  Offers ≥ {SCORE_THRESHOLD}/100:  {len(all_matches)} → CV + LM generated")
     print("=" * 60)
+
+
+def _sanitize_filename(name: str) -> str:
+    keepchars = (" ", "-", "_")
+    name = "".join(c for c in name if c.isalnum() or c in keepchars).rstrip()
+    return name[:60]

@@ -1,0 +1,73 @@
+{
+    "offer_name": "Stage - Data Governance Engineer H/F (août 2026)",
+    "offer_company": "Veepee",
+    "offer_type": "data",
+    "score": 75,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "skills_section": [
+        "Python",
+        "pandas",
+        "statistiques",
+        "supply chain",
+        "création d'outils d'analyse",
+        "SQL"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Data Governance Engineer H/F à Veepee, en août 2026. Actuellement étudiant en 5ème année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par ce stage qui allie les aspects techniques et stratégiques du traitement des données.\n\nDurant mon stage chez Arrow en juin/octobre 2024, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. Cette expérience m'a permis de développer une rigueur dans le développement et le test de code, ainsi que l'utilisation de Python pour la création d'outils de monitoring.\n\nEn parallèle, ma formation en data analysis avec FreeCodeCamp et mon cours d'introduction à la data science sur HarvardX ont renforcé mes compétences en nettoyage et préparation des données. J'ai également approfondi mes connaissances en Python avec les librairies pandas, numpy, matplotlib et seaborn.\n\nJe suis particulièrement attiré par l'ingestion et la modélisation de données pour alimenter les systèmes de Dataviz, Data Science, Analytics et partage externe. Ces missions correspondent parfaitement à mes compétences en préparation des données et création de dashboards.\n\nDe plus, mon expérience en supply chain m'a permis d'acquérir une compréhension approfondie du processus décisionnel basé sur les données. Je suis donc prêt à contribuer à la définition et à la mise en place des contrats de données et politiques de gouvernance.\n\nJe serais ravi de discuter plus en détail de ma candidature lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai travaillé sur les schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils d'analyse"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant les librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "pandas"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur les bases de la data science avec Python, approfondissant l'utilisation des modèles de prédiction et de la librairie ScikitLearn.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio de projets open source et semi-automatisés.",
+            "keywords_injected": [
+                "Python",
+                "statistiques"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -68,4 +68,4 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
 5. *Période* (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
-{{"name": "nom exact de l'offre", "score": 80.0 (for example)}}"""
+{{"reasoning": "C1: X/40 (skill1 match t_prio +1, ...), C2: X/10 (...), C3: X/20 (...), C4: X/15 (...), C5: X/15 (...)", "name": "nom exact de l'offre", "score": 78.5}}"""

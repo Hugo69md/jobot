@@ -19,10 +19,8 @@ def build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
         "competences": best_offer.get("competences", []),
     }
 
-    return f"""
-
-*** CONTEXTE ***:    
-Tu es un expert recrutement et tu apporte ton expertise à un etudiant ingénieur pour trouver un stage
+    return f"""*** CONTEXTE ***:
+Tu es un expert recrutement. Tu aides un étudiant ingénieur à sélectionner ses meilleures expériences pour une offre de stage.
 
 *** EXPÉRIENCES DU CANDIDAT ***:
 {json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
@@ -31,17 +29,17 @@ Tu es un expert recrutement et tu apporte ton expertise à un etudiant ingénieu
 {json.dumps(offer_summary, ensure_ascii=False, indent=2)}
 
 *** INSTRUCTIONS ***:
-- Tu dois d'abord regarder toutes les experiences du candidat avant de faire ton choix
-- Tu dois selectionner Exactement 6 experiences (pas plus, pas moins)
-- Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 , "name" : 'Etudiant - ECAM Lyon', même si ce n'est pas pertinent pour l'offre.
-Pour les 5 expériences restantes, tu dois :
-1. Mettre en perspective les missions et competences de l'offre avec les skills et description de chaque expérience du candidat
-2. Selectionner les experiences les plus pertinentes pour l'offre, même si elles ne sont pas parfaitement alignées
+- Selectionne exactement 6 expériences (index) à mettre en avant dans le CV pour cette offre spécifique.
+- Check l'entiereté des experiences du candidat pour trouver des matches pertinents avec les missions et compétences requises de l'offre.
+- L'index 1 ("Etudiant - ECAM Lyon") est OBLIGATOIRE — inclus-le toujours.
+- Pour les 5 restantes : compare les missions et compétences de l'offre avec les skills et description de CHAQUE expérience.
+- Choisis les 5 qui apportent le plus de valeur pour CETTE offre spécifique
 
-*** ATTENTION ***: 
-1. NE DOIS PAS SEULEMENT SE FOCALISER SUR LES EXPERIENCES QUI ONT DES COMPETENCES MATCHANT EXACTEMENT CELLES DE L'OFFRE, MAIS AUSSI PRENDRE EN COMPTE LA PERTINENCE GLOBALE DE L'EXPERIENCE PAR RAPPORT AUX MISSIONS PROPOSÉES DANS L'OFFRE. IL PEUT Y AVOIR DES EXPERIENCES TRÈS PERTINENTES MÊME S'IL N'Y A PAS DE MATCH DE COMPETENCES PARFAIT, CAR ELLES PEUVENT AVOIR DES TÂCHES OU RÉALISATIONS TRANSVERSALES UTILES POUR LE POSTE.
-2. LA PREMIERE EXPERIENCE DOIT TOUJOURS AVOIR L'INDEX 1 ET LE NAME "Etudiant - ECAM Lyon" C'EST LA BASE DU CV. LES 5 EXPERIENCES SUIVANTES SONT À OPTIMISER POUR L'OFFRE EN QUESTION SELON LES INSTRUCTIONS CI-DESSUS.
+*** ATTENTION ***
+- TU DOIS PRIORISER LES MEILLEURS MATCHS
+- EN AUCUN CAS IL DOIT Y AVOIR PLUS OU MOINS DE 6 EXPERIENCES
+
 
 *** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:
-{{"skills": [1, index, ... last Index ]}}"""
+{{"reasoning": "index V car [raison], index W car [raison], index X car [raison], index Y car [raison], index Z car [raison]", "skills": [1, indexA, indexB, indexC, indexD, indexE]}}"""

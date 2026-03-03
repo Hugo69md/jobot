@@ -1,0 +1,80 @@
+{
+    "offer_name": "SAINT LAURENT Data Analyst Internship H/F",
+    "offer_company": "SAINT LAURENT",
+    "offer_type": "data",
+    "score": 78,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en analyse de données approfondie, index 7 car organisation événementielle qui montre des compétences en communication et gestion de projet",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "Reporting automatisé",
+        "Statistiques descriptive"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'analyste data en stage au sein du groupe Saint Laurent. Actuellement étudiant en 5ème année à l’ECAM Lyon, je suis spécialisé dans la supply chain management et j'ai développé des compétences solides en analyse de données.\n\nAu cours de mon parcours académique et professionnel, j’ai eu l'opportunité d’acquérir une expérience significative en data analysis. Mon stage chez Arrow m'a permis de créer plusieurs outils d'analyse de données et d'automatisation de processus avec Python et Excel, compétences que je souhaite mettre au service du groupe Saint Laurent.\n\nJe suis particulièrement intéressé par ce poste car il correspond parfaitement à mes aspirations professionnelles. Je serai ravi de contribuer activement à la communauté des analystes data et d'élaborer des solutions de données pour les équipes commerciales, merchandising et financières du groupe.\n\nMes compétences en Python (pandas, numpy, seaborn, matplotlib), Excel avancé ainsi que mon expérience en ETL et extraction de données me permettront de répondre efficacement aux missions proposées. Je suis également à l'aise avec les statistiques descriptives et inférentielles, ce qui est un atout pour la modélisation.\n\nJe serais honoré d'avoir l’opportunité de discuter plus en détail de ma candidature lors d’un entretien. En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de processus pour répondre à des questions business. Utilisation de Python et Excel pour le monitoring et l'identification des non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Reporting automatisé",
+                "Analyse Pareto"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation visant à apprendre les bases de l'analyse de données avec Python, incluant la découverte approfondie des librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur les modèles de prédiction en data science avec Python, approfondissement des bases de la librairie ScikitLearn.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. Développement d'un add-on pour un ERP spécialisé dans les boîtes de comptabilité.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Statistiques inférentielle",
+                "Statistiques descriptive"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

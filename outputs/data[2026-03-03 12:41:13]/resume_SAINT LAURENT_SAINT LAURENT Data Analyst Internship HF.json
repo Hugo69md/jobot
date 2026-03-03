@@ -1,0 +1,70 @@
+{
+    "offer_name": "SAINT LAURENT Data Analyst Internship H/F",
+    "offer_company": "SAINT LAURENT",
+    "offer_type": "data",
+    "score": 83,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "skills_section": [
+        "Python",
+        "pandas",
+        "matplotlib",
+        "seaborn",
+        "Statistiques",
+        "Supply Chain Management"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'analyste de données stagiaire au sein du groupe SAINT LAURENT. Actuellement en cinquième année à l’ECAM Lyon, je recherche un stage de fin d’études dans le domaine de la data qui commence dès juin 2026.\n\nDurant mon parcours académique et professionnel, j’ai développé des compétences clés en analyse de données et supply chain. Mon expérience chez Arrow m’a permis de créer plusieurs outils d’analyse de données et d’automatisation de processus utilisant Python et Excel. Ces expériences me permettent aujourd’hui de proposer des solutions innovantes pour répondre aux besoins des entreprises.\n\nJe suis particulièrement intéressé par les missions que vous proposez, notamment la réalisation d'analyses ad hoc en utilisant Python pour apporter des insights opérationnels. Mon portfolio disponible à l’adresse https://hugo69md.github.io/Portfolio/#home témoigne de mon expertise dans le nettoyage et la préparation des données, ainsi que dans la création de dashboards et rapports.\n\nJe maîtrise parfaitement Excel avancé (Pivot Tables, Power Query) et Python (pandas, numpy, seaborn, matplotlib), compétences qui correspondent aux exigences du poste. De plus, mon expérience en supply chain me permet d’apporter une perspective unique sur la modélisation des données et l'analyse prédictive.\n\nJe suis convaincu que mes compétences et expériences précédentes me permettront de contribuer efficacement au développement des activités de data analysis chez SAINT LAURENT. Je serais ravi d'avoir l’opportunité de discuter plus en détail de ma candidature lors d’un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai utilisé Python pour le monitoring et résolu des problèmes liés aux ruptures et non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Python",
+                "Supply Chain Management",
+                "Monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. J'ai également approfondi mes connaissances en statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "matplotlib",
+                "seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur la data science avec Python, comprenant l'approfondissement de ScikitLearn et les bases des modèles de prédiction.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la statistique et la data avec Python et Excel. J'ai créé un portfolio de projets open source et semi-automatisés.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Statistiques"
+            ]
+        }
+    ]
+}

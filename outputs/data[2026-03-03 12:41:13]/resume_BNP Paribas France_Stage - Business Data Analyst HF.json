@@ -1,0 +1,77 @@
+{
+    "offer_name": "Stage - Business Data Analyst H/F",
+    "offer_company": "BNP Paribas France",
+    "offer_type": "data",
+    "score": 78,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "skills_section": [
+        "Excel avancé",
+        "Power BI",
+        "Python",
+        "pandas",
+        "matplotlib",
+        "scikitlearn"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Business Data Analyst H/F au sein de BNP Paribas France. Actuellement en cinquième année à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et à mon parcours académique.\n\nAu cours de mon stage chez Arrow, j'ai développé des outils d'analyse de données et automatisé divers processus. Ces expériences m'ont permis de maîtriser Excel avancé ainsi que Python pour le nettoyage et la préparation des données. J'ai également créé plusieurs dashboards en utilisant des librairies comme pandas, numpy, seaborn et matplotlib.\n\nMon expérience en tant que Data analyst freelance a renforcé mes compétences en matière de reporting automatisé et d'ETL. Je suis capable de collecter, structurer et enrichir les bases de données pour produire des rapports et tableaux de bord pertinents. De plus, je possède une solide compréhension des statistiques descriptives et inférentielles.\n\nJe suis convaincu que mes compétences en analyse de données, ma connaissance approfondie d'Excel et mon expérience avec Power BI me permettront de contribuer efficacement à vos projets stratégiques et opérationnels. Je serais ravi de pouvoir apporter mon expertise pour améliorer les reportings existants et participer activement au développement des outils analytiques.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. J'ai utilisé Python et Excel pour le monitoring et travaillé sur les schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "Python",
+                "Excel",
+                "monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "Matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science avec Python, approfondissant les modèles de prédiction et la librairie ScikitLearn.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "Approfondissement des compétences en data analysis avec Python et Excel, réalisant plusieurs projets open source et créant un add-on pour ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "data analysis"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "description_tailored": "Réparation et préparation à la vente d'ordinateurs MacBook, effectuant des tests sur écran, batterie, clavier et composants internes.",
+            "keywords_injected": []
+        }
+    ]
+}

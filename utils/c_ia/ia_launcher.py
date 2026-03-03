@@ -134,13 +134,25 @@ def run_ia(date: str):
         prompt = build_single_offer_scoring_prompt(cv_data, offer, USER_PROMPT)
         result = query_ollama_json(prompt, temperature=0.1, num_predict=650)
 
-        if result and "score" in result:
+        if result and all(k in result for k in ("C1", "C2", "C3", "C4", "C5")):
+            c1 = result["C1"].get("score", 0)
+            c2 = result["C2"].get("score", 0)
+            c3 = result["C3"].get("score", 0)
+            c4 = result["C4"].get("score", 0)
+            c5 = result["C5"].get("score", 0)
+            final_score = round(c1 + c2 + c3 + c4 + c5, 1)
+
             score_entry = {
-                "name":   result.get("name", offer_name),
-                "score":  int(result.get("score", 0)),
-                "reasoning": result.get("reasoning", ""),
+                "name":    result.get("name", offer_name),
+                "score":   int(final_score),
+                "C1": result["C1"],
+                "C2": result["C2"],
+                "C3": result["C3"],
+                "C4": result["C4"],
+                "C5": result["C5"],
             }
-            print(f"  ✅ Score: {score_entry['score']}/100")
+            print(f"  ✅ Score: {final_score}/100  "
+                  f"(C1={c1}/40 C2={c2}/10 C3={c3}/20 C4={c4}/15 C5={c5}/15)")
         else:
             score_entry = {"name": offer_name, "score": 0, "reason": "parse_error"}
             print(f"  ⚠️  Scoring failed, assigned score=0")
@@ -192,31 +204,64 @@ def run_ia(date: str):
         print(f"  Score: {scored['score']}/100 | Type: {offer_type}")
         print(f"  {'═' * 56}")
 
-        # ── STEP 3a — Select experiences + tailor descriptions ────
-        print("\n  [STEP 3a] Selecting experiences + tailoring descriptions...")
+                # ── STEP 3a — Select experiences ─────────────────────────────
+        print("\n  [STEP 3a-1] Selecting experience indexes...")
 
         selection_prompt = build_experience_selection_prompt(cv_data, offer_full)
         selection_result = query_ollama_json(selection_prompt, temperature=0.1, num_predict=800)
 
         if selection_result and "skills" in selection_result:
-            selected_indexes = selection_result["skills"]
+            selected_indexes    = selection_result["skills"]
+            selection_reasoning = selection_result.get("reasoning", "")
             print(f"  ✅ Selected indexes: {selected_indexes}")
+            print(f"  💬 Reasoning: {selection_reasoning}")
         else:
-            selected_indexes = [exp["index"] for exp in cv_data.get("experiences", [])][:6]
+            selected_indexes    = [exp["index"] for exp in cv_data.get("experiences", [])][:6]
+            selection_reasoning = "fallback"
             print(f"  ⚠️  Selection failed, fallback: {selected_indexes}")
 
-        resume_prompt = build_resume_prompt(cv_data, offer_full, selected_indexes)
-        resume_result = query_ollama_json(resume_prompt, temperature=0.2, num_predict=4096)
+        # Build the list of actual experience objects from the selected indexes
+        exp_lookup         = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
+        selected_experiences = [exp_lookup[i] for i in selected_indexes if i in exp_lookup]
 
-        if resume_result and "resume" in resume_result:
-            print(f"  ✅ Tailored {len(resume_result['resume'])} descriptions")
-            for exp in resume_result["resume"]:
-                print(f"    → [{exp.get('index')}] {exp.get('name', '')[:45]}"
-                      f" | {exp.get('keywords_injected', [])}")
-        else:
-            print("  ⚠️  Resume tailoring failed")
-            resume_result = {"resume": []}
+        # ── STEP 3a-2 — Tailor each experience individually ──────────
+        print(f"\n  [STEP 3a-2] Tailoring {len(selected_experiences)} descriptions (1 call each)...")
 
+        tailored_resume = []
+        all_keywords_injected = []
+        seen_kw = set()
+
+        for exp in selected_experiences:
+            exp_idx  = exp.get("index")
+            exp_name = exp.get("name", f"index {exp_idx}")
+            print(f"    → [{exp_idx}] {exp_name[:45]}...", end=" ", flush=True)
+
+            resume_prompt        = build_resume_prompt(cv_data, offer_full, exp)
+            resume_result_single = query_ollama_json(resume_prompt, temperature=0.1, num_predict=400)
+
+            if resume_result_single and "description_tailored" in resume_result_single:
+                tailored_resume.append(resume_result_single)
+                kw = resume_result_single.get("keywords_injected", [])
+                print(f"✅ {kw}")
+                for k in kw:
+                    k_norm = k.strip()
+                    if k_norm and k_norm.lower() not in seen_kw:
+                        seen_kw.add(k_norm.lower())
+                        all_keywords_injected.append(k_norm)
+            else:
+                # Fallback: keep original description untouched
+                tailored_resume.append({
+                    "index":               exp_idx,
+                    "name":                exp.get("name", ""),
+                    "description_tailored": exp.get("description", ""),
+                    "keywords_injected":   [],
+                })
+                print("⚠️  failed, using original")
+
+        resume_result = {"resume": tailored_resume}
+        print(f"  [INFO] {len(tailored_resume)} descriptions ready | "
+              f"{len(all_keywords_injected)} unique keywords: {all_keywords_injected}")
+        
         # Flatten injected keywords (used in STEP 4)
         all_keywords_injected = []
         seen_kw = set()
@@ -262,6 +307,7 @@ def run_ia(date: str):
                 "offer_type":       offer_type,
                 "score":            scored["score"],
                 "selected_indexes": selected_indexes,
+                "selection_reasoning":  selection_reasoning,
                 "skills_section":   cv_skills_section,
                 "cover_letter":     cover_letter_data.get("text", ""),
                 **resume_result,

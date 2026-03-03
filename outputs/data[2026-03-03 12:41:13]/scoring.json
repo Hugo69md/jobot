@@ -1,0 +1,39 @@
+{
+    "scoring": [
+        {
+            "name": "Data Engineering Intern",
+            "score": 83,
+            "reasoning": "C1: 26/40 (Python, pandas, numpy, scikit-learn, Excel avancé match t_prio skills; Forecasting, Réapprovisionnement, Data-driven decision making match prio skills), C2: 10/10 (Ingénieur 5A ECAM Lyon - Bac+5 et stage fin d'études), C3: 18/20 (Procter & Gamble est une entreprise de renommée internationale mais pas dans le CAC40/S&P500), C4: 15/15 (Asnières-sur-Seine, 92600 - Paris région = max), C5: 15/15 (Début juin 2026 = max)"
+        },
+        {
+            "name": "SAINT LAURENT Data Analyst Internship H/F",
+            "score": 83,
+            "reasoning": "C1: 26/40 (t_prio skills match avec section competence : Python, pandas, numpy, scikit-learn, Excel avancé; prio skills match avec section competence : Analyse de données, Reporting, Data Visualization, ETL, Statistiques descriptive, Statistiques inferentielle, Automatisation; bonus skills match avec section competence : Forecasting), C2: 10/10 (Master Degree in Statistics/Data Analysis/Marketing correspond à Bac+4/5 et stage fin d'études), C3: 18/20 (SAINT LAURENT est une marque prestigieuse mais pas dans le CAC40/S&P500), C4: 15/15 (Paris, France = max), C5: 15/15 (début juin 2026 = max)"
+        },
+        {
+            "name": "Stage - Business Data Analyst H/F",
+            "score": 78,
+            "reasoning": "C1: 16/40 (Excel avancé t_prio +1, Python t_prio +1, pandas t_prio +1, numpy t_prio +1, scikit-learn t_prio +1, Reporting prio +0.5, Data Visualization prio +0.5), C2: 10/10 (Bac+5 école ingénieur ECAM Lyon), C3: 18/20 (BNP Paribas est une entreprise prestigieuse mais pas dans le CAC40/S&P500), C4: 15/15 (Lyon à Pantin = environ 60km, donc -1pt par km au-delà de Lyon, ici 15-3=12 + ajustement pour proximité des grandes villes), C5: 15/15 (début juin 2026 correspond parfaitement)"
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "score": 78,
+            "reasoning": "C1: 26/40 (Python, pandas, numpy, scikit-learn, Excel avancé match t_prio skills; SQL, Google Sheets match prio skills), C2: 10/10 (Master's degree in STEM with specialization in data & analytics matches Hugo's profile), C3: 15/20 (Back Market is a well-known company but not in the top tier like CAC40/S&P500), C4: 15/15 (Bordeaux is within acceptable distance from Lyon), C5: 15/15 (Start date aligns with Hugo's availability)"
+        },
+        {
+            "name": "Data Analyst Intern",
+            "score": 70,
+            "reasoning": "C1: 26/40 (Python, pandas, numpy, scikit-learn match t_prio +1 chacun; Excel avancé et statistiques descriptives match prio +0.5 chacun), C2: 10/10 (étudiant en fin d'études ingénieur Bac+5), C3: 14/20 (entreprise non spécifiée dans le top renommées, mais startup innovante donc score intermédiaire), C4: 15/15 (localisation France générale, pas de détails précis donnés sur la ville), C5: 15/15 (date de début juin 2026 correspond exactement)"
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 51,
+            "reasoning": "C1: 6/40 (Excel avancé et Power Query sont des compétences prioritaires pour le candidat, mais les compétences demandées ne correspondent pas spécifiquement à ses compétences en data ou supply chain), C2: 10/10 (Le candidat est un étudiant en fin d'études dans une école d'ingénieurs et correspond donc au profil recherché), C3: 5/20 (Lindt & Sprüngli n'est pas une entreprise de la CAC40, mais elle a une bonne réputation dans l'industrie des confiseries), C4: 15/15 (La localisation est Paris, qui correspond à un score maximal pour cette catégorie), C5: 15/15 (Le stage commence en juin 2026, ce qui correspond parfaitement au timing recherché par le candidat)"
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 45,
+            "reasoning": "C1: 0/40 (Aucune compétence en conformité et contrôle interne ne correspond aux compétences du candidat en supply chain ou data), C2: 10/10 (Ingénieur 5A ECAM Lyon, stage fin d'études), C3: 5/20 (COMGEST n'est pas une entreprise de renommée internationale comme les Big4 ou S&P500 mais est reconnue dans le secteur financier en France), C4: 15/15 (Paris est la localisation recherchée par le candidat), C5: 15/15 (Le stage commence au début juin 2026, qui correspond parfaitement à la période souhaitée par le candidat)"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "scoring": [
+        {
+            "name": "Stage Ingénieur(e) Automatisation Data (F/H)",
+            "score": 84,
+            "C1": {
+                "reason": "Python match t_prio +1, automatisation match prio +0.5, data processing match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "étudiant en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Groupe SII est une entreprise prestigieuse mais pas dans le CAC40/S&P500/Big4/Big3, donc score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Vélizy-Villacoublay (78) proche de Paris = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Data Analyst Intern",
+            "score": 81,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio +4, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur en fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise non spécifiée dans le CAC40/S&P500/Big4/Big3, mais Wooclap est une entreprise reconnue pour son logiciel de participation interactive en ligne.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Localisation France (France) - pas d'information précise sur la ville, donc considéré comme Paris/Montpellier/Lyon = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 12
+            }
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "score": 69,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio +4, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+4/5",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Back Market n'est pas dans CAC40/S&P500 mais est une entreprise renommée en France",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance Bordeaux - Lyon > 20km, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 53,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain correspondante trouvée dans les t_prio",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le profil recherché ne correspond pas à celui d'un étudiant d'école d'ingénieur en fin de cycle, donc -2 pts",
+                "score": 8
+            },
+            "C3": {
+                "reason": "Lindt & Sprüngli est une entreprise prestigieuse mais n'est pas dans le CAC40 ou S&P500, donc score moyen",
+                "score": 15
+            },
+            "C4": {
+                "reason": "La localisation à Paris est favorable pour un stage, donc max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le début du stage en juin 2026 correspond bien au timing recherché par le candidat, donc max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 50,
+            "C1": {
+                "reason": "Aucune compétence en supply_chain ou data correspondante dans l'offre.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon, Bac+4/5",
+                "score": 10
+            },
+            "C3": {
+                "reason": "COMGEST n'est pas une entreprise prestigieuse comme CAC40/S&P500/Big4/Big3.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "La localisation est à Paris, donc max pour la région.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, donc c'est le timing parfait.",
+                "score": 15
+            }
+        }
+    ]
+}

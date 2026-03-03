@@ -1,0 +1,81 @@
+{
+    "offer_name": "Data Analyst Intern",
+    "offer_company": "Wooclap",
+    "offer_type": "data",
+    "score": 81,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique pertinente pour la compréhension des processus industriels; index 2 car stage en supply chain avec création d'outils d'analyse de données, compétences Python/Excel; index 4 car formation en analyse de données avec python couvrant les librairies Numpy, pandas, Matplotlib et Seaborn; index 5 car introduction à la data science axée sur les modèles de prédiction avec python; index 6 car approfondissement du domaine de la data et création d'un portfolio avec des projets open source et semi-automatisations;",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "statistiques descriptive",
+        "statistiques inferentielle",
+        "Data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Analyst Intern au sein de Wooclap. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé des compétences solides en analyse de données tout au long de mes études et expériences professionnelles.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. Ces projets m'ont permis de renforcer ma maîtrise des langages Python (pandas, numpy), ainsi que l'utilisation d'Excel pour le nettoyage et la préparation des données.\n\nPar ailleurs, j'ai suivi une formation Data analysis with python chez FreeCodeCamp qui m'a permis d'approfondir mes connaissances en statistiques descriptives. J'ai également réalisé plusieurs projets freelance de data analyst où j'ai pu automatiser le reporting et créer des dashboards pour améliorer la prise de décision.\n\nJe suis particulièrement intéressé par les missions proposées dans ce poste, notamment la création et la maintenance des tableaux de bord et KPIs pour les équipes commerciales. Mon expérience en Python et mes compétences en statistiques me permettront d'apporter une valeur ajoutée à votre équipe.\n\nJe suis également familiarisé avec l'utilisation quotidienne d'IA pour améliorer la productivité, ce qui correspond parfaitement aux attentes du poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "En cours de préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en management de la chaîne logistique industrielle, j'ai acquis des compétences clés en supply chain management et en gestion des données.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Première immersion professionnelle dans le monde de la supply chain, où j'ai créé plusieurs outils d'analyse et de monitoring en utilisant Python et Excel pour améliorer les processus de gestion des stocks et détecter les non-conformités.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Supply Chain Management",
+                "Gestion des stocks",
+                "Non-conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas et Matplotlib pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science et du modèle de prédiction en Python, avec un focus particulier sur les bibliothèques pandas et scikit-learn.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "scikitlearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source. Ces projets incluent des semi-automatisations et un add-on lucratif pour un ERP spécialisé dans les boites de comptabilités. J'utilise Python, Excel, pandas, numpy et seaborn pour analyser et visualiser les données.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "pandas",
+                "numpy",
+                "seaborn",
+                "statistiques inférentielle",
+                "statistiques descriptive"
+            ]
+        }
+    ]
+}

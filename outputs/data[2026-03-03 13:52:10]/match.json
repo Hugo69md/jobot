@@ -1,0 +1,53 @@
+{
+    "match": [
+        {
+            "name": "Stage Ingénieur(e) Automatisation Data (F/H)",
+            "URL": "https://www.jobteaser.com/en/job-offers/0bec65d1-26bb-45ed-8fbc-f54aafa3ec27-groupe-sii-stage-ingenieur-e-automatisation-data-f-h",
+            "company": "Groupe SII",
+            "location": "78140 Vélizy-Villacoublay (France)",
+            "offer_type": "data",
+            "score": 84,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                11
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Automatisation",
+                "Big Data",
+                "5G"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage Ingénieur(e) Automatisation Data au sein du Groupe SII. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé(e) dans la Supply Chain Management et j'ai développé une solide expérience en automatisation des processus via Python.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et d'automatisation de processus. Ces expériences m’ont permis de développer un intérêt pour la résolution de problèmes complexes par l’automatisation des tâches répétitives.\n\nJe maîtrise parfaitement Python, pandas, numpy, seaborn, matplotlib et scikitlearn, ce qui correspond bien aux compétences requises pour le poste. De plus, j'ai suivi une formation en data analysis avec python et une autre sur les bases de la data science axée sur l'utilisation de ScikitLearn.\n\nJe suis convaincu(e) que mes expériences et mon intérêt pour l'automatisation des processus me permettront d’apporter une contribution significative à votre équipe. Je serais ravi(e) de participer à la compréhension des procédures menées par les équipes télécom, ainsi qu'à la conception et à l'optimisation des workflows existants.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "Data Analyst Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/5631edd1-ac20-4de2-aeb5-29dd8ab26266-wooclap-data-analyst-intern",
+            "company": "Wooclap",
+            "location": "France (France)",
+            "offer_type": "data",
+            "score": 81,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "statistiques descriptive",
+                "statistiques inferentielle",
+                "Data-driven decision making"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Analyst Intern au sein de Wooclap. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé des compétences solides en analyse de données tout au long de mes études et expériences professionnelles.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. Ces projets m'ont permis de renforcer ma maîtrise des langages Python (pandas, numpy), ainsi que l'utilisation d'Excel pour le nettoyage et la préparation des données.\n\nPar ailleurs, j'ai suivi une formation Data analysis with python chez FreeCodeCamp qui m'a permis d'approfondir mes connaissances en statistiques descriptives. J'ai également réalisé plusieurs projets freelance de data analyst où j'ai pu automatiser le reporting et créer des dashboards pour améliorer la prise de décision.\n\nJe suis particulièrement intéressé par les missions proposées dans ce poste, notamment la création et la maintenance des tableaux de bord et KPIs pour les équipes commerciales. Mon expérience en Python et mes compétences en statistiques me permettront d'apporter une valeur ajoutée à votre équipe.\n\nJe suis également familiarisé avec l'utilisation quotidienne d'IA pour améliorer la productivité, ce qui correspond parfaitement aux attentes du poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        }
+    ]
+}

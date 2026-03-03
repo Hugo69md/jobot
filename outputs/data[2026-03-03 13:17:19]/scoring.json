@@ -1,0 +1,29 @@
+{
+    "scoring": [
+        {
+            "name": "SAINT LAURENT Data Analyst Internship H/F",
+            "score": 78,
+            "reasoning": "C1: 26/40 (t_prio skills match avec section competence : Python, pandas, numpy, scikit-learn, Excel avancé; prio skills match avec section competence : Analyse de données, Reporting automatisé, scripts, API, Web scraping, Urllib, Scrapy, Chromium, Html parsing; bonus skills match avec section competence : Forecasting), C2: 10/10 (Master Degree in Statistics/Data Analysis/Marketing correspond à la formation du candidat pour un stage fin d'études), C3: 15/20 (SAINT LAURENT est une marque prestigieuse mais pas dans le CAC40/S&P500), C4: 15/15 (Paris, France - correspond à la localisation souhaitée du candidat), C5: 15/15 (début juin 2026 - date idéale pour un stage fin d'études)"
+        },
+        {
+            "name": "Data Analyst Intern",
+            "score": 76,
+            "reasoning": "C1: 26/40 (Python, pandas, numpy, scikit-learn match t_prio +1 chacun; Excel avancé et statistiques descriptives match prio +0.5 chacun), C2: 10/10 (étudiant en fin d'études ingénieur Bac+5 ECAM Lyon), C3: 10/20 (entreprise non spécifiée dans le top renommées, mais start-up innovante), C4: 15/15 (localisation France, pas de détails précis donnés sur la localisation exacte), C5: 15/15 (stage début juin 2026 correspond parfaitement)"
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 76,
+            "reasoning": "C1: 6/40 (Excel avancé match t_prio +1, Excel avancé match prio +0.5), C2: 10/10 (étudiant en fin d'études Bac+5), C3: 10/20 (entreprise de renommée internationale mais pas dans les catégories spécifiques mentionnées), C4: 15/15 (Paris, localisation maximale), C5: 15/15 (début juin 2026 correspond parfaitement)"
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "score": 70,
+            "reasoning": "C1: 26/40 (Python, pandas, numpy, scikit-learn, Excel avancé match t_prio +1 chacun; SQL, Tableau, Google Sheets match prio +0.5 chacun), C2: 10/10 (Master's degree in STEM with specialization in data & analytics), C3: 14/20 (Back Market est une entreprise renommée mais pas dans le CAC40/S&P500), C4: 15/15 (Bordeaux est à moins de 20km de Lyon, donc max), C5: 15/15 (Début juin 2026 correspond parfaitement)"
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 45,
+            "reasoning": "C1: 0/40 (Aucune compétence en conformité et contrôle interne ne correspond aux compétences du candidat dans le domaine de la supply chain ou des données), C2: 10/10 (Le candidat est un étudiant en fin d'études d'ingénieur, ce qui correspond au niveau recherché par l'offre), C3: 5/20 (COMGEST n'est pas une entreprise de renommée mondiale comme les grandes banques ou cabinets d'audit internationaux, mais elle est bien établie dans le secteur financier en France), C4: 15/15 (La localisation de l'offre à Paris correspond parfaitement aux préférences du candidat pour une localisation en région parisienne), C5: 15/15 (Le stage commence au début juin 2026, ce qui est exactement la période recherchée par le candidat)"
+        }
+    ]
+}

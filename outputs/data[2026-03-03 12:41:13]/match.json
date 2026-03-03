@@ -1,0 +1,102 @@
+{
+    "match": [
+        {
+            "name": "Data Engineering Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/1d834738-61b8-4ad5-85a5-fda64213f44b-procter-gamble-data-engineering-intern",
+            "company": "Procter & Gamble",
+            "location": "92600 Asnières-sur-Seine (France)",
+            "offer_type": "data",
+            "score": 83,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6
+            ],
+            "skills_section": [
+                "Python",
+                "SQL ou R",
+                "Data Visualization",
+                "Statistiques inferentielle",
+                "Nettoyage des données",
+                "Automatisation"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Engineering Intern au sein de Procter & Gamble. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nAu cours de mon stage chez Arrow, j'ai eu l’occasion de créer plusieurs outils d'analyse de données et d'automatisation de processus. J'y ai notamment utilisé Python pour développer des solutions automatisées et efficaces, ce qui est en accord avec les missions proposées par votre offre. De plus, mon stage chez Amazon m'a permis d’acquérir une compréhension approfondie du fonctionnement de la chaîne logistique et de la gestion des données.\n\nJe maîtrise parfaitement Python (pandas, numpy, seaborn, matplotlib) ainsi que ScikitLearn pour l'analyse prédictive. Ces compétences me permettent d’assister dans la conception et l’implémentation de pipelines de données, tout en soutenant les initiatives de gestion des données pour améliorer leur intégrité et disponibilité.\n\nJe suis également capable de collaborer avec des équipes interfonctionnelles pour comprendre leurs besoins en données et livrer des solutions adaptées. Mon expérience en supply chain me permet d’utiliser l’analyse de données pour identifier des tendances et opportunités d’amélioration dans la chaîne d’approvisionnement.\n\nJe suis convaincu que mon parcours académique et professionnel, associé à mes compétences techniques, me positionne parfaitement pour contribuer au développement d'outils et de tableaux de bord pour visualiser les insights au sein de Procter & Gamble.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "SAINT LAURENT Data Analyst Internship H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/49ebdf5a-cc49-4148-9e08-ae1585088629-saint-laurent-saint-laurent-data-analyst-internship-h-f",
+            "company": "SAINT LAURENT",
+            "location": "Paris (France)",
+            "offer_type": "data",
+            "score": 83,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "matplotlib",
+                "seaborn",
+                "Statistiques",
+                "Supply Chain Management"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'analyste de données stagiaire au sein du groupe SAINT LAURENT. Actuellement en cinquième année à l’ECAM Lyon, je recherche un stage de fin d’études dans le domaine de la data qui commence dès juin 2026.\n\nDurant mon parcours académique et professionnel, j’ai développé des compétences clés en analyse de données et supply chain. Mon expérience chez Arrow m’a permis de créer plusieurs outils d’analyse de données et d’automatisation de processus utilisant Python et Excel. Ces expériences me permettent aujourd’hui de proposer des solutions innovantes pour répondre aux besoins des entreprises.\n\nJe suis particulièrement intéressé par les missions que vous proposez, notamment la réalisation d'analyses ad hoc en utilisant Python pour apporter des insights opérationnels. Mon portfolio disponible à l’adresse https://hugo69md.github.io/Portfolio/#home témoigne de mon expertise dans le nettoyage et la préparation des données, ainsi que dans la création de dashboards et rapports.\n\nJe maîtrise parfaitement Excel avancé (Pivot Tables, Power Query) et Python (pandas, numpy, seaborn, matplotlib), compétences qui correspondent aux exigences du poste. De plus, mon expérience en supply chain me permet d’apporter une perspective unique sur la modélisation des données et l'analyse prédictive.\n\nJe suis convaincu que mes compétences et expériences précédentes me permettront de contribuer efficacement au développement des activités de data analysis chez SAINT LAURENT. Je serais ravi d'avoir l’opportunité de discuter plus en détail de ma candidature lors d’un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "Stage - Business Data Analyst H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/f4afc3b8-9382-4a2e-b18d-0c97aadbbb09-bnp-paribas-france-stage-business-data-analyst-h-f",
+            "company": "BNP Paribas France",
+            "location": "93500 Pantin (France)",
+            "offer_type": "data",
+            "score": 78,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                10
+            ],
+            "skills_section": [
+                "Excel avancé",
+                "Power BI",
+                "Python",
+                "pandas",
+                "matplotlib",
+                "scikitlearn"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Business Data Analyst H/F au sein de BNP Paribas France. Actuellement en cinquième année à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et à mon parcours académique.\n\nAu cours de mon stage chez Arrow, j'ai développé des outils d'analyse de données et automatisé divers processus. Ces expériences m'ont permis de maîtriser Excel avancé ainsi que Python pour le nettoyage et la préparation des données. J'ai également créé plusieurs dashboards en utilisant des librairies comme pandas, numpy, seaborn et matplotlib.\n\nMon expérience en tant que Data analyst freelance a renforcé mes compétences en matière de reporting automatisé et d'ETL. Je suis capable de collecter, structurer et enrichir les bases de données pour produire des rapports et tableaux de bord pertinents. De plus, je possède une solide compréhension des statistiques descriptives et inférentielles.\n\nJe suis convaincu que mes compétences en analyse de données, ma connaissance approfondie d'Excel et mon expérience avec Power BI me permettront de contribuer efficacement à vos projets stratégiques et opérationnels. Je serais ravi de pouvoir apporter mon expertise pour améliorer les reportings existants et participer activement au développement des outils analytiques.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "URL": "https://www.jobteaser.com/en/job-offers/e76baaa4-39ca-4793-b181-06fd25fca6a6-back-market-customer-care-data-analyst-intern",
+            "company": "Back Market",
+            "location": "Bordeaux, Gironde (France)",
+            "offer_type": "data",
+            "score": 78,
+            "skills": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                11
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "scikitlearn",
+                "Statistiques",
+                "Tableau"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Customer Care Data Analyst Intern au sein de Back Market. Actuellement en cinquième année à l'ECAM Lyon dans une spécialisation Supply Chain Management, je suis particulièrement intéressé par les opportunités qui permettent d'allier des compétences techniques et analytiques.\n\nDurant mon stage chez Arrow, j'ai pu créer plusieurs outils de monitoring en utilisant Python et Excel. Ces expériences m'ont permis de développer une expertise dans le nettoyage et la préparation des données, ainsi que dans l'automatisation de processus. De plus, ma formation à FreeCodeCamp et sur HarvardX a renforcé mes compétences en analyse de données avec Python et ScikitLearn.\n\nJe suis également familier avec les outils tels que Tableau et Google Sheets, qui sont mentionnés dans le profil recherché pour ce poste. J'ai réalisé des projets personnels où j'utilisais ces outils pour créer des dashboards et des rapports automatisés, en mettant l'accent sur la visualisation de données et le storytelling.\n\nAu cours de mon stage chez Amazon DAR1, j'ai acquis une solide compréhension du processus logistique, ce qui m'a permis d'appliquer mes compétences analytiques pour résoudre des problèmes liés à l'optimisation de la chaîne d'approvisionnement. Ces expériences me permettent aujourd'hui de proposer une approche data-driven dans le cadre du poste proposé.\n\nJe suis convaincu que mon parcours académique et professionnel, combiné avec mes compétences en analyse de données et ma connaissance des outils nécessaires pour ce rôle, me positionne comme un candidat idéal pour contribuer à l'équipe Back Market. Je serai ravi d'approfondir cette opportunité lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
+        }
+    ]
+}

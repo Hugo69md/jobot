@@ -1,0 +1,85 @@
+{
+    "offer_name": "Stage Ingénieur(e) Automatisation Data (F/H)",
+    "offer_company": "Groupe SII",
+    "offer_type": "data",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en analyse de données approfondie avec Python et Excel, index 11 car stage ouvrier avec initiation au 5S (mentionné dans les missions)",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "Automatisation",
+        "Big Data",
+        "5G"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage Ingénieur(e) Automatisation Data au sein du Groupe SII. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé(e) dans la Supply Chain Management et j'ai développé une solide expérience en automatisation des processus via Python.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et d'automatisation de processus. Ces expériences m’ont permis de développer un intérêt pour la résolution de problèmes complexes par l’automatisation des tâches répétitives.\n\nJe maîtrise parfaitement Python, pandas, numpy, seaborn, matplotlib et scikitlearn, ce qui correspond bien aux compétences requises pour le poste. De plus, j'ai suivi une formation en data analysis avec python et une autre sur les bases de la data science axée sur l'utilisation de ScikitLearn.\n\nJe suis convaincu(e) que mes expériences et mon intérêt pour l'automatisation des processus me permettront d’apporter une contribution significative à votre équipe. Je serais ravi(e) de participer à la compréhension des procédures menées par les équipes télécom, ainsi qu'à la conception et à l'optimisation des workflows existants.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en gestion de la chaîne logistique industrielle. Cette formation inclut des modules sur l'automatisation, le big data et les technologies 5G.",
+            "keywords_injected": [
+                "Automatisation",
+                "Big Data",
+                "5G"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. Utilisation de Python pour le monitoring et l'amélioration des workflows existants dans un contexte télécom.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette expérience a renforcé mes compétences en automatisation et en traitement de données.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, mettant à profit mes compétences en Python et en automatisation.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage dans le cadre d'études d'ingénieur, où j'ai contribué à la préparation de routes et à l'initiation du processus 5S, en mettant l'accent sur l'amélioration continue des procédures.",
+            "keywords_injected": [
+                "préparation de routes",
+                "5S"
+            ]
+        }
+    ]
+}

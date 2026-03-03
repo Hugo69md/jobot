@@ -1,0 +1,81 @@
+{
+    "offer_name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+    "offer_company": "Lindt & Sprüngli",
+    "offer_type": "data",
+    "score": 76,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        4,
+        5,
+        3
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus, index 6 car approfondissement des compétences en analyse de données et statistiques, index 4 car formation en data analysis avec python, index 5 car introduction à la data science axée sur les modèles de prédiction, index 3 car initiative entrepreneuriale et travail d'équipe",
+    "skills_section": [
+        "Excel avancé",
+        "Python",
+        "pandas",
+        "numpy",
+        "Statistiques",
+        "Supply Chain"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de STAGE - Assistant(e) Chargé(e) de Développement Business BtoB au sein de Lindt & Sprüngli. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai une solide expérience en gestion des données.\n\nAu cours de mon parcours professionnel, j'ai acquis des compétences clés qui correspondent parfaitement aux missions proposées par votre offre. Par exemple, lors de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus en utilisant Python et Excel, ce qui me permettrait d'établir efficacement les devis clients et de suivre les commandes et livraisons.\n\nDe plus, ma formation m'a permis de développer des compétences essentielles pour la gestion commerciale. J'ai notamment appris à utiliser des outils comme Excel avancé, Power Query et Power Pivot qui sont nécessaires pour animer une base de données BtoB et mettre en place un planning d'animation efficace.\n\nJe suis également capable de contribuer activement au suivi des tableaux de bord grâce à mes compétences en data visualization acquises lors de mon stage chez Arrow. De plus, j'ai acquis une expérience pratique dans la mise en place et le suivi des conventions de partenariats avec les CSE et les plateformes CSE.\n\nEnfin, je suis convaincu que ma capacité à travailler en équipe et mon autonomie me permettront d'apporter une contribution significative au développement commercial de Lindt & Sprüngli. Je serais ravi de pouvoir mettre mes compétences au service de votre entreprise.\n\nJe reste à votre disposition pour un entretien afin de vous présenter plus en détail ma candidature et mon projet professionnel.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et d'automatisation des processus. J'ai travaillé sur les schémas de ruptures et les non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils",
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe.",
+            "keywords_injected": [
+                "travail en équipe",
+                "entreprenariat"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation visant à apprendre les bases de l'analyse de données avec Python, notamment les librairies Numpy et pandas.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur les modèles de prédiction en data science avec Python et la librairie ScikitLearn.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "Approfondissement des compétences en analyse de données, création d'un portfolio avec plusieurs projets open source et un add-on pour ERP spécialisé.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "statistiques"
+            ]
+        }
+    ]
+}

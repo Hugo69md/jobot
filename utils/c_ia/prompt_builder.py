@@ -65,30 +65,36 @@ def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: s
             "competences": offer.get("competences", []),
         }, ensure_ascii=False)
     else:
+        print("fallback data AAAAAAAAAAAAAAAAAAAAAAAA")
         # Fallback: use first 800 chars of raw content
         offer_text = json.dumps({
             "name": offer.get("name", ""),
             "company": offer.get("company", ""),
             "location": offer.get("location", ""),
-            "content": offer.get("content", "")[:800],
+            "content": offer.get("content", "")[:2000],
         }, ensure_ascii=False)
 
-    return f"""Tu es un expert recrutement. Score cette offre de stage pour ce candidat.
+    return f"""
+*** CONTEXTE ***:
+        
+Tu es en recherche de stage. tu dois appliquer un score à cette offre pour determiner si le stage est interessant pour toi ou non.
 
+*** PROFIL / EXPERIENCES ***:
 {cv_summary}
 
-OFFRE:
+*** OFFRE ***:
 {offer_text}
 
-CRITÈRES DE SCORING (total 100 pts):
-1. **Correspondance compétences** (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
+*** CRITÈRES DE SCORING ***:
+- Sur un (total 100 pts) applique ce scoring:
+1. *Correspondance compétences* (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
    - t_prio skills match avec section competence = 1 point pour chaque compétence matchée
    - prio skills match avec section competence = 0.5 point pour chaque compétence matchée
    - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée
-2. Formation/niveau (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
-3. Prestige entreprise (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
-4. Localisation (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
-5. Période (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
+2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
+3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
+4. *Localisation* (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, >20km = 0
+5. *Période* (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{"name": "nom exact de l'offre", "score": 80.0 (for example)}}"""
@@ -149,9 +155,6 @@ Voici les {len(selected_experiences)} expériences sélectionnées pour ce CV :
 ---
 
 INSTRUCTIONS :
-- il doit y avoir Exactement 6 experiences selcionnées (pas plus, pas moins)
-- Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 , "name" : 'Etudiant - ECAM Lyon', même si ce n'est pas pertinent pour l'offre.
-Pour les 5 expériences restantes, tu dois :
 
 1. Identifier les mots-clés de l'offre (champs "competences" et "missions") qui sont pertinents pour cette expérience spécifique.
 2. Vérifier que ces mots-clés sont présents dans le catalogue "skills" du candidat — n'invente JAMAIS de compétences que le candidat ne possède pas.
@@ -328,6 +331,7 @@ def build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
             "index":          exp["index"],
             "name":           exp["name"],
             "categorization": exp["categorization"],
+            "description":    exp.get("description", ""),
             "skills":         exp.get("skills", []),
         })
 
@@ -338,14 +342,29 @@ def build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
         "competences": best_offer.get("competences", []),
     }
 
-    return f"""Tu es un expert recrutement. Sélectionne les 6 expériences du CV les plus pertinentes pour cette offre.
+    return f"""
 
-EXPÉRIENCES DU CANDIDAT:
+*** CONTEXTE ***:    
+Tu es un expert recrutement et tu apporte ton expertise à un etudiant ingénieur pour trouver un stage
+
+*** EXPÉRIENCES DU CANDIDAT ***:
 {json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
 
-OFFRE:
+*** OFFRE ***:
 {json.dumps(offer_summary, ensure_ascii=False, indent=2)}
 
+*** INSTRUCTIONS ***:
+- Tu dois selectionner Exactement 6 experiences (pas plus, pas moins)
+- Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 , "name" : 'Etudiant - ECAM Lyon', même si ce n'est pas pertinent pour l'offre.
+Pour les 5 expériences restantes, tu dois :
+1. Mettre en perspective les missions et competences de l'offre avec les skills et description de chaque expérience du candidat
+2. Selectionner les experiences les plus pertinentes pour l'offre, même si elles ne sont pas parfaitement alignées
+
+*** ATTENTION ***: 
+1. NE DOIS PAS SEULEMENT SE FOCALISER SUR LES EXPERIENCES QUI ONT DES COMPETENCES MATCHANT EXACTEMENT CELLES DE L'OFFRE, MAIS AUSSI PRENDRE EN COMPTE LA PERTINENCE GLOBALE DE L'EXPERIENCE PAR RAPPORT AUX MISSIONS PROPOSÉES DANS L'OFFRE. IL PEUT Y AVOIR DES EXPERIENCES TRÈS PERTINENTES MÊME S'IL N'Y A PAS DE MATCH DE COMPETENCES PARFAIT, CAR ELLES PEUVENT AVOIR DES TÂCHES OU RÉALISATIONS TRANSVERSALES UTILES POUR LE POSTE.
+2. LA PREMIERE EXPERIENCE DOIT TOUJOURS AVOIR L'INDEX 1 ET LE NAME "Etudiant - ECAM Lyon" C'EST LA BASE DU CV. LES 5 EXPERIENCES SUIVANTES SONT À OPTIMISER POUR L'OFFRE EN QUESTION SELON LES INSTRUCTIONS CI-DESSUS.
+
+*** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:
 {{"skills": [index1, index2, index3, index4, index5, index6]}}"""
 

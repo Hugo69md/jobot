@@ -1,15 +1,13 @@
 import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
-from utils.c_ia.prompt_builder import (
-    build_domain_classification_prompt,
-    build_extraction_prompt,
-    build_single_offer_scoring_prompt,
-    build_experience_selection_prompt,
-    build_resume_prompt,
-    build_cover_letter_prompt,
-    build_skills_section_prompt,
-)
+from utils.c_ia.prompts.step_0.build_domain_classification_prompt import build_domain_classification_prompt
+from utils.c_ia.prompts.step_1.build_extraction_prompt import build_extraction_prompt
+from utils.c_ia.prompts.step_2.build_single_offer_scoring_prompt import build_single_offer_scoring_prompt
+from utils.c_ia.prompts.step_3a.build_experience_selection_prompt import build_experience_selection_prompt
+from utils.c_ia.prompts.step_3a.build_resume_prompt import build_resume_prompt
+from utils.c_ia.prompts.step_3b.build_cover_letter_prompt import build_cover_letter_prompt
+from utils.c_ia.prompts.step_4.build_skills_section_prompt import build_skills_section_prompt
 
 
 USER_PROMPT = (

@@ -100,9 +100,9 @@ def generate_cv_pdf(
 
     # ─── EXPERIENCES SECTION ─────────────────────────────────────
     categories_order = [
-        ("experiences_pro",  "Expériences Professionnelles"),
         ("etudes",           "Formation"),
         ("certifications",   "Certifications & Formations"),
+        ("experiences_pro",  "Expériences Professionnelles"),
         ("projets_perso",    "Projets Personnels"),
         ("benevolat",        "Bénévolat & Associations"),
     ]
@@ -205,8 +205,8 @@ def generate_cover_letter_pdf(
     output_path: str,
     cv_data: dict,
     match: dict,
-    is_supply_chain: bool,
     date: str,
+    signature_path: str = os.path.join("inputs", "signature.png"),  # ← NEW
 ):
     """Generate a clean French-format cover letter as PDF."""
 
@@ -253,7 +253,7 @@ def generate_cover_letter_pdf(
     elements.append(Paragraph(f"Le {french_date}", styles["date"]))
     elements.append(Spacer(1, 10 * mm))
 
-    # ─── OBJECT LINE ─────────────────────────────────────────────
+    # ─── OBJECT LINE ─────────────��───────────────────────────────
     elements.append(Paragraph(
         f"<b>Objet :</b> Candidature — {offer_name}",
         styles["object"]
@@ -269,8 +269,40 @@ def generate_cover_letter_pdf(
             elements.append(Paragraph(para_text, styles["body"]))
             elements.append(Spacer(1, 2 * mm))
 
-    doc.build(elements)
+    # ─── SIGNATURE BLOCK ─────────────────────────────────────────
+    elements.append(Spacer(1, 8 * mm))
 
+    # Name + signature image aligned to the right
+    if os.path.exists(signature_path):
+        sig_image = Image(signature_path, width=40 * mm, height=20 * mm)
+        sig_image.hAlign = "RIGHT"
+
+        sig_table = Table(
+            [[
+                "",  # empty left cell to push everything right
+                [
+                    Paragraph(nom, styles["signature_name"]),
+                    Spacer(1, 2 * mm),
+                    sig_image,
+                ]
+            ]],
+            colWidths=[95 * mm, 65 * mm],
+        )
+        sig_table.setStyle(TableStyle([
+            ("VALIGN",        (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING",   (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING",  (0, 0), (-1, -1), 0),
+            ("TOPPADDING",    (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        elements.append(sig_table)
+    else:
+        # No signature image — just the name right-aligned
+        print(f"  [WARN] Signature not found: {signature_path} — name only")
+        elements.append(Paragraph(nom, styles["signature_name"]))
+
+    # ─── BUILD PDF ───────────────────────────────────────────────
+    doc.build(elements)
 
 # ═══════════════════════════════════════════════════════════════
 #  STYLES
@@ -353,6 +385,11 @@ def _get_cl_styles():
             "cl_body", parent=base["Normal"],
             fontSize=10, leading=15, textColor=COLOR_TEXT,
             alignment=TA_JUSTIFY, firstLineIndent=10 * mm,
+        ),
+        "signature_name": ParagraphStyle(       # ← NEW
+            "cl_signature_name", parent=base["Normal"],
+            fontSize=10, leading=14, textColor=COLOR_TEXT,
+            alignment=TA_LEFT, fontName="Helvetica-Bold",
         ),
     }
 

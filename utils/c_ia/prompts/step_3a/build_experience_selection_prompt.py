@@ -31,6 +31,7 @@ Tu es un expert recrutement et tu apporte ton expertise à un etudiant ingénieu
 {json.dumps(offer_summary, ensure_ascii=False, indent=2)}
 
 *** INSTRUCTIONS ***:
+- Tu dois d'abord regarder toutes les experiences du candidat avant de faire ton choix
 - Tu dois selectionner Exactement 6 experiences (pas plus, pas moins)
 - Tu dois TOUJOURS incorporer l'experience avec l'index numero 1 , "name" : 'Etudiant - ECAM Lyon', même si ce n'est pas pertinent pour l'offre.
 Pour les 5 expériences restantes, tu dois :

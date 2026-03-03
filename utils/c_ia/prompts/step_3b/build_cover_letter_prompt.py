@@ -10,9 +10,9 @@ def build_cover_letter_prompt(cv_data: dict, best_offer: dict, user_prompt: str)
 
     return f"""Tu es un expert en recrutement. Le candidat suivant cherche un stage de fin d'études.
 
-CONTEXTE: {user_prompt}
+*** CONTEXTE ***: {user_prompt}
 
-PROFIL DU CANDIDAT:
+*** PROFIL DU CANDIDAT ***:
 - Nom: {perso.get("nom", "Hugo MANIPOUD")}
 - Email: {perso.get("mail", "")}
 - Téléphone: {perso.get("numero", "")}
@@ -20,15 +20,15 @@ PROFIL DU CANDIDAT:
 - Phrase intro Data: {perso.get("phrase_intro", {}).get("data", "")}
 - Phrase intro Supply Chain: {perso.get("phrase_intro", {}).get("supply_chain", "")}
 
-EXPÉRIENCES (avec index):
+**** EXPÉRIENCES (avec index) ***:
 {json.dumps(experiences, ensure_ascii=False, indent=2)}
 
-COMPÉTENCES (indexées):
+*** COMPÉTENCES (indexées) ***:
 {json.dumps(skills, ensure_ascii=False, indent=2)}
 
 ---
 
-OFFRE SÉLECTIONNÉE (score: {best_offer.get("score")}):
+*** OFFRE SÉLECTIONNÉE (score: {best_offer.get("score")}) ***:
 {json.dumps({
     "name": best_offer.get("name"),
     "company": best_offer.get("company"),
@@ -40,14 +40,17 @@ OFFRE SÉLECTIONNÉE (score: {best_offer.get("score")}):
 
 ---
 
-INSTRUCTIONS:
+*** INSTRUCTIONS ***:
 Rédige une lettre de motivation en FRANÇAIS (250-350 mots), personnalisée pour cette offre.
+N'iNVENTE AUCUNE INFORMATION QUI N'EST PAS PRÉSENTE DANS LE CV OU L'OFFRE
 - Commence par "Madame, Monsieur,"
 - Termine par "En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
 - Utilise \\n pour les sauts de ligne
 - PAS d'en-tête (pas de date, pas d'adresse)
-- Mets en avant les expériences et compétences qui matchent les missions et compétences de l'offre
+- Mets en avant les expériences et compétences du candidat qui matchent les missions et compétences de l'offre
 - Mentionne l'entreprise et le poste par leur nom
+
+*** FORMAT DE RÉPONSE ***:
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
 {{

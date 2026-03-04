@@ -85,7 +85,7 @@ def run_pdf_generation(date: str):
         }
 
         # ── selected experience indexes ───────────────────────────
-        skill_indexes = match.get("skills", [])
+        skill_indexes = match.get("selected_indexes", [])
         selected_experiences = [
             exp for exp in cv_data.get("experiences", [])
             if exp.get("index") in skill_indexes

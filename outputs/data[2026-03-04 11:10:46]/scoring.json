@@ -1,0 +1,52 @@
+{
+    "scoring": [
+        {
+            "name": "Stage Assistant ADV, Saint-Ouen, 93 (H/F)",
+            "score": 92,
+            "C1": {
+                "reason": "Correspondance compétences: Excel avancé et Python (t_prio) +2, Pivot Tables et Power Query (prio) +0.5, Reporting automatisé (bonus) +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Samsung Electronics France (entreprise internationale reconnue) = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Saint-Ouen-sur-Seine à moins de 15km de Paris, donc score max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieur.e d'Etudes et Développement Informatique F/H",
+            "score": 47,
+            "C1": {
+                "reason": "Le candidat ne possède pas de compétences correspondant aux t_prio, prio ou bonus spécifiés dans l'offre (Java, Angular, Architectures micro-services, Bases de données relationnelles et non relationnelles, Cloud et DevOps).",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est en dernière année d'école d'ingénieur, ce qui correspond au niveau requis par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Lyon est la localisation de l'offre et correspond à une ville cible pour le candidat.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "La période du stage n'est pas spécifiée dans l'offre, mais le candidat recherche un stage début juin 2026. Il est donc difficile d'évaluer la pertinence de cette offre en fonction de ce critère.",
+                "score": 10
+            },
+            "C5": {
+                "reason": "VINCI Energies n'est pas une entreprise du CAC40 ou S&P500, mais elle est reconnue dans son secteur. Le score sera donc inférieur à la valeur maximale pour le prestige de l'entreprise.",
+                "score": 12
+            }
+        }
+    ]
+}

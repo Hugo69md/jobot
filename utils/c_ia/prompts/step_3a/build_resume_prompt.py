@@ -33,6 +33,7 @@ def build_resume_prompt(cv_data: dict, best_offer: dict, experience: dict) -> st
 {json.dumps(experience, ensure_ascii=False, indent=2)}
 
 *** INSTRUCTIONS ***:
+0. Sert toi du champs "type" de l'expérience pour comprendre le domaine de l'expérience (ex: data, supply chain, ouvrier...) et mieux comprendre la nature de l'expérience et son potentiel match avec l'offre
 1. Identifie les mots-clés de l'offre ("missions" + "competences_offre") pertinents pour CETTE expérience spécifique.
 2. Vérifie que ces mots-clés sont dans le catalogue "all_candidate_skills" du candidat
 3. Réécris uniquement le champ "description" en :

@@ -57,7 +57,7 @@ def generate_cv_pdf(
 
     perso        = cv_data.get("Perso", [{}])[0]
     all_experiences = cv_data.get("experiences", [])
-    skills_data  = cv_data.get("skills", [{}])[0] if cv_data.get("skills") else {}
+    skills_data  = cv_data.get("all_candidate_skills", [{}])[0] if cv_data.get("all_candidate_skills") else {}
 
     nom          = perso.get("nom", "Hugo MANIPOUD")
     numero       = perso.get("numero", "")
@@ -124,7 +124,7 @@ def generate_cv_pdf(
             exp_index  = exp.get("index")
             exp_name   = exp.get("name", "")
             exp_period = exp.get("period", "")
-            exp_skills = exp.get("skills", [])
+            exp_skills = exp.get("specific_skills", [])
             exp_link   = exp.get("link", "")
 
             # ── Use tailored description if available, else original ──
@@ -179,7 +179,7 @@ def generate_cv_pdf(
     skills_parts = []
 
     # 1) Languages (always first, from cv.json → skills[0] → langue)
-    skills_raw = cv_data.get("skills", [{}])[0]
+    skills_raw = cv_data.get("all_candidate_skills", [{}])[0]
     for lang in skills_raw.get("langue", []):
         skills_parts.append(f"<b>{lang['name']}</b> : {lang['level']}")
 

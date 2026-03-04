@@ -1,0 +1,86 @@
+{
+    "offer_name": "Stage Assistant ADV, Saint-Ouen, 93 (H/F)",
+    "offer_company": "Samsung Electronics France",
+    "offer_type": "supply_chain",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        9,
+        10,
+        11
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénierie avec une spécialisation en supply chain management qui correspond directement aux missions du stage, index 2 car il y a eu une première immersion professionnelle dans la supply chain et création d'outils de monitoring, index 6 car l'expérience freelance en data analyst apporte des compétences en analyse de données pertinentes pour le suivi des commandes et la gestion des stocks, index 9 car l'initiation à la gestion d'entrepôt est pertinente pour piloter les flux de produits, index 10 car l'expérience ouvrière chez Adopte un Mac montre une capacité pratique en préparation et test de composants qui peut être utile dans le suivi des commandes et livraisons, index 11 car le stage chez Amazon DAR1 apporte une expérience directement liée à la supply chain avec l'initiation au 5S et picking",
+    "skills_section": [
+        "Supply Chain Management",
+        "Excel",
+        "Python",
+        "Analyse des données",
+        "gestion des stocks",
+        "data processing"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage Assistant ADV à Samsung Electronics France. Actuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, spécialisée en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nAu cours de mon stage chez Arrow, j'ai eu l’occasion de créer plusieurs outils d'analyse de données et d'automatisation de processus dans le domaine de la supply chain. Ces expériences m'ont permis de développer des compétences en Excel avancé, Python (pandas, numpy, seaborn, matplotlib) et en analyse de données qui sont directement applicables aux missions du poste.\n\nJe suis également familier avec les systèmes ERP Oracle que j'ai utilisés lors de mon stage chez Amazon. Ces expériences m'ont permis d’acquérir une solide compréhension des processus logistiques et de la gestion des stocks, ainsi qu'une capacité à analyser les niveaux de stock pour proposer des ajustements.\n\nDe plus, j'ai suivi plusieurs formations en data analysis avec Python, ce qui m'a permis d'approfondir mes compétences en nettoyage et préparation des données, en visualisation et en automatisation. Ces compétences me permettront de contribuer efficacement aux missions liées à l’analyse des données pour identifier les tendances et proposer des actions correctives.\n\nJe maîtrise parfaitement Excel avancé (Pivot Tables, Power Query) et je suis capable d’établir des factures clients en respectant les délais et conditions contractuelles. Je suis également à l’aise avec la gestion des impayés et le suivi des relances.\n\nJe parle couramment anglais, ce qui me permettra de collaborer efficacement avec vos équipes internationales.\n\nMotivé(e) par cette opportunité d'intégrer Samsung Electronics France pour compléter mon parcours professionnel dans un environnement dynamique et innovant, je reste à votre disposition pour en discuter plus en détail lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre demande des compétences en Supply Chain Management, Excel et PPT. Le candidat a une spécialisation en industrial supply chain management et utilise Excel avancé.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en gestion de la chaîne logistique industrielle, utilisant régulièrement Excel pour l'analyse des données et la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Excel"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python et Excel, contribuant ainsi au monitoring efficace des stocks et aux analyses préventives des non-conformités.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre demande des compétences en Excel et Python, ainsi que l'analyse de données. L'expérience du candidat dans le domaine de la data et des statistiques est pertinente.",
+            "description_tailored": "Approfondissement de mon intérêt pour l'analyse de données et les statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, utilisant Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "reasoning": "L'offre demande des compétences en Supply Chain Management, Excel et Anglais. L'expérience initiale inclut une initiation à la gestion logistique qui peut être liée aux missions de l'offre.",
+            "description_tailored": "Initiation à la gestion d'entrepôt avec préparation et transport de palettes, ainsi que formation sur les principes fondamentaux de la supply chain management. Utilisation d'Excel pour le suivi des opérations logistiques.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Excel"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "reasoning": "L'offre demande des compétences en gestion de la chaîne d'approvisionnement et analyse de données. Bien que l'expérience ne soit pas directement liée, les compétences en Excel peuvent être mises en avant.",
+            "description_tailored": "Réparation et préparation à la vente d'ordinateurs MacBook, incluant le test des écrans, batteries, claviers et composants internes. Utilisation de tableaux croisés dynamiques (Pivot Tables) pour analyser les données de réparations.",
+            "keywords_injected": [
+                "Excel",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "L'offre demande des compétences en gestion de la chaîne d'approvisionnement, analyse et reporting. Le stage chez Amazon inclut la préparation de routes et le picking, qui sont pertinents pour l'offre.",
+            "description_tailored": "Stage ouvrier dans le cadre d'études d'ingénieur, impliquant la préparation de routes et le picking avec initiation et maîtrise du 5S. Expérience en gestion des stocks et analyse des flux logistiques.",
+            "keywords_injected": [
+                "gestion des stocks",
+                "analyse des flux logistiques"
+            ]
+        }
+    ]
+}

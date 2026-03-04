@@ -139,7 +139,7 @@ def run_ia(date: str):
             c3 = min(result["C3"].get("score", 0), 20)
             c4 = min(result["C4"].get("score", 0), 15)
             c5 = min(result["C5"].get("score", 0), 15)
-            final_score = c1 + c2 + c3 + c4 + c5, 1
+            final_score = c1 + c2 + c3 + c4 + c5
 
             score_entry = {
                 "name":    result.get("name", offer_name),
@@ -320,7 +320,7 @@ def run_ia(date: str):
             "location":     offer_full.get("location", ""),
             "offer_type":   offer_type,
             "score":        scored["score"],
-            "skills":       selected_indexes,
+            "selected_indexes":       selected_indexes,
             "skills_section": cv_skills_section,
             "cover_letter": cover_letter_data.get("text", ""),
             "resume":       tailored_resume,

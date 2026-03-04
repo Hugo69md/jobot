@@ -26,14 +26,14 @@ def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: s
     cv_summary = _build_cv_summary(cv_data)
 
     # Use structured fields if available (from extraction step), else fall back to content
-    if offer.get("competences"):
+    if offer.get("competences_offre"):
         offer_text = json.dumps({
             "name": offer.get("name", ""),
             "company": offer.get("company", ""),
             "location": offer.get("location", ""),
             "profil_recherche": offer.get("profil_recherche", ""),
             "missions": offer.get("missions", []),
-            "competences": offer.get("competences", []),
+            "competences_offre": offer.get("competences_offre", []),
         }, ensure_ascii=False)
     else:
         print("fallback data AAAAAAAAAAAAAAAAAAAAAAAA")
@@ -58,7 +58,7 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
 
 *** CRITÈRES DE SCORING ***:
 - Sur un (total 100 pts) applique ce scoring:
-1. *Correspondance compétences* (40 pts) : Les compétences demandées dans l'offre correspondent-elles aux compétences du candidat (supply_chain et/ou data) ?
+1. *Correspondance compétences* (40 pts) : Les compétences_offre demandées dans l'offre correspondent-elles aux compétence du candidat (all_candidate_skills) (supply_chain et/ou data) ?
    - t_prio skills match avec section competence = 1 point pour chaque compétence matchée
    - prio skills match avec section competence = 0.5 point pour chaque compétence matchée
    - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée

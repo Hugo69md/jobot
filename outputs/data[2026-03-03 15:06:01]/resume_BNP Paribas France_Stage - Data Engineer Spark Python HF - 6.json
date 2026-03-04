@@ -1,0 +1,85 @@
+{
+    "offer_name": "Stage - Data Engineer Spark Python H/F - 6 mois",
+    "offer_company": "BNP Paribas France",
+    "offer_type": "data",
+    "score": 78,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur avec une spécialisation en supply chain management qui est pertinente pour l'offre de stage data engineer, index 2 car il y a une première immersion professionnelle dans la supply chain et création d'outils d'analyse de données avec python/excel, index 4 car formation approfondie sur les bases du domaine de l'analyse de données avec python, index 5 car introduction à la data science axée sur les modèles de prédiction avec python comme support, index 6 car approfondissement de son intérêt pour le domaine de la data et des statistiques avec création d'un portfolio avec plusieurs projets open source et semi-automatisations, index 10 car réparation/préparation à la vente d'ordinateurs MacBook implique une bonne compréhension technique qui peut être utile dans un contexte de data engineering",
+    "skills_section": [
+        "Python",
+        "SQL",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "Statistiques descriptive"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Data Engineer Spark Python H/F à BNP Paribas France. Actuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nAu cours de mon stage chez Laboratoire Arrow en 2024, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python et Excel. Cette expérience m'a permis de développer une solide expertise dans le nettoyage et la préparation des données, ainsi que dans l'automatisation des workflows.\n\nPar ailleurs, j'ai suivi deux formations en ligne : \"Data analysis with python\" sur Freecodecamp et \"Introduction to Data science\" sur HarvardX. Ces formations m'ont permis de maîtriser les bibliothèques pandas, numpy, matplotlib, seaborn ainsi que scikitlearn.\n\nEn tant que data analyst freelance depuis janvier 2025, j'ai créé un portfolio avec plusieurs projets open source et semi-automatisés. Ces expériences m'ont permis d'affiner mes compétences en Python, Excel avancé et en statistiques descriptives et inférentielles.\n\nJe suis convaincu que mon parcours académique et professionnel me permettra de contribuer efficacement à garantir la cohérence, la qualité et la performance des assets data de BNP Paribas France. J'ai hâte d'apporter ma contribution au soutien de la fiabilité et de l'efficacité des solutions data utilisées par les équipes métier et IT.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur l'analyse de données et la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "supply chain management",
+                "data-driven decision making"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. Utilisation de Python pour le monitoring et l'amélioration de la qualité dans les entrepôts.",
+            "keywords_injected": [
+                "Python",
+                "Data Analysis",
+                "Automation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en ligne visant à acquérir les bases de l'analyse de données avec Python, incluant le codage et la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data Science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation contribue à renforcer les compétences en data science nécessaires pour garantir la qualité et la performance des assets data.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi ma compréhension des statistiques et de la manipulation des données en créant un portfolio avec plusieurs projets open source. Ces projets incluent notamment l'automatisation de processus et le développement d'un add-on pour un ERP spécialisé dans les boites de comptabilités.",
+            "keywords_injected": [
+                "Python",
+                "Statistiques inférentielle",
+                "Statistiques descriptive",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "description_tailored": "Responsable de la réparation et de la préparation à la vente d'ordinateurs MacBook, incluant des tests approfondis (écran, batterie, clavier, composants internes) ainsi que des réparations spécifiques comme celle des claviers, batteries, disques durs et RAM.",
+            "keywords_injected": [
+                "Python",
+                "SQL"
+            ]
+        }
+    ]
+}

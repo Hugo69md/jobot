@@ -324,6 +324,7 @@ def run_ia(date: str):
             "skills":       selected_indexes,
             "skills_section": cv_skills_section,
             "cover_letter": cover_letter_data.get("text", ""),
+            "resume":       tailored_resume,
         })
 
     # ════���═════════════════════════════════════════════════════════

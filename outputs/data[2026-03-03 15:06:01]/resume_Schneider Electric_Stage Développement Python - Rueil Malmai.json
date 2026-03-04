@@ -1,0 +1,87 @@
+{
+    "offer_name": "Stage Développement Python - Rueil Malmaison",
+    "offer_company": "Schneider Electric",
+    "offer_type": "data",
+    "score": 77,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en analyse de données approfondie avec Python et Excel, index 7 car bénévolat mais pas pertinent pour les compétences requises",
+    "skills_section": [
+        "Python",
+        "logique algorithmique",
+        "simulation",
+        "Numpy",
+        "pandas",
+        "Matplotlib"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage Développement Python à Schneider Electric basé à Rueil-Malmaison. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par les opportunités qui me permettront de développer mes compétences techniques et professionnelles.\n\nAu cours de mon parcours académique et professionnel, j'ai acquis une solide expérience en Python, notamment dans le cadre de mon stage chez Arrow où j'ai créé plusieurs outils d'analyse de données et automatisé des processus. Ces expériences m'ont permis de développer une expertise en manipulation de données, nettoyage et préparation des données, ainsi qu'en visualisation avec les bibliothèques pandas, numpy, seaborn et matplotlib.\n\nJe suis également familier avec l'utilisation d'Excel avancé pour la création de rapports et l'analyse de données. Ces compétences me permettront de contribuer efficacement aux missions proposées par Schneider Electric, notamment dans le développement des tests unitaires et d'intégration bout-en-bout.\n\nDe plus, mon expérience en gestion logistique acquise lors de mon stage chez Amazon m'a permis de comprendre l'importance du respect des processus et de la rigueur méthodologique. Ces qualités seront précieuses pour analyser l'architecture logicielle existante et mettre en place un framework de tests.\n\nJe suis également à l'aise avec Git et la gestion de versions, ce qui facilitera ma collaboration avec votre équipe sur des projets complexes comme la simulation de flux de données industriels.\n\nEnfin, je suis particulièrement intéressé par les missions liées au développement de tests d'intégration bout-en-bout et à la documentation de la stratégie de validation. Ces tâches me permettront de mettre en pratique mes compétences en Python et en logique algorithmique tout en contribuant à l'amélioration des processus internes.\n\nJe serais ravi de pouvoir discuter plus en détail de ma candidature lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur la logique algorithmique et l'utilisation de Python pour le nettoyage et le traitement des données.",
+            "keywords_injected": [
+                "supply chain management",
+                "Python",
+                "logique algorithmique"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. Utilisation de Python pour le monitoring et l'identification des schémas de ruptures et non-conformités.",
+            "keywords_injected": [
+                "Python",
+                "supply chain",
+                "création outils",
+                "monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en manipulation de données et en logique algorithmique.",
+            "keywords_injected": [
+                "Python",
+                "Logique algorithmique"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mes compétences en Python et Excel pour créer un portfolio de projets open source et semi-automatisés. Ces travaux incluent la réalisation d'un add-on lucratif pour un ERP spécialisé dans les comptabilités.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation et mise en place de la représentation de la FRM lors de l'événement annuel Fête de la Science 2024, incluant la simulation des flux d'informations et la documentation des processus.",
+            "keywords_injected": [
+                "simulation",
+                "documentation"
+            ]
+        }
+    ]
+}

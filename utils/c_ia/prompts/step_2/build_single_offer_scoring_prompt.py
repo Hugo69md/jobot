@@ -64,7 +64,7 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
    - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée
 2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
 3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
-4. *Localisation* (15 pts): Lyon/Paris/Montpellier = max, -1pt par 1km au-delà, <20km = 0
+4. *Localisation* (15 pts): Lyon ou Paris ou Montpellier = max, -1pt par 1km au-delà, <20km = 0
 5. *Période* (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):

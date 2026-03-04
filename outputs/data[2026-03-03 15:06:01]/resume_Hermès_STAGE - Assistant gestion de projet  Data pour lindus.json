@@ -1,0 +1,80 @@
+{
+    "offer_name": "STAGE - Assistant gestion de projet & Data pour l'industrialisation des Cuirs & Textiles (H/F)",
+    "offer_company": "Hermès",
+    "offer_type": "data",
+    "score": 77,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur spécialisé en supply chain management et industrial supply chain management, ce qui correspond bien à l'offre de stage chez Hermès. Index 2 car il y a une première immersion professionnelle dans la supply chain avec création d'outils d'analyse de données, compétences clés pour le poste proposé. Index 4 car formation en analyse de données avec python, compétence recherchée par l'offre. Index 5 car approfondissement des modèles de prédiction avec python, utile pour réaliser les analyses ponctuelles demandées. Index 6 car maitrise approfondie de Python et Excel, essentiels pour la création d'indicateurs et l'analyse de données.",
+    "skills_section": [
+        "Analyse de données",
+        "Python",
+        "Excel avancé",
+        "PowerBI",
+        "Data Visualization",
+        "Supply Chain Management"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de STAGE - Assistant gestion de projet & Data pour l'industrialisation des Cuirs & Textiles chez Hermès. En tant qu'étudiant en 5ème année à l'ECAM Lyon, spécialisé en Supply Chain Management et doté d'une solide expérience dans l'analyse de données, je suis particulièrement motivé par cette opportunité qui allie gestion de projet et data.\n\nAu cours de mon stage chez Arrow, j'ai pu développer plusieurs outils d'analyse de données et automatiser des processus en utilisant Python et Excel. Cette expérience m'a permis de créer des indicateurs clés pour le Bureau des Matières, comme vous l'évoquez dans vos missions. De plus, mon stage chez Amazon a renforcé mes compétences en gestion de projets et en prévision de la demande, qui seront précieux pour participer à l'homogénéisation des sources de données.\n\nJe maîtrise parfaitement Excel avancé avec les fonctionnalités comme les tableaux croisés dynamiques et Power Query. Ces compétences me permettent d’assurer la justesse et l'actualisation des données, ainsi que de réaliser des analyses ponctuelles sur l'industrialisation des matières souple. En outre, mes formations en data analysis avec Python (Numpy, Pandas, Matplotlib, Seaborn) et en data science (ScikitLearn) me permettent d’être à l’aise dans le nettoyage et la préparation des données.\n\nJe suis convaincu que mon profil technique et ma motivation pour intégrer Hermès correspondent parfaitement aux attentes de ce stage. Je serais ravi de pouvoir vous rencontrer afin de discuter plus en détail de mes compétences et de l'opportunité qui m'est offerte.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données et la gestion des projets.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. Utilisation de Python et Excel pour le monitoring et l'étude des ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils d'analyse de données",
+                "Python",
+                "Excel",
+                "monitoring",
+                "ruptures",
+                "non conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en analyse de données et en data visualization, essentielles pour créer des indicateurs et assurer leur justesse et actualisation.",
+            "keywords_injected": [
+                "analyse de données",
+                "data visualization",
+                "modèles de prédiction"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio diversifié comprenant des projets open source et semi-automatisés. Parmi ces réalisations, figure un add-on pour ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "statistiques",
+                "analyse de données"
+            ]
+        }
+    ]
+}

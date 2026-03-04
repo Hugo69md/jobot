@@ -1,0 +1,87 @@
+{
+    "offer_name": "STAGE - Ingénieur(e) R&D en Développement python (F/H)",
+    "offer_company": "Groupe SII",
+    "offer_type": "data",
+    "score": 76,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science axée sur les modèles de prédiction avec Python, index 6 car approfondissement des compétences en Python pour l'analyse de données, index 11 car stage ouvrier avec initiation et maîtrise du processus 5S",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "Automatisation",
+        "modèles de prédiction",
+        "ScikitLearn"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stagiaire Ingénieur(e) R&D en Développement Python au sein du Groupe SII à Toulouse. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé des compétences solides en analyse de données et développement Python.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus en utilisant Python et Excel. Ces expériences m'ont permis de développer une expertise dans le nettoyage des données, la préparation des données et l'automatisation de workflows complexes.\n\nJ'ai également suivi une formation sur les bases du Data Science avec HarvardX-CS109x, où j'ai approfondi ma compréhension des modèles de prédiction en utilisant Python et la librairie ScikitLearn. Ces compétences me permettront d'apporter une contribution significative aux travaux d'évaluation des modèles de prédictions via des observations sol.\n\nDe plus, mon expérience en supply chain m'a permis de développer des capacités en prédiction et en analyse de données qui seront précieuses pour automatiser le processus de comparaison entre prédictions et observations de trainées de condensation. J'ai également travaillé sur l'explicabilité des modèles, ce qui me permettra d'étudier les modèles de prédiction avec rigueur.\n\nJe suis très motivé par cette opportunité de rejoindre le Groupe SII pour contribuer à vos projets R&D en Python. Je serais ravi de pouvoir discuter plus en détail des possibilités que vous proposez et de mon apport potentiel au sein de votre équipe.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. J'ai acquis des compétences en prévision de la demande et en gestion des stocks.",
+            "keywords_injected": [
+                "supply chain management",
+                "prévision de la demande"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur l'analyse de données et l'automatisation des processus. J'ai créé plusieurs outils d'analyse utilisant Python pour optimiser le monitoring des stocks et détecter les non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction en Python et l'approfondissement de la librairie ScikitLearn pour analyser et automatiser les processus d'évaluation des prédictions.",
+            "keywords_injected": [
+                "Python",
+                "prédiction",
+                "modèles de prédiction",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon expertise en Python et en automatisation pour créer un portfolio de projets open source et des solutions semi-automatisées. Un projet notable inclut la réalisation d'un add-on pour un ERP spécialisé dans les services comptables.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Au cours de ce stage d'ingénieur, j'ai contribué à la préparation des routes et à l'initiation du processus 5S. J'ai également effectué des tâches de picking en support aux opérations logistiques.",
+            "keywords_injected": [
+                "préparation des routes",
+                "initiation et maîtrise du 5S",
+                "picking"
+            ]
+        }
+    ]
+}

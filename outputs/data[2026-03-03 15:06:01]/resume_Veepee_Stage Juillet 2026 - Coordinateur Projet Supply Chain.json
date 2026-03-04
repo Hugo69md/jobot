@@ -1,0 +1,76 @@
+{
+    "offer_name": "Stage Juillet 2026 - Coordinateur Projet Supply Chain Planning H/F/X",
+    "offer_company": "Veepee",
+    "offer_type": "supply_chain",
+    "score": 89,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur spécialisé en supply chain management, ce qui correspond parfaitement à la mission du stage chez Veepee. Index 2 car il a réalisé un stage en supply chain où il a créé des outils d'analyse de données et automatisé des processus, compétences directement liées aux missions proposées par l'offre. Index 4 car la formation en analyse de données avec Python renforce ses compétences techniques nécessaires pour construire et suivre les alertes mentionnées dans le stage. Index 5 car cette certification approfondit sa compréhension des modèles de prédiction, utiles pour l'analyse des processus existants. Index 6 car en tant que data analyst freelance, il a créé un portfolio avec plusieurs projets d'automatisation et d'analyse de données, ce qui est pertinent pour la mise en œuvre des nouveaux processus mentionnée dans le stage.",
+    "skills_section": [
+        "Supply Chain Management",
+        "Excel",
+        "Python",
+        "pandas",
+        "numpy",
+        "forecasting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Coordinateur Projet Supply Chain Planning H/F/X à Veepee. Actuellement en cinquième année d’école d’ingénieur à l’ECAM Lyon, je suis spécialisé dans la supply chain management et possède une solide expérience dans ce domaine.\n\nAu cours de mon stage chez Arrow en 2024, j’ai créé plusieurs outils d'analyse de données et automatisé des processus pour améliorer l’efficacité opérationnelle. Ces expériences m’ont permis de développer un savoir-faire dans la mise en œuvre de nouveaux processus et fonctionnalités outils, ainsi que dans le suivi d’alertes pour l’amélioration continue.\n\nDe plus, mon stage chez Amazon en 2021 m’a donné une première immersion professionnelle dans la supply chain. J’ai notamment participé à la préparation de routes et acquis des compétences clés en matière de gestion des stocks et de planification de production.\n\nJe maîtrise parfaitement Excel avancé, y compris les tableaux croisés dynamiques et Power Query, outils essentiels pour l’analyse et le reporting. De plus, mon expérience avec Python (pandas, numpy, matplotlib, seaborn) me permet d'effectuer des tâches de nettoyage et préparation des données.\n\nJe suis également à l’aise en anglais courant (C1), ce qui facilitera les échanges internationaux au sein de Veepee. Mon intérêt pour la data et ma capacité à automatiser des workflows me permettront d’exécuter et analyser efficacement les processus existants.\n\nJe suis convaincu que mes compétences en supply chain, combinées à mon expertise technique, me permettront de contribuer positivement au projet Supply Chain Planning chez Veepee. Je serais ravi de discuter plus en détail des opportunités offertes par ce stage et de comment je pourrais apporter ma contribution.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur la maîtrise des outils informatiques pour l'amélioration continue de la planification.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "outils informatiques"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. Utilisation avancée d'Excel et Python pour le monitoring et l'amélioration continue des opérations logistiques.",
+            "keywords_injected": [
+                "supply chain",
+                "outil informatique",
+                "Excel",
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Acquis des compétences en statistiques descriptives pour le traitement et l'analyse des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation contribue à renforcer mes compétences en data-driven decision making et forecasting.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "forecasting"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source comprenant des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit mes compétences en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "offer_name": "STAGE - CHEF DE PROJET QUALITE SUPPLY CHAIN F/H",
+    "offer_company": "Cdiscount",
+    "offer_type": "supply_chain",
+    "score": 76,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        10,
+        11,
+        4
+    ],
+    "selection_reasoning": "index 1 car le candidat est en train de se spécialiser dans la supply chain management et génie mécanique / électrique, ce qui correspond bien à l'offre; index 2 car il y a une première immersion professionnelle dans le monde de la supply chain avec création d'outils d'analyse de données et automatisation de processus; index 6 car approfondissement de son intérêt pour le domaine de la data et des statistiques, ce qui est pertinent pour l'utilisation d'outils data et IA mentionnés dans les missions; index 10 car expérience en réparation / préparation à la vente d'ordinateurs MacBook incluant test écran / batterie / clavier / composants internes, ce qui montre une capacité de travail technique pertinente pour l'analyse des retours clients et mise en place d'indicateurs; index 11 car stage ouvrier avec préparation de routes et initiation au 5S, correspondant à la mission de réduction de casse produit et anomalies en entrepôt",
+    "skills_section": [
+        "Supply Chain Management",
+        "Analyse de données",
+        "Python",
+        "Excel avancé",
+        "Statistiques inferentielle",
+        "Data Visualization"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage Chef de Projet Qualité Supply Chain chez Cdiscount. Actuellement en cinquième année à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes aspirations professionnelles.\n\nAu cours de mon parcours académique et professionnel, j'ai acquis des compétences clés dans la gestion logistique et la supply chain. Mon stage chez Arrow m'a permis d'approfondir ma compréhension du monitoring en utilisant Python et Excel pour créer plusieurs outils d'analyse de données et d'automatisation de processus, ce qui est directement applicable aux missions que vous proposez.\n\nJe suis également familier avec les problématiques liées à la qualité et à l'amélioration continue des pratiques logistiques. Mon expérience chez Amazon m'a donné une première immersion dans la supply chain, où j'ai appris le 5S et participé au picking. Ces expériences me permettent d'appréhender les défis liés aux retours clients et à l'amélioration des processus logistiques.\n\nMon intérêt pour l’IA et la data est renforcé par mes formations en analyse de données avec Python (FreeCodeCamp) et en data science (HarvardX). Ces compétences me permettront d'analyser les retours clients, de mettre en place des indicateurs de suivi et d'utiliser des outils de data pour mieux comprendre les problèmes logistiques.\n\nJe suis également à l’aise avec Excel avancé, ce qui est un atout majeur pour la réalisation de tests, le benchmarker du marché et la formulation de recommandations concrètes. De plus, mon expérience en tant que technicien chez Adopte Un Mac a renforcé mes compétences en matière d’organisation et de priorisation.\n\nJe suis convaincu que ces expériences et compétences me permettront de contribuer efficacement à votre équipe et de mener à bien les missions du poste. Je serais ravi de pouvoir discuter plus en détail des opportunités offertes par ce stage chez Cdiscount.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données, la gestion des stocks et les processus logistiques.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. J'ai utilisé Python et Excel pour le monitoring et l'analyse des ruptures et non-conformités en entrepôt, contribuant ainsi à l'amélioration continue des pratiques logistiques.",
+            "keywords_injected": [
+                "supply chain",
+                "Python",
+                "Excel",
+                "monitoring",
+                "ruptures",
+                "non conformités",
+                "amélioration continue"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour l'analyse de données et la statistique inférentielle en créant un portfolio avec des projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, mettant en pratique mes compétences en Excel avancé et Python.",
+            "keywords_injected": [
+                "Excel",
+                "Python",
+                "Statistiques inférentielle",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "description_tailored": "Assuré la réparation et la préparation à la vente d'ordinateurs MacBook, incluant le test des écrans, batteries, claviers et composants internes. Réalisais régulièrement des tâches de maintenance et de réparation détaillées pour les claviers, batteries, disques durs et mémoires RAM.",
+            "keywords_injected": [
+                "réparation",
+                "préparation à la vente",
+                "test"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier au sein d'Amazon DAR1, où j'ai contribué à la préparation de routes et à l'amélioration continue des pratiques logistiques en maîtrisant le 5S. Cette expérience m'a permis d'initier une approche analytique pour optimiser les processus opérationnels.",
+            "keywords_injected": [
+                "préparation de routes",
+                "amélioration continue",
+                "approche analytique"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Acquis des compétences en statistiques descriptives pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        }
+    ]
+}

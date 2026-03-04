@@ -1,0 +1,88 @@
+{
+    "offer_name": "Stage - Assistant.e Chef.fe de Projets Supply Chain industrielle (F/H) - Septembre 2026",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique pertinente pour le poste, index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus, index 4 car formation en analyse de données avec python, index 5 car introduction à la data science axée sur les modèles de prédiction, index 6 car expérience freelance en tant que data analyst approfondissant l'intérêt pour le domaine de la data et des statistiques, index 11 car stage ouvrier chez Amazon impliquant préparation de routes et maîtrise du 5S",
+    "skills_section": [
+        "Supply Chain Management",
+        "Excel",
+        "Python",
+        "pandas",
+        "numpy",
+        "data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Assistant(e) Chef(fe) de Projets Supply Chain industrielle chez Louis Vuitton à partir du mois de septembre 2026. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé(e) dans la supply chain et la data, deux domaines qui correspondent parfaitement aux missions que vous proposez.\n\nAu cours de mon stage chez Arrow, j'ai pu développer des outils d'analyse de données en Python et Excel pour améliorer les processus de monitoring. Ces expériences m'ont permis de maîtriser l'utilisation d'outils tels que pandas, numpy, matplotlib et seaborn, qui sont essentiels pour le nettoyage et la préparation des données.\n\nEn outre, mon stage chez Amazon a renforcé mes compétences en gestion des stocks et en prévision de la demande. J'ai été impliqué(e) dans l'optimisation des flux logistiques et j'ai acquis une compréhension approfondie des indicateurs clés de performance (KPI), ce qui me permettrait d'animer efficacement les indicateurs de pilotage de la performance au sein de votre équipe.\n\nJe suis également à l'aise avec Excel avancé et Power BI, outils que j'ai utilisés pour automatiser des rapports et créer des dashboards. Ces compétences me permettront d'apporter une contribution significative aux projets d'amélioration des outils et processus.\n\nMa maîtrise de l'anglais au niveau C1, ainsi que mes capacités d'analyse et de synthèse, complètent parfaitement mon profil pour ce stage. Je suis convaincu(e) qu'en rejoignant votre équipe, je pourrai mettre en pratique les connaissances acquises tout en contribuant activement à l'amélioration des performances supply chain chez Louis Vuitton.\n\nJe reste à votre disposition pour un entretien afin de vous présenter plus en détail mon parcours et mes compétences. \n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données et la maîtrise des outils informatiques pour optimiser les processus industriels.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Pendant mon stage en supply chain au sein du Laboratoire Arrow à Lyon, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python et Excel. J'ai également travaillé sur les schémas de ruptures et les non-conformités dans le contexte de la gestion des entrepôts (WH).",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils d'analyse",
+                "Python",
+                "Excel",
+                "gestion des stocks",
+                "non conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Acquis des compétences en statistiques descriptives pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "Numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation renforce mes compétences en analyse de données et en data-driven decision making.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source comprenant des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit mes compétences en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier au sein d'Amazon DAR1, où j'ai contribué à la préparation des routes et à l'initiation du processus 5S. Ce stage a renforcé mes compétences en gestion de flux et en analyse de données.",
+            "keywords_injected": [
+                "gestion de flux",
+                "analyse de données"
+            ]
+        }
+    ]
+}

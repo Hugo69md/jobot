@@ -1,0 +1,88 @@
+{
+    "offer_name": "Stage - Assistant.e Supply Chain EMEA - High-End (F/H) - Mars 2026",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 89,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique pertinente pour le stage; index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus; index 4 car formation en analyse de données avec python, compétence requise par l'offre; index 5 car approfondissement des modèles de prédiction avec python, utile pour l'amélioration des outils de suivi de la supply chain; index 6 car expérience en data analyst freelance avec maitrise approfondie de Python et Excel, compétences clés demandées par l'offre",
+    "skills_section": [
+        "Supply Chain Management",
+        "Optimisation du stock",
+        "Gestion des commandes clients",
+        "Analyse de données",
+        "Python",
+        "manipulation et analyse de données chiffrées sur Excel et Power BI"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage Assistant.e Supply Chain EMEA - High-End chez Louis Vuitton à compter du mois de mars 2026. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé dans la supply chain management et j'ai développé des compétences approfondies en analyse de données.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. Ces expériences m'ont permis de développer une expertise dans la manipulation et l'analyse de données chiffrées sur Excel et Power BI, compétence requise pour ce poste.\n\nDe plus, mon stage chez Amazon a renforcé ma rigueur et mon autonomie, qualités essentielles pour le suivi de la distribution vers les magasins. J'ai également acquis une solide compréhension des outils de gestion des stocks et de planification, ce qui me permettra d'optimiser efficacement le stock dans votre réseau.\n\nMa formation en data analysis avec Python m'a doté de compétences précieuses pour l'extraction et la préparation des données. Je suis à l'aise avec les librairies pandas, numpy, seaborn et matplotlib, ce qui me permettra d'améliorer les outils de suivi de la supply chain.\n\nJe suis particulièrement intéressé par le déploiement de nouveaux outils pour le pilotage des activités, une mission clé du poste. Mon expérience en automatisation et mon intérêt pour l'innovation technologique me permettront d'y apporter une contribution significative.\n\nEnfin, mon niveau C1 en anglais me permettra de communiquer efficacement dans un environnement international.\n\nJe suis convaincu que mes compétences et expériences correspondent parfaitement aux attentes pour ce stage. Je serais ravi de pouvoir discuter plus en détail des opportunités offertes par Louis Vuitton lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'optimisation des stocks et la gestion des commandes clients.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Optimisation du stock",
+                "Gestion des commandes clients"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus pour optimiser la gestion des stocks. J'ai également travaillé sur les schémas de ruptures et les non-conformités dans le contexte du pilotage des activités.",
+            "keywords_injected": [
+                "supply chain",
+                "création outils d'analyse",
+                "automatisation des processus",
+                "optimisation stock",
+                "gestion stocks",
+                "schémas de ruptures"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en ligne visant à acquérir les bases de l'analyse de données avec Python, incluant la manipulation et l'analyse des données chiffrées via les bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Analyse de données",
+                "Python",
+                "Bibliothèques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en analyse de données et manipulation de données chiffrées, essentielles pour le pilotage efficace d'une supply chain.",
+            "keywords_injected": [
+                "analyse de données",
+                "manipulation et analyse de données chiffrées sur Excel et Power BI"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données. J'ai créé un portfolio avec des projets open source et semi-automatisés, y compris un add-on pour un ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "statistiques",
+                "analyse de données"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation et gestion de l'événement annuel de la fête de la science 2024, incluant le suivi des commandes et la prévision de la demande pour optimiser les stocks.",
+            "keywords_injected": [
+                "suivi",
+                "commandes clients",
+                "prévision de la demande",
+                "gestion des stocks"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "offer_name": "FBNL Stage 6 mois - Assistant Chef de Projet Trade et Visual Merchandising - Tom Ford Beauty & Balmain Beauty H/F/X",
+    "offer_company": "Estée Lauder Companies",
+    "offer_type": "supply_chain",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        10,
+        4,
+        5
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 6 car expérience en data analysis qui peut être utile pour le développement d’outils d’aide à la vente, index 10 car compétences techniques dans la réparation d'ordinateurs MacBook peuvent être transférables aux tâches liées au SAV sur le terrain, index 4 car formation en analyse de données avec Python qui peut aider dans la création et la mise à jour des visuels et campagnes",
+    "skills_section": [
+        "Excel avancé",
+        "Python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "seaborn"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'Assistant Chef de Projet Trade et Visual Merchandising chez Estée Lauder Companies. Actuellement en 5ème année à l’ECAM Lyon, je suis spécialisé dans la Supply Chain Management avec une solide expérience en data analysis.\n\nMon parcours académique et professionnel m’a permis d’acquérir des compétences clés qui correspondent parfaitement aux missions que vous proposez. J’ai notamment effectué un stage chez Arrow où j'ai créé plusieurs outils d'analyse de données et automatisé des processus, ce qui me permettra de développer efficacement les outils d’aide à la vente.\n\nDe plus, mon expérience en tant qu’étudiant au sein du laboratoire Arrow m'a permis de travailler sur l’optimisation des flux logistiques et la gestion des stocks. Ces compétences seront précieuses pour le suivi hebdomadaire des projets Trade et la mise en place des animations différenciantes dans les flagships et grands magasins.\n\nJe maîtrise parfaitement Excel, un outil essentiel pour la préparation des présentations marketing et l’analyse de données. De plus, mon expérience en data analysis avec Python (pandas, numpy, matplotlib, seaborn) me permettra d'apporter une approche innovante à la création de dashboards et de reporting.\n\nJe suis organisé(e), rigoureux(se) et autonome, qualités indispensables pour gérer le planning des animations Trade en lien avec les équipes commerciales. Mon esprit créatif et ma force de proposition me permettront d'apporter une vision innovante aux projets merchandising spécifiques.\n\nEnfin, mon sens du détail et mes compétences en analyse de données seront précieux pour la mise à jour des visuels des nouveautés et campagnes. Je suis également capable d’anticiper les besoins et d'adapter rapidement ma stratégie.\n\nJe serais ravi(e) de pouvoir échanger avec vous sur cette opportunité qui correspond parfaitement à mes aspirations professionnelles.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur l'organisation, la rigueur et le travail en équipe.",
+            "keywords_injected": [
+                "supply chain management",
+                "organisation",
+                "rigueur"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. Utilisation approfondie de Python et Excel pour le monitoring et l'identification des schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Monitoring",
+                "Non conformités"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio incluant des projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, démontrant ma capacité à automatiser les processus et à analyser des données complexes.",
+            "keywords_injected": [
+                "Excel avancé",
+                "Python",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "description_tailored": "Réparation et préparation à la vente d'ordinateurs MacBook, incluant le test des écrans, batteries, claviers et composants internes. Réalisation de réparations spécifiques telles que celle des claviers, batteries, disques durs et mémoires RAM.",
+            "keywords_injected": [
+                "réparation",
+                "préparation à la vente",
+                "test"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Acquis des compétences en statistiques descriptives pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science et du développement de modèles de prédiction avec Python. Cette formation a renforcé mes compétences en analyse de données et en automatisation.",
+            "keywords_injected": [
+                "data science",
+                "modèles de prediction",
+                "Python",
+                "analyse de données",
+                "automatisation"
+            ]
+        }
+    ]
+}

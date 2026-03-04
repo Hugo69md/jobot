@@ -1,0 +1,87 @@
+{
+    "offer_name": "Ingénieure/Ingénieur Logiciel Python-Aéro-Stage",
+    "offer_company": "Capgemini Engineering",
+    "offer_type": "data",
+    "score": 79,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management pertinente pour le poste, index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus, index 4 car formation en analyse de données avec python, index 5 car introduction à la data science axée sur les modèles de prédiction avec python, index 6 car approfondissement des compétences en data analysis et création d'un portfolio avec plusieurs projets utilisant Python et Excel, index 7 car organisation événementielle qui montre des compétences en communication et gestion de projet",
+    "skills_section": [
+        "Python",
+        "Développement de tests unitaires",
+        "Numpy",
+        "pandas",
+        "Automatisation",
+        "Data pipelines"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'Ingénieure/Ingénieur Logiciel Python-Aéro-Stage au sein de Capgemini Engineering à Toulouse. En tant qu'étudiant en 5ème année à l'ECAM Lyon et spécialisé en Supply Chain Management, je suis particulièrement intéressé par ce stage qui correspond parfaitement à mes compétences en programmation Python.\n\nDurant mon stage chez Arrow Laboratoire en 2024, j'ai pu créer plusieurs outils d'analyse de données et automatiser des processus grâce au langage Python. Cette expérience m'a permis non seulement de développer une solide maîtrise du language mais aussi de comprendre l'importance de la lisibilité et de la modularité du code pour son maintien à long terme.\n\nPar ailleurs, j'ai approfondi mes connaissances en Python lors d'une formation FreeCodeCamp en décembre 2024 et janvier 2025. J'y ai notamment appris à utiliser les bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.\n\nJe suis également familier avec l'écriture de tests unitaires, ce qui est un atout majeur dans votre processus de développement. De plus, je peux contribuer à la documentation du code refactorisé en mettant en place des procédures claires et efficaces pour faciliter le travail d'équipe.\n\nJe suis convaincu que mon expérience en Python et ma capacité à travailler en équipe me permettront de répondre aux exigences de ce stage. J'apprécie particulièrement l'environnement dynamique et innovant de Capgemini Engineering, ainsi que la possibilité d'évoluer dans un domaine technique comme celui du développement logiciel aérospatial.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en gestion de la chaîne logistique industrielle. Formation incluant des modules sur le développement Python et l'automatisation.",
+            "keywords_injected": [
+                "Python",
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. Utilisation de Python pour le développement de scripts et l'amélioration de la lisibilité du code existant.",
+            "keywords_injected": [
+                "Python",
+                "Développement de tests unitaires"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. J'ai également approfondi mes connaissances en statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en développement de tests unitaires et en documentation du code.",
+            "keywords_injected": [
+                "Python",
+                "Développement de tests unitaires"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer un portfolio de projets open source et des automatisations semi-automatiques. Un projet notable inclut l'élaboration d'un add-on pour un ERP spécialisé dans la comptabilité, mettant en œuvre des techniques de nettoyage et de préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Automatisation",
+                "Data pipelines",
+                "Nettoyage des données"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation et mise en place de la représentation de la FRM lors de l'événement annuel de la fête de la science 2024, incluant la documentation des processus et l'amélioration de leur lisibilité.",
+            "keywords_injected": [
+                "documentation",
+                "lisibilité"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "offer_name": "Stage - Amélioration continue de la Supply Chain industrielle (F/H) - Septembre 2026",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 85,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur spécialisé en supply chain management, ce qui correspond parfaitement à l'offre de stage chez Louis Vuitton. Index 2 car il s'agit d'un stage en supply chain où le candidat a créé des outils d'analyse et automatisé des processus, compétences très pertinentes pour la mission proposée par Louis Vuitton. Index 4 car la formation en analyse de données avec Python renforce les compétences techniques nécessaires à l'offre. Index 5 car la formation axée sur la data science avec Python approfondit encore plus les compétences requises, notamment dans le domaine des modèles de prédiction. Index 6 car le candidat a réalisé des projets en tant que freelance analyste de données, ce qui montre une application concrète et autonome des compétences demandées.",
+    "skills_section": [
+        "Supply Chain Management",
+        "amélioration continue",
+        "Python",
+        "Data Visualization",
+        "Excel avancé",
+        "pandas"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage en amélioration continue de la supply chain industrielle à Louis Vuitton. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement motivé par cette opportunité qui correspond parfaitement à mes aspirations professionnelles.\n\nAu cours de mon stage chez Arrow et Amazon, j'ai acquis une première expérience concrète dans la supply chain. J'y ai notamment développé des outils d'analyse de données en utilisant Python et Excel pour optimiser les processus logistiques et réduire les risques de rupture de stock. Ces expériences m'ont permis de développer un esprit analytique et une rigueur dans la gestion quantitative des données, compétences essentielles pour ce poste.\n\nJe suis également formé à l'utilisation d'outils comme Excel avancé (Pivot Tables, Power Query), Python (pandas, numpy, matplotlib) et j'ai acquis des connaissances en statistiques descriptives et inférentielles. Ces compétences me permettront de superviser efficacement la planification de production d'un site et de développer une vision globale des opérations de supply chain industrielle.\n\nDe plus, mon expérience en tant que technicien chez Adopte un Mac m'a permis d'acquérir une forte autonomie et une aisance dans le travail en équipe. Ces qualités me seront précieuses pour collaborer avec divers interlocuteurs internes afin d'optimiser les processus de la supply chain.\n\nJe suis convaincu que mon parcours académique et professionnel, ainsi que mes compétences techniques, me permettront de contribuer efficacement à l'amélioration continue de votre chaîne logistique industrielle. Je serais ravi d'avoir l'opportunité de vous rencontrer pour discuter plus en détail de ma candidature.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'amélioration continue des processus industriels et la gestion de la chaîne logistique.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "amélioration continue"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. J'ai développé plusieurs solutions pour le monitoring des ruptures de stock et l'amélioration de la qualité dans les entrepôts, utilisant Python et Excel.",
+            "keywords_injected": [
+                "supply chain",
+                "création outils d'analyse",
+                "Python",
+                "Excel",
+                "monitoring",
+                "ruptures de stock",
+                "amélioration de la qualité"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Data Visualization",
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en analyse de données et en prise de décision basée sur les données.",
+            "keywords_injected": [
+                "Analyse de données",
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio incluant des projets open source et semi-automatisés. Parmi ces projets, figure un add-on pour ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "statistiques",
+                "analyse de données"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "offer_name": "Stagiaire Supply Chain H/F",
+    "offer_company": "O-I",
+    "offer_type": "supply_chain",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        9,
+        10,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique, index 2 car stage en supply chain avec création d'outils d'analyse de données, index 6 car approfondissement des compétences en analyse de données, index 9 car initiation à la gestion logistique, index 10 car expérience technique et réparation d'équipements industriels, index 11 car stage ouvrier avec préparation de routes et maîtrise du 5S",
+    "skills_section": [
+        "Supply Chain Management",
+        "planification de production",
+        "Excel avancé",
+        "Python",
+        "Gestion des stocks",
+        "SAP (connaissance)"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stagiaire Supply Chain H/F au sein du groupe O-I basé à Vaulx-en-Velin. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon, je suis spécialisé dans la gestion de la chaîne logistique et j'ai une solide expérience pratique dans ce domaine.\n\nAu cours de mon stage chez Arrow, j'ai pu créer plusieurs outils d'analyse des données et automatiser divers processus en utilisant Python et Excel. Ces expériences m'ont permis de développer un fort sens analytique et une maîtrise approfondie d'Excel avancé, y compris la création de tableaux croisés dynamiques et l'utilisation de Power Query pour le nettoyage des données.\n\nEn outre, mon stage chez Amazon m'a permis d'acquérir une bonne compréhension du fonctionnement des entrepôts et des systèmes de gestion de stock. J'ai également été initié au 5S, ce qui a renforcé mes compétences en matière de qualité et d'amélioration continue.\n\nJe suis particulièrement intéressé par les missions liées à la planification des productions respectant les contraintes industrielles et commerciales. Mon expérience dans le domaine de la supply chain m'a permis de développer une capacité d'analyse qui me permettrait de contribuer efficacement à ces tâches.\n\nDe plus, je suis capable de soutenir l'équipe lors des périodes de forte activité pour d'autres usines et j'ai déjà travaillé en étroite collaboration avec les équipes pour améliorer la performance opérationnelle. Ma maîtrise avancée de l'anglais (C1) me permettrait également de collaborer efficacement dans un environnement international.\n\nJe suis convaincu que mon parcours académique et professionnel m'a doté des compétences nécessaires pour réussir en tant que stagiaire Supply Chain chez O-I. Je serai ravi d'approfondir cette candidature lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur la planification de production et l'analyse des données pour optimiser les processus industriels.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "planification de production"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. J'ai utilisé Python et Excel pour le monitoring des stocks et l'identification des non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "création outils d'analyse",
+                "Python",
+                "Excel",
+                "monitoring",
+                "non conformités",
+                "WH"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source comprenant des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit mes compétences avancées en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "description_tailored": "Préparation et transport de palettes, initiation aux principes fondamentaux de la gestion des stocks et de l'optimisation des flux dans un environnement d'entrepôt sous supervision du chef d'entrepôt.",
+            "keywords_injected": [
+                "gestion des stocks",
+                "préparation et transport de palettes"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "description_tailored": "Réparation et préparation à la vente d'ordinateurs MacBook, incluant le test des écrans, batteries, claviers et composants internes. Réalisation de réparations détaillées sur les claviers, batteries, disques durs et mémoires RAM.",
+            "keywords_injected": [
+                "réparation",
+                "préparation à la vente",
+                "test"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier au sein d'Amazon DAR1, où j'ai contribué à la préparation des routes et à l'initiation du système 5S. Cette expérience m'a permis de développer mes compétences en planification opérationnelle et en gestion des stocks.",
+            "keywords_injected": [
+                "planification",
+                "gestion des stocks"
+            ]
+        }
+    ]
+}

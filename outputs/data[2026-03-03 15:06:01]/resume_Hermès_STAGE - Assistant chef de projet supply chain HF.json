@@ -1,0 +1,88 @@
+{
+    "offer_name": "STAGE - Assistant chef de projet supply chain (H/F)",
+    "offer_company": "Hermès",
+    "offer_type": "supply_chain",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        4,
+        11,
+        5
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur spécialisé en supply chain management, ce qui correspond parfaitement à l'offre de stage. Index 2 car il y a une première immersion professionnelle dans la supply chain avec création d'outils d'analyse et d'automatisation des processus, compétences clés pour le poste. Index 6 car le candidat a approfondi son intérêt pour l'analyse de données et possède une maitrise approfondie de Python et Excel, compétences essentielles mentionnées dans l'offre. Index 11 car il y a un stage ouvrier chez Amazon avec des missions liées à la préparation de routes et au pilotage de la supply chain, ce qui est directement pertinent pour le poste proposé par Hermès. Index 4 car la formation en data analysis avec Python couvre les compétences nécessaires pour construire des rapports Power BI et analyser les flux.",
+    "skills_section": [
+        "Supply Chain Management",
+        "Excel avancé",
+        "Power BI (DAX)",
+        "Python",
+        "Analyse de données",
+        "Forecasting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Assistant chef de projet supply chain au sein du groupe Hermès. Actuellement en cinquième année d'école d'ingénieur à l’ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai une solide expérience en analyse de données.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python et Excel. Ces expériences m’ont permis de développer un fort intérêt pour l’optimisation des flux logistiques et la gestion des stocks. J’ai également acquis une expertise en création de rapports Power BI, ce qui me permettrait d'apporter ma contribution à votre équipe dans le pilotage de la Supply Chain amont et aval.\n\nDe plus, mon stage chez Amazon m'a permis d’approfondir mes connaissances en prévision de la demande et gestion des stocks. J'ai travaillé sur l’optimisation des plans d'expéditions et analysé les flux pour optimiser la supply chain. Ces compétences me permettraient d'identifier les opportunités et risques des collections en cours et à venir, ainsi que de construire des rapports Power BI pour monitorer l'activité.\n\nJe suis également familiarisé avec le nettoyage et la préparation des données grâce à mes formations en data analysis et data science. Ces compétences me permettraient d’être force de proposition sur les répartitions de l'offre vers vos marchés, tout en améliorant les outils de gestion fournisseur.\n\nJe suis convaincu que mon expérience en supply chain et ma maîtrise des outils analytiques tels que Python (pandas, numpy), Excel avancé, Power Query et Power BI me permettraient d'apporter une contribution significative à votre équipe. Je serais ravi de pouvoir discuter plus en détail de mes compétences et de mon intérêt pour ce poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur la gestion des stocks, l'analyse de données et le reporting.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Gestion des stocks",
+                "Analyse de données",
+                "Reporting"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. Utilisation d'Excel avancé et de Python pour le monitoring et l'amélioration continue des opérations logistiques, avec un focus particulier sur les schémas de ruptures et les non-conformités en WH.",
+            "keywords_injected": [
+                "supply chain",
+                "analyse de données",
+                "automatisation",
+                "Excel avancé",
+                "Python"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source et des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit mes compétences en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "Numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier au sein d'Amazon DAR1, où j'ai contribué à la préparation de routes et à l'initiation du processus 5S pour optimiser les flux logistiques. J'ai également acquis des compétences en picking.",
+            "keywords_injected": [
+                "préparation de routes",
+                "optimisation des flux logistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation renforce les compétences en data-driven decision making et forecasting.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "forecasting"
+            ]
+        }
+    ]
+}

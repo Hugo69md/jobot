@@ -1,0 +1,88 @@
+{
+    "offer_name": "STAGE - Tests fonctionnels et techniques .Net ou Python - F / H",
+    "offer_company": "Thales",
+    "offer_type": "data",
+    "score": 75,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en génie mécanique et électrique avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience en tant que freelance analyste de données approfondissant ses compétences en Python et Excel, index 7 car bénévolat mais pas pertinent pour l'offre",
+    "skills_section": [
+        "Python",
+        "Automatisation",
+        "Git",
+        "SQL",
+        "Robotframework",
+        "Azure DevOps"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage en tests fonctionnels et techniques .Net ou Python chez Thales à Grenoble. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui me permettrait d’approfondir mes compétences techniques et de contribuer au développement des projets innovants de votre entreprise.\n\nDurant mon stage chez Arrow, j'ai pu développer plusieurs outils d'analyse de données en utilisant Python et Excel. Ces expériences m'ont permis non seulement de maîtriser les librairies pandas, numpy, matplotlib et seaborn, mais aussi d’acquérir des compétences en automatisation et en nettoyage des données qui sont directement applicables aux missions que vous proposez.\n\nJe suis également familier avec Git, outil essentiel pour le développement collaboratif. Mon expérience en data processing et en web scraping me permettrait de contribuer efficacement à la mise en place de l'environnement de tests et au développement des tests automatisés nécessaires au projet.\n\nEn plus de ma formation académique et de mes expériences professionnelles, je suis doté d'une capacité d'adaptation rapide qui me permettrait de rapidement comprendre les applications existantes et leurs fonctionnalités. Mon intérêt pour l'informatique et mon souhait d'évoluer dans ce domaine sont renforcés par ma participation à divers projets personnels et certifications en data analysis.\n\nJe suis disponible dès juin 2026 et je serais ravi de pouvoir discuter plus en détail des opportunités que vous offrez chez Thales. Je reste à votre disposition pour un entretien afin d'échanger sur les missions proposées et mon potentiel apport à l’équipe.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "En préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management, j'ai acquis des compétences clés dans la gestion de la chaîne logistique et l'analyse de données.",
+            "keywords_injected": [
+                "supply chain management",
+                "data analysis"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur l'analyse et la gestion des données. J'ai créé plusieurs outils d'automatisation de processus utilisant Python et Excel pour améliorer le monitoring des ruptures et les non-conformités dans le WH.",
+            "keywords_injected": [
+                "Python",
+                "Excel avancé",
+                "Automatisation",
+                "Monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. J'ai également approfondi mes connaissances en statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en data processing et automatisation.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn",
+                "data processing",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer un portfolio de projets open source et semi-automatisés. Ces travaux incluent notamment la réalisation d'un add-on pour un ERP spécialisé dans les boites de comptabilité.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation et mise en place de l'environnement numérique pour la représentation de la FRM lors de la fête de la science 2024, incluant le développement d'outils automatisés pour faciliter les interactions avec le public.",
+            "keywords_injected": [
+                "développement d'outils automatisés",
+                "environnement numérique"
+            ]
+        }
+    ]
+}

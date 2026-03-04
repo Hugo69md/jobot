@@ -1,0 +1,86 @@
+{
+    "offer_name": "Stage BAC+5 - Supply Chain - F/H/D",
+    "offer_company": "bioMérieux",
+    "offer_type": "supply_chain",
+    "score": 90,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique pertinente pour le stage; index 2 car stage directement lié à la supply chain avec création d'outils d'analyse de données et automatisation de processus; index 4 car formation en analyse de données avec python, compétence requise par l'offre; index 5 car approfondissement des modèles de prédiction avec python, utile pour la gestion du stock et le S&OP; index 6 car expérience en data analyst freelance renforce les compétences en analyse de données et automatisation nécessaires pour le stage; index 11 car stage ouvrier chez Amazon avec préparation de routes et maîtrise du 5S, utile pour la gestion des stocks et l'optimisation des processus logistiques",
+    "skills_section": [
+        "S&OP",
+        "Python",
+        "pandas",
+        "numpy",
+        "data-driven decision making",
+        "forecasting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage en Supply Chain au sein de bioMérieux. En tant qu'étudiant en 5ème année à l'ECAM Lyon, spécialisation Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mon parcours et mes aspirations professionnelles.\n\nAu cours de mon stage chez Arrow, j'ai eu l'occasion d'approfondir ma compréhension des enjeux de la supply chain. J'y ai notamment créé plusieurs outils d'analyse de données et automatisé divers processus grâce à Python et Excel avancé. Ces expériences m'ont permis de développer une expertise dans le domaine du monitoring des stocks, ainsi que dans l'identification et la résolution des non-conformités en entrepôt.\n\nJe suis également familier avec les outils informatiques tels que SAP et OMP, qui sont mentionnés comme compétences requises pour ce poste. Mon expérience en gestion de stocks et prévision de la demande me permettrait d'apporter une contribution significative à l'équipe de bioMérieux.\n\nAu sein de bioMérieux, je serais particulièrement intéressé par le soutien apporté à l’Inventory Manager et au Brand Demand Manager. Je suis convaincu que mes compétences en analyse des données et ma capacité à mettre en place des actions pour réduire les risques de rupture ou de rejets des produits pour péremption seraient un atout majeur pour votre équipe.\n\nJe me tiens à votre disposition pour vous apporter plus d'informations sur mon parcours et mes compétences. Je reste à votre entière disposition pour un entretien afin de discuter en détail de ma candidature et des opportunités que cette offre présente pour moi.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter, Madame, Monsieur, l'expression de mes salutations distinguées.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur la gestion des stocks, l'analyse de données et les outils informatiques.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "gestion des stocks",
+                "analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. J'ai utilisé Python et Excel pour le monitoring et l'amélioration continue dans le contexte des missions S&OP.",
+            "keywords_injected": [
+                "supply chain",
+                "Python",
+                "Excel",
+                "S&OP"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives inclues.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation contribue à améliorer les compétences en data-driven decision making et forecasting.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "forecasting"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio diversifié comprenant des projets open source et automatisés. Parmi ces réalisations figure un add-on pour ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "statistiques",
+                "analyse de données"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Au cours de ce stage ouvrier, j'ai contribué à la préparation des routes et à l'initiation du processus 5S. Ces tâches ont renforcé mes compétences en gestion opérationnelle et en amélioration continue.",
+            "keywords_injected": [
+                "préparation des routes",
+                "initiation du processus 5S"
+            ]
+        }
+    ]
+}

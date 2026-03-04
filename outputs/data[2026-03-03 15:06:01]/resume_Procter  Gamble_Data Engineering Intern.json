@@ -1,0 +1,78 @@
+{
+    "offer_name": "Data Engineering Intern",
+    "offer_company": "Procter & Gamble",
+    "offer_type": "data",
+    "score": 90,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en train de se spécialiser dans la supply chain management et l'industrial supply chain management qui sont directement liés aux missions de cette offre; index 2 car il y a une première immersion professionnelle dans le monde de la supply chain avec création d'outils d'analyse de données, ce qui est pertinent pour les missions de conception des pipelines de données et l'utilisation de l'analyse de données; index 4 car la formation en analyse de données avec python couvre directement une compétence requise par l'offre (Python); index 5 car cette certification approfondit le domaine de la data science, ce qui est pertinent pour les missions d'amélioration des processus dans la chaîne d'approvisionnement et la fabrication; index 6 car en tant que freelance data analyst, il a créé plusieurs projets avec Python et Excel, ce qui correspond aux compétences requises par l'offre (Python) et aux missions de développement d'outils et tableaux de bord visuels;",
+    "skills_section": [
+        "Python",
+        "SQL",
+        "pandas",
+        "numpy",
+        "Matplotlib",
+        "Seaborn"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Engineering Intern au sein de Procter & Gamble. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé des compétences solides en data engineering et analyse de données.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. Ces expériences m'ont permis de maîtriser Python ainsi que les bibliothèques pandas, numpy, matplotlib et seaborn pour le nettoyage et la préparation des données. J'ai également approfondi mes connaissances en statistiques descriptives et inférentielles lors d'une formation sur freecodecamp et HarvardX.\n\nJe suis particulièrement intéressé par les missions de conception et de maintien des pipelines de données, ainsi que la gestion de la qualité des données. Mon expérience en supply chain m'a permis de comprendre l'importance de ces tâches pour améliorer les processus dans la chaîne d’approvisionnement et la fabrication.\n\nEn outre, j'ai travaillé sur divers projets freelance en tant que data analyst, où j'ai créé des dashboards visuels et automatisé le reporting. Ces expériences m'ont permis de développer une approche pratique pour identifier les tendances et modèles dans les données.\n\nJe suis convaincu que mes compétences techniques et mon expérience en supply chain me permettront d’apporter une contribution significative à Procter & Gamble. Je serais ravi de discuter plus en détail des opportunités offertes par ce poste lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "En préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management, j'ai acquis des compétences clés dans la gestion de la chaîne d'approvisionnement et l'analyse de données pour optimiser les processus industriels.",
+            "keywords_injected": [
+                "supply chain management",
+                "data analysis"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. Utilisation de Python pour le monitoring des données et l'amélioration de la qualité dans les entrepôts (WH). Travail approfondi sur les schémas de ruptures et les non-conformités.",
+            "keywords_injected": [
+                "Python",
+                "Monitoring",
+                "Qualité",
+                "Non conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant le codage et la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives couvertes.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science et du développement de modèles de prédiction en Python. J'ai approfondi ma compréhension des concepts d'analyse et de gestion de données, notamment avec ScikitLearn.",
+            "keywords_injected": [
+                "Python",
+                "Connaissance des concepts de gestion et d'analyse de données"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et SQL pour créer des pipelines de données automatisés et améliorer la qualité des données. Mon travail inclut également le développement d'outils visuels tels que des dashboards et scripts pour soutenir les prises de décision basées sur des insights précis.",
+            "keywords_injected": [
+                "Python",
+                "SQL",
+                "pipelines de données",
+                "qualité des données",
+                "dashboards"
+            ]
+        }
+    ]
+}

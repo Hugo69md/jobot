@@ -1,0 +1,88 @@
+{
+    "offer_name": "Stage Ingénieur(e) Automatisation Data (F/H)",
+    "offer_company": "Groupe SII",
+    "offer_type": "data",
+    "score": 79,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur en génie mécanique et électrique avec une spécialisation en supply chain management qui correspond bien au contexte de l'offre; index 2 car il y a eu création d'outils d'analyse de données et d'automatisation de processus, compétences clés pour le stage proposé; index 4 car la formation sur l'analyse des données avec python est directement pertinente pour les missions du poste; index 5 car elle approfondit les bases de la data science avec Python, un atout majeur pour ce stage; index 6 car il y a eu création d'un portfolio avec plusieurs projets en analyse de données et semi-automatisations, des compétences recherchées par l'offre; index 11 car le stage chez Amazon implique la préparation de routes et la maîtrise du 5S, ce qui est pertinent pour les missions liées à l'optimisation des workflows",
+    "skills_section": [
+        "Python",
+        "Automatisation",
+        "Nettoyage des données",
+        "pandas",
+        "numpy",
+        "5G"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le stage Ingénieur(e) Automatisation Data au sein du Groupe SII. Actuellement en cinquième année à l'ECAM Lyon, spécialisée en Supply Chain Management et doté d'une solide expérience dans la data, je suis particulièrement motivé par cette opportunité qui allie mes compétences techniques et mon intérêt pour l’automatisation.\n\nAu cours de mon stage chez Arrow, j'ai développé plusieurs outils d'analyse de données en Python et Excel. Ces expériences m'ont permis de comprendre les processus opérationnels et de proposer des automatisations pour optimiser la gestion des stocks et réduire les non-conformités. De plus, mon stage chez Amazon a renforcé ma compréhension du fonctionnement d'un entrepôt et j'ai pu appliquer ces connaissances à l'automatisation de certains processus.\n\nJe suis également formé en data analysis avec Python (Numpy, Pandas, Matplotlib, Seaborn) et en data science (ScikitLearn). Ces compétences me permettent d’analyser les données pour proposer des solutions optimisées. J'ai par ailleurs réalisé plusieurs projets freelance en tant que Data Analyst, où j'ai automatisé la collecte de données et créé des dashboards interactifs.\n\nJe suis convaincu que mes compétences en Python et mon expérience pratique dans l'automatisation seront un atout pour votre équipe. Je serais ravi d'avoir l’opportunité de participer à vos projets Big Data et 5G, tout en contribuant à la documentation des solutions.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. J'ai acquis des compétences en automatisation et en analyse de données pour optimiser les processus logistiques.",
+            "keywords_injected": [
+                "supply chain management",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur l'automatisation de processus et le nettoyage des données. J'ai créé plusieurs outils d'analyse de données utilisant Python pour optimiser les workflows existants et réduire les non-conformités dans la gestion des stocks.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation",
+                "Nettoyage des données"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science et du développement d'outils d'automatisation en Python. J'ai approfondi ma compréhension de ScikitLearn pour développer des modèles de prédiction.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer des automatisations de données et des dashboards. Mon travail inclut la préparation et le nettoyage des données ainsi que l'analyse statistique inférentielle et descriptive.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Automatisation",
+                "Data preparation",
+                "Statistiques inferentielle"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Stage ouvrier au sein d'Amazon DAR1, où j'ai contribué à la préparation des routes et à l'initiation du processus 5S. Ces tâches ont nécessité une compréhension approfondie des procédures opérationnelles standard (SOP) pour optimiser les workflows existants.",
+            "keywords_injected": [
+                "5S",
+                "SOP"
+            ]
+        }
+    ]
+}

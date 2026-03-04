@@ -5,7 +5,19 @@ import sys
 import threading
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "qwen2.5:14b"
+MODEL_NAME     = "qwen2.5:14b"
+
+# ── Master prompt — injected as system message on every call ──────────────────
+SYSTEM_PROMPT = """Tu est un expert en recrutement, spécialisé dans l'optimisation de CV et la rédaction de lettres de motivation pour les stages en entreprise. 
+
+Règles absolues à respecter sur TOUTES les réponses :
+1. Tu réponds UNIQUEMENT en JSON 
+2. Tu ne mens JAMAIS 
+3. Tu n'inventes JAMAIS de compétences, chiffres ou expériences absents des données fournies.
+4. Tu analyses TOUJOURS en profondeur les descriptions d'offres et de CV pour trouver les meilleurs matches, même s'ils ne sont pas formulés de manière évidente.
+5. Tu adaptes TOUJOURS tes réponses au contexte spécifique de l'offre et du CV fournis dans le prompt, tu ne donnes JAMAIS de réponses génériques ou hors sujet
+6. INTERDICTION DE NE PAS RESPECTER LES INSTRUCTIONS
+"""
 
 
 def _waiting_indicator(start_time, stop_event):
@@ -19,12 +31,13 @@ def _waiting_indicator(start_time, stop_event):
 
 def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, num_predict: int = 4096) -> str:
     payload = {
-        "model": MODEL_NAME,
+        "model":  MODEL_NAME,
+        "system": SYSTEM_PROMPT,      # ← master prompt injected here
         "prompt": prompt,
         "stream": True,
         "options": {
             "temperature": temperature,
-            "num_ctx": 32768,
+            "num_ctx":     32768,
             "num_predict": num_predict,
         },
         "format": "json"
@@ -33,12 +46,11 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, nu
     for attempt in range(max_retries):
         try:
             print(f"  [Ollama] Sending request (attempt {attempt + 1}/{max_retries})...")
-            start_time = time.time()
+            start_time       = time.time()
             first_token_time = None
-            token_count = 0
-            full_response = ""
+            token_count      = 0
+            full_response    = ""
 
-            # Start a waiting indicator thread
             stop_event = threading.Event()
             waiter = threading.Thread(target=_waiting_indicator, args=(start_time, stop_event))
             waiter.daemon = True
@@ -61,7 +73,6 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, nu
                 full_response += token
 
                 if token and first_token_time is None:
-                    # Stop the waiting indicator
                     stop_event.set()
                     first_token_time = time.time()
                     prompt_time = first_token_time - start_time
@@ -80,12 +91,12 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, nu
                         sys.stdout.flush()
 
                 if chunk.get("done", False):
-                    stop_event.set()  # Stop waiter just in case
+                    stop_event.set()
                     elapsed = time.time() - start_time
                     print(f"\n  [Ollama] ✅ Done! {token_count} tokens in {elapsed:.1f}s")
                     prompt_eval_count = chunk.get("prompt_eval_count", 0)
-                    eval_count = chunk.get("eval_count", 0)
-                    total_duration = chunk.get("total_duration", 0) / 1e9
+                    eval_count        = chunk.get("eval_count", 0)
+                    total_duration    = chunk.get("total_duration", 0) / 1e9
                     print(f"  [Ollama] 📊 Prompt: {prompt_eval_count} tok | "
                           f"Generated: {eval_count} tok | "
                           f"Total: {total_duration:.1f}s")
@@ -125,15 +136,14 @@ def query_ollama_json(prompt: str, temperature: float = 0.1, num_predict: int = 
         try:
             return json.loads(raw)
         except json.JSONDecodeError:
-            # Try to extract JSON block
             start = raw.find("{")
-            end = raw.rfind("}") + 1
+            end   = raw.rfind("}") + 1
             if start != -1 and end > start:
                 try:
                     return json.loads(raw[start:end])
                 except json.JSONDecodeError:
                     pass
             print(f"  [Ollama] ⚠️  JSON parse failed (attempt {attempt+1}/{max_retries}), retrying...")
-            time.sleep(2 ** attempt)  # exponential backoff: 1s, 2s, 4s
+            time.sleep(2 ** attempt)
     print(f"  [Ollama] ❌ All {max_retries} parse attempts failed.")
     return None

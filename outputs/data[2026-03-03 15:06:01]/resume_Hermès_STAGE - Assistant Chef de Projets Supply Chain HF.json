@@ -1,0 +1,78 @@
+{
+    "offer_name": "STAGE - Assistant Chef de Projets Supply Chain (H/F)",
+    "offer_company": "Hermès",
+    "offer_type": "supply_chain",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        6,
+        5,
+        4
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur spécialisé en supply chain management, ce qui correspond directement à l'offre de stage chez Hermès. Index 2 car il présente une première immersion professionnelle dans la supply chain avec la création d'outils d'analyse et d'automatisation des processus, compétences clés pour le poste. Index 6 car il montre un intérêt approfondi pour l'analyse de données et la maîtrise de Python, utiles pour cartographier la supply chain du groupe Hermès. Index 5 car il a suivi une formation en data science avec Python, ce qui est pertinent pour construire le programme de formation Supply Chain. Index 4 car il a acquis des compétences en analyse de données avec Python, essentiel pour les missions liées à la supply chain et au développement de modèles prédictifs.",
+    "skills_section": [
+        "Supply Chain Management",
+        "outils de gestion de projet",
+        "Python",
+        "Excel avancé",
+        "Reporting automatisé",
+        "Forecasting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de STAGE - Assistant Chef de Projets Supply Chain au sein du groupe Hermès. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la supply chain management et j'ai une solide expérience pratique acquise lors de stages chez Arrow et Amazon.\n\nAu cours de mon stage chez Arrow, j'ai pu créer plusieurs outils d’analyse de données et automatiser des processus en utilisant Python et Excel. Ces expériences m'ont permis de développer un intérêt marqué pour l'utilisation de la data dans le domaine de la supply chain. Je maîtrise parfaitement les langages Python (pandas, numpy, matplotlib, seaborn) ainsi que des outils d’analyse de données comme Excel avancé et Power Query.\n\nJe suis également formé en gestion de projet grâce à mes stages pratiques et mon expérience en tant qu'assistant technique chez Adopte un Mac. Ces expériences m'ont permis de développer une compréhension approfondie des processus logistiques et de la gestion des stocks, compétences qui seront précieuses pour les missions liées à la cartographie supply chain du Groupe Hermès.\n\nJe suis particulièrement motivé par l’opportunité d’intervenir sur le programme de formation Supply Chain du Groupe. Mon implication dans divers projets et certifications me permettent d’avoir une vision globale des enjeux liés à la gestion de la chaîne logistique.\n\nJe serais ravi de pouvoir contribuer au développement des missions supply chain chez Hermès, tout en continuant mon parcours académique. Je suis disponible pour un stage de 4 à 6 mois à partir du 1er juin 2026 et je reste ouvert aux déplacements.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur la maîtrise des outils de gestion de projet et l'analyse de données pour optimiser les processus logistiques.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "outils de gestion de projet"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. J'ai développé plusieurs outils de monitoring utilisant Python et Excel pour améliorer l'efficacité opérationnelle, notamment dans le contexte du contrôle qualité et des non-conformités en WH.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Python",
+                "Excel avancé",
+                "Automatisation",
+                "Reporting automatisé",
+                "Non-conformités"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source comprenant des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit mes compétences en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation contribue à renforcer mes compétences en data-driven decision making et en forecasting.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "forecasting"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en analyse de données avec Python, couvrant les librairies Numpy, pandas, Matplotlib et Seaborn. Acquis des compétences en statistiques descriptives pour le traitement et l'analyse de données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        }
+    ]
+}

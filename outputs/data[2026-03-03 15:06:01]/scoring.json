@@ -1,0 +1,1492 @@
+{
+    "scoring": [
+        {
+            "name": "STAGE - Assistant chef de projet supply chain (H/F)",
+            "score": 101,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio skills match avec section competence = Maîtrise d'Excel, Gestion des bases de données (Power Query), Power BI (DAX) +3; prio skills match avec section competence = Reporting automatisé, Analyse Pareto, Process monitoring +1.5; bonus skills match avec section competence = Excel avancé, Pivot Tables, Power Query +0.75",
+                "score": 49
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon (Supply Chain + Data) = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Hermès est une marque prestigieuse et renommée, donc score maximal",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Pantin (93500) - Lyon = environ 100km, donc score réduit de 85 points",
+                "score": 7
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 correspond parfaitement à la période recherchée par le candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant chef de projet supply chain (H/F)",
+            "score": 92,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match t_prio +1, Data-driven decision making match t_prio +1, Analyse Pareto match t_prio +1, Process monitoring match t_prio +1, SOP match t_prio +1, Excel avancé match prio +0.5, Pivot Tables match bonus +0.25, Power Query match prio +0.5, Reporting match bonus +0.25, Python match bonus +0.25, data processing match bonus +0.25, automation match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Diplôme d’ingénieur généraliste ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise Hermès (CAC40) = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation Pantin, proche de Paris = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant Chef de Projets Supply Chain (H/F)",
+            "score": 92,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match prio +0.5, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5, Analyse Pareto match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 avec une formation d'ingénieur = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise prestigieuse Hermès (CAC40) = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris, localisation proche de Lyon = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Chargé de Projet et data analyste (F/H) 6 mois",
+            "score": 92,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio pour data skills +4; Excel avancé match prio pour data skills +2",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur en fin d'études ECAM Lyon = Bac+5",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Carrefour France est une entreprise prestigieuse, CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Massy (Île-de-France) n'est pas Lyon ou Paris mais c'est proche de Paris, score max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, donc parfaitement correspondant à la période recherchée",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant Data Science (F/H/X)",
+            "score": 92,
+            "C1": {
+                "reason": "Python, pandas et numpy sont des compétences t_prio pour le candidat et correspondent aux exigences de l'offre. Le stage chez SEPHORA nécessite une maîtrise en Machine Learning qui est un point t_prio pour Hugo.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Hugo recherche un stage fin d'études Bac+5, ce qui correspond parfaitement au profil recherché par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "SEPHORA est une entreprise de renommée internationale et fait partie du groupe LVMH, ce qui lui confère un fort prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de l'offre à Neuilly-sur-Seine (92200) est proche de Paris, ce qui correspond bien au critère d'un lieu prestigieux pour le candidat.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond exactement à la période recherchée par Hugo.",
+                "score": 15
+            }
+        },
+        {
+            "name": "SAINT LAURENT Data Analyst Internship H/F",
+            "score": 92,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio +4, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Master Degree in Statistics/Data Analysis/Marketing = Bac+4/5 stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "SAINT LAURENT est une marque prestigieuse, CAC40/S&P500/Big4/Big3 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris (France) = Paris = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Juin 2026 = début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "BOUCHERON - Stagiaire Supply Chain Analyst (KPI & Reporting) F/H/X",
+            "score": 92,
+            "C1": {
+                "reason": "Correspondance compétences: Excel avancé et Macro VBA match t_prio, Pack Office match prio, Connaissance d’un ERP ou d’une BI match bonus",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Boucheron est une marque prestigieuse, score élevé",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Paris (75002) = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "FBNL Stage 6 mois - Assistant Chef de Projet Trade et Visual Merchandising - Tom Ford Beauty & Balmain Beauty H/F/X",
+            "score": 92,
+            "C1": {
+                "reason": "Le candidat possède des compétences en Supply Chain (t_prio) mais elles ne correspondent pas directement aux besoins du poste. Le candidat a une excellente maîtrise d'Excel et de Python, qui sont des compétences prio pour le poste.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le profil du candidat correspond au niveau Bac+4/5 requis par l'offre (étudiant en Ingénieur 5A ECAM Lyon).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "L'entreprise Estée Lauder Companies est une entreprise prestigieuse et reconnue internationalement.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation du stage à Paris n'est pas optimale pour le candidat qui recherche un stage en France, mais pas spécifiquement à Paris. La distance entre Lyon et Paris est d'environ 576 km, ce qui donne un score de 0.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond parfaitement au timing recherché par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Chargé de Projet et data analyste (F/H) 6 mois",
+            "score": 90,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio pour compétences en data +4, Excel avancé match prio pour compétences en data +2",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur ECAM Lyon correspond à Bac+5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Carrefour France est une entreprise prestigieuse en France, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Massy (Île-de-France) n'est pas Lyon ou Paris mais assez proche de Paris, donc score élevé",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 correspond exactement à la période recherchée = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Data Engineering Intern",
+            "score": 90,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match t_prio +1, numpy match t_prio +1, scikit-learn match t_prio +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Excel avancé match prio +0.5, Reporting match prio +0.5, Analyse de données match prio +0.5",
+                "score": 8
+            },
+            "C3": {
+                "reason": "Procter & Gamble est une entreprise prestigieuse et reconnue à l'échelle internationale.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de Asnières-sur-Seine (92600) est proche de Paris, donc la note maximale est attribuée.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond parfaitement à la période recherchée par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage BAC+5 - Supply Chain - F/H/D",
+            "score": 90,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match prio +0.5, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5, Analyse Pareto match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "bioMérieux est une entreprise de renommée internationale, non CAC40/S&P500 mais très prestigieuse dans le domaine médical",
+                "score": 18
+            },
+            "C4": {
+                "reason": "Lyon = localisation exacte demandée",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 = période idéale pour un stage fin d'études",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant Chef de Projets Supply Chain (H/F)",
+            "score": 89,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio 'Supply Chain Management', 'Gestion des stocks', 'Réapprovisionnement', 'Data-driven decision making' = +4, prio 'Excel avancé', 'Pivot Tables', 'Reporting', 'Python', 'data processing', 'automation' = +3.5, bonus 'Forecasting', 'Analyse de Non-conformités' = +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon (Supply Chain + Data) = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Hermès est une marque prestigieuse et renommée, équivalent à CAC40/S&P500/Big4/Big3",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Paris (75) = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 = max",
+                "score": 12
+            }
+        },
+        {
+            "name": "Stage - Assistant.e Supply Chain EMEA - High-End (F/H) - Mars 2026",
+            "score": 89,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match t_prio +1, Data-driven decision making match t_prio +1, Analyse Pareto match t_prio +1, Process monitoring match t_prio +1, SOP match t_prio +1, Excel avancé match prio +0.5, Pivot Tables match bonus +0.25, Power Query match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Master d'école d'ingénieur correspond à Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Louis Vuitton est une entreprise prestigieuse, CAC40/S&P500/Big4/Big3 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris (France) correspond à Paris = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage commence en mars 2026, légère baisse par rapport au début juin 2026 = -3 points",
+                "score": 12
+            }
+        },
+        {
+            "name": "Stage Juillet 2026 - Coordinateur Projet Supply Chain Planning H/F/X",
+            "score": 89,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio (Supply Chain Management, Forecasting) +1, prio (Excel avancé, Reporting, Data-driven decision making) +0.5, bonus (Python, pandas, numpy, scikit-learn) +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Veepee est une entreprise renommée, score élevé",
+                "score": 18
+            },
+            "C4": {
+                "reason": "Localisation: Saint-Denis (Île-de-France) = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: Juillet 2026 est proche de la date souhaitée par le candidat (juin 2026), score élevé",
+                "score": 14
+            }
+        },
+        {
+            "name": "Stage - Data Scientist H/F - 6 mois",
+            "score": 87,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match t_prio +1, numpy match t_prio +1, scikit-learn match t_prio +1, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Master 2 ou équivalent (>4 ans) reconnu RNCP, actuellement en école d'ingénieur = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "BNP Paribas France est une entreprise prestigieuse du CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris (France) - Lyon = environ 500km, donc score minimal de 10",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Début juin 2026 est la période idéale pour le stage",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développeur Python F/H",
+            "score": 87,
+            "C1": {
+                "reason": "Python (t_prio) +1, pandas (prio) +0.5, numpy (prio) +0.5, scikit-learn (prio) +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Etudiant en grande Ecole d'Ingénieurs ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Bpifrance est une entreprise prestigieuse, CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lyon à Maisons-Alfort : environ 50km -> -35pts",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Siège social - Real Estate project and data manager H/F",
+            "score": 86,
+            "C1": {
+                "reason": "Compétences en reporting et présentation d'informations techniques (prio) +0.5, Anglais courant (t_prio) +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation Bac+4/5 en cours avec école ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise Air Liquide est une entreprise prestigieuse, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation Paris (France) - Lyon = 567km -> score réduit de 567/100 = 5.67 points",
+                "score": 9.33
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Amélioration continue de la Supply Chain industrielle (F/H) - Septembre 2026",
+            "score": 85,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5, Analyse Pareto match prio +0.5, Excel avancé match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Actuellement en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Louis Vuitton est une entreprise prestigieuse, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris (France) = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Septembre 2026 - début juin 2026 = score de 8",
+                "score": 8
+            }
+        },
+        {
+            "name": "STAGE - Assistant Chef de Projets Supply Chain (H/F)",
+            "score": 84,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match prio +0.5, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Hermès est une entreprise prestigieuse, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation France (France) - pas de précision sur la ville, donc score moyen",
+                "score": 7.5
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant.e Chef.fe de Projets Supply Chain industrielle (F/H) - Septembre 2026",
+            "score": 84,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio match avec 'Supply Chain Management', 'Forecasting', 'Réapprovisionnement', 'Data-driven decision making' = +4, prio match avec 'Analyse Pareto', 'Process monitoring', 'SOP' = +2.5, bonus match avec 'Excel avancé', 'Pivot Tables', 'Power Query', 'Reporting', 'Python', 'data processing', 'automation' = +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon, stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Louis Vuitton est une marque prestigieuse et renommée à l'échelle mondiale = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Paris (France) vs Lyon (France), distance approximative de 500km, -1pt par 1km au-delà des 20 premiers km = -38",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Période: Septembre 2026 vs Juin 2026, baisse progressive de la note car le stage commence plus tard que le début juin 2026 = -3",
+                "score": 12
+            }
+        },
+        {
+            "name": "STAGE - Data et reporting opérationnel",
+            "score": 84,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn (t_prio) +4; Excel avancé (prio) +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 en ECAM Lyon",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Air Liquide est une entreprise prestigieuse et reconnue internationalement",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de Crolles (38920) est à environ 50km de Lyon, donc -1 point par km au-delà des 20 premiers km = -30 points",
+                "score": 7
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond exactement à la période recherchée",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Supply Chain H/F",
+            "score": 84,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5, Analyse Pareto match prio +0.5, Excel avancé match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Licence / Master ou diplôme d'ingénieur = Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "O-I n'est pas dans CAC40/S&P500 mais est une entreprise reconnue dans l'industrie, donc score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Vaulx-en-Velin est à moins de 20km de Lyon = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Business Data Analyst H/F",
+            "score": 82,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn et Excel avancé correspondent aux compétences t_prio de l'offre (Power BI n'est pas mentionné dans les compétences du candidat mais est une compétence prio)",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études d'un école ingénieur Bac+5, ce qui correspond au niveau recherché par l'offre",
+                "score": 10
+            },
+            "C3": {
+                "reason": "BNP Paribas France est une entreprise prestigieuse et membre du CAC40, donc le score maximal est attribué pour la renommée de l'entreprise",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de Pantin (93500) n'est pas spécifiée comme étant à Lyon, Paris ou Montpellier. Sans données précises sur la distance exacte, on peut estimer que ce n'est pas dans l'un des lieux privilégiés et donc le score est basé sur une localisation non optimale",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond exactement à la période recherchée par le candidat, donc le score maximal est attribué pour cette condition",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développeur Full Stack Java/Python - IA & Analyse de données (F/H)",
+            "score": 82,
+            "C1": {
+                "reason": "Le candidat possède des compétences en Python et pandas qui correspondent aux t_prio demandées pour le backend. Il a également une expérience avec l'analyse de données, ce qui est un bonus.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Hugo MANIPOUD est actuellement en 5A d'une école d'ingénieur ECAM Lyon et recherche un stage fin d'études pour juin 2026. Cela correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Dassault Systèmes est une entreprise de renommée internationale, ce qui lui donne un score élevé en termes de prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation du stage à Vélizy-Villacoublay (78140) n'est pas spécifiquement indiquée comme étant dans Lyon, Paris ou Montpellier. La distance exacte par rapport à ces villes n'est pas donnée, donc on considère que c'est une localisation moyenne.",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond parfaitement au timing recherché par le candidat pour son stage fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Supply Chain Co-packing H/F",
+            "score": 81,
+            "C1": {
+                "reason": "Correspondance compétences: Excel avancé (t_prio) +1, Reporting (prio) +0.5, Analyse de données (bonus) +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Kenvue est une entreprise de renommée internationale, donc score élevé",
+                "score": 18
+            },
+            "C4": {
+                "reason": "Localisation: Issy-les-Moulineaux (92) - Lyon = environ 500km -> -3.75pts pour chaque km au-delà des 20 premiers km, soit un score de 6",
+                "score": 6
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 (date souhaitée) = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Data Scientist H/F - 6 mois",
+            "score": 80,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match t_prio +1, numpy match t_prio +1, scikit-learn match t_prio +1, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Master 2 ou équivalent (>4 ans) reconnu RNCP, actuellement en école d’ingénieur = max",
+                "score": 8
+            },
+            "C3": {
+                "reason": "BNP Paribas est une entreprise prestigieuse du CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Paris (France) - Lyon : distance non spécifiée, mais Paris est loin de Lyon donc score moyen",
+                "score": 8
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 12
+            }
+        },
+        {
+            "name": "Stage Ingénieur(e) Automatisation Data (F/H)",
+            "score": 79,
+            "C1": {
+                "reason": "Python match t_prio +1, automatisation match prio +0.5, Big Data match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "étudiant en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Groupe SII n'est pas dans CAC40/S&P500/Big4/Big3 mais est une entreprise reconnue dans le domaine, score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Lyon (ECAM Lyon) à Vélizy-Villacoublay = environ 80km, -65pts",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieure/Ingénieur Logiciel Python-Aéro-Stage",
+            "score": 79,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match prio +0.5, numpy match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Capgemini Engineering est une entreprise prestigieuse, mais pas dans le CAC40/S&P500/Big4/Big3 donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Toulouse n'est pas Lyon, Paris ou Montpellier, distance approximative de Toulouse à Lyon est d'environ 600km = -48pts",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 correspond bien au timing recherché par le candidat = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE CESURE - Ingénieur Système - Développement d'outillages en Python - F/H",
+            "score": 79,
+            "C1": {
+                "reason": "Python match t_prio +1, Modélisation de systèmes (sysML, MBSE, ARCADIA) non présent dans les compétences du candidat mais lié à la modélisation qui est un point bonus pour data et supply_chain",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le candidat recherche un stage fin d'études Bac+5 = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Thales n'est pas dans le CAC40/S&P500 mais est une entreprise prestigieuse en France, score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Élancourt (78990) est à environ 60km de Lyon, donc -45 points pour la distance",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond exactement au début du mois de juin souhaité par le candidat = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Data Engineer Spark Python H/F - 6 mois",
+            "score": 78,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas (via freecodecamp et HarvardX) match prio +0.5, numpy (via freecodecamp et HarvardX) match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Master 2 ou équivalent (>4 ans) en Data Engineer / Data Scientist correspond à Bac+4/5 = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "BNP Paribas est une entreprise prestigieuse (CAC40) = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Distance Rueil-Malmaison - Lyon > 500km, donc score minimal",
+                "score": 1
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant gestion de projet & Data pour l'industrialisation des Cuirs & Textiles (H/F)",
+            "score": 77,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio data +4; Excel avancé match prio data +2; Forecasting match bonus supply_chain +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "étudiant en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Hermès est une entreprise prestigieuse, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Distance Pantin (93500) - Lyon > 600km = 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire Chargé de Projet et data analyste (F/H) 6 mois",
+            "score": 77,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio +4, Excel avancé match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Carrefour France est une entreprise prestigieuse, CAC40 = max",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Massy (91300) n'est pas dans la liste des villes prioritaires Lyon/Paris/Montpellier. Distance approximative de Massy à Paris est d'environ 50km, donc score = 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 correspond exactement au timing recherché par le candidat = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage Développement Python - Rueil Malmaison",
+            "score": 77,
+            "C1": {
+                "reason": "Python match t_prio +1, Logique algorithmique match prio +0.5, Manipulation de données match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Schneider Electric est une entreprise prestigieuse, CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Distance de Lyon à Rueil-Malmaison est d'environ 567km, donc score = 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 correspond parfaitement à la période recherchée par le candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développeur Python H/F - 6 mois",
+            "score": 77,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match t_prio +1, numpy match t_prio +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "BNP Paribas est une entreprise prestigieuse du CAC40",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Distance de Montreuil (93100) à Lyon = environ 500km, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 correspond parfaitement",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage BAC+4/5 - Supply Chain Data Analyst - H/F/D",
+            "score": 77,
+            "C1": {
+                "reason": "Maîtrise Excel avancé (t_prio) +1, Pivot Tables (prio) +0.5, Power Query (prio) +0.5, Reporting (prio) +0.5, Python (t_prio) +1, pandas (t_prio) +1, numpy (t_prio) +1, scikit-learn (t_prio) +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation Bac+4/5 en Ecole d'ingénieur ECAM Lyon",
+                "score": 8
+            },
+            "C3": {
+                "reason": "Entreprise bioMérieux, entreprise de renommée internationale dans le domaine médical/pharmaceutique",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Localisation à Craponne (69290), proche de Lyon",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Stage début juin 2026, correspond parfaitement au timing du candidat pour un stage fin d'études",
+                "score": 12
+            }
+        },
+        {
+            "name": "STAGE - CHEF DE PROJET QUALITE SUPPLY CHAIN F/H",
+            "score": 76,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match t_prio +1, Data-driven decision making match t_prio +1, Analyse Pareto match t_prio +1, Process monitoring match t_prio +1, SOP match t_prio +1, Excel avancé match prio +0.5, Pivot Tables match bonus +0.25, Power Query match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise Cdiscount, pas dans le CAC40 mais renommée en France = score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Localisation à Cestas (33610), loin de Lyon = -5km * -0.1pt/km = -5pts, ajusté pour proximité d'une ville importante = +2pts",
+                "score": 7
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Ingénieur(e) R&D en Développement python (F/H)",
+            "score": 76,
+            "C1": {
+                "reason": "Python, pandas, numpy et scikit-learn sont des compétences t_prio pour le candidat dans la section data. Les missions impliquent l'utilisation de Python pour automatiser des processus et analyser les données, ce qui correspond bien à ces compétences.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études (5A ECAM Lyon), ce qui correspond au profil recherché par l'entreprise pour un stage de fin d'études.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "La société Groupe SII n'est pas dans le CAC40 ou S&P500, mais elle est reconnue comme une entreprise prestigieuse en France dans le domaine des technologies et de l'ingénierie.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "La localisation du stage à Toulouse n'est pas spécifiquement mentionnée comme un lieu privilégié pour le candidat, mais il n'y a pas d'écart géographique important avec Lyon (distance approximative de 500km).",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond exactement à la période recherchée par le candidat.",
+                "score": 12
+            }
+        },
+        {
+            "name": "STAGE - Tests fonctionnels et techniques .Net ou Python - F / H",
+            "score": 75,
+            "C1": {
+                "reason": "Python match t_prio +1, Git match prio +0.5, SQL match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 en informatique = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Thales n'est pas dans CAC40/S&P500/Big4/Big3, mais est une entreprise prestigieuse",
+                "score": 18
+            },
+            "C4": {
+                "reason": "Grenoble (France) - Lyon = environ 270km, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE 6 MOIS - A partir de septembre 2026 - Supply Chain Portfolio - Cosmétique Active International Vichy - Bac + 5 -",
+            "score": 74,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio (Supply Chain Management, Forecasting, Data-driven decision making) = 3 points; prio (Excel avancé, Power Query, Reporting, Python, pandas, numpy, scikit-learn) = 2.5 points; bonus (Analyse Pareto, Process monitoring, SOP, FlexSim, SimLAB VR, Web scraping, market/lead-time data, ERP Oracle, Qualité, Analyse de Non-conformités) = 0.75 point",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur 5A ECAM Lyon (Bac+5), stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: L'Oréal Groupe est une entreprise prestigieuse et renommée, score maximal",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Vichy (France) - Lyon = environ 185km, donc -1pt par km au-delà de 20km = 165 points perdus, score final = 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Période: Offre pour septembre 2026 (3 mois après la date souhaitée du candidat), baisse progressive du score = -7.5 points par mois d'écart, donc -15 points",
+                "score": 12
+            }
+        },
+        {
+            "name": "Data Analyst Intern",
+            "score": 73,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio +4; Excel avancé match prio +0.5; Fluent in English match niveau requis",
+                "score": 21
+            },
+            "C2": {
+                "reason": "Ingénieur en fin d'études ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Wooclap n'est pas dans le CAC40/S&P500/Big4/Big3, mais est une entreprise reconnue dans son domaine",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Localisation France (France) = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Développement d'une API python pour une application Java H/F",
+            "score": 71,
+            "C1": {
+                "reason": "Python match t_prio +1, pas de compétences supply_chain ou data spécifiques mentionnées dans l'offre",
+                "score": 32
+            },
+            "C2": {
+                "reason": "En 5ème année d'école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CEA est une entreprise prestigieuse, mais pas dans le CAC40/S&P500/Big4/Big3 donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Lyon à Saint-Paul-lez-Durance (13108) = environ 300km, -28pts pour la distance",
+                "score": 2
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage Supply Chain - Direct To Retail F/H",
+            "score": 70,
+            "C1": {
+                "reason": "Correspondance compétences: Redéfinir et optimiser les processus de gestion des catalogues marchés (t_prio: Data-driven decision making, Analyse Pareto) +2; Assurer une réponse client optimale tout en maîtrisant l'assortiment et le niveau de stock (prio: Réapprovisionnement, Forecasting) +1; Participer à l'analyse des indicateurs de performance et proposer des améliorations concrètes (t_prio: Data-driven decision making, Analyse Pareto) +2",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Étudiant en école d'ingénieur Bac+4/5 et recherche de stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Parfums Christian Dior est une marque prestigieuse, mais pas dans le CAC40/S&P500 donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Localisation: Saint-Jean-de-Braye (France) - Lyon = environ 376km -> -376/20=-18.8 points, arrondi à -19",
+                "score": 1
+            },
+            "C5": {
+                "reason": "Période: Début juin 2026 est la période idéale pour le stage de fin d'études = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 70,
+            "C1": {
+                "reason": "Le candidat possède des compétences en Python (t_prio) et pandas, numpy, scikit-learn (prio), mais aucune compétence en Vue.js ou JavaScript qui sont essentielles pour cette offre.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le candidat est un étudiant en fin d'études d'ingénieur à l'ECAM Lyon, ce qui correspond au niveau requis pour le stage.",
+                "score": 8
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services France n'est pas une entreprise du CAC40 ou S&P500 mais est reconnue dans son domaine. Le score est donc inférieur à la valeur maximale.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est basée à Paris, ce qui est éloigné de Lyon (distance approximative de 500km), donc le score est très faible.",
+                "score": 3
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond exactement au timing recherché par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Assistant Contrôle de Gestion Supply Chain (H/F/X)",
+            "score": 69,
+            "C1": {
+                "reason": "Correspondance compétences: Forecasting, Réapprovisionnement, Data-driven decision making, Analyse Pareto, Process monitoring, SOP, Excel avancé, Pivot Tables, Power Query, Reporting, Python, pandas, numpy, seaborn, matplotlib, scikitlearn",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur ECAM Lyon (Bac+5) = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Ferrero France est une entreprise de renommée internationale, mais pas dans le CAC40/S&P500/Big4/Big3. Score moyen.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Localisation: Mont-Saint-Aignan (76130) est à environ 800km de Lyon, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Période: Offre pour juin 2026 correspond parfaitement au timing du candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "Customer Care Data Analyst Intern",
+            "score": 69,
+            "C1": {
+                "reason": "Python, pandas, numpy, scikit-learn match t_prio data skills +4; Excel avancé match prio data skills +0.5; Forecasting match bonus supply_chain skills +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+5 (Ingénieur ECAM Lyon) = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Back Market est une entreprise en croissance mais pas dans le CAC40/S&P500/Big4/Big3, donc score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance Bordeaux - Lyon > 600km = 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Data Engineer Python / GCP",
+            "score": 69,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match prio +0.5, numpy match prio +0.5, scikit-learn match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Étudiant en dernière année d'école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services France est une entreprise prestigieuse, mais pas dans le CAC40/S&P500/Big4/Big3 donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance Toulouse - Lyon = environ 600km donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026, correspond parfaitement à la période recherchée par le candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Python H/F",
+            "score": 69,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match prio +0.5, numpy match prio +0.5, scikit-learn match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole CIB est une entreprise prestigieuse, mais pas dans le CAC40/S&P500/Big4/Big3 donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Montrouge (92120) n'est pas Lyon ou Paris, distance approximative de Montrouge à Lyon est d'environ 65km, donc -50 points pour la distance et score final de 0",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond parfaitement au timing du candidat = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieur simulation de flux discrets avec Python F/H",
+            "score": 69,
+            "C1": {
+                "reason": "Python match t_prio +1, programmation orientée objet match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "ORANO est une entreprise de renommée internationale, mais pas dans le CAC40/S&P500/Big4/Big3 donc score moyen",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance entre Montigny-le-Bretonneux et Lyon (environ 180km) = -16 points, mais arrondi à 0 car minimum atteint",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage Business Analyst Python [mars/avril]- H/F - Paris",
+            "score": 67,
+            "C1": {
+                "reason": "Python match t_prio +1, Excel avancé match prio +0.5, pandas match t_prio +1, numpy match t_prio +1, scikit-learn match t_prio +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école d'ingénieurs ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Entreprise ARMIS n'est pas dans CAC40/S&P500/Big4/Big3, mais elle est reconnue dans le secteur de la data et des technologies, donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance Paris (75002) - Lyon = environ 468km, donc score réduit",
+                "score": 3
+            },
+            "C5": {
+                "reason": "Stage début mars/avril 2026, soit un écart de 1 mois par rapport à la période idéale (juin 2026), donc score légèrement réduit",
+                "score": 10
+            }
+        },
+        {
+            "name": "Stage - Data Governance Engineer H/F (août 2026)",
+            "score": 64,
+            "C1": {
+                "reason": "Python match t_prio +1, Excel avancé match prio +0.5, pandas match t_prio +1, numpy match t_prio +1",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Étudiant en ingénierie ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Veepee est une entreprise renommée mais pas dans le CAC40 ou S&P500, donc score intermédiaire",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Distance Saint-Denis (93) - Lyon = environ 467km, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Stage commence en août 2026, soit un mois après le début idéal pour Hugo qui est juin 2026, donc score intermédiaire",
+                "score": 10
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 64,
+            "C1": {
+                "reason": "Python, pandas, numpy et scikit-learn sont des compétences t_prio pour le candidat dans la section data (4 points). Excel avancé est une compétence prio pour le candidat dans la section supply_chain (0.5 point).",
+                "score": 4.5
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études d'ingénieur, ce qui correspond au profil recherché par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "La Banque de France est une entreprise prestigieuse en France.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre se situe à Paris, ce qui correspond au critère maximal pour la localisation.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence début juin 2026, ce qui correspond parfaitement au timing recherché par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire - Data Privacy et IA act - Neuilly (H/F)",
+            "score": 60,
+            "C1": {
+                "reason": "Le candidat n'a pas de compétences en matière de protection des données personnelles ou d'IA Act qui correspondent aux t_prio, prio ou bonus listés dans les compétences du candidat.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est un étudiant en fin d'études (Ingénieur 5A ECAM Lyon), ce qui correspond à la catégorie Bac+4/5 et stage fin d'études.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Grant Thornton fait partie des Big4, ce qui donne le score maximal pour le prestige de l'entreprise.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation est à Neuilly-sur-Seine (France), proche de Paris. La distance n'est pas spécifiée mais considérons-la comme maximale pour Paris, donc la note est maximale.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond exactement à la période recherchée par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage BAC+3 - Supply Chain - F/H/D",
+            "score": 59,
+            "C1": {
+                "reason": "Supply Chain Management match t_prio +1, Excel avancé match prio +0.5, Python match bonus +0.25",
+                "score": 1.75
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "bioMérieux est une entreprise renommée, pas dans CAC40/S&P500 mais bien connue en France",
+                "score": 18
+            },
+            "C4": {
+                "reason": "Lyon = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Stage à partir de juin 2026, correspond exactement au timing souhaité par le candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 54,
+            "C1": {
+                "reason": "Correspondance compétences: Python (t_prio) +1, Excel avancé (prio) +0.5",
+                "score": 1.5
+            },
+            "C2": {
+                "reason": "Formation/niveau: Ingénieur ECAM Lyon Bac+4/5 = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Crédit Agricole CIB est une grande banque française, score élevé",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Montrouge (92120) hors de Lyon/Montpellier/Paris mais proche d'Île-de-France, -5km = -0.75",
+                "score": 8.25
+            },
+            "C5": {
+                "reason": "Période: Offre pour juin 2026 correspond parfaitement à la période de stage recherchée par le candidat",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieur.e logiciel Python (F/H)",
+            "score": 54,
+            "C1": {
+                "reason": "Le candidat possède des compétences en Python et pandas qui correspondent aux compétences demandées dans l'offre. Cependant, les missions de l'offre ne sont pas directement liées à la supply chain ou au data.",
+                "score": 4
+            },
+            "C2": {
+                "reason": "Le candidat est en dernière année d'études (Ingénieur 5A ECAM Lyon), ce qui correspond parfaitement aux critères de formation recherchés par l'entreprise.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "L'entreprise Groupe SII n'est pas une entreprise prestigieuse au niveau CAC40/S&P500/Big4/Big3, mais elle est reconnue dans le domaine des services informatiques et de l'intégration.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "La localisation du stage à Vélizy-Villacoublay (78140) n'est pas spécifiquement indiquée comme une ville recherchée par le candidat, mais elle est proche de Paris et donc potentiellement acceptable.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond exactement à la période souhaitée par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant Chef de Projet Supply Chain - Distribution Omnicanale F/H - Septembre 2026",
+            "score": 52,
+            "C1": {
+                "reason": "Correspondance compétences: t_prio (Supply Chain Management, Forecasting) +2, prio (Data-driven decision making, Analyse Pareto, Excel avancé, Python) +2, bonus (Power Query, Reporting automatisé) +0.5",
+                "score": 4.5
+            },
+            "C2": {
+                "reason": "Formation/niveau: Etudiant en école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Louis Vuitton est une marque prestigieuse et renommée, score maximal",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: Paris (France) - Lyon = environ 500km -> -1pt par km au-delà de 20km = -48pts",
+                "score": 3
+            },
+            "C5": {
+                "reason": "Période: Septembre 2026, correspond bien à la période recherchée (juin-septembre 2026) -> score maximal",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développement d'un outil de calcul des parts de marché en Python - F/H",
+            "score": 50,
+            "C1": {
+                "reason": "Python (t_prio) +1, pandas (t_prio) +1, numpy (t_prio) +1, scikit-learn (t_prio) +1",
+                "score": 4
+            },
+            "C2": {
+                "reason": "Excel avancé (prio) +0.5, Pivot Tables (bonus) +0.25, Power Query (bonus) +0.25, Reporting (prio) +0.5, Analyse de données (prio) +0.5",
+                "score": 1.75
+            },
+            "C3": {
+                "reason": "Thales est une entreprise prestigieuse et reconnue internationalement.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de Toulouse n'est pas spécifiée comme étant dans Lyon, Paris ou Montpellier. La distance exacte par rapport à ces villes n'est pas donnée pour un calcul précis.",
+                "score": 10
+            },
+            "C5": {
+                "reason": "Le stage est prévu pour juin 2026, qui correspond parfaitement au timing recherché par le candidat (4-6 mois à partir de juin 2026).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Change & Adoption Intern - Tech Master Data Management - July 2026",
+            "score": 45,
+            "C1": {
+                "reason": "Appetence for Product Adoption, Change Management and end-user support: pas de compétences spécifiques correspondantes dans les t_prio ou prio pour la supply chain ou data; Comfort with design tools to produce highly intuitive support: pas de compétences spécifiques correspondantes dans les t_prio ou prio pour la supply chain ou data",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Bac+4/5, école ingénieur ECAM Lyon, stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Pernod Ricard est une entreprise prestigieuse et reconnue à l'échelle internationale, donc score maximal pour cette catégorie",
+                "score": 20
+            },
+            "C4": {
+                "reason": "La localisation de Paris (75000) n'est pas spécifiée comme Lyon ou Montpellier; hypothèse que la distance est supérieure à 20km, donc score minimal",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage commence en juillet 2026 qui correspond bien au début de l'été pour un stage fin d'études, donc score maximal",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieur.e d'Etudes et Développement Informatique F/H",
+            "score": 44,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond aux exigences techniques de l'offre (Java, Angular, micro-services, bases de données relationnelles et non relationnelles, Cloud et DevOps).",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études Bac+5 à ECAM Lyon, ce qui correspond au niveau requis par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "VINCI Energies n'est pas une entreprise de renommée internationale comme CAC40/S&P500/Big4/Big3 mais est néanmoins un acteur important du secteur des travaux publics en France.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est basée à Lyon, ce qui correspond parfaitement à la localisation recherchée par le candidat.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "La période de début du stage n'est pas spécifiée dans l'offre, donc on ne peut pas évaluer précisément si elle est proche ou non de juin 2026.",
+                "score": 7
+            }
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 43,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond directement aux missions de conformité et contrôle interne, donc aucun point n'est attribué pour les compétences spécifiques.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est étudiant en Ingénieur 5A ECAM Lyon ce qui correspond à un niveau Bac+4/5. Donc le score maximal de 10 points est attribué.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "COMGEST n'est pas une entreprise prestigieuse comme CAC40/S&P500/Big4/Big3, donc un score intermédiaire de 10 sur 20 est attribué en fonction de la renommée moyenne de l'entreprise.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "La localisation du stage à Paris (75009) est éloignée de Lyon, donc un score intermédiaire de 8 sur 15 est attribué en fonction de la distance.",
+                "score": 8
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 ce qui correspond exactement à la période souhaitée par le candidat. Donc le score maximal de 15 points est attribué.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 41,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond directement aux compétences demandées dans l'offre (Excel, Word, PowerPoint, Outlook).",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est étudiant en fin d'études à ECAM Lyon, ce qui correspond au niveau de formation recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "L'entreprise Lindt & Sprüngli n'est pas dans le CAC40/S&P500/Big4/Big3 mais est une entreprise renommée internationalement, donc score intermédiaire.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "La localisation de l'offre à Paris ne correspond pas à la préférence du candidat pour Lyon ou sa région.",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui est dans la période recherchée par le candidat.",
+                "score": 14
+            }
+        },
+        {
+            "name": "Stage - Développement d'une base de données pour l'archivage et l'exploitation des résultats d'analyses olfactométriques et chimiques",
+            "score": 37,
+            "C1": {
+                "reason": "Le candidat possède des compétences en Python, pandas, numpy, scikit-learn qui sont liées à la data mais ne correspondent pas directement aux compétences demandées (SQL, développement de bases de données).",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le profil du candidat correspond bien au niveau requis pour le stage (étudiant en dernière année d'ingénieur)",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Egis n'est pas une entreprise de renommée internationale comme CAC40/S&P500/Big4/Big3, mais elle est reconnue dans son domaine.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "La localisation d'Aix-en-Provence ne correspond pas à la préférence du candidat pour Lyon (distance non spécifiée)",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond bien au timing recherché par le candidat.",
+                "score": 15
+            }
+        }
+    ]
+}

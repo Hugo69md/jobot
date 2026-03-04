@@ -1,0 +1,80 @@
+{
+    "offer_name": "BOUCHERON - Stagiaire Supply Chain Analyst (KPI & Reporting) F/H/X",
+    "offer_company": "Boucheron",
+    "offer_type": "supply_chain",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car formation en supply chain management et génie mécanique/electrique pertinente pour le poste; index 2 car stage en supply chain avec création d'outils d'analyse de données et automatisation de processus; index 4 car formation en analyse de données avec python, compétence requise pour la mise en place des tableaux de bord KPI; index 5 car approfondissement des modèles de prédiction avec Python, utile pour l'analyse des performances des stocks et identification d'écarts; index 6 car expérience en tant que data analyst freelance avec maitrise approfondie de python et excel, compétences clés pour la production de reportings clairs;",
+    "skills_section": [
+        "Excel avancé",
+        "Python",
+        "pandas",
+        "numpy",
+        "KPI",
+        "Gestion des stocks"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stagiaire Supply Chain Analyst (KPI & Reporting) F/H/X chez Boucheron. Actuellement en cinquième année à l'ECAM Lyon dans le domaine du supply chain management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nAu cours de mon stage chez Arrow, j'ai pu développer des outils d'analyse de données et automatiser des processus en utilisant Python et Excel. Ces expériences m'ont permis de maîtriser l'utilisation avancée d'Excel, y compris les macros VBA, ainsi que la manipulation efficace des données avec pandas et numpy.\n\nJe suis également familier avec le reporting automatisé et la création de dashboards pour visualiser les KPIs. Ces compétences me permettent de contribuer activement à l'amélioration des outils de revue des assortiments boutiques et au suivi des indicateurs clés de performance, comme mentionné dans vos missions.\n\nEn outre, mon expérience chez Amazon m'a permis d'acquérir une compréhension approfondie des enjeux liés à la gestion des stocks et aux prévisions de demande. Ces connaissances me seront utiles pour analyser les performances des stocks et identifier les écarts nécessitant des alertes de disponibilité.\n\nJe suis également capable d'assister le Supply Planner dans l'analyse de la profondeur de stock en boutique, ainsi que de participer à la mise en place et au suivi des campagnes de retours monde. Mon niveau C1 en anglais me permettra de collaborer efficacement avec vos équipes internationales.\n\nJe suis convaincu que mes compétences techniques et mon expérience pratique en supply chain et data management feront de moi un atout pour votre équipe. Je serais ravi d'avoir l'opportunité de discuter plus en détail de ma candidature lors d'un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données et la gestion des stocks.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données",
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. J'ai développé plusieurs tableaux de bord pour le monitoring des indicateurs clés de performance (KPI) et réalisé des analyses approfondies des ruptures de stock et non-conformités en entrepôt.",
+            "keywords_injected": [
+                "supply chain",
+                "création d'outils d'analyse",
+                "automatisation des processus",
+                "tableaux de bord",
+                "indicateurs clés de performance (KPI)",
+                "ruptures de stock",
+                "non-conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation en ligne visant à acquérir les bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction avec Python et approfondissement de la librairie ScikitLearn pour développer des compétences en data-driven decision making et KPI.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "KPI"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour l'analyse de données et la statistique inférentielle en créant un portfolio avec des projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boites de comptabilités, mettant à profit mes compétences en Excel avancé et Python.",
+            "keywords_injected": [
+                "Excel avancé",
+                "Python",
+                "Statistiques inférentielle"
+            ]
+        }
+    ]
+}

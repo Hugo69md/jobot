@@ -1,0 +1,78 @@
+{
+    "offer_name": "Stage - Assistant Data Science (F/H/X)",
+    "offer_company": "SEPHORA",
+    "offer_type": "data",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        5,
+        6,
+        4
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management pertinente pour le contexte de SEPHORA; index 2 car stage en supply chain avec création d'outils d'analyse et d'automatisation, compétences clés pour développer des algorithmes de machine learning; index 5 car formation axée sur la data science avec Python, approfondissement des modèles de prédiction; index 6 car expérience freelance en analyse de données avec Python et Excel, maitrise approfondie des statistiques; index 4 car formation en data analysis avec python couvrant les librairies Numpy, pandas, Matplotlib et Seaborn, compétences clés pour le stage;",
+    "skills_section": [
+        "Python",
+        "Machine Learning",
+        "pandas",
+        "numpy",
+        "ScikitLearn",
+        "Data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stage - Assistant Data Science (F/H/X) au sein du groupe SEPHORA. En tant qu'étudiant en 5ème année à l'ECAM Lyon avec une spécialisation en Supply Chain Management et une solide expérience dans le domaine des données, je suis particulièrement motivé par cette opportunité qui me permettrait d’approfondir mes compétences en Data Science.\n\nAu cours de mon stage chez Arrow, j'ai développé plusieurs outils d'analyse de données utilisant Python et Excel. Cette expérience m'a permis de maîtriser des techniques essentielles telles que le nettoyage et la préparation des données, ainsi que l’automatisation de processus grâce à Python (pandas, numpy, matplotlib, seaborn). J'ai également réalisé un projet freelance en tant que Data Analyst où j’ai créé un portfolio avec plusieurs projets open source et semi-automatisés.\n\nJe suis familier avec les approches de Machine Learning comme RandomForest, XGBoost, LightGBM et LSTM, et je possède une connaissance solide des langages Python et SQL. De plus, ma formation en Data Science à HarvardX m'a permis d'approfondir mes connaissances sur l'apprentissage automatique et la librairie ScikitLearn.\n\nJe suis convaincu que mon expérience et mes compétences me permettront de contribuer efficacement aux projets de SEPHORA, notamment en développant des algorithmes de Machine Learning pour optimiser les recommandations de produits ou le scoring client. Je serais également ravi d’apporter ma contribution à la génération AI et à l’amélioration de la prévision d’activité.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur l'analyse de données et la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "supply chain management",
+                "data-driven decision making"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur l'analyse de données et l'automatisation des processus. J'ai créé plusieurs outils d'analyse utilisant Python pour optimiser les schémas de ruptures et gérer les non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences dans les approches de Machine Learning et le nettoyage préparation des données.",
+            "keywords_injected": [
+                "Machine Learning",
+                "ScikitLearn",
+                "Python",
+                "préparation des données"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer un portfolio de projets open source et des automatisations semi-automatiques. Ces travaux incluent notamment l'analyse de données et la mise en place d'un add-on pour un ERP spécialisé dans les boites de comptabilités.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Analyse de data",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn",
+                "Statistiques descriptives"
+            ]
+        }
+    ]
+}

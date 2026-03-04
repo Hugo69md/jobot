@@ -1,0 +1,76 @@
+{
+    "offer_name": "STAGE - Développeur Python F/H",
+    "offer_company": "Bpifrance",
+    "offer_type": "data",
+    "score": 87,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation des processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en tant que data analyst approfondissant les compétences en Python et Excel, index 7 n'est pas inclus car ne correspond pas aux missions ou compétences requises",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "Data Visualization",
+        "Automatisation",
+        "SQL"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Python F/H chez Bpifrance. En tant qu'étudiant en 5ème année à l'ECAM Lyon spécialisée en Supply Chain Management et Data Science, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nDurant mon stage chez Arrow, j'ai pu créer plusieurs outils d'analyse de données et automatiser des processus grâce à Python. Ces expériences m'ont permis de développer une solide expertise en matière de nettoyage et de préparation des données, ainsi que la création de dashboards et de rapports personnalisés. J'ai également acquis une maîtrise approfondie des bibliothèques Python comme pandas, numpy, seaborn et matplotlib.\n\nMon expérience chez Amazon m'a donné l'occasion d'apprendre les bases du reporting automatisé et la qualité des données dans le contexte de la supply chain. Ces compétences me permettent aujourd'hui de participer activement à l'amélioration des outils existants, en assurant leur cohérence et leur fiabilité.\n\nJe suis également familier avec Excel avancé, notamment les tableaux croisés dynamiques et Power Query, ce qui m'aide à gérer efficacement les données complexes. De plus, mon expérience en tant que Data Analyst freelance a renforcé mes compétences en automatisation de processus et en extraction de données via des outils comme Urllib et Scrapy.\n\nJe suis convaincu que ces expériences me permettront d'apporter une valeur ajoutée significative à votre équipe chez Bpifrance. Je serais ravi de pouvoir collaborer avec les différents acteurs impliqués sur vos projets pour comprendre les enjeux financiers et vulgariser les sujets techniques auprès des équipes métiers.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données et la visualisation pour optimiser les processus industriels.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python. J'ai également travaillé sur les schémas de ruptures et les non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "Analyse de données",
+                "Automatisation",
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Data Visualization"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction avec Python et l'approfondissement de la librairie ScikitLearn pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer un portfolio de projets open source et des solutions semi-automatisées. Ces travaux incluent notamment la création d'un add-on pour un ERP spécialisé dans les boites de comptabilité.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        }
+    ]
+}

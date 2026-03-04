@@ -1,0 +1,85 @@
+{
+    "offer_name": "STAGE - Data et reporting opérationnel",
+    "offer_company": "Air Liquide",
+    "offer_type": "data",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        11
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science axée sur les modèles de prédiction, index 6 car expérience freelance en tant que data analyst approfondissant ses compétences en Python et Excel, index 11 car stage ouvrier chez Amazon où il a acquis des compétences en préparation de routes et maîtrise du 5S",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "reporting",
+        "supply chain management",
+        "data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage en Data et reporting opérationnel au sein d'Air Liquide. Actuellement étudiant en 5ème année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par les opportunités qui me permettront d’appliquer mes compétences en data et en gestion des opérations.\n\nAu cours de mon stage chez Arrow, j'ai eu l'occasion de créer plusieurs outils d'analyse de données et d'automatisation de processus. Ces expériences m'ont permis de développer une expertise dans le nettoyage et la préparation des données ainsi que dans l'utilisation de Python pour générer des tableaux de bord et des rapports détaillés. Je suis également familier avec les librairies pandas, numpy, seaborn et matplotlib qui sont essentielles pour la visualisation des données.\n\nDans le cadre du concours Campus Création 2023-2024, j'ai participé à l'élaboration d'un business plan visant à réduire les risques d’addiction au smartphone. Cette expérience m'a permis de développer une approche rigoureuse et structurée pour la prise de décision basée sur des données.\n\nJe suis également formé en data science grâce aux formations FreeCodeCamp et HarvardX, où j'ai appris les bases du machine learning avec ScikitLearn. Ces compétences me permettent d’élaborer des modèles prédictifs qui peuvent être utilisés pour la gestion opérationnelle des indicateurs clés de performance.\n\nJe suis convaincu que mes capacités en data et ma connaissance approfondie de l'industrie de la supply chain seront un atout majeur pour votre équipe. Je serais ravi d'avoir l’opportunité de contribuer à vos projets en utilisant Appsheet pour développer des tableaux de bord et des plannings, tout en formalisant les modes opératoires associés.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. J'ai développé des compétences en reporting et en automatisation de processus.",
+            "keywords_injected": [
+                "supply chain management",
+                "reporting",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et de reporting opérationnel. Utilisation d'Excel avancé et Python pour automatiser les processus et créer des tableaux de bord.",
+            "keywords_injected": [
+                "Reporting",
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant le codage et la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en data-driven decision making et en reporting.",
+            "keywords_injected": [
+                "data-driven decision making",
+                "Reporting"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données pour créer un portfolio open source comprenant des projets semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant en pratique mes compétences en Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "description_tailored": "Au cours de ce stage ouvrier, j'ai contribué à la préparation des routes et à l'initiation du processus 5S pour optimiser les opérations. J'ai également acquis une première expérience en picking.",
+            "keywords_injected": [
+                "préparation de routes",
+                "initiation et maîtrise du 5S"
+            ]
+        }
+    ]
+}

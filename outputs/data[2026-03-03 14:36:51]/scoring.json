@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Change & Adoption Intern - Tech Master Data Management - July 2026",
+            "score": 75,
+            "C1": {
+                "reason": "Correspondance compétences: Le poste recherche des compétences en data et supply chain, mais les compétences spécifiques demandées ne correspondent pas directement à celles du candidat (pas de mention explicite d'Excel avancé ou Python dans le profil recherché).",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Formation/niveau: Le candidat est en fin d'études d'un Master ingénieur, ce qui correspond bien au niveau recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Prestige entreprise: Pernod Ricard est une entreprise de renommée internationale, donc le score est élevé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Localisation: L'offre se situe à Paris (5 cours Paul Ricard), ce qui est loin de Lyon. Le calcul donne un score bas car la distance est importante.",
+                "score": 1
+            },
+            "C5": {
+                "reason": "Période: La période du stage correspond bien au moment où le candidat recherche un stage, donc le score est élevé.",
+                "score": 12
+            }
+        },
+        {
+            "name": "Stagiaire Conformité et Contrôle Interne",
+            "score": 50,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond directement aux exigences de l'offre, donc aucun point n'est attribué pour les compétences spécifiques.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est étudiant en Ingénieur 5A ECAM Lyon ce qui correspond à un niveau Bac+4/5 et recherche un stage fin d'études, donc le score maximal de 10 points est attribué pour la formation/niveau.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "COMGEST n'est pas une entreprise prestigieuse dans les catégories CAC40/S&P500/Big4/Big3, donc le score est inférieur à 20 points. La renommée de l'entreprise est moyenne.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "L'offre se situe à Paris et le candidat recherche un stage en France (Mobile France), donc la localisation est favorable, score maximal de 15 points attribué pour la localisation.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond exactement à la période recherchée par le candidat, donc le score maximal de 15 points est attribué pour la période.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant(e) Chargé(e) de Développement Business BtoB",
+            "score": 49,
+            "C1": {
+                "reason": "Aucun des t_prio skills en data ou supply chain ne correspondent aux compétences demandées dans l'offre.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est étudiant en fin d'études (Ingénieur 5A ECAM Lyon), correspondant au niveau de formation recherché par l'entreprise.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Lindt & Sprüngli n'est pas une entreprise du CAC40, mais elle est reconnue internationalement pour ses produits haut de gamme. Le score sera donc inférieur à la valeur maximale.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "La localisation de l'offre est Paris (France), ce qui n'est pas proche de Lyon où le candidat se trouve actuellement, mais reste une ville importante pour les opportunités professionnelles. Le score sera donc légèrement inférieur à la valeur maximale.",
+                "score": 12
+            },
+            "C5": {
+                "reason": "La période du stage est indiquée comme étant en juin 2026, ce qui correspond exactement au moment où le candidat recherche un stage pour fin d'études. Le score sera donc maximal.",
+                "score": 15
+            }
+        }
+    ]
+}

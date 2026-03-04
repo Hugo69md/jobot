@@ -1,0 +1,86 @@
+{
+    "offer_name": "STAGE - Développeur Python H/F - 6 mois",
+    "offer_company": "BNP Paribas France",
+    "offer_type": "data",
+    "score": 77,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en analyse de données approfondie, index 7 car bénévolat mais pas pertinent pour les compétences requises",
+    "skills_section": [
+        "Python",
+        "Pandas",
+        "Numpy",
+        "Automation",
+        "Statistiques descriptive",
+        "Git"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Python H/F au sein de BNP Paribas France. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui allie développement et data.\n\nAu cours de mon parcours académique et professionnel, j'ai acquis des compétences solides dans le domaine du Python. Mon stage chez Arrow m'a permis d'élaborer plusieurs outils d'analyse de données en utilisant Python et Excel pour automatiser les processus liés à la supply chain. De plus, ma formation sur Data Analysis avec Python via FreeCodeCamp m'a doté des compétences nécessaires dans l'utilisation des bibliothèques pandas, numpy, matplotlib et seaborn.\n\nJe suis également actif en tant que data analyst freelance depuis janvier 2025, où j'ai approfondi mes connaissances en statistiques inférentielles et descriptives. Ces expériences m'ont permis de développer une expertise dans le nettoyage et la préparation des données, ainsi que l'automatisation des workflows.\n\nJe suis convaincu que ces compétences me permettront d’apporter ma contribution au sein de BNP Paribas France. Je serai particulièrement à même de participer aux missions liées à la création et à la mise en œuvre des programmes et outils pour simplifier l'administration et l'utilisation des services, ainsi que le maintien des programmes et outils.\n\nJe suis également familier avec les outils CI/CD tels que Gitlab et Jenkins, qui sont mentionnés dans vos compétences recherchées. De plus, mon expérience en supply chain m'a permis de développer une approche data-driven pour la prise de décision, ce qui me permettra d'apporter des solutions innovantes basées sur l'analyse des données.\n\nJe serais ravi de pouvoir discuter avec vous de ma candidature et de mon potentiel au sein de BNP Paribas France. Je reste à votre disposition pour un entretien afin de détailler davantage mes compétences techniques et mon intérêt pour ce poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur l'apprentissage de Python pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "supply chain management",
+                "Python"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus. Utilisation de Python pour le monitoring et l'amélioration des schémas de ruptures et non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "supply chain",
+                "data analysis",
+                "automation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy et Pandas pour le nettoyage et la préparation des données. Statistiques descriptives couvertes.",
+            "keywords_injected": [
+                "Python",
+                "Numpy",
+                "Pandas",
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science et du développement de modèles de prédiction en Python. J'ai approfondi ma compréhension de ScikitLearn pour analyser et prévoir les données.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mes compétences en Python et Excel pour créer un portfolio de projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, mettant à profit des techniques d'analyse de données et de statistiques inférentielles.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "statistiques inférentielle",
+                "statistiques descriptive"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "description_tailored": "Organisation et mise en place de l'infrastructure numérique pour la représentation de la FRM lors de la fête de la science 2024, incluant le développement d'un outil automatisé pour faciliter la gestion des données.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "offer_name": "Stagiaire Chargé de Projet et data analyste (F/H) 6 mois",
+    "offer_company": "Carrefour France",
+    "offer_type": "data",
+    "score": 77,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur en génie mécanique et électrique avec une spécialisation en supply chain management qui correspond bien à l'offre de stage chez Carrefour France; index 2 car il y a eu création d'outils d'analyse de données et automatisation de processus, compétences clés pour le poste proposé; index 4 car la formation sur l'analyse de données avec Python renforce les capacités du candidat en matière d'analyse quantitative; index 5 car l'introduction à la data science avec python approfondit encore plus ses connaissances techniques nécessaires au poste; index 6 car le travail freelance en tant que data analyste montre une application concrète des compétences requises pour le stage proposé par Carrefour France",
+    "skills_section": [
+        "Analyse de données",
+        "Excel",
+        "Python",
+        "pandas",
+        "numpy",
+        "Data Visualization"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stagiaire chargé de projet et data analyste à Carrefour France. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui allie gestion de projets et analyse des données.\n\nAu cours de mon parcours académique et professionnel, j'ai acquis une solide expérience dans la manipulation et l'analyse de données. Mon stage chez Arrow m'a permis d'utiliser Python et Excel pour créer divers outils d'analyse et d'automatisation de processus en lien avec la supply chain. Ces compétences me permettent aujourd'hui de répondre aux missions liées à l'analyse des données qualitatives et quantitatives.\n\nJe suis également familier avec les techniques d'extraction, nettoyage et préparation des données grâce à ma formation sur FreeCodeCamp en data analysis with python. J'ai approfondi mes connaissances en statistiques descriptives et inférentielles lors de mon parcours académique et professionnel.\n\nMon expérience chez Amazon m'a permis d'acquérir une rigueur opérationnelle et une capacité à organiser les réunions et supports associés. Ces compétences me seront utiles pour cadrer les projets confiés et restituer les statuts d'avancement basés sur des reportings définis.\n\nJe suis convaincu que mes compétences en Excel avancé, ma capacité à analyser et synthétiser les données ainsi que mon sens de l'organisation me permettront de contribuer efficacement au succès du projet. Je serais ravi d'avoir l’opportunité de vous rencontrer pour discuter plus en détail de cette opportunité.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Formation axée sur l'analyse de données et la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et d'automatisation des processus. J'ai utilisé Python et Excel pour développer des solutions de monitoring et analyser les schémas de ruptures et non-conformités dans le cadre du travail approfondi sur l'entrepôt.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Monitoring",
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives couvertes.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de modèles de prédiction et l'approfondissement de la librairie ScikitLearn en Python. Cette formation a renforcé mes compétences en analyse de données et en data-driven decision making.",
+            "keywords_injected": [
+                "analyse de données",
+                "data-driven decision making"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en statistiques et en analyse de données. J'ai créé un portfolio avec des projets open source et semi-automatisés, y compris un add-on pour un ERP spécialisé dans la comptabilité.",
+            "keywords_injected": [
+                "statistiques inférentielle",
+                "analyse de data"
+            ]
+        }
+    ]
+}

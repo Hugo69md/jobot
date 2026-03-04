@@ -1,0 +1,77 @@
+{
+    "offer_name": "Stage - Data Scientist H/F - 6 mois",
+    "offer_company": "BNP Paribas France",
+    "offer_type": "data",
+    "score": 80,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car formation en ingénierie avec spécialisation en supply chain management, index 2 car stage en supply chain avec création d'outils d'analyse de données et d'automatisation de processus, index 4 car formation en analyse de données avec Python, index 5 car introduction à la data science avec Python, index 6 car expérience freelance en tant que data analyst approfondissant les compétences en Python et Excel, index 7 car bénévolat mais pas pertinent pour cette offre",
+    "skills_section": [
+        "Python",
+        "pandas",
+        "numpy",
+        "dashboards",
+        "Reporting automatisé",
+        "Excel avancé"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe vous remercie de l'intérêt que vous portez à mon profil pour le poste de Data Scientist H/F chez BNP Paribas France. Actuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je suis particulièrement motivé par cette opportunité qui correspond parfaitement à mes compétences et aspirations professionnelles.\n\nDurant mon stage chez Arrow, j'ai pu créer plusieurs outils d'analyse de données en utilisant Python et Excel. Ces expériences m'ont permis de développer des compétences clés telles que le nettoyage et la préparation des données, ainsi que l'automatisation de processus. J'ai également suivi une formation Data Analysis with Python chez Freecodecamp et un cours Introduction to Data Science à HarvardX, ce qui m'a permis d'approfondir mes connaissances en statistiques descriptives et inférentielles, ainsi que dans l'utilisation de bibliothèques comme pandas, numpy, matplotlib et seaborn.\n\nEn tant qu'étudiant ingénieur spécialisé en Supply Chain Management, je suis familier avec les concepts clés tels que la prévision de la demande et le reporting automatisé. Ces compétences me permettront d'élaborer des études quantitatives pour la direction du groupe Arval, d’exploiter et interpréter les données pour dégager des observations business utiles, et de créer des dashboards et KPIs.\n\nJe suis également à l'aise avec Power BI et Excel avancé, deux outils que j'ai utilisés régulièrement lors de mon stage chez Arrow. Ces compétences me permettront d’exploiter efficacement les données pour produire des analyses métiers ainsi que des recommandations à destination des managers.\n\nJe suis disponible pour un stage de 6 mois à partir du 1er juin 2026 et je serais ravi de pouvoir contribuer au développement de BNP Paribas France en tant que Data Scientist H/F.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. Formation axée sur l'analyse de données et la création de dashboards pour optimiser les processus logistiques.",
+            "keywords_injected": [
+                "supply chain management",
+                "data analysis",
+                "dashboards"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Période de stage en supply chain axée sur la création d'outils d'analyse et de reporting automatisés. Utilisation de Python pour le monitoring des processus et l'étude des ruptures et non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Python",
+                "Reporting automatisé",
+                "Monitoring",
+                "Non conformités"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant le codage avancé et la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+            "keywords_injected": [
+                "Python",
+                "pandas",
+                "numpy",
+                "Matplotlib",
+                "Seaborn"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction et le développement approfondi des compétences en Python, notamment avec la librairie ScikitLearn. Cette formation a renforcé mes capacités en data science et en interprétation de données.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn",
+                "modèles de prédiction"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon expertise en Python et Excel pour créer un portfolio de projets open source et des solutions semi-automatisées. Ces travaux incluent notamment la création d'un add-on pour un ERP spécialisé dans les boites de comptabilités.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        }
+    ]
+}

@@ -23,7 +23,8 @@
       "type":[
         "Supply_chain",
         "Data",
-        "Medical"
+        "Medical",
+        "Bureau"
       ],
       "period": "Juin / Octobre 2024",
       "description": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de process dans le contexte des missions données",
@@ -39,12 +40,13 @@
       "index": 3,
       "name": "Campus Création Edition 2023-2024",
       "type":[
-        "Entreprenariat"
+        "Entreprenariat",
+        "Autonomie"
       ],
       "period": "2023-2024",
       "description": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
       "specific_skills": [
-        "Travail en Autonomie et en equipe",
+        "Autonomie",
         "Entreprenariat"
       ],
       "link": "",
@@ -54,7 +56,8 @@
       "index": 4,
       "name": "Freecodecamp - Data analysis with python",
       "type":[
-        "Data"
+        "Data",
+        "Autonomie"
       ],
       "period": "Décembre 2024 / Janvier 2025",
       "description": "Formation visant à apprendre les bases du domaine de l'analyse de données avec python comme support",
@@ -69,7 +72,8 @@
       "index": 5,
       "name": "HarvardX - CS109x, Introduction to Data science",
       "type":[
-        "Data"
+        "Data",
+        "Autonomie"
       ],
       "period": "Décembre 25 / Janvier 26",
       "description": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec python comme support",

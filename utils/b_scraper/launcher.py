@@ -23,6 +23,6 @@ def run_scraper(date):
     })
 
     process = CrawlerProcess(settings)
-    process.crawl(JobteaserSpider, max_offers=100)  # Pass max_offers to limit the number of scraped offers
+    process.crawl(JobteaserSpider, max_offers=8)  # Pass max_offers to limit the number of scraped offers
     process.start()
    

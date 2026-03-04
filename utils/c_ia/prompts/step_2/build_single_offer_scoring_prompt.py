@@ -9,16 +9,16 @@ def _build_cv_summary(cv_data: dict) -> str:
             "index": exp["index"],
             "name": exp["name"],
             "categorization": exp["categorization"],
-            "skills": exp.get("skills", [])  
+            "specific_skills": exp.get("specific_skills", [])  
         })
-    skills = cv_data.get("skills", [])
+    all_candidate_skills = cv_data.get("all_candidate_skills", [])
     return f"""CANDIDAT: {perso.get("nom", "Hugo MANIPOUD")} — Ingénieur 5A ECAM Lyon (Supply Chain + Data)
 RECHERCHE: Stage fin d'études 4-6 mois à partir juin 2026 — Data OU Supply Chain — Mobile France
 COMPÉTENCES: Python, pandas, numpy, scikit-learn, Excel avancé, Supply Chain (Arrow, Amazon)
 EXPÉRIENCES:
 {json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
-SKILLS INDEXÉS:
-{json.dumps(skills, ensure_ascii=False, separators=(',', ':'))}"""
+SKILLS DU CANDIDAT INDEXÉS:
+{json.dumps(all_candidate_skills, ensure_ascii=False, separators=(',', ':'))}"""
 
 
 def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: str) -> str:
@@ -64,7 +64,11 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
    - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée
 2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
 3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
-4. *Localisation* (15 pts): Lyon ou Paris ou Montpellier = max, -1pt par 1km au-delà, <20km = 0
+4. *Localisation* (15 pts): 
+- Lyon ou Paris ou Montpellier = 15pt
+- Si la ville à 1km d'un de ces 3 centre villes, -1pt, si 2Km au dela de ces 3 villes, -2pt.
+- <15km = 0
+- ATTENTION, PARIS ET MONTPELLIER ET LYON SONT TOUTES DES VILLES CIBLE
 5. *Période* (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):

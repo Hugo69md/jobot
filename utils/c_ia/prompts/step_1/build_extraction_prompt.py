@@ -23,9 +23,9 @@ Extrais UNIQUEMENT les informations suivantes depuis la description :
 - Tout est trouvable dans la description, n'invente rien qui n'y est pas.
 
 *** FORMAT DE RÉPONSE *** :
-Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
+Réponds UNIQUEMENT avec ce format JSON (pas de texte avant ou après), le contenu est un example de format de reponse.: 
 {{
-  "profil_recherche": "...",
-  "missions": ["mission 1", "mission 2", "..."],
-  "competences": ["competence 1", "competence 2", "..."]
+  "profil_recherche": "Bac+4/5 école ingénieur, spécialisation Supply Chain",
+  "missions": ["Optimiser les flux logistiques", "Analyser les KPIs supply chain"...],
+  "competences_offre": ["SAP", "Excel", "Power BI", "Lean Management"....]
 }}"""

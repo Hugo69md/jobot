@@ -31,7 +31,7 @@ def build_skills_section_prompt(
                 all_keywords_injected.append(kw_norm)
 
     # Full skills catalog flattened (candidate pool the AI can pick from)
-    skills_catalog = cv_data.get("skills", [{}])[0]
+    skills_catalog = cv_data.get("all_candidate_skills", [{}])[0]
     all_candidate_skills = []
     for domain in ["data", "supply_chain"]:
         domain_skills = skills_catalog.get(domain, {})
@@ -49,7 +49,7 @@ def build_skills_section_prompt(
         "name":        best_offer.get("name", ""),
         "company":     best_offer.get("company", ""),
         "missions":    best_offer.get("missions", []),
-        "competences": best_offer.get("competences", []),
+        "competences_offre": best_offer.get("competences_offre", []),
     }
 
     return f"""Tu es un expert en optimisation de CV pour les logiciels ATS.

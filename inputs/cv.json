@@ -3,9 +3,13 @@
     {
       "index": 1,
       "name": "Etudiant - ECAM Lyon",
+      "type":[
+        "Supply_chain",
+        "ingenierie"
+      ],
       "period": "Septembre 2020 / Aujourd'hui",
       "description": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
-      "skills": [
+      "specific_skills": [
         "Supply Chain Management",
         "Génie Mécanique",
         "Génie Électrique"
@@ -16,9 +20,14 @@
     {
       "index": 2,
       "name": "Stage - Laboratoire Arrow, Lyon France",
+      "type":[
+        "Supply_chain",
+        "Data",
+        "Medical"
+      ],
       "period": "Juin / Octobre 2024",
       "description": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de process dans le contexte des missions données",
-      "skills": [
+      "specific_skills": [
         "Première immersion professionnelle dans le monde de la supply chain",
         "Creation de plusieurs outils de monitoring en utilisant python / excel",
         "Travail approfondi sur les schemas de ruptures et les non conformités en WH"
@@ -29,9 +38,12 @@
     {
       "index": 3,
       "name": "Campus Création Edition 2023-2024",
+      "type":[
+        "Entreprenariat"
+      ],
       "period": "2023-2024",
       "description": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
-      "skills": [
+      "specific_skills": [
         "Travail en Autonomie et en equipe",
         "Entreprenariat"
       ],
@@ -41,9 +53,12 @@
     {
       "index": 4,
       "name": "Freecodecamp - Data analysis with python",
+      "type":[
+        "Data"
+      ],
       "period": "Décembre 2024 / Janvier 2025",
       "description": "Formation visant à apprendre les bases du domaine de l'analyse de données avec python comme support",
-      "skills": [
+      "specific_skills": [
         "Codage avec python, découverte approfondie des librairies Numpy, pandas, Matplotlib et Seaborn",
         "Statistiques descriptives"
       ],
@@ -53,9 +68,12 @@
     {
       "index": 5,
       "name": "HarvardX - CS109x, Introduction to Data science",
+      "type":[
+        "Data"
+      ],
       "period": "Décembre 25 / Janvier 26",
       "description": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec python comme support",
-      "skills": [
+      "specific_skills": [
         "Approfondissement de la librairie ScikitLearn",
         "Apprentissage des bases de modèles de prediction"
       ],
@@ -65,9 +83,13 @@
     {
       "index": 6,
       "name": "Data analyst freelance",
+      "type":[
+        "Data",
+        "Entreprenariat"
+      ],
       "period": "Janvier 2025 / Aujourd'hui",
       "description": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets, open source, semi - automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boites de comptabilités",
-      "skills": [
+      "specific_skills": [
         "Maitrise approfondie de Python et Excel",
         "Statistiques inférentielle",
         "Statistiques descriptive",
@@ -79,27 +101,36 @@
     {
       "index": 7,
       "name": "Fondation pour la recherche médicale",
+      "type":[
+        "Medical"
+      ],
       "period": "Année scolaire 2023-2024",
       "description": "Organisation de la représentation de la FRM à la fête de la science 2024.",
-      "skills": [],
+      "specific_skills": [],
       "link": "",
       "categorization": "benevolat"
     },
     {
       "index": 8,
       "name": "Kryptosphere",
+      "type":[
+        "Finance"
+      ],
       "period": "Année scolaire 2025-2026",
       "description": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
-      "skills": [],
+      "specific_skills": [],
       "link": "",
       "categorization": "benevolat"
     },
     {
       "index": 9,
       "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+      "type":[
+        "Supply_chain"
+      ],
       "period": "Aout / Septembre 2023 - 2 mois",
       "description": "Préparation et transport de palettes, initiation à la logistique avec le chef d'entrepôt.",
-      "skills": [
+      "specific_skills": [
         "Préparation et transport de palettes",
         "Initiation à la gestion logistique"
       ],
@@ -109,9 +140,12 @@
     {
       "index": 10,
       "name": "Technicien - Adopte un Mac",
+      "type":[
+        "Ouvrier"
+      ],
       "period": "Juillet 2021 / Septembre 2022 - 1 an 3 mois",
       "description": "Réparation / préparation à la vente d'ordinateurs MacBook, test écran / batterie / clavier / composants internes. Réparation de claviers / batteries / DD / RAM.",
-      "skills": [
+      "specific_skills": [
         "Réparation d'ordinateurs MacBook",
         "Préparation à la vente",
         "Test écran / batterie / clavier / composants internes",
@@ -123,9 +157,13 @@
     {
       "index": 11,
       "name": "Stage - Amazon DAR1",
+      "type":[
+        "Ouvrier",
+        "Supply_chain" 
+      ],
       "period": "Juin / Août 2021 - 2 mois",
       "description": "Stage ouvrier dans le cadre d'études d'ingénieur, préparation de routes, initiation et maîtrise du 5S.",
-      "skills": [
+      "specific_skills": [
         "Préparation de routes",
         "Initiation et maîtrise du 5S",
         "Picking"
@@ -134,7 +172,7 @@
       "categorization": "experiences_pro"
     }
   ],
-  "skills": [
+  "all_candidate_skills": [
     {
       "langue": [
         { "name": "Français", "level": "Natif" },

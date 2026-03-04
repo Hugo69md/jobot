@@ -6,7 +6,7 @@ def build_cover_letter_prompt(cv_data: dict, best_offer: dict, user_prompt: str)
     """
     perso = cv_data.get("Perso", [{}])[0]
     experiences = cv_data.get("experiences", [])
-    skills = cv_data.get("skills", [])
+    skills = cv_data.get("all_candidate_skills", [])
 
     return f"""Tu es un expert en recrutement. Le candidat suivant cherche un stage de fin d'études.
 
@@ -35,7 +35,7 @@ def build_cover_letter_prompt(cv_data: dict, best_offer: dict, user_prompt: str)
     "location": best_offer.get("location"),
     "profil_recherche": best_offer.get("profil_recherche", ""),
     "missions": best_offer.get("missions", []),
-    "competences": best_offer.get("competences", []),
+    "competences_offre": best_offer.get("competences_offre", []),
 }, ensure_ascii=False, indent=2)}
 
 ---
@@ -47,7 +47,7 @@ N'iNVENTE AUCUNE INFORMATION QUI N'EST PAS PRÉSENTE DANS LE CV OU L'OFFRE
 - Termine par "En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations."
 - Utilise \\n pour les sauts de ligne
 - PAS d'en-tête (pas de date, pas d'adresse)
-- Mets en avant les expériences et compétences du candidat qui matchent les missions et compétences de l'offre
+- Mets en avant les expériences et compétences du candidat qui matchent les missions et compétences_offres de l'offre
 - Mentionne l'entreprise et le poste par leur nom
 
 *** FORMAT DE RÉPONSE ***:

@@ -10,7 +10,7 @@ from utils.c_ia.prompts.step_3b.build_cover_letter_prompt import build_cover_let
 from utils.c_ia.prompts.step_4.build_skills_section_prompt import build_skills_section_prompt
 
 
-SCORE_THRESHOLD = 75  # Only generate CV + cover letter for offers above this score
+SCORE_THRESHOLD = 80  # Only generate CV + cover letter for offers above this score
 
 USER_PROMPT = (
     "Je suis Hugo MANIPOUD, étudiant en 5ème année d'école d'ingénieur à l'ECAM Lyon. "
@@ -19,7 +19,6 @@ USER_PROMPT = (
     "OU de la Supply Chain (planification, logistique, gestion des stocks, prévision de la demande). "
     "Je maîtrise Python, Excel avancé, pandas, numpy, matplotlib, seaborn, scikitlearn, "
     "et j'ai une expérience en supply chain (stage chez Arrow, stage chez Amazon). "
-    "Je suis basé à Lyon mais mobile en France. "
     "Privilégier les offres qui matchent mes compétences data ET/OU supply chain."
 )
 
@@ -96,17 +95,17 @@ def run_ia(date: str):
                 **offer,
                 "profil_recherche": extraction.get("profil_recherche", ""),
                 "missions":         extraction.get("missions", []),
-                "competences":      extraction.get("competences", []),
+                "competences_offre":      extraction.get("competences_offre", []),
             }
             print(f"  ✅ {enriched_offer['offer_type']} | "
-                  f"{len(enriched_offer['competences'])} skills | "
+                  f"{len(enriched_offer['competences_offre'])} skills | "
                   f"{len(enriched_offer['missions'])} missions")
         else:
             enriched_offer = {
                 **offer,
                 "profil_recherche": "",
                 "missions":         [],
-                "competences":      [],
+                "competences_offre":      [],
             }
             print(f"  ⚠️  Extraction failed")
 
@@ -132,15 +131,15 @@ def run_ia(date: str):
         print(f"\n  [{i+1}/{len(enriched_offers)}] Scoring: {offer_name[:60]}...")
 
         prompt = build_single_offer_scoring_prompt(cv_data, offer, USER_PROMPT)
-        result = query_ollama_json(prompt, temperature=0.1, num_predict=650)
+        result = query_ollama_json(prompt, temperature=0.1, num_predict=1000)
 
         if result and all(k in result for k in ("C1", "C2", "C3", "C4", "C5")):
-            c1 = result["C1"].get("score", 0)
-            c2 = result["C2"].get("score", 0)
-            c3 = result["C3"].get("score", 0)
-            c4 = result["C4"].get("score", 0)
-            c5 = result["C5"].get("score", 0)
-            final_score = round(c1 + c2 + c3 + c4 + c5, 1)
+            c1 = min(result["C1"].get("score", 0), 40)
+            c2 = min(result["C2"].get("score", 0), 10)
+            c3 = min(result["C3"].get("score", 0), 20)
+            c4 = min(result["C4"].get("score", 0), 15)
+            c5 = min(result["C5"].get("score", 0), 15)
+            final_score = c1 + c2 + c3 + c4 + c5, 1
 
             score_entry = {
                 "name":    result.get("name", offer_name),
@@ -208,10 +207,10 @@ def run_ia(date: str):
         print("\n  [STEP 3a-1] Selecting experience indexes...")
 
         selection_prompt = build_experience_selection_prompt(cv_data, offer_full)
-        selection_result = query_ollama_json(selection_prompt, temperature=0.1, num_predict=800)
+        selection_result = query_ollama_json(selection_prompt, temperature=0.0, num_predict=900)
 
-        if selection_result and "skills" in selection_result:
-            selected_indexes    = selection_result["skills"]
+        if selection_result and "selected_indexes" in selection_result:
+            selected_indexes    = selection_result["selected_indexes"]
             selection_reasoning = selection_result.get("reasoning", "")
             print(f"  ✅ Selected indexes: {selected_indexes}")
             print(f"  💬 Reasoning: {selection_reasoning}")
@@ -237,7 +236,7 @@ def run_ia(date: str):
             print(f"    → [{exp_idx}] {exp_name[:45]}...", end=" ", flush=True)
 
             resume_prompt        = build_resume_prompt(cv_data, offer_full, exp)
-            resume_result_single = query_ollama_json(resume_prompt, temperature=0.1, num_predict=400)
+            resume_result_single = query_ollama_json(resume_prompt, temperature=0.1, num_predict=600)
 
             if resume_result_single and "description_tailored" in resume_result_single:
                 tailored_resume.append(resume_result_single)

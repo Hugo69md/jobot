@@ -13,12 +13,12 @@ def build_resume_prompt(cv_data: dict, best_offer: dict, experience: dict) -> st
       "keywords_injected": ["keyword1", "keyword2"]
     }
     """
-    skills_catalog = cv_data.get("skills", [{}])[0]
+    skills_catalog = cv_data.get("all_candidate_skills", [{}])[0]
 
     offer_context = {
         "name":             best_offer.get("name", ""),
         "missions":         best_offer.get("missions", []),
-        "competences":      best_offer.get("competences", []),
+        "competences_offre":      best_offer.get("competences_offre", []),
     }
 
     return f"""Tu es un expert ATS. Tu réécris UNE description d'expérience pour maximiser le score ATS de ce CV.
@@ -33,8 +33,8 @@ def build_resume_prompt(cv_data: dict, best_offer: dict, experience: dict) -> st
 {json.dumps(experience, ensure_ascii=False, indent=2)}
 
 *** INSTRUCTIONS ***:
-1. Identifie les mots-clés de l'offre (missions + competences) pertinents pour CETTE expérience spécifique.
-2. Vérifie que ces mots-clés sont dans le catalogue skills du candidat
+1. Identifie les mots-clés de l'offre ("missions" + "competences_offre") pertinents pour CETTE expérience spécifique.
+2. Vérifie que ces mots-clés sont dans le catalogue "all_candidate_skills" du candidat
 3. Réécris uniquement le champ "description" en :
    - Intégrant naturellement les mots-clés pertinents
    - Conservant le sens original et restant factuel
@@ -43,8 +43,14 @@ def build_resume_prompt(cv_data: dict, best_offer: dict, experience: dict) -> st
 
 *** ATTENTION ***:
 - IL EST INTERDIT D'INVENTER DES COMPÉTENCES POUR LE CANDIDAT.
-- NE PAS MODIFIER LA DESCRIPTION DE LA COMPETENCE SI CELA IMPLIQUE D'INVENTER DES COMPÉTENCES
+- NE PAS MODIFIER LA DESCRIPTION DE L'EXPERIENCE DU CANDIDAT SI CELA IMPLIQUE D'INVENTER DES COMPÉTENCES
 
 *** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:
-{{"index": {experience.get("index")}, "name": "{experience.get("name", "")}", "description_tailored": "...", "keywords_injected": ["kw1", "kw2"]}}"""
+{{
+  "index": 2,
+  "name": "Stage - Laboratoire Arrow",
+  "reasoning": "L'offre demande Python et data processing. L'exp. Arrow utilise Python/Excel → injection naturelle possible",
+  "description_tailored": "...",
+  "keywords_injected": ["Python", "data processing"]
+}}"""

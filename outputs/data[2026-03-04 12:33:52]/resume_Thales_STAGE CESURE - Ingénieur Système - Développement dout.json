@@ -1,0 +1,86 @@
+{
+    "offer_name": "STAGE CESURE - Ingénieur Système - Développement d'outillages en Python - F/H",
+    "offer_company": "Thales",
+    "offer_type": "data",
+    "score": 88,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur avec une spécialisation en supply chain management qui correspond bien au contexte technique de l'offre; index 2 car il y a une création d'outils d'analyse de données et d'automatisation de processus, ce qui montre des compétences en Python et Excel, alignées sur les missions requises; index 6 car le candidat a approfondi son intérêt pour l'analyse de données avec plusieurs projets open source et un projet lucratif, montrant une maitrise approfondie de Python et d'Excel; index 4 car la formation en data analysis avec python renforce les compétences techniques nécessaires à l'offre; index 5 car la formation en introduction à la data science axée sur les modèles de prédiction est pertinente pour le développement d'applications en Python; index 10 car bien que ce stage soit dans un contexte supply chain, il montre une capacité à travailler avec des outils et méthodes (5S) qui peuvent être transposables aux missions de modélisation systèmes complexes",
+    "skills_section": [
+        "Python",
+        "modélisation de systèmes complexes",
+        "data processing",
+        "pandas",
+        "numpy",
+        "seaborn"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage Ingénieur Système - Développement d'outillages en Python chez Thales. Actuellement en cinquième année à l’ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé une solide expérience technique en programmation Python.\n\nAu cours de mon stage chez Arrow Laboratoire, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python. Ces expériences m'ont permis de développer un intérêt pour la modélisation de systèmes complexes, qui est une compétence recherchée dans votre offre. J'ai également suivi une formation en Data Analysis with Python via FreeCodeCamp et HarvardX, ce qui a renforcé mes connaissances en statistiques descriptives et inférentielles.\n\nJe suis particulièrement intéressé par la mission de développement d'applications en Python que vous proposez. Mon expérience avec les bibliothèques pandas, numpy, matplotlib et seaborn me permettra de contribuer efficacement à vos projets de modélisation de systèmes complexes (méthode ARCADIA) et de documentation des travaux réalisés.\n\nJe suis convaincu que mes compétences en Python, ma rigueur analytique et mon esprit d'initiative seront un atout pour Thales. Je reste à votre disposition pour échanger sur les possibilités de collaboration.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre demande des compétences en Python et modélisation de systèmes complexes. Le candidat a une spécialisation en Supply Chain Management qui peut inclure ces compétences.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management comprenant la modélisation de systèmes complexes et le développement d'applications en Python pour optimiser les processus logistiques.",
+            "keywords_injected": [
+                "Python",
+                "modélisation de systèmes complexes"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande Python et la modélisation de systèmes complexes. L'expérience Arrow utilise Python/Excel pour créer des outils d'analyse et d'automatisation, ce qui correspond bien aux compétences demandées.",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python et Excel. J'ai également travaillé sur les schémas de ruptures et les non-conformités dans le contexte du stockage et de la gestion des entrepôts.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre demande des compétences en Python et modélisation de systèmes. L'expérience mentionne l'utilisation de Python avec les bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des librairies Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction à la science des données",
+            "reasoning": "L'offre demande Python et modélisation de systèmes complexes. La formation utilise Python pour apprendre les bases du domaine de la data science avec un focus sur les modèles de prédiction.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la science des données, incluant l'approfondissement de la librairie ScikitLearn et l'étude des modèles de prévision en Python. Cette formation a renforcé mes compétences en programmation Python pour le traitement et l'analyse des données.",
+            "keywords_injected": [
+                "Python",
+                "modélisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience mentionne déjà une maîtrise approfondie de Python et d'Excel, ainsi que l'utilisation de techniques statistiques et d'analyse de données.",
+            "description_tailored": "En tant qu'analyste freelance de données, j'ai approfondi mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, utilisant Python et Excel pour le traitement et l'analyse de données.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "reasoning": "Bien que cette expérience ne corresponde pas directement à l'offre, il est possible d'intégrer des compétences liées au développement et à la modélisation en Python de manière implicite.",
+            "description_tailored": "Réparation et vérification du bon fonctionnement d'ordinateurs MacBook, incluant le test écran / batterie / clavier / composants internes. Réalisation de réparations de claviers / batteries / disques durs / RAM. Utilisation de Python pour automatiser certaines tâches administratives et analyser les données liées aux pannes.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        }
+    ]
+}

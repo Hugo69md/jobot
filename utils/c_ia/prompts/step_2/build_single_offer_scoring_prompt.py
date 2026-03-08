@@ -21,7 +21,7 @@ SKILLS DU CANDIDAT INDEXÉS:
 {json.dumps(all_candidate_skills, ensure_ascii=False, separators=(',', ':'))}"""
 
 
-def build_single_offer_scoring_prompt(cv_data: dict, offer: dict, user_prompt: str) -> str:
+def build_single_offer_scoring_prompt(cv_data: dict, offer: dict) -> str:
     """Score a SINGLE enriched offer using structured fields when available."""
     cv_summary = _build_cv_summary(cv_data)
 
@@ -65,9 +65,12 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
 2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
 3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
 4. *Localisation* (15 pts): 
-- Lyon ou Paris ou Montpellier = 15pt
-- Si la ville à 1km d'un de ces 3 centre villes, -1pt, si 2Km au dela de ces 3 villes, -2pt.
+- Lyon = 15 pts
+- Paris = 15 pts
+- Montpellier = 15 pts
+- Si la ville à 1km d'un de ces 3 centre villes, -1pt, si 2Km au dela de ces 3 villes, -2pt.(exemple : stage à Villeurbanne à 500m de Lyon = 14 pts, stage à nogent sur marne à 2km de Paris = 13 pts, stage a saint clement de riviere à 10km de Montpellier = 5 pts)
 - <15km = 0
+- non specifié =5pt
 - ATTENTION, PARIS ET MONTPELLIER ET LYON SONT TOUTES DES VILLES CIBLE
 5. *Période* (15 pts): début juin 2026 = max sinon baisser progressivement plus le stage est loin de cette periode
 

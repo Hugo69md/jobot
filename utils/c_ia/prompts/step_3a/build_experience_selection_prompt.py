@@ -1,48 +1,73 @@
 import json
 
-def build_experience_selection_prompt(cv_data: dict, best_offer: dict) -> str:
-    """Pick the 6 best experience indexes for this offer."""
-    experiences_summary = []
-    for exp in cv_data.get("experiences", []):
-        experiences_summary.append({
-            "index":          exp["index"],
-            "name":           exp["name"],
-            "type":           exp.get("type", ""),
-            "categorization": exp["categorization"],
-            "description":    exp.get("description", ""),
-            "specific_skills":         exp.get("specific_skills", []),
-        })
+
+def build_experience_selection_prompt(
+    cv_data: dict,
+    best_offer: dict,
+    candidate_pool_indexes: list,
+    n_to_select: int,
+    forced_context: list = None,
+) -> str:
+    """
+    Pick the best N experience indexes from a filtered candidate pool.
+
+    Args:
+        cv_data: full CV data
+        best_offer: enriched offer with offer_industry_type from Step 0
+        candidate_pool_indexes: list of experience indexes the IA can choose from
+        n_to_select: how many the IA must pick (e.g., 3 if 3 are already forced)
+        forced_context: list of already-forced experience names (for IA awareness)
+    """
+    all_experiences = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
+
+    # Build summary of ONLY the candidate pool
+    pool_summary = []
+    for idx in candidate_pool_indexes:
+        exp = all_experiences.get(idx)
+        if exp:
+            pool_summary.append({
+                "index":          exp["index"],
+                "name":           exp["name"],
+                "type":           exp.get("type", ""),
+                "categorization": exp["categorization"],
+                "specific_skills": exp.get("specific_skills", []),
+            })
 
     offer_summary = {
         "name":        best_offer.get("name", ""),
         "company":     best_offer.get("company", ""),
         "missions":    best_offer.get("missions", []),
         "competences_offre": best_offer.get("competences_offre", []),
+        "offer_industry_type": best_offer.get("offer_industry_type", []),
     }
 
-    return f"""*** CONTEXTE ***:
-Tu es un expert recrutement. Tu aides un étudiant ingénieur à sélectionner ses meilleures expériences pour une offre de stage.
+    # Context about what's already selected
+    forced_text = ""
+    if forced_context:
+        forced_text = f"""
+*** EXPÉRIENCES DÉJÀ S��LECTIONNÉES (ne pas re-sélectionner) ***:
+{json.dumps(forced_context, ensure_ascii=False)}
+"""
 
-*** EXPÉRIENCES DU CANDIDAT ***:
-{json.dumps(experiences_summary, ensure_ascii=False, separators=(',', ':'))}
+    return f"""*** CONTEXTE ***:
+Tu es un expert recrutement. Tu aides un étudiant ingénieur à compléter la sélection d'expériences pour son CV.
+{forced_text}
+*** EXPÉRIENCES CANDIDATES (pool de sélection) ***:
+{json.dumps(pool_summary, ensure_ascii=False, separators=(',', ':'))}
 
 *** OFFRE ***:
 {json.dumps(offer_summary, ensure_ascii=False, indent=2)}
 
 *** INSTRUCTIONS ***:
-- Selectionne exactement 6 expériences (index) à mettre en avant dans le CV pour cette offre.
-- Check l'entiereté des "experiences" du candidat pour trouver des matches pertinents avec les "missions" et "compétences_offre" requises de l'offre.
-- L'index 1 ("Etudiant - ECAM Lyon") est OBLIGATOIRE — inclus-le toujours.
-Pour les 5 restantes : 
-- Aide toi du champ "type" dans experiences candidat pour identifier le domaine relatif de chaque experiencen du candidat, met le en perspective avec les missions et compétences de l'offre
-- Compare les "missions" et "compétences" de l'offre avec les "specific_skills" et la "description" de CHAQUE expérience.
+- Sélectionne exactement {n_to_select} expériences (index) parmi le pool ci-dessus.
+- Aide toi du champ "type" dans les expériences ET du champ "offer_industry_type" de l'offre pour identifier les domaines communs
+- Compare les "missions" et "competences_offre" de l'offre avec les "specific_skills" de CHAQUE expérience du pool
 - Choisis celles qui apportent le plus de valeur pour CETTE offre spécifique
 
 *** ATTENTION ***
-- TU DOIS PRIORISER LES MEILLEURS MATCHS
-- EN AUCUN CAS IL DOIT Y AVOIR PLUS OU MOINS DE 6 EXPERIENCES
-
+- EXACTEMENT {n_to_select} EXPÉRIENCES, PAS PLUS, PAS MOINS
+- CHOISIS UNIQUEMENT PARMI LES INDEX DU POOL CI-DESSUS
 
 *** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:
-{{"reasoning": "index V car [raison], index W car [raison], index X car [raison], index Y car [raison], index Z car [raison]", "selected_indexes": [1, indexA, indexB, indexC, indexD, indexE]}}"""
+{{"reasoning": "index X car [raison], index Y car [raison]...", "selected_indexes": [indexA, indexB...]}}"""

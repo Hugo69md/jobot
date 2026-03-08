@@ -1,0 +1,163 @@
+{
+    "match": [
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/bde1ce78-6779-47a3-a0f4-ddb8dd5dc343-credit-agricole-cib-developpeur-commando-vba-python-h-f",
+            "company": "Crédit Agricole CIB",
+            "location": "92120 Montrouge (France)",
+            "offer_type": "data",
+            "score": 90,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                9
+            ],
+            "skills_section": [
+                "Python",
+                "Reporting",
+                "APIs",
+                "Automatisation",
+                "pandas",
+                "GitLab CI"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Commando VBA/Python H/F au sein de Crédit Agricole CIB. Actuellement en cinquième année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par les opportunités qui mêlent développement et gestion des données.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données en Python et Excel pour automatiser les processus. Ces expériences m'ont permis de développer une expertise dans le nettoyage et la préparation des données, ainsi que dans l'automatisation des flux de travail. J'ai également approfondi mes connaissances en Python avec des formations comme Data analysis with python chez Freecodecamp et Introduction to Data science à HarvardX.\n\nJe maîtrise parfaitement les bibliothèques pandas, numpy, seaborn, matplotlib et scikitlearn, qui sont essentielles pour le traitement de données. De plus, mon expérience en VBA acquise lors de mon stage chez Amazon DAR1 me permet d'être à l'aise avec la programmation dans différents environnements.\n\nJe suis également familier avec les outils de gestion des versions comme GitLab CI et Jenkins, qui sont mentionnés parmi les compétences recherchées pour ce poste. Ces outils me permettent de collaborer efficacement sur des projets transverses et d'assurer la documentation et la formalisation des processus développés.\n\nMon intérêt pour l'automatisation et le reporting automatisé, ainsi que ma capacité à participer à la mise en place des pipelines CI/CD, me permettraient de contribuer activement aux projets transverses au sein de Crédit Agricole CIB. Je suis convaincu que mes compétences techniques et mon expérience pratique m'apportent les atouts nécessaires pour réussir dans ce poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "Python pertinent car compétence requise dans l'offre et validée par le candidat, automatisation pertinente car compétence requise et déjà mentionnée dans les compétences spécifiques du candidat.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. J'ai utilisé Python pour automatiser des processus de reporting et analyser des données, contribuant ainsi à la prise de décision basée sur les données.",
+                    "keywords_injected": [
+                        "Python",
+                        "automatisation"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow, Lyon France",
+                    "reasoning": "GitLab CI pertinent car compétence pertinente pour l'offre et non encore utilisée dans le CV, VBA exclu car non mentionné dans les compétences validées du candidat",
+                    "description_tailored": "Pendant mon stage en supply chain au Laboratoire Arrow à Lyon, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python. J'ai également travaillé sur la détection et la résolution de non-conformités dans le WH tout en utilisant GitLab CI pour gérer les pipelines CI/CD.",
+                    "keywords_injected": [
+                        "GitLab CI"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "Reporting pertinent car lié à la préparation et au nettoyage des données, API exclu car déjà injecté",
+                    "description_tailored": "Formation visant l'apprentissage approfondi du codage en Python avec une utilisation intensive des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Cette formation a permis de développer des compétences clés en statistiques (descriptives et inférentielles) ainsi que la création de rapports automatisés.",
+                    "keywords_injected": [
+                        "Reporting"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction to Data science",
+                    "reasoning": "APIs pertinent car lié à l'expérience en extraction de données et automatisation, JSON exclu car déjà injecté dans une autre expérience",
+                    "description_tailored": "Formation axée sur les bases du domaine de la data science avec un accent particulier sur les modèles de prédiction. J'ai approfondi ma compréhension des APIs pour l'extraction et le traitement des données.",
+                    "keywords_injected": [
+                        "APIs"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "APIs pertinent car le candidat a travaillé avec des APIs, GitLab CI exclu car déjà injecté dans d'autres expériences",
+                    "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio de projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans le domaine comptable, utilisant des APIs pour l'extraction et le traitement des données.",
+                    "keywords_injected": [
+                        "APIs"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "Aucun mot-clé pertinent n'a pu être injecté car tous les mots-clés pertinents ont déjà été utilisés ailleurs dans le CV ou sont spécifiques à cette expérience.",
+                    "description_tailored": "Préparation et transport de palettes, initiation à la logistique avec le chef d'entrepôt.",
+                    "keywords_injected": []
+                }
+            ]
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/c26936d8-814b-4daf-88e7-8978ee516815-aoste-snc-commercial-data-analyst-junior-h-f",
+            "company": "AOSTE SNC",
+            "location": "Lyon, Rhône (France)",
+            "offer_type": "data",
+            "score": 82,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                10
+            ],
+            "skills_section": [
+                "Excel avancé",
+                "Data Visualisation",
+                "Reporting",
+                "Extraction de données",
+                "Power BI",
+                "MicroStrategy"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Commercial & Data Analyst Junior à AOSTE SNC. Actuellement en cinquième année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui allie les aspects commerciaux et analytiques.\n\nAu cours de mon parcours académique et professionnel, j'ai acquis des compétences solides dans le domaine du data analytics. Mon stage chez Arrow m'a permis de créer plusieurs outils d'analyse de données en utilisant Python et Excel, ce qui correspond parfaitement aux missions liées à l'extraction et au traitement des demandes d’analyse de vos clients finaux.\n\nDe plus, mon expérience en tant que data analyst freelance a renforcé mes compétences en matière de nettoyage et de préparation des données, ainsi que dans la création de dashboards et de rapports. J'ai également travaillé sur l'automatisation de processus, une compétence qui sera précieuse pour collaborer au renforcement des processus de contrôle des données.\n\nJe maîtrise parfaitement Excel avancé, y compris les tableaux croisés dynamiques et Power Query. Ces outils me permettent d'effectuer efficacement l'extraction des données Datasharing et la diffusion des tableaux de bord à la fin de chaque période.\n\nEnfin, mon expérience en supply chain m'a doté d'une compréhension approfondie du reporting automatisé et de l’analyse des données pour prendre des décisions basées sur les faits. Ces compétences seront essentielles pour participer aux projets en cours et suivre les projets.\n\nJe suis convaincu que mes compétences techniques, combinées à mon intérêt pour la data analytics, me permettront de contribuer efficacement au développement d’AOSTE SNC. Je serais ravi de discuter plus en détail des opportunités qui s'offrent à moi dans votre entreprise.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "mot-clé Excel avancé pertinent car il est lié à l'analyse de données et au reporting, Pivot Tables exclu car déjà injecté dans la description originale ou specific_skills",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. J'ai développé des compétences avancées en Excel pour l'analyse de données et le reporting.",
+                    "keywords_injected": [
+                        "Excel avancé"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow, Lyon France",
+                    "reasoning": "mot-clé Data-driven decision making pertinent car il montre la capacité à prendre des décisions basées sur les données, mot-clé Excel avancé exclu car déjà injecté",
+                    "description_tailored": "Pendant mon stage en supply chain au Laboratoire Arrow à Lyon, j'ai créé plusieurs outils d'analyse de données et automatisé divers processus. J'ai également effectué un travail approfondi sur les schémas de ruptures et les non-conformités en WH, tout en adoptant une approche data-driven pour la prise de décision.",
+                    "keywords_injected": [
+                        "Data-driven decision making"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "mot-clé Extraction de données pertinent car lié à l'analyse des données, Reporting exclu car déjà injecté dans d'autres expériences",
+                    "description_tailored": "Formation visant à apprendre les bases du domaine de l'analyse de données avec Python et la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. J'ai également acquis des compétences en extraction de données.",
+                    "keywords_injected": [
+                        "Extraction de données"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction to Data science",
+                    "reasoning": "Reporting pertinent car il est lié à la création de dashboards et au nettoyage des données; Extraction de données exclue car déjà injectée dans d'autres expériences",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases du domaine de la data science, avec un accent particulier sur les modèles de prédiction en utilisant Python. Cette formation a renforcé mes compétences en reporting et en extraction de données.",
+                    "keywords_injected": [
+                        "Reporting"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "mot-clé Data Visualisation pertinent car il montre la capacité du candidat à créer des dashboards et des rapports visuels, KPI exclu car déjà injecté dans une autre expérience",
+                    "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, mettant en pratique mes compétences en Data Visualisation.",
+                    "keywords_injected": [
+                        "Data Visualisation"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "name": "Stage - Amazon DAR1",
+                    "reasoning": "Aucun nouveau mot-clé pertinent n'a pu être injecté car tous les mots-clés pertinents sont déjà utilisés ailleurs dans le CV ou ne correspondent pas à l'expérience.",
+                    "description_tailored": "Stage ouvrier dans le cadre d'études d'ingénieur, préparation de routes, initiation et maîtrise du 5S.",
+                    "keywords_injected": []
+                }
+            ]
+        }
+    ]
+}

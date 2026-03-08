@@ -1,0 +1,86 @@
+{
+    "offer_name": "Stagiaire Digital Logistique Supply Chain H/F",
+    "offer_company": "SLB",
+    "offer_type": "supply_chain",
+    "score": 82,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénierie avec une spécialisation en supply chain management qui correspond directement à l'offre de stage. Index 2 car il y a eu création d'outils d'analyse et d'automatisation dans un contexte de supply chain, ce qui est très pertinent pour les missions requises. Index 6 car le candidat a approfondi son intérêt pour l'analyse des données avec Python, une compétence clé pour la digitalisation des processus logistiques. Index 4 car il y a eu formation en analyse de données avec Python, ce qui est directement lié à la création et amélioration d’outils digitaux basés sur Power Platform. Index 9 car l'initiation à la gestion d'entrepôt offre une expérience pratique dans le domaine logistique nécessaire pour comprendre les processus existants et les digitaliser.",
+    "skills_section": [
+        "Supply Chain Management",
+        "Python",
+        "data processing",
+        "statistiques descriptives",
+        "Automatisation",
+        "analyse"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Stagiaire Digital Logistique Supply Chain H/F au sein de SLB. Actuellement en 5ème année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes aspirations professionnelles et académiques.\n\nAu cours de mon parcours, j'ai acquis une expérience significative en supply chain. Mon stage chez Arrow m'a permis d'analyser les données et d'automatiser des processus grâce à Python et Excel. J'y ai notamment créé plusieurs outils de monitoring pour améliorer la gestion des stocks et réduire les non-conformités.\n\nJe suis également formé en data avec des certifications comme FreeCodeCamp - Data analysis with python et HarvardX - Introduction to Data Science, qui m'ont permis d’approfondir mes compétences en Python (pandas, numpy, matplotlib, seaborn) ainsi que scikit-learn. Ces outils me permettent de nettoyer et préparer les données pour des analyses approfondies.\n\nJe suis particulièrement attiré par la mission qui consiste à analyser et digitaliser les processus logistiques existants, en créant et améliorant des outils digitaux basés sur Power Platform. Mon expérience avec Excel avancé (pivot tables, power query) et ma capacité d'automatisation me permettront de contribuer efficacement à ces missions.\n\nJe suis également capable d'apprendre rapidement les nouvelles technologies nécessaires pour ce poste grâce à mon esprit analytique et mes compétences en reporting automatisé. Je serai ravi de collaborer avec vos équipes pour comprendre leurs besoins et assurer une adoption efficace des outils.\n\nJe reste à votre disposition pour un entretien afin d'échanger plus en détail sur ma candidature et mon potentiel au sein de SLB.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre recherche des compétences en Supply Chain Management et analyse de processus. Le candidat suit une spécialisation dans ce domaine.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management pour optimiser les processus logistiques et analyser les besoins des équipes.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "optimiser les processus logistiques"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience mentionne l'utilisation de Python/Excel pour la création d'outils d'analyse, ce qui correspond bien.",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation de processus utilisant Python et Excel. Travail approfondi sur les schémas de ruptures et les non-conformités en WH pour optimiser les opérations logistiques.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre recherche des compétences en Python et en analyse de données, qui correspondent aux compétences acquises dans cette formation.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn ainsi que des statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "statistiques descriptives"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre recherche des compétences en Python et en automatisation. L'expérience mentionne déjà une maîtrise approfondie de Python et d'Excel, ainsi que l'utilisation de techniques d'automatisation.",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. J'ai développé un add-on pour un ERP spécialisé dans les boites de comptabilité en utilisant Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "reasoning": "L'offre recherche des compétences en analyse et digitalisation de processus logistiques. Cette expérience initie le candidat aux aspects pratiques de la gestion d'entrepôt, ce qui peut être pertinente pour comprendre les besoins opérationnels.",
+            "description_tailored": "Initiation à la gestion d’entrepôt avec préparation et transport de palettes, ainsi qu’une compréhension pratique des processus logistiques sous la supervision du chef d'entrepôt. Cette expérience a permis une analyse initiale des opérations manuelles pour identifier les opportunités d'amélioration.",
+            "keywords_injected": [
+                "analyse",
+                "processus logistiques"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "L'offre recherche des compétences en analyse et digitalisation de processus logistiques. Le stage chez Amazon implique la préparation de routes et l'initiation au 5S, qui sont des aspects importants de la gestion des opérations logistiques.",
+            "description_tailored": "Stage dans le domaine de la supply chain où j'ai contribué à la digitalisation des processus en préparant les routes pour optimiser les flux et en maîtrisant l'initiation au 5S pour améliorer l'efficacité opérationnelle.",
+            "keywords_injected": [
+                "digitalisation",
+                "processus logistiques"
+            ]
+        }
+    ]
+}

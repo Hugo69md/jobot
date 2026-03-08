@@ -1,0 +1,84 @@
+{
+    "offer_name": "Assistant Chef des Ventes Nationales Out of Home(H/F/X)",
+    "offer_company": "Ferrero France",
+    "offer_type": "data",
+    "score": 81,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénieur avec une spécialisation en supply chain management qui correspond bien à la mission de suivi et animation des équipes commerciales. Index 2 car il a créé plusieurs outils d'analyse de données, ce qui est pertinent pour l'extraction et compilation des données mentionnée dans les missions. Index 6 car le stage chez Amazon implique une préparation de routes et un picking, similaire à la gestion opérationnelle requise par l'offre. Index 4 car il a créé plusieurs outils de monitoring en utilisant python/excel, ce qui est pertinent pour simplifier l'analyse des résultats comme mentionné dans les missions. Index 5 car il a approfondi ses connaissances en modèles de prédiction avec Python, utile pour la construction du contenu des réunions commerciales et la mise à disposition des outils de revente. Index 10 car le candidat a une expérience pratique dans la vérification du bon fonctionnement d'ordinateurs MacBook, ce qui peut être pertinent pour gérer les outils technologiques nécessaires au poste.",
+    "skills_section": [
+        "Excel avancé",
+        "Power Query",
+        "Python",
+        "data processing",
+        "Dashboards",
+        "KPI"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste d'Assistant Chef des Ventes Nationales Out of Home au sein de Ferrero France. Actuellement en cinquième année à l’ECAM Lyon dans le domaine du Supply Chain Management et de la Data, je suis particulièrement intéressé par les missions liées à l'analyse et au partage des résultats commerciaux.\n\nAu cours de mon stage chez Arrow, j'ai développé plusieurs outils d'analyse de données en utilisant Python et Excel. Ces expériences m’ont permis d’améliorer mes compétences en nettoyage et préparation des données, ainsi que la création de tableaux de bord pour visualiser les informations clés. Je suis également capable d’utiliser Power Query et Power Pivot pour compiler et extraire efficacement les données nécessaires.\n\nDans le cadre de mon stage chez Amazon, j'ai acquis une solide expérience en gestion des stocks et prévision de la demande, qui me permettrait d’apporter une valeur ajoutée dans l'analyse des écarts entre les objectifs et les résultats commerciaux. De plus, je suis à l'aise avec le reporting automatisé et j'ai réalisé plusieurs scripts pour simplifier les processus.\n\nJe maîtrise parfaitement Excel (TCD, RECHERCHEX) et j’ai un niveau avancé en PowerPoint, ce qui me permettrait de contribuer efficacement aux réunions commerciales et à la mise en forme des plans d’actions pour les Comptes-Clés Nationaux.\n\nJe suis convaincu que mes compétences techniques en data et supply chain, combinées à mon expérience pratique, me permettraient de vous apporter une contribution significative dans votre équipe. J'aimerais avoir l'opportunité d'échanger avec vous sur les détails du poste et comment je pourrais contribuer au succès de Ferrero France.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre demande des compétences en Excel (TCD, RECHERCHEX) et PowerPoint avancé. Le candidat a une expertise en Excel avancé incluant Pivot Tables et Power Query qui sont pertinents pour l'analyse de données.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management. J'ai développé des compétences avancées en Excel, notamment dans la création de tableaux croisés dynamiques (TCD) et l'utilisation de Power Query pour le nettoyage et l'analyse des données.",
+            "keywords_injected": [
+                "Excel",
+                "Pivot Tables",
+                "Power Query"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience Arrow utilise déjà Python/Excel, ce qui permet une injection naturelle de ces mots-clés.",
+            "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation de processus grâce à Python et Excel. Travail approfondi sur les schémas de ruptures et les non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre demande des compétences en Python et en analyse de données. Cette formation couvre les bases du codage avec Python, notamment l'utilisation des bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant la découverte approfondie des librairies Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction à la science des données",
+            "reasoning": "L'offre demande Excel (TCD) et Power Query. Cette formation couvre Python et l'utilisation d'Excel pour les modèles de prédiction.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de la data science, incluant l'approfondissement de la librairie ScikitLearn et l'utilisation d'Excel pour la création de modèles de prévision avec Python.",
+            "keywords_injected": [
+                "Python",
+                "Excel avancé"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre recherche des compétences en Excel (TCD, RECHERCHEX) et PowerPoint avancé. Le candidat maîtrise Python et Excel à un niveau approfondi, ce qui est pertinent pour l'extraction et la compilation de données.",
+            "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, utilisant Python et Excel pour l'extraction et la compilation de données.",
+            "keywords_injected": [
+                "Excel",
+                "Python"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Technicien - Adopte un Mac",
+            "reasoning": "L'offre ne contient pas de mots-clés directement pertinents pour cette expérience en réparation d'ordinateurs. Il n'est donc pas possible d'injecter des compétences spécifiques à l'offre sans inventer.",
+            "description_tailored": "Réparation et vérification du bon fonctionnement d'ordinateurs MacBook, incluant le test de l'écran, la batterie, le clavier et les composants internes. Réparations effectuées sur claviers, batteries, disques durs et mémoires RAM.",
+            "keywords_injected": []
+        }
+    ]
+}

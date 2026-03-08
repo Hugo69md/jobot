@@ -1,6 +1,7 @@
 import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
+from utils.c_ia.preselect_experiences import preselect_experiences
 from utils.c_ia.prompts.step_0.build_domain_classification_prompt import build_domain_classification_prompt
 from utils.c_ia.prompts.step_1.build_extraction_prompt import build_extraction_prompt
 from utils.c_ia.prompts.step_2.build_single_offer_scoring_prompt import build_single_offer_scoring_prompt
@@ -58,17 +59,22 @@ def run_ia(date: str):
         print(f"  [{i+1}/{len(internships_data)}] {offer_name[:60]}...", end=" ")
 
         classification_prompt = build_domain_classification_prompt(offer)
-        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=64)
+        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=96)
 
         domain = classification.get("domain", "") if classification else ""
+        offer_industry_type = classification.get("type", []) if classification else []
 
         if domain not in ("data", "supply_chain"):
             print(f"❌ DROPPED (domain='{domain}')")
             dropped_count += 1
             continue
 
-        classified_offers.append({**offer, "offer_type": domain})
-        print(f"✅ {domain}")
+        classified_offers.append({
+            **offer,
+            "offer_type": domain,
+            "offer_industry_type": offer_industry_type,
+        })
+        print(f"✅ {domain} | industry: {offer_industry_type}")
 
     print(f"\n  [STEP 0] Kept {len(classified_offers)} / {len(internships_data)} "
           f"({dropped_count} dropped)")
@@ -130,8 +136,8 @@ def run_ia(date: str):
         offer_name = offer.get("name", f"offer_{i}")
         print(f"\n  [{i+1}/{len(enriched_offers)}] Scoring: {offer_name[:60]}...")
 
-        prompt = build_single_offer_scoring_prompt(cv_data, offer, USER_PROMPT)
-        result = query_ollama_json(prompt, temperature=0.1, num_predict=1000)
+        prompt = build_single_offer_scoring_prompt(cv_data, offer)
+        result = query_ollama_json(prompt, temperature=0.0, num_predict=1000)
 
         if result and all(k in result for k in ("C1", "C2", "C3", "C4", "C5")):
             c1 = min(result["C1"].get("score", 0), 40)
@@ -203,27 +209,98 @@ def run_ia(date: str):
         print(f"  Score: {scored['score']}/100 | Type: {offer_type}")
         print(f"  {'═' * 56}")
 
-                # ── STEP 3a — Select experiences ─────────────────────────────
-        print("\n  [STEP 3a-1] Selecting experience indexes...")
+        # ── STEP 3a-1 — Pre-select + select experiences ──────────────
+        print("\n  [STEP 3a-1] Pre-selecting experiences...")
 
-        selection_prompt = build_experience_selection_prompt(cv_data, offer_full)
-        selection_result = query_ollama_json(selection_prompt, temperature=0.0, num_predict=900)
+        preselection = preselect_experiences(cv_data, offer_full)
+        forced_indexes    = preselection["forced_indexes"]
+        remaining_pool    = preselection["remaining_pool"]
+        needed_from_ia    = preselection["needed_from_ia"]
+        skip_ia           = preselection["skip_ia"]
 
-        if selection_result and "selected_indexes" in selection_result:
-            selected_indexes    = selection_result["selected_indexes"]
-            selection_reasoning = selection_result.get("reasoning", "")
-            print(f"  ✅ Selected indexes: {selected_indexes}")
-            print(f"  💬 Reasoning: {selection_reasoning}")
+        print(f"  [PRE-SELECT] offer_type={offer_type}")
+        print(f"  [PRE-SELECT] Forced: {forced_indexes} ({len(forced_indexes)} exp)")
+        print(f"  [PRE-SELECT] Pool for IA: {remaining_pool} ({len(remaining_pool)} exp)")
+        print(f"  [PRE-SELECT] IA must pick: {needed_from_ia} | Skip IA: {skip_ia}")
+
+        if skip_ia:
+            # Exactly 6 matching — no IA needed
+            selected_indexes = forced_indexes[:6]
+            selection_reasoning = "pre-selection: exactly 6 experiences match offer_type"
+            print(f"  ✅ Skipped IA — direct selection: {selected_indexes}")
+        elif needed_from_ia == 0:
+            # Shouldn't happen if skip_ia is True, but safety
+            selected_indexes = forced_indexes[:6]
+            selection_reasoning = "pre-selection: fallback"
+            print(f"  ✅ No IA needed: {selected_indexes}")
         else:
-            selected_indexes    = [exp["index"] for exp in cv_data.get("experiences", [])][:6]
-            selection_reasoning = "fallback"
-            print(f"  ⚠️  Selection failed, fallback: {selected_indexes}")
+            # IA must pick from remaining pool
+            # Build context of forced experiences for IA awareness
+            exp_lookup = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
+            forced_context = [
+                {"index": idx, "name": exp_lookup[idx]["name"]}
+                for idx in forced_indexes if idx in exp_lookup
+            ]
+
+            # Case: more than 6 forced → IA picks best 6 from all matching
+            if needed_from_ia == 6 and not forced_indexes:
+                # This means >6 experiences matched, IA picks best 6 from remaining_pool
+                forced_context = None
+                pool_for_ia = remaining_pool
+            else:
+                pool_for_ia = remaining_pool
+
+            valid_pool_indexes = set(pool_for_ia)
+            ia_selected = None
+            selection_reasoning = ""
+
+            for attempt in range(1, 4):  # 3 attempts
+                selection_prompt = build_experience_selection_prompt(
+                    cv_data, offer_full, pool_for_ia, needed_from_ia, forced_context
+                )
+                selection_result = query_ollama_json(
+                    selection_prompt, temperature=0.0, num_predict=150
+                )
+
+                if selection_result and "selected_indexes" in selection_result:
+                    raw = selection_result["selected_indexes"]
+                    selection_reasoning = selection_result.get("reasoning", "")
+
+                    # Clean: deduplicate, validate against pool
+                    seen = set()
+                    cleaned = []
+                    for idx in raw:
+                        if idx in valid_pool_indexes and idx not in seen:
+                            seen.add(idx)
+                            cleaned.append(idx)
+
+                    if len(cleaned) == needed_from_ia:
+                        ia_selected = cleaned
+                        print(f"  ✅ IA selected (attempt {attempt}/3): {ia_selected}")
+                        print(f"  💬 Reasoning: {selection_reasoning}")
+                        break
+                    else:
+                        print(f"  ⚠️  Attempt {attempt}/3: got {len(cleaned)} indexes {cleaned}, "
+                              f"expected {needed_from_ia} — retrying...")
+                else:
+                    print(f"  ⚠️  Attempt {attempt}/3: selection failed — retrying...")
+
+            if ia_selected is None:
+                # Fallback: take first N from pool
+                ia_selected = pool_for_ia[:needed_from_ia]
+                selection_reasoning += " | fallback after 3 failed attempts"
+                print(f"  ❌ Fallback IA selection: {ia_selected}")
+
+            # Combine forced + IA-selected
+            selected_indexes = forced_indexes + ia_selected
+            selected_indexes = selected_indexes[:6]  # safety cap
+            print(f"  ✅ Final selection: {selected_indexes}")
 
         # Build the list of actual experience objects from the selected indexes
-        exp_lookup         = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
+        exp_lookup = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
         selected_experiences = [exp_lookup[i] for i in selected_indexes if i in exp_lookup]
 
-        # ── STEP 3a-2 — Tailor each experience individually ──────────
+                # ── STEP 3a-2 — Tailor each experience individually ──────────
         print(f"\n  [STEP 3a-2] Tailoring {len(selected_experiences)} descriptions (1 call each)...")
 
         tailored_resume = []
@@ -235,20 +312,27 @@ def run_ia(date: str):
             exp_name = exp.get("name", f"index {exp_idx}")
             print(f"    → [{exp_idx}] {exp_name[:45]}...", end=" ", flush=True)
 
-            resume_prompt        = build_resume_prompt(cv_data, offer_full, exp)
-            resume_result_single = query_ollama_json(resume_prompt, temperature=0.1, num_predict=600)
+            resume_prompt = build_resume_prompt(
+                cv_data, offer_full, exp,
+                already_injected=list(all_keywords_injected),
+            )
+            resume_result_single = query_ollama_json(
+                resume_prompt, temperature=0.1, num_predict=350
+            )
 
             if resume_result_single and "description_tailored" in resume_result_single:
                 tailored_resume.append(resume_result_single)
                 kw = resume_result_single.get("keywords_injected", [])
-                print(f"✅ {kw}")
+                # Filter: only add truly new keywords
+                new_kw = []
                 for k in kw:
                     k_norm = k.strip()
                     if k_norm and k_norm.lower() not in seen_kw:
                         seen_kw.add(k_norm.lower())
                         all_keywords_injected.append(k_norm)
+                        new_kw.append(k_norm)
+                print(f"✅ new: {new_kw}" if new_kw else "✅ no new keywords (original kept)")
             else:
-                # Fallback: keep original description untouched
                 tailored_resume.append({
                     "index":               exp_idx,
                     "name":                exp.get("name", ""),
@@ -275,7 +359,7 @@ def run_ia(date: str):
         print("\n  [STEP 3b] Generating cover letter...")
 
         cover_letter_prompt = build_cover_letter_prompt(cv_data, offer_full, USER_PROMPT)
-        cover_letter_result = query_ollama_json(cover_letter_prompt, temperature=0.3, num_predict=4096)
+        cover_letter_result = query_ollama_json(cover_letter_prompt, temperature=0.3, num_predict=1500)
 
         if cover_letter_result is None:
             print("  ⚠️  Cover letter generation failed")

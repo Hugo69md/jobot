@@ -1,0 +1,91 @@
+{
+    "offer_name": "Data Analyst Power BI (H/F) - Stage",
+    "offer_company": "Allianz France",
+    "offer_type": "data",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        6,
+        5,
+        7
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénierie avec une spécialisation en supply chain management qui correspond bien à l'environnement de travail chez Allianz France. Index 2 car il y a eu création d'outils d'analyse de données et d'automatisation de processus, compétences utiles pour le poste de data analyst Power BI. Index 4 car la formation en analyse de données avec python est pertinente pour l'utilisation de SAS et Excel avancé mentionnés dans les compétences requises. Index 6 car il y a une maitrise approfondie de Python et des statistiques, ce qui est utile pour extraire et préparer les données avec SAS. Index 5 car la formation en data science axée sur les modèles de prédiction renforce l'expertise du candidat dans le domaine de la data science nécessaire pour le poste.",
+    "skills_section": [
+        "Power BI",
+        "SAS",
+        "Excel avancé",
+        "Python",
+        "nettoyage des données",
+        "data processing"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Analyst Power BI en stage au sein d’Allianz France. Actuellement étudiant en 5ème année à l'ECAM Lyon dans le domaine du Supply Chain Management avec une spécialisation en data, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et aspirations.\n\nAu cours de mon stage chez Arrow, j'ai développé plusieurs outils d’analyse de données et automatisé des processus utilisant Python et Excel. Ces expériences m'ont permis de comprendre les besoins métiers pour élaborer des rapports pertinents et utiles aux équipes. De plus, mon stage chez Amazon a renforcé mes compétences en gestion des stocks et prévision de la demande.\n\nJe maîtrise parfaitement Excel avancé, Python (pandas, numpy, seaborn, matplotlib), ainsi que les bases du nettoyage et de l'analyse de données. J'ai également suivi une formation sur Power BI qui m'a permis d’acquérir des compétences en data visualization et storytelling.\n\nJe suis particulièrement attiré par le fait que ce stage me permettrait de développer mes capacités en SAS pour la préparation des données, ainsi qu’en automatisation des processus de reporting. Ces compétences sont essentielles pour améliorer la productivité et continuer à optimiser les outils et processus de collecte de données.\n\nJe suis convaincu que mon parcours académique et professionnel me prépare parfaitement pour ce stage chez Allianz France, où je pourrai mettre en pratique mes connaissances théoriques tout en enrichissant ma compréhension du domaine des données.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre cherche des compétences en Supply Chain Management et Data Analysis. Le candidat a une spécialisation dans la supply chain management et utilise Excel avancé pour l'analyse de données.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management. Utilisation régulière d'Excel avancé pour analyser les données liées à la chaîne logistique et aux processus de gestion des stocks.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "Gestion des stocks",
+                "Excel avancé"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience Arrow utilise déjà Python/Excel pour la création d'outils de monitoring, ce qui correspond bien aux attentes de l'offre.",
+            "description_tailored": "Stage en supply chain axé sur le développement d'outils d'analyse de données et d'automatisation de processus. J'ai créé plusieurs outils de monitoring utilisant Python et Excel pour analyser les schémas de ruptures et les non-conformités dans l'entrepôt.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre demande des compétences en Python et en data processing. La formation couvre les librairies Numpy, pandas, Matplotlib et Seaborn ainsi que la statistique descriptive.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn, ainsi que les statistiques descriptives.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "type": [
+                "Data"
+            ],
+            "period": "Janvier 2025 / Aujourd'hui",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. J'ai développé un projet lucratif : un add-on pour un ERP spécialisé dans les boites de comptabilités, utilisant Python et Excel.",
+            "keywords_injected": [
+                "Python",
+                "Excel"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction à la science des données",
+            "reasoning": "L'offre demande une maîtrise avancée de Power BI et SAS pour l'extraction et le nettoyage des données. Cette formation couvre les bases du domaine de la data science avec Python, ce qui est pertinent.",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction en utilisant Python et ScikitLearn, renforçant ainsi mes compétences en nettoyage et préparation des données pour l'analyse dans Power BI.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn",
+                "nettoyage des données"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "reasoning": "L'offre demande des compétences en Power BI, SAS et Excel avancé. Bien que l'expérience ne mentionne pas explicitement ces outils, nous pouvons suggérer une utilisation implicite de compétences liées à l'analyse de données.",
+            "description_tailored": "Organisation et gestion des données pour la représentation de la Fondation pour la Recherche Médicale lors de la Fête de la Science 2024, en utilisant des outils d'analyse de données et Excel avancé.",
+            "keywords_injected": [
+                "Excel avancé",
+                "Analyse de données"
+            ]
+        }
+    ]
+}

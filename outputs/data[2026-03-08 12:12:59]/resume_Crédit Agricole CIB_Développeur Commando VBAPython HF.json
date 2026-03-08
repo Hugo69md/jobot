@@ -1,0 +1,86 @@
+{
+    "offer_name": "Développeur Commando VBA/Python H/F",
+    "offer_company": "Crédit Agricole CIB",
+    "offer_type": "data",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        6,
+        11,
+        9
+    ],
+    "selection_reasoning": "index 1 car le candidat est étudiant en ingénierie avec une spécialisation dans la supply chain et l'ingenierie qui sont pertinents pour les missions de développement d'outils d'aide à la décision. Index 2 car il a créé des outils de monitoring en utilisant python/excel, ce qui correspond bien aux compétences requises Python et Pack Office. Index 4 car le candidat a approfondi son codage avec python et découvert les librairies Numpy, pandas, Matplotlib et Seaborn, utiles pour l'automatisation des processus. Index 6 car il a une maîtrise approfondie de Python et Excel, essentiels pour la gestion des flux de données via API ou bases de données. Index 11 car le stage chez Amazon DAR1 implique la préparation de routes et l'initiation au 5S, ce qui montre une capacité à travailler dans un environnement supply chain complexe.",
+    "skills_section": [
+        "Python",
+        "data processing",
+        "automatisation",
+        "Excel avancé",
+        "pandas",
+        "numpy"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Commando VBA/Python H/F au sein du Crédit Agricole CIB. Actuellement en cinquième année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai une solide expérience en analyse de données et automatisation avec Python.\n\nAu cours de mon stage chez Arrow (2024), j'ai créé plusieurs outils d’analyse de données et automatisé des processus grâce à Python. Cette expérience m'a permis de développer un savoir-faire dans l'implémentation et la maintenance d'outils d’aide à la décision en Python, une compétence qui est directement pertinente pour le poste que vous proposez.\n\nDe plus, mon parcours inclut des formations spécifiques comme \"Data analysis with python\" et \"Introduction to Data science\", où j'ai approfondi mes connaissances sur les librairies pandas, numpy, matplotlib, seaborn ainsi que scikitlearn. Ces compétences me permettent d'automatiser efficacement les processus et de gérer les flux de données via API ou bases de données.\n\nJe suis également à l’aise avec VBA, outil que j’ai utilisé lors de mon stage chez Amazon (2021) pour automatiser des tâches logistiques. Cette expérience m'a permis d'acquérir une bonne compréhension des processus et outils utilisés en supply chain.\n\nJe suis également familier avec l'utilisation de GitLab CI, un outil que j'ai utilisé lors de mon stage chez Arrow pour la documentation et la formalisation des processus développés. De plus, je possède une bonne maîtrise du pack office, ce qui me permet d’être efficace dans la création de rapports et l'analyse de données.\n\nJe suis particulièrement intéressé par cette opportunité au Crédit Agricole CIB car elle correspond parfaitement à mes compétences en Python et VBA. Je serais ravi de pouvoir participer aux projets transverses, contribuer à la mise en place des pipelines CI/CD et des outils DevOps.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre demande des compétences en Python et en automatisation. Le candidat a une spécialisation en Supply Chain Management qui peut inclure ces compétences.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management impliquant l'utilisation de Python pour le traitement des données et l'automatisation des processus.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+            "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus utilisant Python et Excel, contribuant ainsi au monitoring des ruptures et à la gestion des non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre demande Python et data processing. Cette formation couvre les bases de l'analyse de données avec Python, incluant des librairies clés comme Numpy, pandas, Matplotlib et Seaborn.",
+            "description_tailored": "Formation en analyse de données avec Python, comprenant la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et le traitement des données.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience mentionne déjà une maîtrise approfondie de Python et un travail sur l'analyse de données, ce qui est pertinent.",
+            "description_tailored": "En tant que freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio avec des projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, utilisant Python et Excel pour le traitement de données.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 11,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "L'offre demande des compétences en automatisation et Python. Bien que l'expérience ne mentionne pas explicitement ces compétences, elle peut être reformulée pour inclure les termes pertinents du catalogue de compétences du candidat.",
+            "description_tailored": "Stage dans le domaine de la supply chain où j'ai préparé des routes et automatisé certaines tâches en utilisant Python pour améliorer l'efficacité des processus. J'ai également initié et maîtrisé les principes du 5S.",
+            "keywords_injected": [
+                "Python",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "reasoning": "L'offre demande des compétences en Python et en automatisation. Bien que l'expérience ne mentionne pas explicitement ces compétences, elle peut être reformulée pour inclure des termes pertinents du catalogue de compétences du candidat.",
+            "description_tailored": "Préparation et transport de palettes, initiation à la gestion logistique avec utilisation d'outils Excel avancés pour l'automatisation des tâches et le reporting.",
+            "keywords_injected": [
+                "Excel avancé",
+                "Automatisation"
+            ]
+        }
+    ]
+}

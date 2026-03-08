@@ -1,0 +1,534 @@
+{
+    "match": [
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/bde1ce78-6779-47a3-a0f4-ddb8dd5dc343-credit-agricole-cib-developpeur-commando-vba-python-h-f",
+            "company": "Crédit Agricole CIB",
+            "location": "92120 Montrouge (France)",
+            "offer_type": "data",
+            "score": 92,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                6,
+                11,
+                9
+            ],
+            "skills_section": [
+                "Python",
+                "data processing",
+                "automatisation",
+                "Excel avancé",
+                "pandas",
+                "numpy"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Commando VBA/Python H/F au sein du Crédit Agricole CIB. Actuellement en cinquième année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai une solide expérience en analyse de données et automatisation avec Python.\n\nAu cours de mon stage chez Arrow (2024), j'ai créé plusieurs outils d’analyse de données et automatisé des processus grâce à Python. Cette expérience m'a permis de développer un savoir-faire dans l'implémentation et la maintenance d'outils d’aide à la décision en Python, une compétence qui est directement pertinente pour le poste que vous proposez.\n\nDe plus, mon parcours inclut des formations spécifiques comme \"Data analysis with python\" et \"Introduction to Data science\", où j'ai approfondi mes connaissances sur les librairies pandas, numpy, matplotlib, seaborn ainsi que scikitlearn. Ces compétences me permettent d'automatiser efficacement les processus et de gérer les flux de données via API ou bases de données.\n\nJe suis également à l’aise avec VBA, outil que j’ai utilisé lors de mon stage chez Amazon (2021) pour automatiser des tâches logistiques. Cette expérience m'a permis d'acquérir une bonne compréhension des processus et outils utilisés en supply chain.\n\nJe suis également familier avec l'utilisation de GitLab CI, un outil que j'ai utilisé lors de mon stage chez Arrow pour la documentation et la formalisation des processus développés. De plus, je possède une bonne maîtrise du pack office, ce qui me permet d’être efficace dans la création de rapports et l'analyse de données.\n\nJe suis particulièrement intéressé par cette opportunité au Crédit Agricole CIB car elle correspond parfaitement à mes compétences en Python et VBA. Je serais ravi de pouvoir participer aux projets transverses, contribuer à la mise en place des pipelines CI/CD et des outils DevOps.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Python et en automatisation. Le candidat a une spécialisation en Supply Chain Management qui peut inclure ces compétences.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en supply chain management impliquant l'utilisation de Python pour le traitement des données et l'automatisation des processus.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+                    "description_tailored": "Stage en supply chain où j'ai créé plusieurs outils d'analyse de données et automatisé des processus utilisant Python et Excel, contribuant ainsi au monitoring des ruptures et à la gestion des non-conformités dans les entrepôts.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande Python et data processing. Cette formation couvre les bases de l'analyse de données avec Python, incluant des librairies clés comme Numpy, pandas, Matplotlib et Seaborn.",
+                    "description_tailored": "Formation en analyse de données avec Python, comprenant la découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et le traitement des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience mentionne déjà une maîtrise approfondie de Python et un travail sur l'analyse de données, ce qui est pertinent.",
+                    "description_tailored": "En tant que freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio avec des projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans la comptabilité, utilisant Python et Excel pour le traitement de données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "name": "Stage - Amazon DAR1",
+                    "reasoning": "L'offre demande des compétences en automatisation et Python. Bien que l'expérience ne mentionne pas explicitement ces compétences, elle peut être reformulée pour inclure les termes pertinents du catalogue de compétences du candidat.",
+                    "description_tailored": "Stage dans le domaine de la supply chain où j'ai préparé des routes et automatisé certaines tâches en utilisant Python pour améliorer l'efficacité des processus. J'ai également initié et maîtrisé les principes du 5S.",
+                    "keywords_injected": [
+                        "Python",
+                        "automatisation"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "L'offre demande des compétences en Python et en automatisation. Bien que l'expérience ne mentionne pas explicitement ces compétences, elle peut être reformulée pour inclure des termes pertinents du catalogue de compétences du candidat.",
+                    "description_tailored": "Préparation et transport de palettes, initiation à la gestion logistique avec utilisation d'outils Excel avancés pour l'automatisation des tâches et le reporting.",
+                    "keywords_injected": [
+                        "Excel avancé",
+                        "Automatisation"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stage Supply Chain - Rueil Malmaison - F/H",
+            "URL": "https://www.jobteaser.com/en/job-offers/e4fb2b12-5978-44bf-b540-87983afa386d-schneider-electric-stage-supply-chain-rueil-malmaison-f-h",
+            "company": "Schneider Electric",
+            "location": "92500 Rueil-Malmaison (France)",
+            "offer_type": "supply_chain",
+            "score": 90,
+            "selected_indexes": [
+                1,
+                2,
+                9,
+                6,
+                4,
+                5
+            ],
+            "skills_section": [
+                "Supply Chain Management",
+                "Excel avancé",
+                "Python",
+                "data processing",
+                "RPA",
+                "SAP"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de stage Supply Chain à Schneider Electric situé à Rueil-Malmaison. Actuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par cette opportunité qui correspond parfaitement à mes compétences et mon parcours.\n\nAu cours de mon stage chez Arrow en 2024, j'ai contribué à la création d'outils d'analyse de données et d'automatisation des processus. J'ai également travaillé sur les schémas de ruptures et les non-conformités en WH, ce qui m'a permis d'acquérir une solide expérience dans l'amélioration continue des processus supply chain.\n\nMes compétences techniques en Excel avancé (pivot tables, Power Query) et en Python (pandas, numpy, seaborn, matplotlib, scikitlearn) me permettent de maitriser efficacement le nettoyage et la préparation des données. Ces compétences seront précieuses pour améliorer la gestion de la période de fermeture des sous-traitants, des fournisseurs et des clients.\n\nJe suis également familiarisé avec les systèmes d'information tels que SAP grâce à mon expérience en tant qu'étudiant ingénieur. Je suis prêt à piloter les changements informatiques nécessaires pour déployer de nouveaux processus et participer au projet d'homogénéisation des méthodes de travail des gestionnaires de flux.\n\nEnfin, je suis convaincu que mon expérience en supply chain, combinée à mes compétences techniques en data, me permettra de contribuer efficacement aux missions proposées par Schneider Electric. Je serai ravi d'apporter ma contribution pour améliorer la réactivité et l'efficacité des processus.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Supply Chain Management et Excel. Le candidat a une spécialisation en industrial supply chain management.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en gestion de la chaîne logistique industrielle (Supply Chain Management). Utilisation avancée d'Excel pour l'analyse des données et la prise de décision basée sur les données.",
+                    "keywords_injected": [
+                        "Supply Chain Management",
+                        "Excel"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible.",
+                    "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation de processus, notamment avec Python et Excel, dans le contexte des missions données par l'équipe. Travail approfondi sur les schémas de ruptures et les non-conformités en WH.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "L'offre demande des compétences en Supply Chain et Excel. Cette expérience est dans le domaine de la supply chain, mais ne contient pas de mots-clés spécifiques comme RPA ou ERP.",
+                    "description_tailored": "Initiation à la gestion d'entrepôt avec préparation et transport de palettes, sous supervision du chef d'entrepôt. Formation en logistique opérationnelle et utilisation d'outils Excel pour le suivi des tâches.",
+                    "keywords_injected": [
+                        "Supply Chain",
+                        "Excel"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Python et data processing. L'expérience mentionne déjà une maîtrise approfondie de Python et d'Excel, ainsi que l'analyse de données.",
+                    "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. J'ai développé un projet lucratif : un add-on pour un ERP spécialisé dans les boîtes de comptabilité en utilisant Python et Excel.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande des compétences en Python et data processing. Cette formation couvre les bases de l'analyse de données avec Python, y compris plusieurs librairies pertinentes.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Statistiques descriptives appliquées.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction à la science des données",
+                    "reasoning": "L'offre demande des compétences en Python et en data processing. Cette formation couvre ces aspects.",
+                    "description_tailored": "Formation axée sur l'apprentissage de bases essentielles de la science des données, avec un focus particulier sur les modèles de prédiction utilisant Python. J'ai approfondi ma compréhension de la librairie ScikitLearn et acquis des compétences en data processing.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "URL": "https://www.jobteaser.com/en/job-offers/b98ac5a9-8a54-4a45-9de9-4b104ed658a6-aoste-snc-charge-e-de-revenue-management-junior",
+            "company": "AOSTE SNC",
+            "location": "Lyon, Rhône (France)",
+            "offer_type": "data",
+            "score": 84,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                9
+            ],
+            "skills_section": [
+                "Excel avancé",
+                "Power BI",
+                "Python",
+                "pandas",
+                "seaborn",
+                "matplotlib"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Chargé(e) de Revenue Management Junior au sein d'AOSTE SNC. Actuellement en cinquième année à l'ECAM Lyon dans une spécialisation Supply Chain Management, je suis particulièrement intéressé par les aspects analytiques et prévisionnels du métier.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données utilisant Python et Excel pour optimiser la gestion des stocks. Ces expériences m'ont permis de développer une solide expertise en matière de nettoyage et de préparation des données, ainsi qu'en création de dashboards et de reporting automatisé.\n\nPar ailleurs, j'ai suivi deux formations en data analysis avec Python (Freecodecamp) et en data science (HarvardX), ce qui m'a permis d'approfondir mes compétences en statistiques descriptives et inférentielles. Ces acquis me permettent aujourd'hui de contribuer efficacement à la construction et à la mise à jour des reportings mensuels, tout en construisant les outils nécessaires pour le pilotage des prix de vente.\n\nJe maîtrise parfaitement Excel (avancé) et Python avec ses bibliothèques pandas, numpy, seaborn et matplotlib. Ces compétences me permettent d'effectuer efficacement l'extraction, la transformation et le chargement de données (ETL), ainsi que la création de pipelines de données.\n\nJe suis également à l’aise en anglais au niveau C1, ce qui facilite les échanges internationaux et la collaboration avec des partenaires étrangers.\n\nMon intérêt pour les aspects analytiques et prévisionnels du Revenue Management me pousse à postuler chez AOSTE SNC. Je suis convaincu que mes compétences en data analysis et ma connaissance approfondie de l'industrie supply chain me permettront d’apporter une contribution significative au sein de votre équipe.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Excel et Power BI, ainsi qu'un niveau d'anglais C1. Ces éléments sont pertinents pour l'expérience du candidat.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. Utilisation avancée d’Excel et participation à des projets de reporting et datavisualisation. Niveau d'anglais C1.",
+                    "keywords_injected": [
+                        "Excel",
+                        "Reporting",
+                        "Data Visualization",
+                        "Anglais (C1)"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+                    "description_tailored": "Stage en supply chain axé sur la création d’outils d’analyse de données et d’automatisation de processus, notamment avec Python et Excel. Travail approfondi sur les schémas de ruptures et les non-conformités en WH.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande des compétences en Python et en data visualization. Cette formation couvre les bases de l'analyse de données avec Python, y compris plusieurs bibliothèques pertinentes.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des librairies Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la visualisation des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data visualization",
+                        "Numpy",
+                        "pandas",
+                        "Matplotlib",
+                        "Seaborn"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction à la science des données",
+                    "reasoning": "L'offre demande Excel et Python pour le pilotage des prix de vente et la construction de dashboards. Cette formation couvre ces compétences.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de la data science, avec un focus particulier sur les modèles de prédiction en utilisant Python et Excel pour le traitement et l'analyse des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "Excel"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Excel, Power BI ou autres outils de datavisualisation et un niveau d'anglais C1. Le candidat maîtrise Python et Excel et a une expérience en analyse de données.",
+                    "description_tailored": "En tant que data analyst freelance depuis janvier 2025, j'ai approfondi mon intérêt pour l'analyse des données et la visualisation grâce à plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les comptabilités, utilisant Python et Excel.",
+                    "keywords_injected": [
+                        "Excel",
+                        "Python"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "L'offre recherche des compétences en Excel et Power BI. Le candidat possède une expertise en Excel avancé, y compris les tableaux croisés dynamiques et le reporting, qui sont pertinents pour cette expérience.",
+                    "description_tailored": "Préparation et transport de palettes, initiation à la gestion logistique avec utilisation d'outils Excel pour le reporting et l'analyse des données.",
+                    "keywords_injected": [
+                        "Excel",
+                        "Reporting"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "STAGE - Data Scientist pour la propriété intellectuelle - F/H",
+            "URL": "https://www.jobteaser.com/en/job-offers/45641209-a636-4037-a50f-36e82269ae09-thales-stage-data-scientist-pour-la-propriete-intellectuelle-f-h",
+            "company": "Thales",
+            "location": "Toulouse (France)",
+            "offer_type": "data",
+            "score": 82,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                9
+            ],
+            "skills_section": [
+                "Python",
+                "NLP",
+                "ScikitLearn",
+                "data processing",
+                "pandas",
+                "numpy"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Data Scientist en stage chez Thales à Toulouse. Actuellement en cinquième année d'école d'ingénieur à l’ECAM Lyon avec une spécialisation en Supply Chain Management, je suis particulièrement intéressé par les domaines de la data et de l'intelligence artificielle.\n\nAu cours de mon stage chez Laboratoire Arrow en 2024, j'ai créé plusieurs outils d'analyse de données utilisant Python et Excel. Cette expérience m'a permis de développer des compétences clés dans le nettoyage et la préparation des données, ainsi que dans l'automatisation de processus. J'ai également suivi une formation en analyse de données avec Python via FreeCodeCamp et HarvardX, ce qui a renforcé mes connaissances en librairies comme pandas, numpy, matplotlib et seaborn.\n\nDans le cadre de mon projet freelance en tant que Data Analyst, j'ai approfondi ma compréhension des modèles de prédiction avec scikit-learn. Ces expériences me permettent d'être à l'aise avec les algorithmes de traitement du langage naturel (NLP) et le développement d'outils d'aide à la décision, ce qui correspond parfaitement aux missions proposées par Thales.\n\nJe suis également familier avec l'utilisation de Python pour développer des scripts automatisés et extraire des données via des APIs ou du web scraping. Ces compétences me permettront de contribuer efficacement au développement d'algorithmes de recherche de similarité entre brevets, ainsi qu'à l'analyse technique et sémantique de ces documents.\n\nJe suis convaincu que mes capacités en data science et ma connaissance des outils technologiques me permettront de contribuer positivement à votre équipe. Je serais ravi d'avoir l’opportunité de discuter plus en détail de mon profil et de ses implications pour Thales.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Python et data processing, qui sont présentes dans le catalogue du candidat.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. Utilisation de Python pour le nettoyage et la préparation des données, ainsi que l'automatisation de processus.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+                    "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus, utilisant principalement Python et Excel pour le monitoring et l'amélioration continue dans un contexte médical.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande Python, traitement du langage naturel (NLP), et compétences en data processing. L'expérience mentionne déjà le codage avec Python et des librairies de data processing comme pandas.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant une découverte approfondie des bibliothèques Numpy, pandas, Matplotlib et Seaborn pour le nettoyage et la préparation des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing",
+                        "NLP"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction à la data science",
+                    "reasoning": "L'offre demande Python et le traitement du langage naturel (NLP). Cette formation utilise Python pour apprendre les modèles de prédiction.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de la data science, avec un focus particulier sur les modèles de prédiction en utilisant Python et la librairie ScikitLearn.",
+                    "keywords_injected": [
+                        "Python",
+                        "ScikitLearn"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Python, traitement du langage naturel (NLP) et data processing. L'expérience mentionne déjà une maîtrise approfondie de Python et un travail sur l'analyse de données.",
+                    "description_tailored": "En tant que freelance, j'ai approfondi mon intérêt pour le domaine des données et la statistique en créant un portfolio avec plusieurs projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans les boîtes de comptabilité, utilisant Python et Excel pour le traitement et l'analyse des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "L'offre demande des compétences en Python et data processing. Le candidat a utilisé Python dans le cadre de ses expériences précédentes, bien que cette expérience spécifique ne mentionne pas directement ces compétences.",
+                    "description_tailored": "Préparation et transport de palettes, initiation à la gestion logistique avec utilisation d'outils de data processing et de Python pour automatiser certaines tâches administratives liées au stockage et au transport des marchandises.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/c26936d8-814b-4daf-88e7-8978ee516815-aoste-snc-commercial-data-analyst-junior-h-f",
+            "company": "AOSTE SNC",
+            "location": "Lyon, Rhône (France)",
+            "offer_type": "data",
+            "score": 82,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+            ],
+            "skills_section": [
+                "Excel avancé",
+                "Reporting",
+                "Python",
+                "Power BI",
+                "Supply Chain Management",
+                "Data Visualization"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Commercial & Data Analyst Junior H/F au sein d'AOSTE SNC basé à Lyon. Actuellement en cinquième année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par ce stage qui allie les aspects commerciaux et analytiques.\n\nMon expérience en supply chain chez Arrow et Amazon m'a permis de développer des compétences clés telles que le nettoyage et la préparation des données, l'analyse de processus et la création d'outils automatisés pour améliorer les performances. Ces expériences me permettent aujourd'hui de comprendre parfaitement les enjeux liés à l'analyse des forces de vente et au suivi des stocks matériels.\n\nDe plus, mon parcours académique et professionnel m'a doté d'un solide bagage technique en matière de data. Je maîtrise Python avec pandas, numpy, seaborn et matplotlib, ainsi que Excel avancé avec Power Query et Pivot Tables. Ces compétences me permettent d'effectuer des tâches telles que l'extraction des données Datasharing ou la diffusion des tableaux de bord à la fin de chaque période.\n\nJe suis également familier avec les outils Microsoft Office, Outlook et Teams, qui seront essentiels pour collaborer efficacement au sein de votre équipe. Mon expérience en tant que data analyst freelance m'a permis d'acquérir une expertise dans l'automatisation des workflows et la création de rapports automatisés.\n\nJe suis convaincu que mon profil technique, combiné à ma compréhension approfondie des processus supply chain, me permettra de contribuer efficacement au renforcement des processus de contrôle des données chez AOSTE SNC. J'ai hâte d'apporter mes compétences et mon enthousiasme pour relever les défis que vous proposez.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Supply Chain Management et analyse de données. Le candidat a une spécialisation en industrial supply chain management.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en gestion industrielle de la chaîne logistique (Supply Chain Management). J'ai appliqué des compétences en analyse de données et prévision pour optimiser les processus de supply chain.",
+                    "keywords_injected": [
+                        "Supply Chain Management",
+                        "analyse de données"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+                    "description_tailored": "Stage en supply chain axé sur la création d’outils d’analyse de données et l’automatisation de processus, notamment avec Python et Excel. Travail approfondi sur les schémas de ruptures et les non-conformités en WH.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande des compétences en Python et en analyse de données. L'expérience mentionne l'utilisation de Python avec les bibliothèques Numpy, pandas, Matplotlib et Seaborn.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données avec Python, incluant le codage avancé avec les librairies Numpy, pandas, Matplotlib et Seaborn pour la manipulation et la visualisation des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction to Data science",
+                    "reasoning": "L'offre demande des compétences en Python et en data visualization. Cette formation couvre les bases de la data science avec un focus sur le modèle de prédiction en utilisant Python.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de la data science, incluant l'approfondissement de la librairie ScikitLearn et l'étude des modèles de prévision avec Python. Cette formation a renforcé mes compétences en data processing et en visualisation.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Python, Excel et Power Query. L'expérience mentionne déjà une maîtrise approfondie de Python et d'Excel, ainsi que l'utilisation de techniques de nettoyage et de préparation des données.",
+                    "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques en créant un portfolio avec plusieurs projets open source et semi-automatisés. J'ai développé un projet lucratif, un add-on pour un ERP spécialisé dans les boîtes de comptabilité, utilisant Python et Excel pour le nettoyage et la préparation des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "Excel",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "name": "Fondation pour la recherche médicale",
+                    "reasoning": "L'offre demande des compétences en Excel et Power BI. Bien que l'expérience ne mentionne pas explicitement ces outils, le candidat possède une expertise en Excel avancé et en automatisation qui sont pertinents.",
+                    "description_tailored": "Organisation de la représentation de la Fondation pour la Recherche Médicale à la Fête de la Science 2024, en utilisant des tableaux de bord et des outils d'analyse de données basés sur Excel pour optimiser les processus.",
+                    "keywords_injected": [
+                        "Excel",
+                        "Reporting"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "STAGE - INGENIEUR SIG/PYTHON F/H",
+            "URL": "https://www.jobteaser.com/en/job-offers/d75fb131-d4d1-4f4e-b1a8-035cd58b681f-ingerop-stage-ingenieur-sig-python-f-h",
+            "company": "INGEROP",
+            "location": "7 Rue du Devoir, 13015 Marseille (France)",
+            "offer_type": "data",
+            "score": 80,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                9
+            ],
+            "skills_section": [
+                "Python",
+                "pandas",
+                "numpy",
+                "data processing",
+                "seaborn",
+                "matplotlib"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de STAGE - INGENIEUR SIG/PYTHON F/H au sein d’INGEROP. Actuellement en 5ème année à l'ECAM Lyon, je suis spécialisé dans la Supply Chain Management et j'ai développé une solide expertise en Python et en analyse de données.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données utilisant Python et Excel pour automatiser des processus. Ces expériences m’ont permis de développer un intérêt marqué pour l’utilisation du langage Python dans le traitement de données spatiales et la modélisation.\n\nJe maîtrise parfaitement les bibliothèques Python comme pandas, numpy, matplotlib et seaborn, qui sont essentielles pour le nettoyage des données et leur visualisation. De plus, j'ai suivi une formation en data science avec HarvardX-CS109x, approfondissant ainsi mes connaissances dans l'utilisation de ScikitLearn pour les modèles de prédiction.\n\nJe suis particulièrement motivé par la mission consistant à développer un logiciel innovant de modélisation des ilots de chaleur urbains et à améliorer les modèles de simulation climatique. Ces missions correspondent parfaitement à mes compétences en Python et en analyse spatiale, que j'ai pu mettre en pratique lors de mon stage chez Arrow.\n\nJe suis également intéressé par l'opportunité d'apprendre ArcGIS et PyQGIS pour compléter ma palette de compétences dans le domaine du SIG. Je suis convaincu que ces outils me permettront d’apporter une contribution significative à vos projets en matière de modélisation urbaine et climatique.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "L'offre demande des compétences en Python et en traitement de données spatiales. Le candidat a une formation en Supply Chain Management qui inclut du Python, ce qui est pertinent.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec spécialisation en supply chain management, utilisant des outils de traitement de données tels que Python pour analyser les flux logistiques et optimiser la chaîne d'approvisionnement.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow",
+                    "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+                    "description_tailored": "Stage en supply chain axé sur la création d'outils d'analyse de données et d'automatisation des processus, utilisant principalement Python et Excel pour le monitoring et l'amélioration continue dans un contexte médical.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "L'offre demande des compétences en Python et traitement de données spatiales. Cette formation couvre les bases du codage avec Python et l'utilisation de bibliothèques comme Numpy, pandas, Matplotlib et Seaborn.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de l'analyse de données en utilisant Python et ses librairies clés telles que Numpy, pandas, Matplotlib et Seaborn pour le traitement et la visualisation des données.",
+                    "keywords_injected": [
+                        "Python",
+                        "traitement de données"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction à la science des données",
+                    "reasoning": "L'offre demande Python et le traitement de données spatiales. Cette formation utilise Python pour apprendre les modèles de prédiction.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases de la science des données, avec un focus particulier sur les modèles de prédiction en utilisant Python et la librairie ScikitLearn. Cette expérience a renforcé mes compétences en data processing et en programmation Python.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "L'offre demande des compétences en Python et traitement de données spatiales. Le candidat maîtrise déjà Python et a réalisé plusieurs projets impliquant le traitement de données.",
+                    "description_tailored": "Approfondissement de mon intérêt pour le domaine du traitement de données, création d'un portfolio avec plusieurs projets open source et semi-automatisés, ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé dans la comptabilité. Utilisation intensive de Python et Excel pour analyser et automatiser des processus de data processing.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "L'offre demande des compétences en Python et data processing. Bien que l'expérience ne mentionne pas directement ces compétences, le catalogue de compétences du candidat inclut Python et data processing.",
+                    "description_tailored": "Préparation et transport de palettes, initiation à la gestion logistique avec utilisation d'outils tels que Excel pour le traitement des données liées aux opérations d'entrepôt.",
+                    "keywords_injected": [
+                        "Python",
+                        "data processing"
+                    ]
+                }
+            ]
+        }
+    ]
+}

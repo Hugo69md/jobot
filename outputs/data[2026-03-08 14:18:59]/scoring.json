@@ -1,0 +1,124 @@
+{
+    "scoring": [
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 90,
+            "C1": {
+                "reason": "Python match t_prio +1, VBA match prio +0.5, Excel avancé match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole CIB est une entreprise prestigieuse",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Montrouge à moins de 15km de Paris, donc -2pts",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 82,
+            "C1": {
+                "reason": "Excel match t_prio +1, Power BI match bonus +0.25, MicroStrategy match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les entreprises prestigieuses mentionnées, score moyen",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Lyon = 15 pts",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - INGENIEUR SIG/PYTHON F/H",
+            "score": 72,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match prio +0.5, numpy match prio +0.5, scikit-learn match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "INGEROP n'est pas une entreprise prestigieuse comme CAC40/S&P500/Big4/Big3, donc score moyen",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Marseille est à plus de 15km des villes cibles Lyon, Paris et Montpellier, donc score minimum",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 72,
+            "C1": {
+                "reason": "Excel avancé match t_prio +1, Python (pandas, numpy) match prio +0.5, Power BI ou autres outils de datavisualisation match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Lyon = 15 pts",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "...",
+                "score": 0
+            }
+        },
+        {
+            "name": "Stage - Juriste Droit Privé des Affaires - H/F",
+            "score": 52,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond aux exigences de l'offre.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études d'un Master Ingénieur, ce qui équivaut à un Bac+5.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev n'est pas une entreprise du CAC40/S&P500/Big4/Big3 mais elle est reconnue dans le secteur des transports.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre se situe à Issy-les-Moulineaux, qui est proche de Paris (moins de 1km).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond parfaitement au timing recherché.",
+                "score": 15
+            }
+        }
+    ]
+}

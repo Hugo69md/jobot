@@ -1,0 +1,84 @@
+{
+    "offer_name": "REPORTING & DATA ANALYST INTERN W/M",
+    "offer_company": "Allianz Trade en France",
+    "offer_type": "data",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6
+    ],
+    "selection_reasoning": "index 1 car le candidat est en formation d'ingénierie avec une spécialisation en supply chain management qui correspond bien à l'environnement de travail chez Allianz Trade; index 2 car il y a une expérience en création d'outils d'analyse de données et d'automatisation de processus, compétences utiles pour le développement des rapports internes et la production de tableaux de bord dans MicroStrategy; index 4 car la formation en data analysis avec python renforce les compétences nécessaires pour l'utilisation de Python et Excel mentionnées dans l'offre; index 5 car la connaissance approfondie de ScikitLearn est un atout pour le traitement des données; index 6 car l'expérience en tant que freelance data analyst montre une maitrise approfondie de Python et d'Excel, compétences clés pour cette offre; index 7 n'est pas sélectionné car il ne correspond pas directement aux missions ou compétences requises",
+    "skills_section": [
+        "Python",
+        "Excel avancé",
+        "data visualization",
+        "MicroStrategy",
+        "Numpy",
+        "pandas"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Reporting & Data Analyst Intern au sein d'Allianz Trade en France. Actuellement en cinquième année à l’École Centrale des Arts et Manufactures (ECAM) Lyon, je suis spécialisé dans la Supply Chain Management et possède une solide expérience en analyse de données.\n\nAu cours de mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données utilisant Python et Excel. Ces expériences m'ont permis d'affiner mes compétences en programmation, notamment avec les bibliothèques pandas, numpy, matplotlib et seaborn. De plus, je maîtrise l'utilisation avancée d’Excel, y compris la création de tableaux croisés dynamiques et l’utilisation de Power Query pour le nettoyage des données.\n\nJe suis également formé en data analysis avec Python grâce à FreeCodeCamp et HarvardX. Ces formations m'ont permis de développer une expertise en statistiques, en modèles de prédiction (scikit-learn) et en visualisation de données (seaborn).\n\nMon expérience récente en tant que Data Analyst freelance a renforcé mon intérêt pour l’analyse des données. J'ai créé un portfolio avec plusieurs projets open source et semi-automatisés, ce qui m'a permis d'approfondir ma compréhension de la programmation Python et Excel.\n\nJe suis particulièrement intéressé par le poste proposé car il correspond parfaitement à mes compétences en data analysis. Je serais ravi de contribuer au développement des rapports internes de crédit, aux tableaux de bord dans MicroStrategy et à l'automatisation des processus de reporting.\n\nEnfin, je suis fluide en anglais (C1) et prêt à relever les défis que vous proposez. Je serais honoré d'avoir l’opportunité de discuter plus en détail de ma candidature lors d’un entretien.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "L'offre recherche des compétences en Supply Chain Management et Reporting, qui sont pertinentes pour cette expérience. Le candidat a également une connaissance d'Excel avancé et de Python.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. Expérience dans la prévision de la demande, l'analyse des données et le reporting utilisant Excel avancé et Python.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "prévision de la demande",
+                "analyse des données",
+                "reporting",
+                "Excel avancé",
+                "Python"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow",
+            "reasoning": "L'offre demande Python et data processing. L'expérience Arrow utilise Python/Excel → injection naturelle possible",
+            "description_tailored": "Stage en supply chain et data, création de plusieurs outils d'analyse de données et d'automatisation de processus utilisant Python et Excel pour le monitoring des schémas de ruptures et les non-conformités en WH.",
+            "keywords_injected": [
+                "Python",
+                "data processing"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "L'offre demande des compétences en Python et en data visualization. Cette formation couvre les bases de l'analyse de données avec Python, incluant plusieurs librairies pertinentes.",
+            "description_tailored": "Formation axée sur l'apprentissage des fondamentaux de l'analyse de données avec Python, y compris le codage avancé avec Numpy, pandas et Matplotlib pour la visualisation des données.",
+            "keywords_injected": [
+                "Python",
+                "data visualization",
+                "Numpy",
+                "pandas",
+                "Matplotlib"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "L'offre demande des compétences en Python et data visualization. Cette formation couvre les bases de la data science avec un focus sur Python.",
+            "description_tailored": "Formation axée sur l'apprentissage des fondamentaux de la data science, notamment le développement de modèles de prédiction avec Python et l'approfondissement de ScikitLearn pour le nettoyage et la préparation des données.",
+            "keywords_injected": [
+                "Python",
+                "ScikitLearn",
+                "data preparation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "L'offre demande des compétences en Python, Excel et MicroStrategy. Le candidat maîtrise déjà Python et Excel et a une expérience en automatisation de rapports.",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source et semi-automatisés. J'ai développé un projet lucratif : un add-on pour un ERP spécialisé dans les boites de comptabilité, utilisant Python et Excel pour automatiser les rapports.",
+            "keywords_injected": [
+                "Python",
+                "Excel",
+                "Automatisation"
+            ]
+        }
+    ]
+}

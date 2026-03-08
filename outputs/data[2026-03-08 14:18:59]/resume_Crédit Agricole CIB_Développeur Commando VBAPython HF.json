@@ -1,0 +1,79 @@
+{
+    "offer_name": "Développeur Commando VBA/Python H/F",
+    "offer_company": "Crédit Agricole CIB",
+    "offer_type": "data",
+    "score": 90,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9
+    ],
+    "selection_reasoning": "index 9 car l'expérience en gestion d'entrepôt et préparation de palettes est pertinente pour la maintenance des outils d'aide à la décision et la gestion des flux de données mentionnés dans les missions. De plus, elle montre une capacité à travailler sur des projets transverses.",
+    "skills_section": [
+        "Python",
+        "Reporting",
+        "APIs",
+        "Automatisation",
+        "pandas",
+        "GitLab CI"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de Développeur Commando VBA/Python H/F au sein de Crédit Agricole CIB. Actuellement en cinquième année à l'ECAM Lyon dans la spécialisation Supply Chain Management, je suis particulièrement intéressé par les opportunités qui mêlent développement et gestion des données.\n\nDurant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse de données en Python et Excel pour automatiser les processus. Ces expériences m'ont permis de développer une expertise dans le nettoyage et la préparation des données, ainsi que dans l'automatisation des flux de travail. J'ai également approfondi mes connaissances en Python avec des formations comme Data analysis with python chez Freecodecamp et Introduction to Data science à HarvardX.\n\nJe maîtrise parfaitement les bibliothèques pandas, numpy, seaborn, matplotlib et scikitlearn, qui sont essentielles pour le traitement de données. De plus, mon expérience en VBA acquise lors de mon stage chez Amazon DAR1 me permet d'être à l'aise avec la programmation dans différents environnements.\n\nJe suis également familier avec les outils de gestion des versions comme GitLab CI et Jenkins, qui sont mentionnés parmi les compétences recherchées pour ce poste. Ces outils me permettent de collaborer efficacement sur des projets transverses et d'assurer la documentation et la formalisation des processus développés.\n\nMon intérêt pour l'automatisation et le reporting automatisé, ainsi que ma capacité à participer à la mise en place des pipelines CI/CD, me permettraient de contribuer activement aux projets transverses au sein de Crédit Agricole CIB. Je suis convaincu que mes compétences techniques et mon expérience pratique m'apportent les atouts nécessaires pour réussir dans ce poste.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Python pertinent car compétence requise dans l'offre et validée par le candidat, automatisation pertinente car compétence requise et déjà mentionnée dans les compétences spécifiques du candidat.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique avec une spécialisation en supply chain management. J'ai utilisé Python pour automatiser des processus de reporting et analyser des données, contribuant ainsi à la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "Python",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "GitLab CI pertinent car compétence pertinente pour l'offre et non encore utilisée dans le CV, VBA exclu car non mentionné dans les compétences validées du candidat",
+            "description_tailored": "Pendant mon stage en supply chain au Laboratoire Arrow à Lyon, j'ai créé plusieurs outils d'analyse de données et automatisé des processus grâce à Python. J'ai également travaillé sur la détection et la résolution de non-conformités dans le WH tout en utilisant GitLab CI pour gérer les pipelines CI/CD.",
+            "keywords_injected": [
+                "GitLab CI"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Reporting pertinent car lié à la préparation et au nettoyage des données, API exclu car déjà injecté",
+            "description_tailored": "Formation visant l'apprentissage approfondi du codage en Python avec une utilisation intensive des bibliothèques Numpy, pandas, Matplotlib et Seaborn. Cette formation a permis de développer des compétences clés en statistiques (descriptives et inférentielles) ainsi que la création de rapports automatisés.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "APIs pertinent car lié à l'expérience en extraction de données et automatisation, JSON exclu car déjà injecté dans une autre expérience",
+            "description_tailored": "Formation axée sur les bases du domaine de la data science avec un accent particulier sur les modèles de prédiction. J'ai approfondi ma compréhension des APIs pour l'extraction et le traitement des données.",
+            "keywords_injected": [
+                "APIs"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "APIs pertinent car le candidat a travaillé avec des APIs, GitLab CI exclu car déjà injecté dans d'autres expériences",
+            "description_tailored": "En tant que data analyst freelance, j'ai approfondi mon intérêt pour la data et les statistiques en créant un portfolio de projets open source et semi-automatisés. J'ai également développé un add-on pour un ERP spécialisé dans le domaine comptable, utilisant des APIs pour l'extraction et le traitement des données.",
+            "keywords_injected": [
+                "APIs"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "reasoning": "Aucun mot-clé pertinent n'a pu être injecté car tous les mots-clés pertinents ont déjà été utilisés ailleurs dans le CV ou sont spécifiques à cette expérience.",
+            "description_tailored": "Préparation et transport de palettes, initiation à la logistique avec le chef d'entrepôt.",
+            "keywords_injected": []
+        }
+    ]
+}

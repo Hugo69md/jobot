@@ -1,0 +1,196 @@
+{
+    "scoring": [
+        {
+            "name": "Stage en Conseil aux Opérations/ Supply Chain - Nantes - F/H",
+            "score": 90,
+            "C1": {
+                "reason": "Anglais courant match t_prio +1, Forecasting match t_prio +1, Réapprovisionnement match prio +0.5, Data-driven decision making match prio +0.5, Analyse Pareto match prio +0.5, Process monitoring match prio +0.5, Excel avancé match bonus +0.25, Pivot Tables match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Diplômé(e) d'une école d'ingénieur = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "PwC France est une entreprise prestigieuse (Big4)",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Nantes à environ 500km de Lyon, Paris et Montpellier = -2pt",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Début juin 2026 est la période idéale",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 90,
+            "C1": {
+                "reason": "Python match t_prio +1, VBA match prio +0.5, Excel avancé match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole CIB est une entreprise prestigieuse",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Montrouge à moins de 15km de Paris, donc -2pts",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 82,
+            "C1": {
+                "reason": "Excel match t_prio +1, Pack Office (incluant Excel) match t_prio +1, Outlook match prio +0.5, Teams match prio +0.5, MicroStrategy match bonus +0.25, Power BI match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études dans une école d'ingénieurs (ECAM Lyon) = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas spécifiquement mentionnée comme entreprise prestigieuse, donc score moyen",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Lyon est la localisation de l'offre = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026 qui correspond à la période recherchée par le candidat = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 72,
+            "C1": {
+                "reason": "Excel avancé match t_prio +1, Python (pandas, numpy) match prio +0.5, Power BI ou autres outils de datavisualisation match bonus +0.25",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et école d'ingénieur ECAM Lyon = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Lyon = 15 pts",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            },
+            "C5": {
+                "reason": "...",
+                "score": 0
+            }
+        },
+        {
+            "name": "STAGE - INGENIEUR SIG/PYTHON F/H",
+            "score": 72,
+            "C1": {
+                "reason": "Python match t_prio +1, pandas match prio +0.5, numpy match prio +0.5, scikit-learn match prio +0.5",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Bac+4/5 et stage fin d'études = max",
+                "score": 10
+            },
+            "C3": {
+                "reason": "INGEROP n'est pas une entreprise prestigieuse comme CAC40/S&P500/Big4/Big3, donc score moyen",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Marseille est à plus de 15km des villes cibles Lyon, Paris et Montpellier, donc score minimum",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Début juin 2026 = max",
+                "score": 15
+            }
+        },
+        {
+            "name": "Ingénieur.e d'Etudes et Développement Informatique F/H",
+            "score": 58,
+            "C1": {
+                "reason": "Le candidat ne possède aucune compétence correspondant aux t_prio de l'offre. Le candidat n'a pas de compétences en Java, Angular, Architectures micro-services, Bases de données relationnelles et non relationnelles, Cloud et DevOps.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le niveau du candidat est Bac+5 avec une école d'ingénieur ECAM Lyon, ce qui correspond parfaitement au profil recherché par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "VINCI Energies n'est pas dans le CAC40 mais reste une entreprise de renommée importante en France. Le score est donc légèrement inférieur à la valeur maximale.",
+                "score": 18
+            },
+            "C4": {
+                "reason": "L'offre se situe à Lyon, ce qui correspond parfaitement aux préférences du candidat et vaut donc le maximum de points.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage est prévu pour débuter en juin 2026, ce qui correspond exactement au timing souhaité par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Juriste Droit Privé des Affaires - H/F",
+            "score": 52,
+            "C1": {
+                "reason": "Aucune compétence en data ou supply chain ne correspond aux exigences de l'offre.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est en fin d'études d'un Master Ingénieur, ce qui équivaut à un Bac+5.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev n'est pas une entreprise du CAC40/S&P500/Big4/Big3 mais elle est reconnue dans le secteur des transports.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre se situe à Issy-les-Moulineaux, qui est proche de Paris (moins de 1km).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage commence en juin 2026, ce qui correspond parfaitement au timing recherché.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Data Scientist pour la propriété intellectuelle - F/H",
+            "score": 46,
+            "C1": {
+                "reason": "Python match t_prio +1, prompt engineering non trouvé dans les compétences du candidat, traitement du langage naturel (NLP) non trouvé dans les compétences du candidat, Cloud (AWS - AZURE ou Google Cloud) non trouvé dans les compétences du candidat, propriété intellectuelle non trouvé dans les compétences du candidat, brevets et innovation technologique non trouvé dans les compétences du candidat",
+                "score": 1
+            },
+            "C2": {
+                "reason": "...",
+                "score": 8
+            },
+            "C3": {
+                "reason": "...",
+                "score": 15
+            },
+            "C4": {
+                "reason": "...",
+                "score": 10
+            },
+            "C5": {
+                "reason": "...",
+                "score": 12
+            }
+        }
+    ]
+}

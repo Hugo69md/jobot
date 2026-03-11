@@ -1,0 +1,180 @@
+[
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/bde1ce78-6779-47a3-a0f4-ddb8dd5dc343-credit-agricole-cib-developpeur-commando-vba-python-h-f",
+        "name": "Développeur Commando VBA/Python H/F",
+        "company": "Crédit Agricole CIB",
+        "location": "92120 Montrouge (France)",
+        "content": "Description du poste Vous recherchez un stage en Développement et vous avez un intérêt pour le domaine financier ? Alors cette offre est faite pour vous ! Au sein du département \" Capital Markets IT \" (CMI) qui gère le système d'information mondial sur l'intégralité de la chaine de valeur des Métiers des Marchés de Capitaux, l'IT Division Equity couvre le support applicatif, la maintenance et les évolutions du système d'information applicatif y compris la gestion de grands projets de refonte du système d'information de la Filière Marchés \" Equity Derivatives \". Dans un environnement en constante évolution, orienté agile et s'appuyant sur les dernières technologies et solutions leader du marché, vous intégrez l'équipe IT Commando Equity en charge des outils de pricing / risks et monitoring à destination des utilisateurs FO / MO et le département des risques de marché Vous contribuerez à l'automatisation et l'optimisation des outils utilisés pour la prise de décision et la gestion des risques. Concrètement vos missions seront les suivantes : Implémentation et maintenance d'outils d'aide à la décision (dashboards, outils de pricing) en VBA et/ou Python; Automatisation des processus et la gestion des flux de données (market data, données internes) via API ou bases de données; Participation à des projets transverses : maintenance, détection d'anomalies; Documentation et formalisation des process et outils développés Participation à la mise en place des pipelines CI/CD et des outils DevOps (GitLab CI, Jenkins, Ansible, Terraform, etc.). En tant que Développeur de la Delivery : Participer aux cérémonies agiles mise en places (Daily, Retrospectives, etc); Participer aux campagnes de non régression; Etre force de proposition sur les sujets techniques; Remonter les alertes de manière adéquate sur les risques rencontrés lors de la conception des features (coûts, délais, humains). Rejoindre Crédit Agricole CIB, c'est profiter d'une communauté importante de jeunes, évoluer sur un campus moderne offrant de nombreux services (boulangerie, salle de sport, etc.), bénéficier d'un suivi RH (matinée d'accueil, suivi régulier, etc.) et d'opportunités en alternance, VIE, CDD et CDI. Critères de candidature Date de prise de fonction 02/02/2026 Durée 6 mois Poste avec management Non Cadre / Non Cadre Non cadre Niveau d'étude minimum Bac + 4 / M1 Formation / Spécialisation Et si c'était vous ? Formation : Université, école de commerce ou d'ingénieurs Spécialisation : Informatique Niveau d'expérience minimum 0 - 2 ans Compétences recherchées Hard Skills : Python et VBA Maitrise du Pack Office ; Français & Anglais courants. Soft Skills : Autonomie Esprit d'équipe Appétence pour les cycles de développements courts et exigeants Crédit Agricole CIB s'engage en faveur de l'insertion des personnes en situation de handicap, ainsi ce poste est ouvert à toutes et à tous. Ce poste est éligible au télétravail dans les conditions prévues par notre accord reposant sur le double volontariat (collaborateur & manager) et après une période d'intégration réussie. Entreprise Crédit Agricole CIB Rejoignez les équipes de Crédit Agricole CIB, la banque de financement et d'investissement du groupe Crédit Agricole, 10e groupe bancaire mondial en taille de bilan*.Nous accompagnons les grandes entreprises et institutions financières dans leur développement et le financement de leurs projets. Pionniers dans la finance responsable, l'engagement social et environnemental sont au cœur de nos activités.Intégrer nos équipes c'est contribuer au développement d'une économie durable.Vous évoluerez dans un environnement multiculturel, à la fois dynamique et stimulant, dans lequel vous serez encouragé à innover et partager vos idées.Nous sommes une entreprise qui accompagne ses collaborateurs tout au long de leur parcours. Vous pourrez y développer vos compétences et accéder aux larges opportunités de carrière qu'offrent la diversité de nos métiers et nos 30 implantations internationales.Notre culture repose sur la force du collectif et l'esprit d'ouverture, où chacun est responsabilisé et valorisé.En agissant chaque jour dans l'intérêt de la société, Crédit Agricole CIB s'inscrit dans les valeurs du groupe qui est engagé en faveur des diversités et de l'inclusion et qui place l'humain au cœur de toutes ses transformations. Tous nos postes sont ouverts aux personnes en situation de handicap.Vous souhaitez prendre part à notre mission ? Rejoignez nos équipes !*The Banker, Juillet 2025 See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Finance",
+            "Automation",
+            "IT"
+        ],
+        "profil_recherche": "Bac + 4 ou M1, spécialisation Informatique",
+        "missions": [
+            "Implémentation et maintenance d'outils d'aide à la décision (dashboards, outils de pricing) en VBA et/ou Python",
+            "Automatisation des processus et gestion des flux de données via API ou bases de données",
+            "Participation à des projets transverses : maintenance, détection d'anomalies",
+            "Documentation et formalisation des process et outils développés",
+            "Mise en place des pipelines CI/CD et des outils DevOps (GitLab CI, Jenkins, Ansible, Terraform)",
+            "Participation aux cérémonies agiles (Daily, Retrospectives) et campagnes de non régression"
+        ],
+        "competences_offre": [
+            "Python",
+            "VBA",
+            "Maitrise du Pack Office",
+            "API",
+            "Bases de données",
+            "GitLab CI",
+            "Jenkins",
+            "Ansible",
+            "Terraform"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/2505385d-1793-478a-a6b4-ea5df0abeed1-banque-de-france-stage-developpeur-outils-bureautiques-et-python-h-f",
+        "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+        "company": "Banque de France",
+        "location": "75001 Paris (France)",
+        "content": "Présentation de la direction générale et du service La Direction Générale des Services à l'Économie et du Réseau (DGSER) pilote plusieurs activités : elle développe et déploie l'Indicateur Climat de la Banque de France (Direction Programme Indicateur Climat) ; elle assure la collecte, l'analyse et la diffusion d'informations sur les entreprises non financières ; le suivi des relations entre les particuliers et la sphère financière ; ainsi que l'organisation des actions de la Banque de France en matière d'éducation financière du public. La Direction Générale comprend également une direction en charge du réseau de succursales ainsi qu'une direction en charge des applicatifs et des projets informatiques. Le stage proposé se situe au sein du Service de Génération du Système d'Information (GENESIS), qui appartient à la Direction Programme Indicateur Climat (DICLI). Ce service est notamment en charge de développer le système d'information utilisé pour l'ensemble de cette activité. Descriptif de mission Dans le cadre du développement des outils informatiques utilisés pour l'analyse des données Climat des entreprises, la mission consistera à prendre en charge une partie des activités de réalisation technique des outils et du suivi de production. Les outils sont actuellement développés en utilisant excel, VBA, Python et interagissent avec une base de donnée. Les activités de réalisation technique peuvent comprendre des estimations de charge, des développements, des tests unitaires, des analyses et corrections d'anomalies. Cette mission se déroulera dans une équipe de 6 à 8 personnes. Profil recherché Formation recherchée : Ecole ingénieur informatique (niveau M1 ou M2) Compétences : Développer de nouvelles fonctionnalités Excel/VBA/Python Assurer une qualité de code en mettant en place des tests unitaires et des revues de codes régulières Prendre en main le code existant et contribuer à son évolution conforme aux décisions d'architecture d'entreprise Contribuer aux tests unitaires Qualités : Bonne maîtrise technique des fonctionnalités d'Excel (y compris macro) et de python Curiosité, autonomie, esprit d'analyse, écoute, esprit d'équipe See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Banque",
+            "Finance",
+            "Data"
+        ],
+        "profil_recherche": "Ecole ingénieur informatique (niveau M1 ou M2)",
+        "missions": [
+            "Prendre en charge une partie des activités de réalisation technique des outils",
+            "Suivre la production",
+            "Effectuer des estimations de charge",
+            "Développer des fonctionnalités",
+            "Realiser des tests unitaires",
+            "Effectuer des analyses et corrections d'anomalies"
+        ],
+        "competences_offre": [
+            "Excel (y compris macro)",
+            "VBA",
+            "Python",
+            "Base de données",
+            "Tests unitaires",
+            "Revue de code",
+            "Contribution à l'évolution du code existant"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/aa106e31-e5d0-4796-8684-1bcb4b8950f1-chanel-stage-assistant-e-client-intelligence-analyst-mode-europe-juillet-2026",
+        "name": "STAGE - Assistant(e) Client Intelligence Analyst - Mode EUROPE - Juillet 2026",
+        "company": "CHANEL",
+        "location": "52/60 AVENUE DES CHAMPS ELYSEES&#xa;75008 PARIS&#xa; (France)",
+        "content": "La Mode est l'activité originelle de la Marque. Chaque collection traduit les valeurs chères à Gabrielle Chanel à travers un style unique et audacieux : liberté, féminité, créativité. La Maison CHANEL valorise une création radicale et des savoir-faire d'exception pour offrir une silhouette unique et faire vivre à ses clientes un rêve continu. Au sein de l’équipe Marketing Client Mode Europe, vous assisterez le pôle responsable de la connaissance client. Plus précisément, vous améliorez la connaissance des clients Mode et soutiendrez les besoins de plus de 60 boutiques en Europe. Dans un environnement international et dynamique, ce rôle régional vous permettra d’être le lien entre la Division Mode et les marchés et avoir une vision globale et locale. Vous jouerez un rôle clé qui vous permettra de mieux connaître nos clients, les marchés et leurs besoins pour soutenir le business de la mode, et offrir la meilleure expérience à nos clients en boutiques, alignée avec la stratégie globale et adaptée aux spécificités locales. L'impact que vous créez chez Chanel : Reporting : Vous partagez mensuellement les KPIs de la mode Europe aux marchés et aux équipes business. Vous participez à la construction des reports mensuels présentant les insights clients de la mode Europe. Vous travaillez en collaboration avec les équipes Europe (merchandising, finance, eyewear, etc) pour apporter une vision client ou répondre à des questions business Analyses Vous réalisez des études clients ad hoc en lien avec les enjeux business de la Maison et les actualités (analyses clients, produits, retail, finance etc). Vous contribuez ponctuellement aux présentations stratégiques de la mode Europe. Support Vous soutenez l’animation des marchés (meetings récurrents, partage d’information, etc) Vous recueillez les besoins analytics & data des marchés et les accompagnez dans leurs analyses clients Vous êtes stimulé par : Vous êtes sensible à l’univers du Luxe et ses exigences en matière de rigueur et d’attention aux détails et vous avez une appétence pour le digital et le retail. Vous aimez être à l’écoute des besoins marchés et être exposé à une diversité de sujets en lien avec le développement de la relation client. Ce que vous apporterez : Etudiant(e) issu(e) d'une Ecole de commerce ou ingénieur, vous justifiez d'une première expérience réussie avec des missions d’analyses. Doté(e) d'un véritable esprit d'analyse et de synthèse, vous souhaitez découvrir l'environnement du Retail et du Luxe. Votre rigueur, votre réactivité et votre fiabilité associées à votre capacité à résoudre des problèmes seront des atouts indispensables pour mener à bien vos missions. Vos qualités relationnelles, votre sens du service et votre écoute seront nécessaires afin de recueillir les besoins des équipes et des marchés et d’y répondre au mieux. Vous maîtrisez impérativement Excel et PowerPoint. Vous parlez anglais couramment. La maitrise de PowerBI et/ou Power Query serait un plus. Ce que Chanel peut vous offrir : Vous approfondirez vos connaissances sur les enjeux business de la Maison, en collaborant avec de nombreuses équipes au niveau Europe (communication, évènements, expérience client, merchandising, opérations etc) ainsi que des équipes au niveau global et en marché. A l’occasion d’événements internes, vous intégrerez une Communauté de Jeunes Talents et ainsi construirez votre réseau professionnel. Chez Chanel, nous sommes axés sur la création d'une culture inclusive qui favorise la croissance personnelle, contribuant au progrès collectif. Nous croyons que l'unicité de chaque individu accroît la diversité, la complémentarité et l'efficacité de nos équipes. Nous encourageons vivement votre candidature, car nous apprécions la perspective, l'expérience et le potentiel que vous pourriez apporter à Chanel. Paris 8eme Stage de 6 mois à partir de juillet 2026 See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Client_Intelligence",
+            "Retail_Analytics",
+            "Reporting"
+        ],
+        "profil_recherche": "Étudiant(e) issu(e) d'une école de commerce ou ingénieur, niveau Bac+4/5",
+        "missions": [
+            "Améliorer la connaissance des clients Mode et soutenir les besoins de plus de 60 boutiques en Europe",
+            "Partager mensuellement les KPIs de la mode Europe aux marchés et aux équipes business",
+            "Participer à la construction des reports mensuels présentant les insights clients",
+            "Réaliser des études clients ad hoc en lien avec les enjeux business",
+            "Contribuer ponctuellement aux présentations stratégiques de la mode Europe",
+            "Soutenir l'animation des marchés (meetings récurrents, partage d'information)",
+            "Recueillir les besoins analytics & data des marchés et les accompagner dans leurs analyses clients"
+        ],
+        "competences_offre": [
+            "Excel",
+            "PowerPoint",
+            "Anglais courant",
+            "Power BI (plus)",
+            "Power Query (plus)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/c26936d8-814b-4daf-88e7-8978ee516815-aoste-snc-commercial-data-analyst-junior-h-f",
+        "name": "Commercial & Data Analyst Junior H/F",
+        "company": "AOSTE SNC",
+        "location": "Lyon, Rhône (France)",
+        "content": "DECOUVREZ LE GROUPE AOSTE Nous, Groupe Aoste, sommes convaincus que se faire plaisir en mangeant est l'une des clés du bonheur. Depuis plus de 40 ans, vous nous faites confiance pour accompagner vos moments de plaisir et de partage. Pour cela, nous pouvons compter sur notre force d'innovation et la solidité de nos marques. Notre culture d’entreprise est orientée vers l’excellence opérationnelle et la convivialité. Notre force : une organisation à taille humaine au sein de Sigma, un grand groupe international où le management privilégie la proximité avec les équipes. En outre, le Groupe Aoste s’engage à être toujours plus responsable sur les questions environnementales, sociétales et économiques au travers des piliers de son programme de développement durable AGIR. Pour accompagner notre croissance, la volonté constante du Groupe Aoste est d’être à la recherche de nouveaux collaborateurs de talent. Rejoignez un univers d’excellence et de convivialité ! DECOUVREZ LE SITE Le site de St Priest, près de Lyon, héberge le siège administratif du groupe Aoste et ses 306 collaborateurs. Vous y trouverez les fonctions support du groupe (Qualité, Finance, RH et IT) ainsi que les équipes Supply Chain, Marketing et Commerce. Au sein de notre établissement, nous recherchons un(e) Commercial & Data Analyst Junior. VOS MISSIONS 1/ [Reporting] Analyse des données Forces de Ventes Participation au traitement des demandes d’analyse de nos clients finaux : Directeurs de région, Chefs de secteurs, Responsable Force de Vente, Category Manager, Compte-Clés, … Reportings des réalisations FDV envoyés tous les lundis avec 1 plan d’action, en fonction des objectifs Force de vente Circana ( données panel) : -Census Force de Ventes LS (Part de marché rayons Tranché Sec et Saucisson Sec) *Diffusion des tableaux de bord à la fin de chaque période en ajoutant une synthèse des résultats à destination de la population commerciale siège et terrain. -Suivi Focus famille (ex : Snacking) *Actualisation des rapports, ajout d’une synthèse des résultats de ce segment et diffusion auprès de la population commerciale siège et terrain. - Actualisation et téléchargement de la liste de la Forces de Ventes sur le site de Circana. Suivi DN frais-emballé (Data Sharing) : contrôles, synthèse (FDV Aoste LS - FDV supplétive) Extraction des données Datasharing (restitution des sorties caisses des enseignes à la Force de Vente). Mises à jour des fichiers nécessaires à la restitution du Reporting IRI (Scorecard, Census Fdv). Collabore au renforcement des process de contrôles des données. Participe à l’extraction et l’analyse des données Forces de Ventes (ex : suivi nb de visites/mois, suivi relevés obsolètes toutes les semaines, …Analyse FDV Supplétive tous les mois) Appui sur les projets en cours (test-contrôle) 2/ [Partie CRM ] Logiciel Force de Ventes Actualisation des assortiments enseignes Libre-Service. Création des magasins, changement d’enseignes, mises à jour sectorisation. Mises à jour des Typologies magasin. Commande interne des moyens (Ecos). Suivi de projets 3/ Matériels & Mobiliers Matériels : suivi des stocks (sur le périmètre d’Agnès et Stéphane), Brief achat, suivi commande et suivi de la livraison. VOTRE PROFIL ET VOS COMPETENCES Vous êtes en Année de césure / Fin d'études en Ecole de Commerce / Ingénieurs / Informatique ou équivalent. Maîtrise des outils informatiques (Excel,pack Office, Outlook, Teams) et aisance dans l’utilisation des bases de données. Connaissance Microstratégy & Power BI serait un plus. Organisation, esprit d’analyse, rigueur, dynamisme, travail en équipe et doit être capable de mener des actions en autonomie. Envie de tenter l’aventure et de vivre le Groupe Aoste au quotidien ? Postulez directement via Jobteaser (CV + lettre de motivation), en indiquant impérativement la référence du stage auquel vous postulez. See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Reporting",
+            "CRM",
+            "Sales_Analytics"
+        ],
+        "profil_recherche": "Année de césure, fin d'études en école de commerce, ingénieurs ou informatique",
+        "missions": [
+            "Analyse des données et reporting des réalisations Force de Ventes (FDV)",
+            "Traitement des demandes d'analyse pour les directions et responsables commerciaux",
+            "Suivi des tableaux de bord Circana et diffusion des synthèses",
+            "Extraction et analyse des données Datasharing et IRI",
+            "Mise à jour des fichiers nécessaires aux reportings",
+            "Gestion du logiciel Force de Ventes (assortiments, magasins, typologies)",
+            "Suivi des projets en cours et test-contrôles",
+            "Suivi des stocks, briefs d'achat et commandes de matériels"
+        ],
+        "competences_offre": [
+            "Maîtrise des outils informatiques (Excel, Pack Office, Outlook, Teams)",
+            "Aisance dans l'utilisation des bases de données",
+            "Connaissance de Microstratégie et Power BI (souhaité)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/b98ac5a9-8a54-4a45-9de9-4b104ed658a6-aoste-snc-charge-e-de-revenue-management-junior",
+        "name": "Chargé(e) de Revenue Management Junior",
+        "company": "AOSTE SNC",
+        "location": "Lyon, Rhône (France)",
+        "content": "DECOUVREZ LE GROUPE AOSTE Nous, Groupe Aoste, sommes convaincus que se faire plaisir en mangeant est l'une des clés du bonheur. Depuis plus de 40 ans, vous nous faites confiance pour accompagner vos moments de plaisir et de partage. Pour cela, nous pouvons compter sur notre force d'innovation et la solidité de nos marques. Notre culture d’entreprise est orientée vers l’excellence opérationnelle et la convivialité. Notre force : une organisation à taille humaine au sein de Sigma, un grand groupe international où le management privilégie la proximité avec les équipes. En outre, le Groupe Aoste s’engage à être toujours plus responsable sur les questions environnementales, sociétales et économiques au travers des piliers de son programme de développement durable AGIR. Pour accompagner notre croissance, la volonté constante du Groupe Aoste est d’être à la recherche de nouveaux collaborateurs de talent. Rejoignez un univers d’excellence et de convivialité ! DECOUVREZ LE SITE Le site de St Priest, près de Lyon, héberge le siège administratif du groupe Aoste et ses 306 collaborateurs. Vous y trouverez les fonctions support du groupe (Qualité, Finance, RH et IT) ainsi que les équipes Supply Chain, Marketing et Commerce. Au sein de notre établissement, nous recherchons un/une Chargé(e) de Revenue Management Junior. VOS MISSIONS Vous êtes à la recherche d’un stage stimulant et vous voulez comprendre les coulisses des décisions stratégiques d’une entreprise agroalimentaire ? Rejoignez notre équipe Revenue Growth Management (RGM) et participez à des projets concrets au cœur du réacteur de l’entreprise. Le Revenue Growth Management (RGM) vise à maximiser la croissance du chiffre d'affaires et de la rentabilité via une approche stratégique des leviers business : prix, promotion, mix produits, canaux de distribution…. C’est une discipline analytique et stratégique, au cœur des décisions commerciales et marketing. Elle allie analyse du réel et travail de projection. Au sein de l’équipe RGM, et en collaboration avec les équipes commerciales, marketing et finance, vos missions principales seront de contribuer à la construction et à l’utilisation de nos outils existants pour mener des analyses et formuler des recommandations actionnables par les équipes commerciale et marketing, en lien avec les piliers principaux du Revenue Management comme : 1/ Promotion : Mettre à jour notre outil d’efficacité promotionnelle pour mener en lien avec nos problématiques commerciales et marketing à partir de diverses sources internes / externes (panels, veille prospectus…). 2/ Stratégie prix de nos gammes : Construire et développer les outils de pilotage de nos prix de vente en lien avec l’architecture de nos gammes et de notre portefeuille dans notre environnement concurrentiel, sur nos différents canaux de distribution. 3/ Reportings Contribuer à la construction et à la mise à jour de nos reportings / dashboards mensuels intégrant les principaux indicateurs de prix, promo, portefeuille, parts de marché pour piloter tous les leviers du mix. VOTRE PROFIL ET VOS COMPETENCES Vous êtes étudiant(e) au niveau Bac +4 / +5 (Ecole d’ingénieur, IAE, formation en statistiques, école de commerce,…) Vous avez un bon esprit analytique, tu es rigoureux(se) et à l’aise avec les chiffres ; Vous avez envie de comprendre les leviers business derrière la croissance d’une entreprise. Vous êtes curieux(se), aimez apprendre, êtes force de proposition, et vous avez une bonne aptitude à communiquer et travailler en équipe. Vous maîtrisez Excel ; la connaissance de Power BI ou d’outils de datavisualisation est un plus ; Vous maîtrisez l’anglais (écrit / oral : niveau B2 - C1) Vous serez un atout supplémentaire si vous connaissez le fonctionnement de la grande distribution (marketing/commercial) et/ou des notions de contrôle de gestion. Envie de tenter l’aventure et de vivre le Groupe Aoste au quotidien ? Postulez directement via Jobteaser (CV + lettre de motivation) See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Revenue_Management",
+            "Analytics",
+            "Reporting"
+        ],
+        "profil_recherche": "Bac+4/Bac+5 (École d'ingénieur, IAE, formation en statistiques, école de commerce)",
+        "missions": [
+            "Contribuer à la construction et l'utilisation des outils existants pour mener des analyses",
+            "Formuler des recommandations actionnables pour les équipes commerciale et marketing",
+            "Mettre à jour l'outil d'efficacité promotionnelle",
+            "Construire et développer les outils de pilotage des prix de vente",
+            "Contribuer à la construction et la mise à jour des reportings et dashboards mensuels"
+        ],
+        "competences_offre": [
+            "Maîtrise d'Excel",
+            "Connaissance de Power BI ou d'autres outils de datavisualisation (plus)",
+            "Anglais niveau B2-C1",
+            "Notions de contrôle de gestion (plus)",
+            "Connaissance du fonctionnement de la grande distribution (plus)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/16eec583-e11e-45e4-8f80-c802d09aefa8-transdev-stage-juriste-droit-prive-des-affaires-h-f",
+        "name": "Stage - Juriste Droit Privé des Affaires - H/F",
+        "company": "Transdev",
+        "location": "Issy-les-Moulineaux,Île-de-France,France (France)",
+        "content": "Rejoignez un Groupe international fortement ancré dans les territoires Chez Transdev, nous sommes fiers de faire voyager 11 millions de personnes au quotidien dans le monde grâce à des services de transport efficaces, simples et respectueux de l'environnement, au service des territoires. Parce que nous maîtrisons des modes de transport diversifiés et que nous sommes implantés sur les 5 continents, partout où nous sommes, nous aspirons à favoriser les initiatives de nos équipes multiculturelles. Rejoindre Transdev c'est rejoindre des femmes et des hommes au service des autres et exercer un métier qui a du sens : la mobilité. Transdev recrute un stagiaire Juriste en Droit Privé des Affaires - H/F Votre mission Vous aurez différentes missions : Participer au suivi quotidien des dossiers de tout ordre, traités par le Pôle Corporate Affaires Innovation (rédaction des notes, de courriers, d'actes, recherches juridiques, analyses de dossiers...) Assister les juristes dans la rédaction et la validation de différents types de contrats (prestations de services, CGV...) être amené( e) à collaborer sur certains dossiers propriété intellectuelle et nouvelles technologies Participer à la veille et aux recherches du Pôle Raison d'être du poste : Assister les juristes du pôle tout en acquérant de nouvelles compétences en droit des affaires et en renforçant celles déjà acquises tout en s'intégrant dans une équipe motivée et pluridisciplinaire. Votre profil Vous êtes diplômé d'un Master 2 en droit des affaires ou candidat au CRFPA et vous recherchez un stage de 6 mois. On dit de vous que vous avez une bonne capacité d'analyse et rédactionnelle, un bon esprit de synthèse et que vous êtes rigoureux. Vous avez également un niveau C1 ou C2 en anglais. Votre destination Au sein de la Direction Juridique du Groupe, vous travaillez en collaboration avec les 7 juristes et la paralégale du pôle de droit privé des affaires. Le stage est à pourvoir pour Juillet 2026, (6 mois ) Poste basé à Issy -les -Moulineaux Les plus ! - Nous accompagnons le développement, l'équilibre professionnel et personnel et le bien-être de nos collaborateurs. - Nous construisons une culture d'entreprise bienveillante qui valorise la diversité, permettant à chacun de s'épanouir. - Nous donnons à nos collaborateurs la possibilité d'avoir un impact sociétal positif en déployant des transports durables. - Nous offrons à nos collaborateurs des opportunités pour construire leur expérience au sein d'un Groupe international, aux activités locales. Rejoignez un Groupe international fortement ancré dans les territoires ! Transdev est un leader international de la mobilité au service des territoires. Nous concevons et opérons des transports collectifs - bus, cars, trams, trains, vélos partagés, ferries, entre autres… - pour permettre à chacun de se déplacer chaque jour grâce à des solutions sûres, efficaces et innovantes au service du bien commun. Parce que nous sommes des femmes et des hommes au service des autres, nos 102 000 collaborateurs dans le monde ont un impact positif sur les gens et la société. C'est en étant attentifs à chacun que l'on permet à tous d'avancer. Et vous ? Qu'est-ce qui vous fait avancer ? See more",
+        "offer_type": "supply_chain",
+        "offer_industry_type": [
+            "Droit_des_affaires",
+            "Juridique",
+            "Mobilité"
+        ],
+        "profil_recherche": "Master 2 en droit des affaires ou candidat au CRFPA, recherche d'un stage de 6 mois",
+        "missions": [
+            "Suivi quotidien des dossiers de tout ordre (rédaction de notes, courriers, actes, recherches juridiques, analyses)",
+            "Assistance à la rédaction et validation de contrats (prestations de services, CGV)",
+            "Collaboration sur dossiers propriété intellectuelle et nouvelles technologies",
+            "Veille et recherches juridiques"
+        ],
+        "competences_offre": [
+            "Niveau C1 ou C2 en anglais",
+            "Capacité d'analyse",
+            "Capacité rédactionnelle",
+            "Esprit de synthèse",
+            "Rigueur"
+        ]
+    }
+]

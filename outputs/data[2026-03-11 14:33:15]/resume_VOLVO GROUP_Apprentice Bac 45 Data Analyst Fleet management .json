@@ -1,0 +1,76 @@
+{
+    "offer_name": "Apprentice Bac +4/5 Data Analyst Fleet management Africa & LAPAC H/F",
+    "offer_company": "VOLVO GROUP",
+    "offer_type": "data",
+    "score": 88,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "Index 10 est sélectionné car le type 'supply_chain' correspond directement à l'industrie de l'offre ('Fleet_management'), et le rôle 'manutentionnaire' avec les missions de 'préparation de routes' et 'picking' sont des activités opérationnelles fondamentales dans la gestion de flotte, ce qui est pertinent pour un profil Data Analyst Fleet Management. Le type 'supply_chain' est le critère principal selon les instructions.",
+    "skills_section": [
+        "Power BI",
+        "Dashboards",
+        "Reporting automatisé",
+        "Data Visualisation",
+        "Storytelling",
+        "Excel avancé"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise pour un stage de fin d'études au poste d'Apprentice Data Analyst. Mon profil allie une solide formation en Supply Chain Management et une expertise technique acquise via des formations certifiantes (HarvardX, Freecodecamp) en analyse de données.\n\nVotre mission de définition de la roadmap du Dashboard et de production de modèles de requêtes résonne particulièrement avec mon parcours. Durant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse et d'automatisation de processus, maîtrisant Python, pandas et NumPy pour le monitoring des ruptures et non-conformités. Parallèlement, en tant que freelance data analyst depuis janvier 2025, j'ai approfondi mes compétences en statistiques inférentielle et descriptive, tout en développant un portfolio incluant des projets d'automatisation et de semi-automatisation.\n\nMes atouts techniques correspondent directement aux exigences de l'offre : une maîtrise avancée d'Excel (Pivot Tables, Power Query) et une capacité à produire des rapports automatisés. De plus, mon expérience en tant que manutentionnaire chez Amazon m'a inculqué une rigueur opérationnelle et une compréhension terrain des flux logistiques, compétence essentielle pour analyser les données de flotte.\n\nMa maîtrise du français (niveau natif) et de l'anglais (C1/IELTS 7,5) me permettrait d'assurer les communications nécessaires et les présentations orales liées au Dashboard. Je suis convaincu que mes compétences en traitement statistique de données et en modélisation peuvent contribuer efficacement à vos activités commerciales et techniques.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du candidat et au domaine de l'offre (gestion de flotte), mais il est déjà présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Gestion des stocks', 'Prévision de la demande', 'Analyse de données', 'Reporting', 'Excel avancé', 'Python' et 'Data-driven decision making' sont soit déjà injectés, soit absents des compétences spécifiques du candidat. Aucun nouveau mot-clé ne peut être ajouté sans inventer une expérience ou une compétence.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il synthétise l'objectif d'utiliser les données pour guider les actions dans le contexte supply chain, sans être présent dans la description originale ou les compétences spécifiques. Les autres mots-clés pertinents de l'offre (comme Power BI, SQL Server, Azure Databricks) ne sont pas présents dans les compétences validées du candidat pour cette expérience, donc ils ne peuvent pas être injectés. Les termes comme 'monitoring', 'Python', 'Excel', 'process', 'ruptures', 'non conformités', 'WH' sont déjà présents soit dans la description originale, soit dans les compétences spécifiques.",
+            "description_tailored": "Stage en supply chain axé sur le Data-driven decision making, consistant à créer plusieurs outils d'analyse de données et d'automatisation de process pour optimiser le monitoring des ruptures et des non conformités en WH.",
+            "keywords_injected": [
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond aux librairies Matplotlib et Seaborn utilisées pour créer des graphiques, ce qui est implicite dans l'offre mais pas encore injecté. Les autres compétences de l'offre (SQL Server, Azure Databricks, Power BI, ETL, Python) sont soit absentes du candidat pour cette expérience spécifique, soit déjà présentes ailleurs dans le CV ou dans la description originale ('Codage avec python', 'Statistiques descriptives').",
+            "description_tailored": "Développement de dashboards et de rapports automatisés en utilisant Python (pandas, numpy, matplotlib) pour la visualisation de données et l'analyse statistique descriptive.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences validées du candidat (Statistiques descriptive/inferentielle) et n'est pas dans les mots-clés déjà injectés ou présents dans la description originale. Les autres compétences comme ScikitLearn, Python, pandas, numpy sont déjà mentionnées ou trop spécifiques pour être ajoutées sans inventer de contexte, et 'Data-driven decision making' est exclu car déjà injecté ailleurs.",
+            "description_tailored": "Formation axée sur l'apprentissage des bases du domaine de la data science avec un focus sur les modèles de prédiction utilisant Python, incluant une analyse approfondie des statistiques pour la construction de modèles prédictifs.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de production de rapports et d'indicateurs (KPI) sans être déjà injecté ni présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Power BI', 'Data Warehouse' ou 'SQL Server' ne sont pas validés par les compétences du candidat (qui maîtrise Python, Excel, ETL mais pas explicitement ces outils spécifiques listés dans l'offre).",
+            "description_tailored": "Développement de dashboards et de rapports automatisés via Python et Excel avancé pour transformer des données brutes en indicateurs clés de performance (KPI) exploitables. Création d'un add-on ERP semi-automatisé basé sur des pipelines ETL robustes, permettant une analyse de données approfondie et une prise de décision factuelle.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Aucun mot-clé pertinent de l'offre (Power BI, SQL, Python, Data Warehouse, etc.) n'apparaît dans les compétences validées du candidat pour cette expérience spécifique. Les compétences disponibles sont limitées à la logistique manuelle et au 5S, qui ne correspondent pas aux missions techniques ou analytiques décrites dans l'offre.",
+            "description_tailored": "Stage ouvrier dédié à la préparation de routes et au picking, avec initiation et maîtrise du système 5S.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "offer_name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+    "offer_company": "Banque de France",
+    "offer_type": "data",
+    "score": 88,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 (Campus Création Edition) est sélectionné car le rôle de 'Participant' dans un concours d'entreprenariat implique une forte autonomie et une capacité à gérer des projets complexes sous contrainte temporelle, ce qui correspond aux missions de 'suivre la production' et 'estimer les charges'. Le domaine 'entreprenariat' démontre une aptitude à structurer une idée (développement d'outils) et la persévérance nécessaire pour le développement itératif. Les soft skills 'Autonomie' et 'Entreprenariat' sont transférables aux missions de conception et de gestion de projet technique.",
+    "skills_section": [
+        "Python",
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre entreprise pour un stage de fin d'études au poste de développeur d'outils bureautiques et Python. Votre mission de développement d'outils d'analyse des données Climat des entreprises résonne particulièrement avec mon parcours.\n\nMon expérience professionnelle chez Arrow m'a permis de créer plusieurs outils d'analyse et d'automatisation de processus en utilisant Python et Excel, tout en travaillant sur le monitoring et l'analyse de données. Parallèlement, ma période actuelle en tant que data analyst freelance (janvier 2025 à aujourd'hui) a consolidé mes compétences techniques : maîtrise approfondie de Python, pandas, numpy, matplotlib et scikit-learn, ainsi que statistiques inférentielle et descriptive.\n\nJe suis particulièrement attiré par vos exigences concernant la qualité de code et les tests unitaires. Mes formations en Data Science (HarvardX CS109x) et mes projets open source m'ont appris à structurer mon travail avec rigueur, une compétence essentielle pour le développement technique que vous recherchez. De plus, ma capacité à produire des dashboards et des rapports automatisés, acquise lors de mes stages en supply chain et dans la data, me permettrait de contribuer efficacement à votre production.\n\nMon profil hybride, alliant ingénierie mécanique et expertise data, me donne une vision globale des processus métiers. Je suis convaincu que mon intérêt pour l'analyse des données et ma maîtrise des outils Python correspondent aux besoins de votre équipe.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Excel avancé' n'est pas dans la liste des compétences de l'offre (seulement 'Excel'), il est donc exclu pour éviter le faux positif. Aucun nouveau mot-clé ne peut être injecté car tous les mots-clés pertinents de l'offre ('Python', 'Gestion de base de données', etc.) sont soit absents des compétences du candidat, soit déjà présents dans la description originale ou les compétences spécifiques.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il correspond à la compétence technique demandée et validée par le candidat pour l'automatisation. Les mots-clés comme 'Excel', 'VBA', 'Tests unitaires', 'Gestion de base de données' et 'Qualité de code' sont exclus car ils ne figurent pas dans les compétences spécifiques du candidat (seul 'Base de données' est présent mais le contexte d'automatisation Python est plus central pour l'offre), ou bien ils sont déjà couverts par la description originale ('outils d'analyse', 'process').",
+            "description_tailored": "Stage en supply chain au sein du laboratoire Arrow, dédié à la création d'outils d'analyse de données et d'automatisation de processus via Python dans le contexte des missions données.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Nettoyage des données' est pertinent car il correspond à la préparation des données mentionnée dans les compétences du candidat et n'est pas déjà injecté. Les autres compétences validées comme 'Dashboards', 'Reporting', 'Data pipelines' ou 'Statistiques' sont soit déjà présentes dans la description originale ('analyse de données'), soit trop génériques par rapport au contexte d'apprentissage, tandis que 'Python' est exclu car déjà injecté ailleurs.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le nettoyage et la préparation des données pour la visualisation et le reporting.",
+            "keywords_injected": [
+                "Nettoyage des données"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Scikit-learn' est pertinent car il correspond à la compétence spécifique du candidat et n'est pas dans les mots-clés exclus. Les autres compétences (pandas, numpy, statistiques) sont déjà injectées ailleurs ou trop génériques pour cette expérience académique isolée.",
+            "description_tailored": "Formation axée sur l'apprentissage automatique utilisant Scikit-learn pour la construction de modèles prédictifs et l'analyse statistique avancée.",
+            "keywords_injected": [
+                "Scikit-learn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de production et aux compétences du candidat (Reporting automatisé) sans être déjà injecté. Les mots-clés comme 'Python', 'Nettoyage des données' et 'Scikit-learn' sont exclus car ils figurent dans les mots-clés déjà injectés ou dans les compétences spécifiques originales.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création d'un portfolio de projets open source, axés sur l'automatisation des processus et la production de rapports automatisés.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la description originale et les compétences spécifiques du candidat ne contiennent aucun élément correspondant aux exigences techniques (Python, Excel, VBA, tests unitaires, etc.) ni aux missions décrites. Les mots-clés 'Autonomie' et 'Entreprenariat' sont déjà présents ou hors sujet pour cette offre spécifique.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

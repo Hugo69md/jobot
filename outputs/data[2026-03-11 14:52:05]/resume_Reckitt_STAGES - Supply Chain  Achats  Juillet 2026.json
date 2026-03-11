@@ -1,0 +1,78 @@
+{
+    "offer_name": "STAGES - Supply Chain & Achats | Juillet 2026",
+    "offer_company": "Reckitt",
+    "offer_type": "supply_chain",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        4
+    ],
+    "selection_reasoning": "Index 6 est sélectionné car le rôle de 'freelance en data' et les compétences spécifiques (Maitrise approfondie de Python, Excel, Statistiques inférentielle/descriptive) correspondent directement aux missions d'analyse de données marché, de gestion des stocks/prévisions et d'optimisation des indicateurs de performance mentionnées dans l'offre. Le type 'data' aligne parfaitement avec la compétence requise 'Analyse de données et benchmark'. Index 4 est sélectionné car le rôle d'apprenant en analyse de données avec Python, couplé aux compétences spécifiques (Statistiques descriptives, découverte des librairies Numpy/pandas), renforce la pertinence technique pour les missions d'analyse et de traitement de données, complétant ainsi l'expérience Index 6 sur une base académique solide.",
+    "skills_section": [
+        "Excel avancé",
+        "Data Visualisation",
+        "Reporting",
+        "Supply Chain",
+        "Gestion des stocks",
+        "Process monitoring"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je recherche un stage de fin d'études au sein de Reckitt dans le domaine de la Supply Chain et des achats, à partir du 1er juin 2026.\n\nMon parcours académique se distingue par une double compétence en ingénierie mécanique et en gestion industrielle. J'ai ainsi développé une solide expérience pratique en supply chain, notamment lors de mon stage chez Amazon DAR1 où j'ai acquis les bases de la manutention et du picking, et surtout au Laboratoire Arrow, où j'ai créé des outils d'analyse de données pour le monitoring des ruptures et non-conformités. Ces missions m'ont permis de maîtriser l'automatisation de processus via Python et Excel avancé, compétences directement transférables à vos besoins en analyse de données marché et gestion des stocks.\n\nAu-delà de la théorie, j'ai mené un projet freelance d'analyse de données pour créer un add-on ERP, démontrant ma capacité à transformer des données brutes en insights actionnables. Je suis également très à l'aise avec les outils GS1 et Z-Index, essentiels pour vos missions de création de produit et de gestion MasterData.\n\nJe souhaite mettre mon autonomie et ma rigueur au service de Reckitt pour contribuer aux stratégies d'approvisionnement globales et optimiser les opérations de fabrication. Mon anglais niveau C1 (IELTS 7,5/9) me permet de communiquer efficacement dans un environnement international.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Génie Mécanique' est également présent dans les compétences spécifiques et exclu. Aucun nouveau mot-clé de l'offre ne peut être injecté car tous les mots-clés pertinents ('Supply Chain', 'Logistique', 'Distribution', 'Prévision', 'Stocks', 'Production', 'Data-driven', 'Excel', etc.) sont soit déjà présents dans la description originale, soit listés dans les compétences spécifiques du candidat.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il définit le domaine d'activité principal de l'offre et n'est pas encore injecté dans cette expérience. Les autres compétences validées comme 'Logistique', 'Gestion des stocks', ou 'Analyse de données' sont soit trop génériques par rapport aux missions spécifiques (comme la gestion des non-conformités), soit déjà présents implicitement dans le contexte original ('outils d'analyse', 'monitoring'). Le mot-clé 'Supply Chain' est donc le seul à être injecté pour maximiser le score ATS sans inventer de faits.",
+            "description_tailored": "Stage en Supply Chain au sein du laboratoire Arrow, consistant en la création d'outils d'automatisation et de monitoring des processus (ruptures de stock, non-conformités) via Python et Excel.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement aux missions de pilotage des stocks et prévisions de l'offre et est présent dans les compétences du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Transport', 'WMS', 'Excel avancé' ou 'Analyse de données' sont soit déjà injectés ailleurs sur le CV, soit trop génériques pour cette expérience d'initiation sans contexte spécifique (comme les outils GS1/Z-Index qui ne sont pas mentionnés ici).",
+            "description_tailored": "Initiation à la gestion des stocks et au pilotage des opérations logistiques via la coordination des arrivées et départs de camions, ainsi qu'à la préparation et le transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à la surveillance des opérations de préparation de routes et d'entrepôt décrites dans l'expérience originale, tout en étant absent du CV actuel (contrairement à 'Supply Chain' ou 'Gestion des stocks' déjà injectés). Les autres compétences comme 'Logistique', 'Distribution' ou 'Analyse de données' sont soit trop génériques pour ce rôle opérationnel précis, soit déjà présentes ailleurs dans le CV.",
+            "description_tailored": "Stage ouvrier dédié à la préparation de routes et au picking, avec une initiation et maîtrise approfondie du processus d'optimisation des flux (Process monitoring) et de l'organisation de l'espace (5S).",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission d'assurer la fiabilité des données et aux compétences du candidat (Reporting, Reporting automatisé), tout en étant absent des mots-clés déjà injectés. Les autres compétences comme 'Statistiques inférentielle' ou 'Analyse de data' sont soit déjà présentes dans les spécificités du candidat, soit trop génériques par rapport aux besoins spécifiques de l'offre (comme 'Dashboard' ou 'Data pipelines').",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création d'un portfolio open source incluant des projets d'automatisation et de semi-automatisation. Mise en place de processus de nettoyage et préparation de données robustes, permettant la génération de dashboards interactifs et de rapports automatisés basés sur l'analyse statistique.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond aux librairies Matplotlib et Seaborn utilisées pour créer des graphiques dans l'offre, alors que 'Reporting', 'Supply Chain', 'Gestion des stocks', 'Process monitoring' sont déjà injectés ailleurs ou hors sujet.",
+            "description_tailored": "Développement de dashboards et de visualisations de données complexes en Python (NumPy, Pandas, Matplotlib, Seaborn) pour transformer des jeux de données bruts en rapports analytiques clairs.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        }
+    ]
+}

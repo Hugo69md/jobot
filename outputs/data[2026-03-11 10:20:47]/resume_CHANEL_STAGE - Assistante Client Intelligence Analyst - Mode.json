@@ -1,0 +1,78 @@
+{
+    "offer_name": "STAGE - Assistant(e) Client Intelligence Analyst - Mode EUROPE - Juillet 2026",
+    "offer_company": "CHANEL",
+    "offer_type": "data",
+    "score": 61,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": " | fallback after 3 failed attempts",
+    "skills_section": [
+        "Reporting",
+        "Dashboards",
+        "Data Visualisation",
+        "Power Query",
+        "Supply Chain Management",
+        "Data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite rejoindre CHANEL pour un stage de fin d'études au poste d'Assistant(e) Client Intelligence Analyst. Mon profil technique et mon expérience professionnelle me permettent de contribuer efficacement aux missions de votre équipe.\n\nMa formation m'a permis de développer des compétences solides en analyse de données et en gestion de la supply chain, directement transférables à vos enjeux de connaissance client. J'ai notamment acquis une maîtrise approfondie de Python (pandas, numpy, scikit-learn) et d'Excel avancé, outils essentiels pour le traitement et la visualisation de données complexes. Mon parcours inclut également des formations certifiantes en Data Science (HarvardX CS109x) et en analyse de données avec Python (Freecodecamp), renforçant mes capacités en statistiques inférentielle et descriptive.\n\nMon expérience pratique est un atout majeur pour cette offre. J'ai réalisé plusieurs stages en supply chain, notamment chez Amazon DAR1 et Laboratoire Arrow, où j'ai créé des outils d'analyse de données et automatisé des processus de monitoring. Ces missions m'ont permis de travailler sur la gestion des stocks, les ruptures et les non-conformités, développant une approche data-driven décisionnelle. De plus, mon expérience en tant qu'analyste freelance a consisté à créer des dashboards et des rapports automatisés, compétences qui s'alignent parfaitement avec vos besoins en construction de reports mensuels et en partage de KPIs.\n\nMa maîtrise de l'anglais (niveau C1) me permettrait d'intégrer rapidement les équipes européennes. Je suis particulièrement motivé par l'opportunité d'améliorer la connaissance des clients Mode et de soutenir les marchés de plus de 60 boutiques, en apportant des insights concrets basés sur des analyses rigoureuses.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au besoin de l'offre pour soutenir les boutiques. Les autres compétences validées (Logistique, Distribution, Prévision de la demande, etc.) sont soit trop spécifiques aux tâches opérationnelles non mentionnées dans le contexte d'étudiant actuel, soit déjà présentes implicitement ou explicitement dans la description originale ('gestion', 'chaîne'). Seul 'Supply Chain Management' permet de lier directement la formation à l'objectif analytique sans inventer d'expérience.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme axé sur la gestion industrielle des chaînes d'approvisionnement.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il synthétise l'objectif d'améliorer les processus et de soutenir les décisions basées sur les données créées lors du stage. Les autres compétences validées (Python, Excel avancé, Power Query, Reporting, Analyse de données) sont déjà présentes dans la description originale ou les skills spécifiques, donc elles ne sont pas réinjectées pour éviter la répétition.",
+            "description_tailored": "Stage en supply chain axé sur le 'Data-driven decision making', création d'outils d'analyse et d'automatisation de processus via Python et Excel avancé pour optimiser le monitoring des ruptures et non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de construction de reports mensuels et s'appuie sur les compétences validées (Statistiques, Dashboards). Les mots-clés comme 'Data Visualisation', 'Storytelling', 'KPI', 'Power BI', 'Excel avancé' sont exclus car ils ne figurent pas dans les compétences spécifiques du candidat pour cette expérience ou sont déjà injectés ailleurs. 'Web scraping' et 'APIs' sont exclus car le contexte de la formation était l'apprentissage des bases avec Python, sans mention explicite d'extraction de données externes.",
+            "description_tailored": "Développement de pipelines d'analyse de données en Python pour la préparation et le nettoyage des jeux de données. Production de rapports statistiques et de dashboards visuels basés sur les analyses descriptives et inférentielles.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à la création de dashboards et d'insights via Python (matplotlib/seaborn) mentionnés dans les compétences validées, ce qui soutient l'objectif de l'offre de partager des KPIs visuels. Les autres mots-clés comme 'Reporting', 'Data-driven decision making' sont exclus car déjà injectés ailleurs ou présents dans la description originale.",
+            "description_tailored": "Formation axée sur les modèles de prédiction avec Python, incluant le développement de dashboards et d'outils de Data Visualisation pour transformer des données brutes en insights actionnables.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est exclu car il figure dans les mots-clés déjà injectés. Le mot-clé 'Dashboards' est pertinent car il correspond à la mission de construction de reports mensuels et aux compétences du candidat, sans être présent ailleurs dans le CV.",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable via Python (pandas, scikitlearn) et Excel avancé, incluant la création de Dashboards interactifs pour visualiser les données financières et automatiser l'extraction et le nettoyage des informations.",
+            "keywords_injected": [
+                "Dashboards"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car les compétences spécifiques du candidat sont limitées à 'Autonomie' et 'Entreprenariat', qui ne correspondent pas aux mots-clés demandés (Excel, Power BI, Reporting, etc.), et aucun nouveau mot-clé n'est disponible pour enrichir la description sans inventer des faits.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

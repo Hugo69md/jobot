@@ -59,9 +59,9 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
 *** CRITÈRES DE SCORING ***:
 - Sur un (total 100 pts) applique ce scoring:
 1. *Correspondance compétences* (40 pts) : Les compétences_offre demandées dans l'offre correspondent-elles aux compétence du candidat (all_candidate_skills) (supply_chain et/ou data) ?
-   - t_prio skills match avec section competence = 1 point pour chaque compétence matchée
-   - prio skills match avec section competence = 0.5 point pour chaque compétence matchée
-   - bonus skills match avec section competence = 0.25 point pour chaque compétence matchée
+   - t_prio skills match avec section competence = 5 points pour chaque compétence matchée
+   - prio skills match avec section competence = 3,5 points pour chaque compétence matchée
+   - bonus skills match avec section competence = 2 points pour chaque compétence matchée
 2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
 3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
 4. *Localisation* (15 pts): 

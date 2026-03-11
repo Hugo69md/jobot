@@ -5,7 +5,7 @@ import sys
 import threading
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME     = "qwen2.5:14b"
+MODEL_NAME     = "qwen3.5:4b"
 
 # ── Master prompt — injected as system message on every call ──────────────────
 SYSTEM_PROMPT = """Tu es un expert en recrutement, spécialisé dans l'optimisation de CV et la rédaction de lettres de motivation pour les stages en entreprise. 
@@ -30,7 +30,7 @@ def _waiting_indicator(start_time, stop_event):
 def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, num_predict: int = 4096) -> str:
     payload = {
         "model":  MODEL_NAME,
-        "system": SYSTEM_PROMPT,      # ← master prompt injected here
+        "system": SYSTEM_PROMPT,
         "prompt": prompt,
         "stream": True,
         "options": {
@@ -38,7 +38,8 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, nu
             "num_ctx":     32768,
             "num_predict": num_predict,
         },
-        "format": "json"
+        "format": "json",     # ← ADD BACK — safe without thinking, forces pure JSON output
+        "think":  False,      # ← ADD — disables thinking mode explicitly
     }
 
     for attempt in range(max_retries):
@@ -124,13 +125,9 @@ def query_ollama(prompt: str, temperature: float = 0.3, max_retries: int = 3, nu
 
 
 def query_ollama_json(prompt: str, temperature: float = 0.1, num_predict: int = 512, max_retries: int = 3) -> dict | None:
-    """
-    Call Ollama and parse the response as JSON.
-    Retries up to max_retries times on parse failure.
-    Returns the parsed dict, or None on complete failure.
-    """
     for attempt in range(max_retries):
         raw = query_ollama(prompt, temperature=temperature, max_retries=1, num_predict=num_predict)
+        #print(f"  [DEBUG] Raw output: {repr(raw[:500])}")  # ← HERE — before json.loads
         try:
             return json.loads(raw)
         except json.JSONDecodeError:

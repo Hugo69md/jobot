@@ -1,83 +1,64 @@
 import json
 
+
 def build_skills_section_prompt(
     cv_data: dict,
     best_offer: dict,
-    resume_data: dict,
+    keywords_already_in_cv: list = None,
 ) -> str:
     """
-    STEP 4 — Pick the 6 best skills to display in the CV skills section.
-
-    Inputs:
-      - all keywords_injected from resume_data (already validated against cv.json)
-      - offer competences + missions (from enrichment step)
-      - full skills catalog from cv.json (as candidate pool)
-
-    Output JSON:
-    {
-      "skills_section": ["Python", "pandas", "Supply Chain", "KPI", "Excel avancé", "Scrapy"]
-    }
-    → exactly 6 items, ordered by relevance to the offer (most relevant first)
+    Build prompt to select 6 skills for the CV skills section.
+    Prioritizes offer-relevant skills NOT already present in experience descriptions.
     """
-
-    # Flatten ALL keywords_injected across all tailored experiences
-    all_keywords_injected = []
-    seen = set()
-    for exp_entry in resume_data.get("resume", []):
-        for kw in exp_entry.get("keywords_injected", []):
-            kw_norm = kw.strip()
-            if kw_norm and kw_norm.lower() not in seen:
-                seen.add(kw_norm.lower())
-                all_keywords_injected.append(kw_norm)
-
-    # Full skills catalog flattened (candidate pool the AI can pick from)
     skills_catalog = cv_data.get("all_candidate_skills", [{}])[0]
-    all_candidate_skills = []
+
+    # Flatten catalog into one list with domain tags
+    all_skills = []
     for domain in ["data", "supply_chain"]:
         domain_skills = skills_catalog.get(domain, {})
         for tier in ["t_prio", "prio", "bonus"]:
-            all_candidate_skills.extend(domain_skills.get(tier, []))
-    # Deduplicate while preserving order
-    seen2 = set()
-    all_candidate_skills_deduped = []
-    for s in all_candidate_skills:
-        if s.lower() not in seen2:
-            seen2.add(s.lower())
-            all_candidate_skills_deduped.append(s)
+            for skill in domain_skills.get(tier, []):
+                all_skills.append(skill)
 
-    offer_context = {
-        "name":        best_offer.get("name", ""),
-        "company":     best_offer.get("company", ""),
-        "missions":    best_offer.get("missions", []),
+    # Deduplicate
+    seen = set()
+    all_skills_deduped = []
+    for s in all_skills:
+        if s.lower() not in seen:
+            seen.add(s.lower())
+            all_skills_deduped.append(s)
+
+    offer_keywords = {
         "competences_offre": best_offer.get("competences_offre", []),
+        "missions":          best_offer.get("missions", []),
     }
+
+    already_text = ""
+    if keywords_already_in_cv:
+        already_text = f"""
+*** MOTS-CLÉS DÉJÀ PRÉSENTS DANS LES DESCRIPTIONS DU CV ***:
+{json.dumps(keywords_already_in_cv, ensure_ascii=False)}
+Ces mots-clés apparaissent déjà dans les expériences. PRIVILÉGIE des compétences DIFFÉRENTES pour maximiser la couverture ATS.
+"""
 
     return f"""Tu es un expert en optimisation de CV pour les logiciels ATS.
 
-CONTEXTE : Le candidat postule à cette offre de stage :
-{json.dumps(offer_context, ensure_ascii=False, indent=2)}
+*** COMPÉTENCES DU CANDIDAT (catalogue complet) ***:
+{json.dumps(all_skills_deduped, ensure_ascii=False)}
 
----
+*** OFFRE ***:
+{json.dumps(offer_keywords, ensure_ascii=False, indent=2)}
+{already_text}
+*** INSTRUCTIONS ***:
+1. Identifie les compétences du CATALOGUE qui correspondent aux besoins de l'offre ("competences_offre" + "missions")
+2. PRIORITÉ aux compétences qui sont pertinentes pour l'offre ET pas encore dans "MOTS-CLÉS DÉJÀ PRÉSENTS"
+3. Si moins de 6 compétences nouvelles sont pertinentes, complète avec des compétences déjà présentes (la répétition ATS reste utile)
+4. Sélectionne exactement 6 compétences
 
-MOTS-CLÉS INJECTÉS dans les descriptions du CV (déjà validés comme compétences réelles du candidat) :
-{json.dumps(all_keywords_injected, ensure_ascii=False)}
+*** ATTENTION ***:
+- UNIQUEMENT des compétences du CATALOGUE ci-dessus — n'invente rien
+- EXACTEMENT 6, PAS PLUS, PAS MOINS
 
-CATALOGUE COMPLET des compétences du candidat (pool de sélection autorisé) :
-{json.dumps(all_candidate_skills_deduped, ensure_ascii=False)}
-
----
-
-INSTRUCTIONS :
-Tu dois sélectionner EXACTEMENT 6 compétences techniques à afficher dans la section "Compétences" du CV.
-
-Règles de sélection :
-1. Priorité maximale aux compétences présentes à la fois dans "MOTS-CLÉS INJECTÉS" ET dans "competences" ou "missions" de l'offre — ce sont les mots-clés ATS les plus importants
-2. Priorité secondaire aux compétences présentes dans "MOTS-CLÉS INJECTÉS" mais pas encore dans l'offre — elles montrent la polyvalence du candidat
-3. En cas d'égalité, préfère les compétences les plus reconnues/valorisantes (ex: Python > "data processing")
-4. Ne sélectionne QUE des compétences présentes dans le "CATALOGUE COMPLET" — n'invente rien
-5. Retourne les 6 compétences triées du plus pertinent au moins pertinent
-
-Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après) :
+*** FORMAT DE RÉPONSE ***:
+Réponds UNIQUEMENT avec ce JSON:
 {{"skills_section": ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6"]}}"""
-
-

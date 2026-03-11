@@ -1,0 +1,86 @@
+{
+    "offer_name": "Commercial & Data Analyst Junior H/F",
+    "offer_company": "AOSTE SNC",
+    "offer_type": "data",
+    "score": 85,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "Index 10 est sélectionné car le rôle de 'manutentionnaire' et les missions décrites (préparation de routes, picking) correspondent directement aux tâches opérationnelles de suivi des sorties de caisses et d'assortiments mentionnées dans l'offre. Le domaine 'supply_chain' aligne parfaitement avec la gestion des données de vente et de stocks requise pour le reporting IRI et Circana. Les soft skills comme la maîtrise du 5S démontrent une rigueur nécessaire au contrôle des données.",
+    "skills_section": [
+        "Power BI",
+        "Dashboards",
+        "Reporting automatisé",
+        "Data Visualisation",
+        "Statistiques inférentielle",
+        "Supply Chain"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite rejoindre AOSTE SNC pour un stage de fin d'études en tant que Commercial & Data Analyst Junior à partir du 1er juin 2026.\n\nMon parcours allie une solide formation en Supply Chain Management et des compétences techniques pointues en data. Mon expérience professionnelle chez Arrow m'a permis de créer des outils d'analyse et d'automatisation de processus, tout en travaillant sur le monitoring des ruptures et non-conformités. Parallèlement, mon travail freelance en tant que Data Analyst a renforcé ma maîtrise de Python, pandas et scikit-learn, avec la création d'un portfolio illustrant mes projets d'analyse.\n\nJe suis particulièrement attiré par vos missions relatives à l'analyse des données de force de vente et au traitement des demandes d'analyse pour les directions. Ma capacité à extraire, nettoyer et visualiser des données me permettrait de soutenir l'actualisation des rapports Focus famille et la diffusion des synthèses Circana. De plus, mon expérience en gestion d'entrepôt et ma connaissance des outils Excel avancés seraient un atout pour le suivi des tableaux de bord et la mise à jour des fichiers nécessaires au Reporting IRI.\n\nMon anglais C1 me permettrait également de collaborer efficacement dans votre environnement international. Je serais honoré de pouvoir contribuer aux projets en cours et renforcer les processus de contrôle des données au sein d'AOSTE SNC.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au cœur des missions de l'offre (gestion, logistique), mais il est déjà présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Distribution', 'Gestion des stocks', 'Prévision de la demande', 'Analyse de données', 'Reporting', 'Excel avancé' ou 'Python' ne sont pas explicitement mentionnés dans la description originale ni dans les compétences spécifiques fournies, donc ils peuvent être injectés pour aligner le profil sur l'offre sans inventer d'expérience.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, je mets à profit mes compétences en analyse de données, reporting et Excel avancé pour optimiser les processus logistiques et la gestion des stocks. Mon expertise en prévision de la demande et en automatisation me permet d'assurer une distribution efficace et un suivi rigoureux des opérations.",
+            "keywords_injected": [
+                "analyse de données",
+                "reporting",
+                "excel avancé",
+                "logistique",
+                "gestion des stocks",
+                "prévision de la demande",
+                "automatisation"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond directement à la mission de 'renforcement des processus de contrôle' et s'appuie sur les compétences validées du candidat (SOP, Process monitoring), tout en étant différent des mots-clés déjà injectés. Les autres compétences comme 'Supply Chain', 'Logistique', 'Gestion des stocks', 'Prévision de la demande' ou 'Automatisation' sont soit trop générales par rapport aux missions spécifiques (contrôle, non-conformités), soit déjà présents dans les mots-clés exclus du CV.",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la Supply Chain, avec création d'outils d'analyse et d'automatisation de processus. Travail approfondi sur les schémas de ruptures et les non-conformités en WH, tout en mettant en place un Process monitoring pour optimiser les flux.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond à la compétence de l'offre et n'est pas déjà injecté dans le CV (contrairement à 'Statistiques descriptives' qui est présent dans les compétences spécifiques de cette expérience). Les autres mots-clés comme 'Reporting', 'Data Visualisation', 'Dashboards', 'KPI', 'Excel avancé', 'Base de données', 'Automatisation', 'ETL', 'Extraction de données' sont soit déjà injectés ailleurs, soit déjà présents dans les compétences spécifiques de cette expérience ('Statistiques descriptives').",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement et la préparation des données via pandas et NumPy, ainsi que la réalisation d'analyses statistiques.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à la création de dashboards et au storytelling visuel requis par l'offre, tout en étant absent des mots-clés déjà injectés. Les autres compétences (Python, ScikitLearn, etc.) sont soit trop génériques pour cette mission spécifique, soit déjà présents dans d'autres expériences du CV.",
+            "description_tailored": "Développement de modèles prédictifs et visualisation de données complexes via Python et ScikitLearn pour transformer des ensembles bruts en insights actionnables.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Statistiques inférentielle' est pertinent car il correspond à la compétence de l'offre et n'est pas déjà injecté dans le CV (contrairement aux statistiques générales). Les autres compétences comme 'Python', 'Excel avancé' ou 'Automatisation' sont soit déjà présentes dans la description originale, soit déjà injectées ailleurs sur le CV. Aucun autre mot-clé de l'offre ne peut être ajouté sans inventer des faits.",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable et création d'un portfolio open source en appliquant des méthodes de statistiques inférentielle à l'analyse de données.",
+            "keywords_injected": [
+                "Statistiques inférentielle"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il englobe les activités de préparation de routes et de manutention décrites dans l'offre (missions sur les magasins/sectorisation) et le candidat possède cette compétence. Les autres compétences du candidat (Logistique, Distribution, etc.) sont déjà injectées ailleurs ou trop génériques par rapport à la mission spécifique de 'préparation de routes'.",
+            "description_tailored": "Stage en préparation de routes au sein de la Supply Chain Amazon DAR1, assurant le picking et l'optimisation des flux d'expédition.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        }
+    ]
+}

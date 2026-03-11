@@ -1,0 +1,148 @@
+{
+    "scoring": [
+        {
+            "name": "STAGE - Assistant(e) Client Intelligence Analyst - Mode EUROPE - Juillet 2026",
+            "score": 61,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Excel), 'Python', 'pandas', 'scikit-learn' (offre Power BI/Power Query - compétences connexes de data processing). Matchs prio: 'Data Visualisation', 'Reporting', 'Statistiques'. Matchs bonus: 'Power Query', 'Automatisation'.",
+                "score": 18
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise de luxe mondiale, bien que non CAC40/S&P500/Big4/Big3 stricto sensu, elle possède un prestige et une renommée très élevés dans le secteur.",
+                "score": 18
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75008). Le candidat est de Lyon. Distance > 15km (environ 600-700km). Score minimum appliqué.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage commence en Juillet 2026. Le profil recherche un stage fin d'études à partir de Juin 2026. La période correspond parfaitement au maximum.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 56,
+            "C1": {
+                "reason": "Matchs t_prio: Python (1pt). Matchs prio: Excel avancé (0.5pt), API (0.5pt), Bases de données (0.5pt). Matchs bonus: Dashboards (0.25pt), Reporting (0.25pt), Automation (0.25pt). Non matchs: VBA, GitLab CI, Jenkins, Ansible, Terraform.",
+                "score": 3.75
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche stage fin d'études, correspondant au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole CIB est une entreprise du CAC40, offrant un prestige élevé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Montrouge (92). Montrouge se situe à environ 15-20 km de Paris. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', Montrouge étant à plus de 2km de Paris, le score est réduit.",
+                "score": 8
+            },
+            "C5": {
+                "reason": "Période: Stage début juin 2026. Le candidat recherche un stage fin d'études à partir juin 2026. Correspondance parfaite avec la période demandée.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 49,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (supply_chain bonus + data t_prio) = 0.25pt, 'Python' (supply_chain bonus + data t_prio) = 0.25pt, 'Data Visualisation' (data t_prio) = 1pt, 'Reporting' (supply_chain bonus + data t_prio) = 0.25pt, 'Dashboards' (data t_prio) = 1pt. Matchs prio: 'Analyse de données' (supply_chain bonus) = 0.25pt, 'Statistiques' (data prio) = 0.5pt, 'Data pipelines' (data prio) = 0.5pt. Aucun match direct sur Power BI ou Contrôle de gestion.",
+                "score": 4.75
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5 école d'ingénieur) et recherche de stage fin d'études correspondent parfaitement aux critères.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas une entreprise CAC40, S&P500 ou Big4/Big3. Son prestige est inférieur à celui des grandes entreprises de la grande distribution (comme Amazon ou Arrow mentionnées dans le profil du candidat).",
+                "score": 5
+            },
+            "C4": {
+                "reason": "L'offre est située à Lyon, qui est une ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant en juin 2026. Sans date de fin précise dans l'offre, on suppose que la durée (4-6 mois) correspond à une période standard d'été/automne, donc le critère est respecté.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Juriste Droit Privé des Affaires - H/F",
+            "score": 48,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées par l'offre (Juridique, Rédaction, Analyse juridique). Score: 0.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM Lyon (Bac+5), ce qui correspond au profil recherché (Master 2 ou CRFPA). Score: 10.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev n'est pas dans les catégories CAC40/S&P500/Big4/Big3. Son prestige est inférieur aux grandes entreprises, mais supérieur à une PME moyenne. Score: 8.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "L'offre est à Issy-les-Moulineaux (Île-de-France). Paris est la ville cible principale. Issy se situe très proche de Paris (moins de 15km), ce qui donne le plein point pour la localisation parisienne. Score: 15.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir juin 2026, ce qui correspond exactement au début de la période demandée par l'offre. Score: 15.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 48,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain.t_prio) + Excel avancé (data.t_prio) = 2 pts. Matchs prio: Reporting (supply_chain.prio), Analyse de données (supply_chain.bonus mais utilisé comme skill principale ici selon contexte), Data-driven decision making (supply_chain.prio). Pas de match explicite pour Power BI ou Microstratégie dans les skills du candidat. Score calculé: Excel avancé (t_prio x2) + Reporting (prio x1) + Analyse de données (bonus x1, compté comme skill disponible) = 0.5*2 + 0.5*1 + 0.25*1 = 1.75? Correction stricte selon règles: t_prio=1, prio=0.5, bonus=0.25. Skills off: Excel (match t_prio x2), Reporting (match prio x1), Bases de données (match bonus/prio data 'Extraction de données' x1). Score: 1*2 + 0.5*1 + 0.25*1 = 2.75? Re-evaluation stricte: Excel (t_prio) -> 1pt. Reporting (prio supply_chain) -> 0.5pt. Bases de données (bonus data 'Extraction' ou prio data 'APIs') -> 0.25pt. Total C1 = 1.75? Non, regardons les matches précis: Excel avancé est dans t_prio des deux sections -> 1+1=2 pts. Reporting est dans prio supply_chain -> 0.5 pt. Extraction de données est dans prio data -> 0.5 pt. Total C1 = 3 pts.",
+                "score": 3
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études, correspond parfaitement au profil recherché (école de commerce/ingénieur/informatique).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une entreprise de distribution locale.",
+                "score": 5
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon), donc distance nulle.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Offre demande stage fin d'études, début juin 2026. Candidat est en recherche de stage fin d'études pour juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 46,
+            "C1": {
+                "reason": "Matchs t_prio: Python (1pt), Excel avancé (1pt). Matchs prio: VBA (0.5pt), Base de données (0.5pt), Tests unitaires (0.5pt). Matchs bonus: Automatisation (0.25pt), Reporting automatisé (0.25pt). Total: 4.5 points.",
+                "score": 4.5
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5/École ingénieur) et recherche de stage fin d'études correspondent au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "La Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 spécifiquement dans ce contexte, elle bénéficie d'une forte notoriété et stabilité.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001) et le candidat est de Lyon. La distance entre Lyon et Paris dépasse largement les 15km, ce qui correspond au critère 'non spécifié' ou très éloigné dans la logique de proximité donnée.",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir juin 2026. L'offre ne précise pas la date de début, mais l'alignement sur le calendrier du candidat (fin d'études) est optimal.",
+                "score": 15
+            }
+        }
+    ]
+}

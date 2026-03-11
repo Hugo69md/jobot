@@ -213,60 +213,87 @@ def run_ia(date: str):
         print("\n  [STEP 3a-1] Pre-selecting experiences...")
 
         preselection = preselect_experiences(cv_data, offer_full)
-        forced_indexes    = preselection["forced_indexes"]
-        remaining_pool    = preselection["remaining_pool"]
-        needed_from_ia    = preselection["needed_from_ia"]
-        skip_ia           = preselection["skip_ia"]
+        forced_indexes = preselection["forced_indexes"]
+        remaining_pool = preselection["remaining_pool"]
+        needed_from_ia = preselection["needed_from_ia"]
+        skip_ia        = preselection["skip_ia"]
 
         print(f"  [PRE-SELECT] offer_type={offer_type}")
         print(f"  [PRE-SELECT] Forced: {forced_indexes} ({len(forced_indexes)} exp)")
         print(f"  [PRE-SELECT] Pool for IA: {remaining_pool} ({len(remaining_pool)} exp)")
         print(f"  [PRE-SELECT] IA must pick: {needed_from_ia} | Skip IA: {skip_ia}")
 
+        exp_lookup = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
+
         if skip_ia:
             # Exactly 6 matching — no IA needed
             selected_indexes = forced_indexes[:6]
             selection_reasoning = "pre-selection: exactly 6 experiences match offer_type"
             print(f"  ✅ Skipped IA — direct selection: {selected_indexes}")
-        elif needed_from_ia == 0:
-            # Shouldn't happen if skip_ia is True, but safety
-            selected_indexes = forced_indexes[:6]
-            selection_reasoning = "pre-selection: fallback"
-            print(f"  ✅ No IA needed: {selected_indexes}")
-        else:
-            # IA must pick from remaining pool
-            # Build context of forced experiences for IA awareness
-            exp_lookup = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
-            forced_context = [
-                {"index": idx, "name": exp_lookup[idx]["name"]}
-                for idx in forced_indexes if idx in exp_lookup
-            ]
 
-            # Case: more than 6 forced → IA picks best 6 from all matching
-            if needed_from_ia == 6 and not forced_indexes:
-                # This means >6 experiences matched, IA picks best 6 from remaining_pool
-                forced_context = None
-                pool_for_ia = remaining_pool
-            else:
-                pool_for_ia = remaining_pool
-
+        elif needed_from_ia == 6 and not forced_indexes:
+            # More than 6 matched offer_type → IA picks best 6 from all matching
+            pool_for_ia = remaining_pool
+            pool_experiences = [exp_lookup[idx] for idx in pool_for_ia if idx in exp_lookup]
             valid_pool_indexes = set(pool_for_ia)
             ia_selected = None
             selection_reasoning = ""
 
-            for attempt in range(1, 4):  # 3 attempts
+            for attempt in range(1, 4):
                 selection_prompt = build_experience_selection_prompt(
-                    cv_data, offer_full, pool_for_ia, needed_from_ia, forced_context
+                    pool_experiences, offer_full, 6
                 )
                 selection_result = query_ollama_json(
-                    selection_prompt, temperature=0.0, num_predict=150
+                    selection_prompt, temperature=0.0, num_predict=400
                 )
 
                 if selection_result and "selected_indexes" in selection_result:
                     raw = selection_result["selected_indexes"]
                     selection_reasoning = selection_result.get("reasoning", "")
 
-                    # Clean: deduplicate, validate against pool
+                    seen = set()
+                    cleaned = []
+                    for idx in raw:
+                        if idx in valid_pool_indexes and idx not in seen:
+                            seen.add(idx)
+                            cleaned.append(idx)
+
+                    if len(cleaned) == 6:
+                        ia_selected = cleaned
+                        print(f"  ✅ IA selected (attempt {attempt}/3): {ia_selected}")
+                        break
+                    else:
+                        print(f"  ⚠️  Attempt {attempt}/3: got {len(cleaned)} indexes {cleaned}, expected 6 — retrying...")
+                else:
+                    print(f"  ⚠️  Attempt {attempt}/3: selection failed — retrying...")
+
+            if ia_selected is None:
+                ia_selected = pool_for_ia[:6]
+                selection_reasoning += " | fallback after 3 failed attempts"
+                print(f"  ❌ Fallback IA selection: {ia_selected}")
+
+            selected_indexes = ia_selected
+
+        else:
+            # Less than 6 matched → forced are locked, IA picks remaining from non-matching pool
+            pool_for_ia = remaining_pool
+            pool_experiences = [exp_lookup[idx] for idx in pool_for_ia if idx in exp_lookup]
+            valid_pool_indexes = set(pool_for_ia)
+            ia_selected = None
+            selection_reasoning = ""
+
+            for attempt in range(1, 4):
+                selection_prompt = build_experience_selection_prompt(
+                    pool_experiences, offer_full, needed_from_ia
+                )
+                selection_result = query_ollama_json(
+                    selection_prompt, temperature=0.0, num_predict=400
+                )
+
+                if selection_result and "selected_indexes" in selection_result:
+                    raw = selection_result["selected_indexes"]
+                    selection_reasoning = selection_result.get("reasoning", "")
+
                     seen = set()
                     cleaned = []
                     for idx in raw:
@@ -277,27 +304,24 @@ def run_ia(date: str):
                     if len(cleaned) == needed_from_ia:
                         ia_selected = cleaned
                         print(f"  ✅ IA selected (attempt {attempt}/3): {ia_selected}")
-                        print(f"  💬 Reasoning: {selection_reasoning}")
                         break
                     else:
-                        print(f"  ⚠️  Attempt {attempt}/3: got {len(cleaned)} indexes {cleaned}, "
-                              f"expected {needed_from_ia} — retrying...")
+                        print(f"  ⚠️  Attempt {attempt}/3: got {len(cleaned)} indexes {cleaned}, expected {needed_from_ia} — retrying...")
                 else:
                     print(f"  ⚠️  Attempt {attempt}/3: selection failed — retrying...")
 
             if ia_selected is None:
-                # Fallback: take first N from pool
                 ia_selected = pool_for_ia[:needed_from_ia]
                 selection_reasoning += " | fallback after 3 failed attempts"
                 print(f"  ❌ Fallback IA selection: {ia_selected}")
 
-            # Combine forced + IA-selected
             selected_indexes = forced_indexes + ia_selected
-            selected_indexes = selected_indexes[:6]  # safety cap
-            print(f"  ✅ Final selection: {selected_indexes}")
+            selected_indexes = selected_indexes[:6]
+
+        print(f"  ✅ Final selection: {selected_indexes}")
+        print(f"  💬 Reasoning: {selection_reasoning}")
 
         # Build the list of actual experience objects from the selected indexes
-        exp_lookup = {exp["index"]: exp for exp in cv_data.get("experiences", [])}
         selected_experiences = [exp_lookup[i] for i in selected_indexes if i in exp_lookup]
 
                 # ── STEP 3a-2 — Tailor each experience individually ──────────
@@ -368,7 +392,7 @@ def run_ia(date: str):
         # ── STEP 4 — Skills section ───────────────────────────────
         print("\n  [STEP 4] Selecting 6 skills for CV skills section...")
 
-        skills_section_prompt = build_skills_section_prompt(cv_data, offer_full, resume_result)
+        skills_section_prompt = build_skills_section_prompt(cv_data, offer_full, keywords_already_in_cv=all_keywords_injected,)
         skills_section_result = query_ollama_json(skills_section_prompt, temperature=0.1, num_predict=128)
 
         if skills_section_result and "skills_section" in skills_section_result:

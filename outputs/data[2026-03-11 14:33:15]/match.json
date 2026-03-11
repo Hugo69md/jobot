@@ -1,0 +1,239 @@
+{
+    "match": [
+        {
+            "name": "STAGES - Supply Chain & Achats | Juillet 2026",
+            "URL": "https://www.jobteaser.com/en/job-offers/de0f0c03-5d25-48f3-bd57-14c15ff576e7-reckitt-stages-supply-chain-achats-juillet-2026",
+            "company": "Reckitt",
+            "location": "Massy, Essonne (France)",
+            "offer_type": "supply_chain",
+            "score": 98,
+            "selected_indexes": [
+                1,
+                2,
+                9,
+                10,
+                6,
+                4
+            ],
+            "skills_section": [
+                "Excel avancé",
+                "Data Visualisation",
+                "Reporting",
+                "Prevision de la demande",
+                "Gestion des stocks",
+                "Supply Chain Management"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise Reckitt pour un stage de fin d'études au sein du département Supply Chain & Achats, débutant le 1er juin 2026.\n\nMon parcours académique et mes expériences professionnelles m'ont permis de développer une expertise transversale entre la gestion logistique et l'analyse de données. Au cours de mon stage chez Arrow, j'ai créé des outils d'analyse et d'automatisation de processus pour le monitoring en WH, travaillant sur les schémas de ruptures et non-conformités. Par ailleurs, ma formation en data (HarvardX CS109x) et mes projets freelance m'ont permis de maîtriser Python, pandas, numpy et scikit-learn, ainsi que des techniques d'analyse statistique.\n\nJe suis particulièrement attiré par vos missions liées à la prévision des ventes, à la gestion autonome des stocks et au pilotage des indicateurs de performance. Mes compétences en Excel avancé et en automatisation me permettront de contribuer efficacement à l'édition de reportings opérationnels et au traitement des commandes clients.\n\nMa maîtrise de l'anglais (C1) et ma capacité à travailler sur des données structurées correspondent aux exigences de votre profil recherché. Je suis convaincu que mon profil hybride Supply Chain/Data Science sera un atout pour optimiser les plans de remplissage et améliorer la fiabilité des données produits.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au cœur des missions de l'offre (gestion des stocks, logistique), mais il n'est pas dans les mots-clés déjà injectés ni dans la description originale. Les autres compétences validées comme 'Logistique', 'Transport', 'TMS', 'Forecasting', 'Gestion des stocks', 'Analyse de données', 'Excel avancé' ou 'Python' sont soit déjà présentes dans la description originale ('Supply Chain Management'), soit trop spécifiques à l'outil (Power Query, Pivot Tables) pour s'intégrer naturellement sans inventer d'actions, et ne correspondent pas directement aux missions principales décrites (optimisation, pilotage, prévision).",
+                    "description_tailored": "Étudiant en ingénierie spécialisé en Supply Chain Management, je maîtrise les outils d'analyse de données et Excel avancé pour traiter des flux logistiques complexes.",
+                    "keywords_injected": [
+                        "Supply Chain Management"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow, Lyon France",
+                    "reasoning": "Le mot-clé 'automatisation' est pertinent car il correspond aux missions de création d'outils et à la compétence spécifique du candidat, tout en étant absent des mots-clés déjà injectés. Les autres compétences validées (comme 'Python', 'Excel avancé', 'Data-driven decision making') sont soit trop générales pour une phrase concise sans inventer de détails, soit déjà présentes implicitement dans le contexte original ('outils d'analyse', 'monitoring').",
+                    "description_tailored": "Développement d'outils d'automatisation et de monitoring des processus logistiques en utilisant Python et Excel pour optimiser la gestion des stocks et des non-conformités.",
+                    "keywords_injected": [
+                        "automatisation"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "name": "Initiation à la gestion d'entrepôt - VJ logistique",
+                    "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement aux missions de pilotage et de suivi des niveaux de stock de l'offre, tout en étant présent dans les compétences validées du candidat. Les autres mots-clés pertinents comme 'Transport', 'TMS', 'Forecasting' ou 'Analyse de données' sont exclus car ils ne correspondent pas au niveau d'initiation décrit (gestion administrative et physique simple) ou nécessitent des compétences non mentionnées pour cette expérience spécifique.",
+                    "description_tailored": "Initiation à la gestion d'entrepôt avec le chef d'équipe, incluant la gestion des stocks, le suivi des arrivées et départs de camions ainsi que la préparation et le transport de palettes.",
+                    "keywords_injected": [
+                        "Gestion des stocks"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "name": "Stage - Amazon DAR1",
+                    "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à la maîtrise du 5S et au suivi des opérations de préparation de routes (monitoring des flux), ce qui n'est pas encore injecté. Les autres mots-clés pertinents comme 'Supply Chain', 'Logistique', 'Transport', 'TMS', 'WMS', 'Forecasting', 'Réapprovisionnement', 'Data-driven decision making', 'Analyse de données', 'Excel avancé', 'Power Query', 'Reporting', 'Automation' sont soit trop larges pour une tâche manuelle spécifique, soit déjà injectés ailleurs dans le CV. Les mots-clés comme 'Supply Chain Management', 'automatisation', 'Gestion des stocks' sont exclus car ils figurent dans la liste des mots-clés déjà injectés.",
+                    "description_tailored": "Stage ouvrier dédié à la préparation de routes et au picking, avec une initiation approfondie et une maîtrise opérationnelle du processus monitoring via le système 5S.",
+                    "keywords_injected": [
+                        "Process monitoring"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission d'édition de reportings opérationnels et s'appuie sur les compétences validées du candidat (Reporting, Dashboards). Les mots-clés comme 'Supply Chain Management', 'automatisation', 'Gestion des stocks', 'Process monitoring' sont exclus car déjà injectés ailleurs. Les termes 'Statistiques inférentielle', 'Excel avancé', 'Python', 'Data pipelines' et 'APIs' ne sont pas injectés car ils apparaissent déjà dans les compétences spécifiques du candidat ou la description originale, et ne correspondent pas directement aux missions clés de l'offre (gestion des données, reporting, prévision).",
+                    "description_tailored": "Développement d'un add-on pour un ERP comptable en tant que data analyst freelance, axé sur le nettoyage et la préparation des données via Python et Power Query. Création de dashboards interactifs et de rapports automatisés pour visualiser les indicateurs de performance et assurer la fiabilité des données clients.",
+                    "keywords_injected": [
+                        "Reporting"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "Le mot-clé 'Statistiques inferentielles' est pertinent car il correspond aux compétences validées du candidat (scikitlearn, numpy) et n'est pas dans les mots-clés déjà injectés ou présents dans la description originale. Les autres compétences comme 'Data pipelines', 'ETL' ou 'APIs' ne sont pas directement liées à l'apprentissage des bases statistiques mentionnées dans le contexte original.",
+                    "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant un apprentissage approfondi des bibliothèques NumPy, Pandas et Matplotlib pour la visualisation. Mise en pratique des techniques de nettoyage et de préparation des données ainsi que l'application de méthodes de statistiques inferentielles.",
+                    "keywords_injected": [
+                        "Statistiques inferentielles"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Apprentice Bac +4/5 Data Analyst Fleet management Africa & LAPAC H/F",
+            "URL": "https://www.jobteaser.com/en/job-offers/54a163e9-6f99-4a88-87a9-2156fda8f768-volvo-group-apprentice-bac-4-5-data-analyst-fleet-management-africa-lapac-h-f",
+            "company": "VOLVO GROUP",
+            "location": "Lyon (France)",
+            "offer_type": "data",
+            "score": 88,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                10
+            ],
+            "skills_section": [
+                "Power BI",
+                "Dashboards",
+                "Reporting automatisé",
+                "Data Visualisation",
+                "Storytelling",
+                "Excel avancé"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise pour un stage de fin d'études au poste d'Apprentice Data Analyst. Mon profil allie une solide formation en Supply Chain Management et une expertise technique acquise via des formations certifiantes (HarvardX, Freecodecamp) en analyse de données.\n\nVotre mission de définition de la roadmap du Dashboard et de production de modèles de requêtes résonne particulièrement avec mon parcours. Durant mon stage chez Arrow, j'ai créé plusieurs outils d'analyse et d'automatisation de processus, maîtrisant Python, pandas et NumPy pour le monitoring des ruptures et non-conformités. Parallèlement, en tant que freelance data analyst depuis janvier 2025, j'ai approfondi mes compétences en statistiques inférentielle et descriptive, tout en développant un portfolio incluant des projets d'automatisation et de semi-automatisation.\n\nMes atouts techniques correspondent directement aux exigences de l'offre : une maîtrise avancée d'Excel (Pivot Tables, Power Query) et une capacité à produire des rapports automatisés. De plus, mon expérience en tant que manutentionnaire chez Amazon m'a inculqué une rigueur opérationnelle et une compréhension terrain des flux logistiques, compétence essentielle pour analyser les données de flotte.\n\nMa maîtrise du français (niveau natif) et de l'anglais (C1/IELTS 7,5) me permettrait d'assurer les communications nécessaires et les présentations orales liées au Dashboard. Je suis convaincu que mes compétences en traitement statistique de données et en modélisation peuvent contribuer efficacement à vos activités commerciales et techniques.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du candidat et au domaine de l'offre (gestion de flotte), mais il est déjà présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Gestion des stocks', 'Prévision de la demande', 'Analyse de données', 'Reporting', 'Excel avancé', 'Python' et 'Data-driven decision making' sont soit déjà injectés, soit absents des compétences spécifiques du candidat. Aucun nouveau mot-clé ne peut être ajouté sans inventer une expérience ou une compétence.",
+                    "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+                    "keywords_injected": []
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow, Lyon France",
+                    "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il synthétise l'objectif d'utiliser les données pour guider les actions dans le contexte supply chain, sans être présent dans la description originale ou les compétences spécifiques. Les autres mots-clés pertinents de l'offre (comme Power BI, SQL Server, Azure Databricks) ne sont pas présents dans les compétences validées du candidat pour cette expérience, donc ils ne peuvent pas être injectés. Les termes comme 'monitoring', 'Python', 'Excel', 'process', 'ruptures', 'non conformités', 'WH' sont déjà présents soit dans la description originale, soit dans les compétences spécifiques.",
+                    "description_tailored": "Stage en supply chain axé sur le Data-driven decision making, consistant à créer plusieurs outils d'analyse de données et d'automatisation de process pour optimiser le monitoring des ruptures et des non conformités en WH.",
+                    "keywords_injected": [
+                        "Data-driven decision making"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond aux librairies Matplotlib et Seaborn utilisées pour créer des graphiques, ce qui est implicite dans l'offre mais pas encore injecté. Les autres compétences de l'offre (SQL Server, Azure Databricks, Power BI, ETL, Python) sont soit absentes du candidat pour cette expérience spécifique, soit déjà présentes ailleurs dans le CV ou dans la description originale ('Codage avec python', 'Statistiques descriptives').",
+                    "description_tailored": "Développement de dashboards et de rapports automatisés en utilisant Python (pandas, numpy, matplotlib) pour la visualisation de données et l'analyse statistique descriptive.",
+                    "keywords_injected": [
+                        "Data Visualisation"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction to Data science",
+                    "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences validées du candidat (Statistiques descriptive/inferentielle) et n'est pas dans les mots-clés déjà injectés ou présents dans la description originale. Les autres compétences comme ScikitLearn, Python, pandas, numpy sont déjà mentionnées ou trop spécifiques pour être ajoutées sans inventer de contexte, et 'Data-driven decision making' est exclu car déjà injecté ailleurs.",
+                    "description_tailored": "Formation axée sur l'apprentissage des bases du domaine de la data science avec un focus sur les modèles de prédiction utilisant Python, incluant une analyse approfondie des statistiques pour la construction de modèles prédictifs.",
+                    "keywords_injected": [
+                        "Statistiques"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de production de rapports et d'indicateurs (KPI) sans être déjà injecté ni présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Power BI', 'Data Warehouse' ou 'SQL Server' ne sont pas validés par les compétences du candidat (qui maîtrise Python, Excel, ETL mais pas explicitement ces outils spécifiques listés dans l'offre).",
+                    "description_tailored": "Développement de dashboards et de rapports automatisés via Python et Excel avancé pour transformer des données brutes en indicateurs clés de performance (KPI) exploitables. Création d'un add-on ERP semi-automatisé basé sur des pipelines ETL robustes, permettant une analyse de données approfondie et une prise de décision factuelle.",
+                    "keywords_injected": [
+                        "Reporting"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "name": "Stage - Amazon DAR1",
+                    "reasoning": "Aucun mot-clé pertinent de l'offre (Power BI, SQL, Python, Data Warehouse, etc.) n'apparaît dans les compétences validées du candidat pour cette expérience spécifique. Les compétences disponibles sont limitées à la logistique manuelle et au 5S, qui ne correspondent pas aux missions techniques ou analytiques décrites dans l'offre.",
+                    "description_tailored": "Stage ouvrier dédié à la préparation de routes et au picking, avec initiation et maîtrise du système 5S.",
+                    "keywords_injected": []
+                }
+            ]
+        },
+        {
+            "name": "STAGE - Assistant(e) Client Intelligence Analyst - Mode EUROPE - Juillet 2026",
+            "URL": "https://www.jobteaser.com/en/job-offers/aa106e31-e5d0-4796-8684-1bcb4b8950f1-chanel-stage-assistant-e-client-intelligence-analyst-mode-europe-juillet-2026",
+            "company": "CHANEL",
+            "location": "52/60 AVENUE DES CHAMPS ELYSEES&#xa;75008 PARIS&#xa; (France)",
+            "offer_type": "data",
+            "score": 84,
+            "selected_indexes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                10
+            ],
+            "skills_section": [
+                "Power BI (plus)",
+                "Power Query (plus)",
+                "Reporting automatisé",
+                "Data Visualisation",
+                "KPI",
+                "Storytelling"
+            ],
+            "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite rejoindre CHANEL pour le stage de fin d'études au poste d'Assistant(e) Client Intelligence Analyst - Mode EUROPE, débutant en juillet 2026.\n\nMon profil combine une solide formation en Supply Chain Management et des compétences techniques pointues en Data. Mon expérience chez Amazon et Arrow m'a permis de développer une maîtrise opérationnelle de la gestion des stocks et de l'analyse de données, tout en créant des outils d'automatisation avec Python et Excel avancé. Parallèlement, ma formation HarvardX et mes projets freelance ont renforcé mes capacités en statistiques inférentielle et en visualisation de données.\n\nJe suis particulièrement attiré par vos missions d'amélioration de la connaissance des clients et de construction de reports mensuels. Ma capacité à transformer des données brutes en insights actionnables, acquise lors de mon stage chez Arrow sur les ruptures de stock, me permettrait de contribuer efficacement à l'analyse des KPIs de la mode Europe. De plus, ma maîtrise d'Excel et Power Query serait un atout pour le traitement et la présentation des données.\n\nMon anglais C1 (IELTS 7,5/9) me permet de communiquer avec aisance au sein des équipes internationales. Je suis motivé à intégrer CHANEL pour mettre mes compétences en data et en gestion d'entreprise au service de votre stratégie client.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+            "resume": [
+                {
+                    "index": 1,
+                    "name": "Etudiant - ECAM Lyon",
+                    "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au besoin de l'offre pour soutenir les boutiques. Les autres compétences validées (Logistique, Distribution, Prévision de la demande, etc.) sont soit trop spécifiques aux tâches opérationnelles non mentionnées dans le contexte d'étudiant actuel, soit déjà implicites dans 'Supply Chain Management'. Aucun mot-clé ne peut être injecté car l'offre vise des tâches analytiques et de reporting mensuel (KPIs, Power BI, Excel avancé) qui ne correspondent pas aux compétences techniques du candidat (Python, FlexSim, ERP Oracle) ni à son statut d'étudiant en préparation de diplôme sans expérience professionnelle réelle.",
+                    "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme avec une expertise en gestion industrielle.",
+                    "keywords_injected": []
+                },
+                {
+                    "index": 2,
+                    "name": "Stage - Laboratoire Arrow, Lyon France",
+                    "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il correspond directement au domaine de l'offre et n'est pas encore injecté dans cette expérience (contrairement à 'Logistique', 'Distribution' ou 'Gestion des stocks' qui sont déjà présents). Les autres compétences comme 'Excel avancé', 'Power Query', 'Analyse de données' ou 'Reporting' sont soit déjà présentes dans la description originale, soit trop génériques par rapport aux missions spécifiques d'analyse client et de KPIs de l'offre. Aucun mot-clé lié à la mode ou au client n'est disponible dans les compétences validées du candidat.",
+                    "description_tailored": "Stage en Supply Chain, création de plusieurs outils d'analyse de données et d'automatisation de process dans le contexte des missions données",
+                    "keywords_injected": [
+                        "Supply Chain"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "name": "Freecodecamp - Data analysis with python",
+                    "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (statistiques descriptives/inferentiel) et n'est pas dans la liste exclue ou déjà injectée. Les autres mots-clés comme 'Reporting', 'KPI', 'Dashboards' sont soit déjà présents dans la description originale, soit trop spécifiques à l'offre sans lien direct avec les compétences techniques du candidat (Python/pandas).",
+                    "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement et la préparation des données via pandas et NumPy, ainsi que la réalisation d'analyses statistiques.",
+                    "keywords_injected": [
+                        "Statistiques"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "name": "HarvardX - CS109x, Introduction to Data science",
+                    "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à la création de dashboards et d'études clients visuels demandés dans l'offre, tout en étant présent dans les compétences du candidat. Les mots-clés comme 'Reporting', 'KPI', 'Power BI', 'Python', 'pandas', 'ScikitLearn', 'Statistiques', 'Forecasting' sont soit déjà injectés ailleurs sur le CV, soit trop génériques pour cette expérience académique spécifique sans inventer de résultats concrets.",
+                    "description_tailored": "Développement de modèles prédictifs et de dashboards interactifs en Python (pandas, scikit-learn) pour visualiser les données et raconter des histoires analytiques.",
+                    "keywords_injected": [
+                        "Data Visualisation"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "name": "Data analyst freelance",
+                    "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions d'analyse et de partage mensuel de l'offre, et n'est pas dans les mots-clés déjà injectés ni présents dans la description originale. Les autres compétences validées comme 'Power Query', 'Dashboards', 'Data Visualisation' ou 'Statistiques' sont soit déjà présentes dans le CV (ou exclus car déjà injectés), soit trop générales par rapport aux besoins spécifiques de l'offre qui insiste sur la construction de rapports et le partage d'informations.",
+                    "description_tailored": "Développement d'un add-on pour un ERP comptable incluant des fonctionnalités de reporting automatisé et une analyse de données avancée, tout en créant un portfolio open source dédié à la semi-automatisation.",
+                    "keywords_injected": [
+                        "Reporting"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "name": "Stage - Amazon DAR1",
+                    "reasoning": "Aucun mot-clé de l'offre (Excel, PowerPoint, Anglais, Power BI, Power Query) ne se trouve dans les compétences validées du candidat pour cette expérience spécifique. Les compétences validées sont centrées sur la Supply Chain et la logistique (Préparation de routes, Picking, 5S), qui ne correspondent pas aux missions d'analyse de données ou de reporting de l'offre. Par conséquent, il est impossible d'injecter de nouveaux mots-clés sans inventer des compétences ou des expériences inexistantes.",
+                    "description_tailored": "Stage ouvrier, préparation de routes en tant que manutentionnaire, initiation et maîtrise du 5S.",
+                    "keywords_injected": []
+                }
+            ]
+        }
+    ]
+}

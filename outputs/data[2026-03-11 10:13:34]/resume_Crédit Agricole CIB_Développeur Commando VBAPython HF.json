@@ -1,0 +1,79 @@
+{
+    "offer_name": "Développeur Commando VBA/Python H/F",
+    "offer_company": "Crédit Agricole CIB",
+    "offer_type": "data",
+    "score": 61,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": " | fallback after 3 failed attempts",
+    "skills_section": [
+        "Python",
+        "Automatisation",
+        "Dashboards",
+        "Extraction de données",
+        "scripts",
+        "Data pipelines"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre équipe en tant que Développeur Commando VBA/Python. Mon profil hybride alliant expertise en data et expérience terrain en supply chain me permet de répondre aux exigences de vos missions.\n\nAu sein de Crédit Agricole CIB, je serai amené à implémenter des outils d'aide à la décision et à automatiser des flux de données. J'ai déjà mis en pratique ces compétences lors de mon stage chez Arrow, où j'ai créé plusieurs outils d'analyse de données et d'automatisation de processus en utilisant Python et Excel. Ma maîtrise approfondie de Python, pandas et numpy me permettrait de concevoir des scripts robustes pour le traitement et la préparation des données, tout en exploitant mes connaissances du Pack Office pour l'intégration VBA.\n\nL'expérience que j'ai acquise chez Amazon DAR1 m'a permis d'apprendre les fondamentaux de la logistique et du suivi de flux, compétences transférables à la gestion des pipelines de données. De plus, mon travail en tant qu'analyste freelance m'a conduit à développer un add-on pour un ERP, renforçant ma capacité à concevoir des outils complexes et à documenter des processus techniques.\n\nBien que je n'aie pas encore une expérience directe avec GitLab CI ou Jenkins, ma formation au HarvardX sur la data science et mon engagement dans des projets open source démontrent ma volonté d'apprendre rapidement les outils DevOps nécessaires pour mettre en place des pipelines CI/CD. Mon anglais niveau C1 (IELTS 7,5/9) me permettra de communiquer efficacement au sein de votre équipe internationale.\n\nJe suis convaincu que mes compétences en automatisation et mon esprit analytique seront un atout pour vos projets transverses de maintenance et de détection d'anomalies. Je serais honoré de pouvoir échanger à nouveau avec vous sur ma candidature.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Data-driven decision making' n'apparaît ni dans l'offre (missions/competences_offre) ni dans les compétences validées du candidat, il ne peut donc pas être injecté. Aucun nouveau mot-clé de l'offre ne peut être ajouté car tous les mots-clés pertinents ('Supply Chain', 'Logistique', 'Gestion des stocks', etc.) sont déjà présents dans la description originale ou les compétences spécifiques.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il correspond à une compétence de l'offre et n'est pas encore injecté dans cette expérience (il est présent dans les compétences globales mais pas spécifiquement ici). Les mots-clés comme 'Supply Chain', 'Excel avancé', 'Power Query', 'Dashboards', 'Monitoring', 'Process monitoring', 'Data-driven decision making' sont soit déjà présents dans la description originale ('outils d'analyse de données et d'automatisation'), soit trop génériques pour être ajoutés sans inventer de détails, ou bien 'Python' est le seul terme technique précis qui relie directement les missions de l'offre (outils en VBA/Python) aux compétences validées du candidat sans réinventer la réalité.",
+            "description_tailored": "Stage en supply chain axé sur la data-driven decision making et le monitoring des processus, avec création d'outils d'analyse et d'automatisation de flux en Python et Excel avancé pour optimiser la gestion des stocks et des non-conformités.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Dashboards' est pertinent car l'offre mentionne explicitement la création d'outils de décision et les compétences du candidat incluent ce terme. Les autres mots-clés pertinents comme 'Python', 'Statistiques', 'Reporting', 'Data pipelines', 'APIs', 'Web scraping', 'ETL', 'Data Visualisation', 'pandas', 'numpy', 'matplotlib', 'scikitlearn' sont soit déjà injectés ailleurs dans le CV, soit déjà présents dans la description originale ou les compétences spécifiques de cette expérience.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant la création de dashboards et la visualisation de données pour le reporting.",
+            "keywords_injected": [
+                "Dashboards"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'ScikitLearn' est pertinent car il correspond à la compétence spécifique du candidat et n'est pas dans les mots-clés déjà injectés ou exclus. Les autres compétences validées (comme 'Python', 'Dashboards') sont déjà présentes ailleurs dans le CV, donc elles ne doivent pas être réinjectées ici pour éviter la duplication.",
+            "description_tailored": "Formation axée sur l'approfondissement de ScikitLearn et les bases des modèles de prédiction en Python.",
+            "keywords_injected": [
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Automatisation' est pertinent car il correspond à la mission d'automatisation des processus et aux compétences du candidat (scripts, semi-automatisations) sans être déjà injecté. Les mots-clés comme 'Python', 'Dashboards', 'ScikitLearn' sont exclus car ils figurent dans les mots-clés déjà injectés. Les termes 'Excel avancé', 'Power Query', 'Reporting', 'Statistiques inférentielle' et 'Analyse de data' sont exclus car ils apparaissent déjà dans la description originale ou les compétences spécifiques du candidat.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable via l'automatisation de processus métiers, tout en créant un portfolio de projets open source axés sur le nettoyage et la préparation des données. Mise en œuvre de scripts Python pour l'extraction de données et la construction de dashboards interactifs, accompagnée de la documentation formelle des outils développés.",
+            "keywords_injected": [
+                "Automatisation",
+                "scripts",
+                "extraction de données",
+                "dashboards"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (Python, VBA, Pack Office, GitLab CI, Jenkins, Ansible, Terraform) ne peut être injecté car les compétences validées du candidat sont vides et le sens original (création d'une entreprise sur les addictions au smartphone) ne permet pas de lier ces technologies techniques sans inventer des faits.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur la création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, incluant la rédaction complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

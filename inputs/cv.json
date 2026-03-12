@@ -237,7 +237,7 @@
           "matplotlib",
           "scikitlearn",
           "Automatisation",
-          "Bases de données"
+          "Base de données"
         ],
         "prio": [
           "ETL",

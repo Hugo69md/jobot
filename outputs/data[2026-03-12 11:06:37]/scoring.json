@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 90,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain.t_prio) + Python (supply_chain.t_prio) = 5pts; Matchs prio: Power Query (supply_chain.prio), Reporting (supply_chain.prio), Data Visualisation (data.prio), Dashboards (data.prio), KPI (data.prio), Excel avancé (data.prio), Python (data.prio), pandas (data.prio), numpy (data.prio), scikitlearn (data.prio) = 3,5pts x 9 = 31,5pts; Matchs bonus: Power Pivot (supply_chain.bonus), Reporting automatisé (supply_chain.bonus), Automation (supply_chain.bonus), Web scraping (supply_chain.bonus), data processing (supply_chain.bonus), Python (supply_chain.bonus) = 2pts x 6 = 12pts. Total C1: 5 + 31,5 + 12 = 48,5 pts.",
+                "score": 49
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5) et recherche un stage fin d'études. Correspond au profil recherché (école de commerce/ingénieur/informatique, fin d'études). Score maximum.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "L'entreprise AOSTE SNC n'est pas listée parmi les grands groupes (CAC40/S&P500/Big4/Big3) ni dans les Big3 reconnus. Renommée modeste en tant que société de commerce locale. Score réduit.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Lieu: Lyon, Rhône (France). Correspond exactement à la ville cible Lyon. Score maximum.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période demandée: juin 2026. Candidat est en recherche de stage fin d'études avec disponibilité à partir de juin 2026. Correspondance parfaite au profil recherché (fin d'études). Score maximum.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data pipelines'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5, École d'ingénieur) et recherche de stage fin d'études.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée modeste par rapport aux grands groupes de la supply chain (Amazon, Arrow) ou tech.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible avec 15 pts. Le candidat est basé à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage demandé est 'à partir juin 2026'. Le profil est en recherche de 'Stage fin d'études' pour un ingénieur 5A. Si le cycle se termine avant juin 2026, la correspondance est partielle mais l'intention de recherche alignée sur cette période donne un score maximal.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 70,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: VBA (non listé dans les skills du candidat, 0pts), Bases de données (bonus/implicit via data pipelines mais pas explicitement listé comme 'Bases de données', 0pts), Tests unitaires (bonus/implicit mais pas explicite, 0pts). Total: 10 pts.",
+                "score": 10
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+4/5 et école ingénieur. Stage fin d'études recherché. Score maximum atteint.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, souvent considérée comme un acteur économique clé (CAC40/S&P500 équivalent en termes de poids et stabilité). Score maximum attribué pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001), ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant juin 2026. L'offre ne précise pas la période exacte, mais le contexte de 'stage fin d'études' aligne généralement sur cette fenêtre temporelle. Score maximum attribué pour l'alignement potentiel.",
+                "score": 15
+            }
+        }
+    ]
+}

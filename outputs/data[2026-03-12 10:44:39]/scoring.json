@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 92,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain.t_prio) + Reporting (supply_chain.t_prio) = 5pts; Python (supply_chain.t_prio) + data processing (supply_chain.t_prio) = 5pts; Data Visualisation (data.t_prio) + Dashboards (data.t_prio) = 5pts. Matchs prio: Excel avancé (supply_chain.prio) = 3,5pts; Reporting automatisé (supply_chain.prio) = 3,5pts; Python (data.prio) = 3,5pts. Total skills matchées estimées à environ 20 compétences clés.",
+                "score": 47
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5), recherche de stage fin d'études. Correspond parfaitement au profil recherché (école de commerce, ingénieurs).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC est une entreprise privée spécialisée dans le secteur du snacking et des distributeurs, non classée en CAC40, S&P500 ou Big4/Big3. Score réduit par rapport aux grands groupes.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible majeure (15 pts).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026. L'offre ne précise pas la date de début exacte, mais le contexte d'application fin d'études suggère une compatibilité avec les périodes académiques (juin/juillet). On suppose une correspondance optimale.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data pipelines'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5, Stage fin d'études recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une offre de stage junior.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Offre demande stage fin d'études, début juin 2026. Candidat recherche stage fin d'études à partir juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 77,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: VBA non trouvé, Tests unitaires non trouvé, Base de données non trouvée. Matchs bonus: Macros/Scripts implicites via automatisation (2pts). Total: 17 points.",
+                "score": 17
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5, niveau M2 équivalent. Stage fin d'études recherché. Score maximum atteint.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 stricto sensu dans ce contexte spécifique, elle représente un prestige institutionnel élevé. Score maximum attribué pour la notoriété et le statut.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Paris (75001). Paris est une ville cible avec 15 pts.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: 'à partir juin 2026'. L'offre correspond exactement à la période de recherche du candidat (stage fin d'études débutant juin 2026). Score maximum atteint.",
+                "score": 15
+            }
+        }
+    ]
+}

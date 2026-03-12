@@ -1,0 +1,124 @@
+{
+    "scoring": [
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 88,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (5pts), 'Python' (5pts), 'Data Visualisation' (5pts), 'Reporting' (5pts), 'Statistiques' (5pts). Matchs prio: 'Analyse de données' (3,5pts), 'Extraction de données' (3,5pts), 'Web scraping' (3,5pts), 'Dashboards' (3,5pts), 'Data pipelines' (3,5pts). Total: 38 pts.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent au profil recherché. Score maximum.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas une entreprise CAC40, S&P500, Big4 ou Big3. Son prestige est inférieur aux grandes entreprises mentionnées dans les critères de référence.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "L'offre est située à Lyon, qui correspond exactement à une ville cible (Lyon). Score maximum.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant en juin 2026. L'offre ne précise pas la date de début exacte, mais le contexte d'application pour un stage fin d'études s'aligne généralement sur cette période cible. Score maximum.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data processing'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5, Stage fin d'études recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une offre de stage junior.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Offre demande stage fin d'études, début juin 2026. Candidat recherche stage fin d'études à partir juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 72,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Bases de données (3,5pts), VBA non trouvé dans les skills du candidat. Matchs bonus: Automatisation (2pts), Reporting automatisé (2pts), Web scraping (2pts). Total: 19 + 3,5 + 6 = 28,5 pts.",
+                "score": 29
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5), recherche de stage fin d'études. Correspond au profil recherché (M1/M2 ou équivalent).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 spécifiquement dans ce contexte, elle possède une très haute renommée et prestige institutionnel.",
+                "score": 18
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001). Le candidat est de Lyon. Distance > 15km. Score base 0.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage se déroule à partir de juin 2026. Le candidat est en recherche de stage fin d'études (probablement début 2026 ou début 2027 selon le cycle). La période correspond au maximum pour un stage fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 71,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts). Matchs prio: Excel avancé (3.5pts), Pack Office implicite via Excel (3.5pts). Matchs bonus: Web scraping (2pts), Reporting automatisé (2pts), Automation (2pts). Non matchs critiques: VBA, GitLab CI, Jenkins, Ansible, Terraform.",
+                "score": 18.5
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+4/5 et école ingénieur (Max).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole est une banque majeure, membre du CAC40 et S&P500 (Max).",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Montrouge se situe à environ 15-20 km de Paris. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', Montrouge étant à plus de 2km de Paris (et non Lyon/Montpellier), le score est réduit.",
+                "score": 8
+            },
+            "C5": {
+                "reason": "Stage fin d'études recherché pour juin 2026. Le candidat est en recherche active à ce moment-là, donc correspondance maximale.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant(e) Chef de projet CRM & Engagement Clients - Mode EUROPE - Juillet 2026",
+            "score": 55,
+            "C1": {
+                "reason": "Aucune compétence demandée par l'offre (Excel Recherche V, PowerPoint, Adobe Campaign, Salesforce) n'est présente dans les compétences du candidat. Le candidat possède des compétences en Supply Chain et Data (Python, pandas, scikit-learn), qui ne correspondent pas aux missions CRM/Marketing de l'offre.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM Lyon (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché (Bac+5, école de commerce ou Université).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise du luxe mondial, bien que non classée en CAC40/S&P500/Big4/Big3 spécifiquement dans ce contexte de scoring strict, elle bénéficie d'une très haute renommée et prestige international.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Le stage est à Paris (75008). Paris est une ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "L'offre demande un début en Juillet 2026 et le candidat recherche un stage à partir de Juin 2026. Le décalage est minimal (1 mois), ce qui correspond au critère 'début juin 2026 = max'.",
+                "score": 15
+            }
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 """
 Cloud-based IA client for Step 3A1 (experience selection).
-Uses Ollama Cloud to run GLM-4.7 (cloud) — same API format as local Ollama.
+Uses Ollama Cloud to run GLM-4.7 (cloud) via the official ollama Python client.
 
 Env vars needed:
   - OLLAMA_API_KEY  → get from https://ollama.com (account settings)
@@ -10,12 +10,13 @@ Also contains a placeholder for direct Zhipu GLM-4.7-Flash API (for later).
 
 import os
 import json
+import re
 import time
-import requests
+from ollama import Client
 
 # ── Ollama Cloud config ────────────────────────────────────────
-OLLAMA_CLOUD_URL   = "https://ollama.com/api/chat"
-OLLAMA_CLOUD_MODEL = "glm-4.7:cloud"        # GLM-4.7 running on Ollama's servers
+OLLAMA_CLOUD_HOST  = "https://ollama.com"
+OLLAMA_CLOUD_MODEL = "glm-4.7:cloud"        # GLM-4.7 hosted on Ollama Cloud
 
 # ── System prompt (same as local Ollama) ───────────────────────
 SYSTEM_PROMPT = (
@@ -32,13 +33,13 @@ def query_cloud_json(
     prompt: str,
     system_prompt: str = None,
     temperature: float = 0.0,
-    num_predict: int = 512,
+    num_predict: int = 800,
     max_retries: int = 3,
 ) -> dict | None:
     """
     Call GLM-4.7 via Ollama Cloud for Step 3A1 experience selection.
-    Same API format as local Ollama, but runs on Ollama's cloud servers.
-    
+    Uses the official ollama Python client with stream=False.
+
     Returns parsed JSON dict or None on failure.
     """
     api_key = os.environ.get("OLLAMA_API_KEY")
@@ -51,23 +52,19 @@ def query_cloud_json(
     if system_prompt is None:
         system_prompt = SYSTEM_PROMPT
 
-    payload = {
-        "model": OLLAMA_CLOUD_MODEL,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-        ],
-        "stream": True,
-        "format": "json",
-        "options": {
-            "temperature": temperature,
-            "num_predict": num_predict,
-        },
-    }
+    client = Client(
+        host=OLLAMA_CLOUD_HOST,
+        headers={"Authorization": f"Bearer {api_key}"},
+    )
 
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": prompt},
+    ]
+
+    options = {
+        "temperature": temperature,
+        "num_predict": num_predict,
     }
 
     for attempt in range(1, max_retries + 1):
@@ -75,49 +72,45 @@ def query_cloud_json(
             print(f"  [Cloud] 🌐 GLM-4.7 via Ollama Cloud (attempt {attempt}/{max_retries})...")
             start = time.time()
 
-            response = requests.post(
-                OLLAMA_CLOUD_URL,
-                json=payload,
-                headers=headers,
-                timeout=120,
+            response = client.chat(
+                model=OLLAMA_CLOUD_MODEL,
+                messages=messages,
+                stream=False,
+                options=options,
             )
             elapsed = time.time() - start
 
-            if response.status_code != 200:
-                print(f"  [Cloud] ⚠️  HTTP {response.status_code}: {response.text[:200]}")
+            prompt_tok = response.prompt_eval_count or 0
+            gen_tok    = response.eval_count or 0
+            print(f"  [Cloud] ⏱️  {elapsed:.1f}s | prompt: {prompt_tok} tok | generated: {gen_tok} tok")
+
+            raw_text = response.message.content or ""
+
+            if not raw_text.strip():
+                print(f"  [Cloud] ⚠️  Empty response (attempt {attempt}/{max_retries})")
                 if attempt < max_retries:
                     time.sleep(2 ** attempt)
                 continue
 
-            data = response.json()
-            raw_text = data.get("message", {}).get("content", "")
-            print(f"  [Cloud] ⏱️  Response in {elapsed:.1f}s")
+            # Strip <think>...</think> reasoning blocks (used by some GLM variants)
+            raw_text = re.sub(r"<think>.*?</think>", "", raw_text, flags=re.DOTALL).strip()
 
             # Parse JSON from response
             try:
                 return json.loads(raw_text)
             except json.JSONDecodeError:
-                # Try to extract JSON from surrounding text
+                # Try to extract JSON object from surrounding text
                 start_idx = raw_text.find("{")
-                end_idx = raw_text.rfind("}") + 1
+                end_idx   = raw_text.rfind("}") + 1
                 if start_idx != -1 and end_idx > start_idx:
                     try:
                         return json.loads(raw_text[start_idx:end_idx])
                     except json.JSONDecodeError:
                         pass
                 print(f"  [Cloud] ⚠️  JSON parse failed (attempt {attempt}/{max_retries})")
+                print(f"  [Cloud]    Raw response: {raw_text[:300]}")
                 if attempt < max_retries:
                     time.sleep(2 ** attempt)
-
-        except requests.exceptions.Timeout:
-            print(f"  [Cloud] ⚠️  Timeout (attempt {attempt}/{max_retries})")
-            if attempt < max_retries:
-                time.sleep(2 ** attempt)
-
-        except requests.exceptions.ConnectionError:
-            print(f"  [Cloud] ⚠️  Connection error (attempt {attempt}/{max_retries})")
-            if attempt < max_retries:
-                time.sleep(5)
 
         except Exception as e:
             print(f"  [Cloud] ⚠️  Error: {e} (attempt {attempt}/{max_retries})")

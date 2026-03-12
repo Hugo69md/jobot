@@ -1,155 +1,128 @@
-# pip install openai
-import json
+"""
+Cloud-based IA client for Step 3A1 (experience selection).
+Uses Ollama Cloud to run GLM-4.7 (cloud) — same API format as local Ollama.
+
+Env vars needed:
+  - OLLAMA_API_KEY  → get from https://ollama.com (account settings)
+
+Also contains a placeholder for direct Zhipu GLM-4.7-Flash API (for later).
+"""
+
 import os
+import json
 import time
-from openai import OpenAI
+import requests
 
-from utils.c_ia.ollama_client import SYSTEM_PROMPT
+# ── Ollama Cloud config ────────────────────────────────────────
+OLLAMA_CLOUD_URL   = "https://ollama.com/api/chat"
+OLLAMA_CLOUD_MODEL = "glm-4.7:cloud"        # GLM-4.7 running on Ollama's servers
 
-# ── DeepSeek constants ────────────────────────────────────────────────────────
-DEEPSEEK_BASE_URL  = "https://api.deepseek.com"
-DEEPSEEK_MODEL     = "deepseek-chat"
-DEEPSEEK_API_KEY_ENV = "DEEPSEEK_API_KEY"
+# ── System prompt (same as local Ollama) ───────────────────────
+SYSTEM_PROMPT = (
+    "Tu es un expert en recrutement, spécialisé dans l'optimisation de CV "
+    "et la rédaction de lettres de motivation pour les stages en entreprise.\n\n"
+    "Règles absolues à respecter sur TOUTES les réponses :\n"
+    "- Tu ne mens JAMAIS\n"
+    "- Tu n'inventes JAMAIS de compétences, chiffres ou expériences absents des données fournies.\n"
+    "- Toujours respecter ces instructions"
+)
 
-# ── Zhipu GLM constants ───────────────────────────────────────────────────────
-ZHIPU_BASE_URL     = "https://open.bigmodel.cn/api/paas/v4"
-ZHIPU_MODEL        = "glm-4-7-flash"
-ZHIPU_API_KEY_ENV  = "ZHIPU_API_KEY"
 
-
-def query_deepseek_json(
+def query_cloud_json(
     prompt: str,
     system_prompt: str = None,
     temperature: float = 0.0,
-    max_tokens: int = 512,
+    num_predict: int = 512,
     max_retries: int = 3,
 ) -> dict | None:
     """
-    Call DeepSeek chat API and return parsed JSON response.
-
-    Used for Step 3A1 (experience selection) where the local Qwen 3.5 4B
-    model hallucinates. DeepSeek is OpenAI-compatible.
-
-    Args:
-        prompt:        User message / task description.
-        system_prompt: Override the default system prompt. If None, uses
-                       the same SYSTEM_PROMPT as ollama_client.py.
-        temperature:   Sampling temperature (0.0 = deterministic).
-        max_tokens:    Maximum tokens in the generated response.
-        max_retries:   Number of retry attempts with exponential backoff.
-
-    Returns:
-        Parsed dict on success, None on failure.
+    Call GLM-4.7 via Ollama Cloud for Step 3A1 experience selection.
+    Same API format as local Ollama, but runs on Ollama's cloud servers.
+    
+    Returns parsed JSON dict or None on failure.
     """
-    api_key = os.environ.get(DEEPSEEK_API_KEY_ENV)
+    api_key = os.environ.get("OLLAMA_API_KEY")
     if not api_key:
-        print(f"  [DeepSeek] ❌ Environment variable '{DEEPSEEK_API_KEY_ENV}' is not set. "
-              f"Get your key at https://platform.deepseek.com and set it before running.")
+        print("  [Cloud] ❌ OLLAMA_API_KEY not set!")
+        print("  [Cloud]    → Get one at https://ollama.com (account settings)")
+        print("  [Cloud]    → Then: export OLLAMA_API_KEY='your-key-here'")
         return None
 
-    client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
-    sys_msg = system_prompt if system_prompt is not None else SYSTEM_PROMPT
+    if system_prompt is None:
+        system_prompt = SYSTEM_PROMPT
 
-    for attempt in range(max_retries):
+    payload = {
+        "model": OLLAMA_CLOUD_MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt},
+        ],
+        "stream": True,
+        "format": "json",
+        "options": {
+            "temperature": temperature,
+            "num_predict": num_predict,
+        },
+    }
+
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+    for attempt in range(1, max_retries + 1):
         try:
-            print(f"  [DeepSeek] Sending request (attempt {attempt + 1}/{max_retries})...")
-            start_time = time.time()
+            print(f"  [Cloud] 🌐 GLM-4.7 via Ollama Cloud (attempt {attempt}/{max_retries})...")
+            start = time.time()
 
-            response = client.chat.completions.create(
-                model=DEEPSEEK_MODEL,
-                messages=[
-                    {"role": "system", "content": sys_msg},
-                    {"role": "user",   "content": prompt},
-                ],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                response_format={"type": "json_object"},
+            response = requests.post(
+                OLLAMA_CLOUD_URL,
+                json=payload,
+                headers=headers,
+                timeout=120,
             )
+            elapsed = time.time() - start
 
-            elapsed = time.time() - start_time
-            content = response.choices[0].message.content
-            usage   = response.usage
-            print(
-                f"  [DeepSeek] ⏱️  {elapsed:.1f}s | "
-                f"prompt: {usage.prompt_tokens} tok | "
-                f"generated: {usage.completion_tokens} tok"
-            )
+            if response.status_code != 200:
+                print(f"  [Cloud] ⚠️  HTTP {response.status_code}: {response.text[:200]}")
+                if attempt < max_retries:
+                    time.sleep(2 ** attempt)
+                continue
 
-            return json.loads(content)
+            data = response.json()
+            raw_text = data.get("message", {}).get("content", "")
+            print(f"  [Cloud] ⏱️  Response in {elapsed:.1f}s")
 
-        except Exception as e:
-            print(f"  [DeepSeek] ⚠️  Error (attempt {attempt + 1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
+            # Parse JSON from response
+            try:
+                return json.loads(raw_text)
+            except json.JSONDecodeError:
+                # Try to extract JSON from surrounding text
+                start_idx = raw_text.find("{")
+                end_idx = raw_text.rfind("}") + 1
+                if start_idx != -1 and end_idx > start_idx:
+                    try:
+                        return json.loads(raw_text[start_idx:end_idx])
+                    except json.JSONDecodeError:
+                        pass
+                print(f"  [Cloud] ⚠️  JSON parse failed (attempt {attempt}/{max_retries})")
+                if attempt < max_retries:
+                    time.sleep(2 ** attempt)
+
+        except requests.exceptions.Timeout:
+            print(f"  [Cloud] ⚠️  Timeout (attempt {attempt}/{max_retries})")
+            if attempt < max_retries:
                 time.sleep(2 ** attempt)
 
-    print(f"  [DeepSeek] ❌ All {max_retries} attempts failed.")
-    return None
-
-
-def query_glm_flash_json(
-    prompt: str,
-    system_prompt: str = None,
-    temperature: float = 0.0,
-    max_tokens: int = 512,
-    max_retries: int = 3,
-) -> dict | None:
-    """
-    Call Zhipu GLM-4-7-Flash API and return parsed JSON response.
-
-    Placeholder — NOT wired into any pipeline step yet.
-    Will be used once a Zhipu API key is available.
-
-    Args:
-        prompt:        User message / task description.
-        system_prompt: Override the default system prompt. If None, uses
-                       the same SYSTEM_PROMPT as ollama_client.py.
-        temperature:   Sampling temperature (0.0 = deterministic).
-        max_tokens:    Maximum tokens in the generated response.
-        max_retries:   Number of retry attempts with exponential backoff.
-
-    Returns:
-        Parsed dict on success, None on failure.
-    """
-    api_key = os.environ.get(ZHIPU_API_KEY_ENV)
-    if not api_key:
-        print(f"  [GLM-Flash] ❌ Environment variable '{ZHIPU_API_KEY_ENV}' is not set. "
-              f"Get your key at https://open.bigmodel.cn and set it before running.")
-        return None
-
-    client = OpenAI(api_key=api_key, base_url=ZHIPU_BASE_URL)
-    sys_msg = system_prompt if system_prompt is not None else SYSTEM_PROMPT
-
-    for attempt in range(max_retries):
-        try:
-            print(f"  [GLM-Flash] Sending request (attempt {attempt + 1}/{max_retries})...")
-            start_time = time.time()
-
-            response = client.chat.completions.create(
-                model=ZHIPU_MODEL,
-                messages=[
-                    {"role": "system", "content": sys_msg},
-                    {"role": "user",   "content": prompt},
-                ],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                response_format={"type": "json_object"},
-            )
-
-            elapsed = time.time() - start_time
-            content = response.choices[0].message.content
-            usage   = response.usage
-            print(
-                f"  [GLM-Flash] ⏱️  {elapsed:.1f}s | "
-                f"prompt: {usage.prompt_tokens} tok | "
-                f"generated: {usage.completion_tokens} tok"
-            )
-
-            return json.loads(content)
+        except requests.exceptions.ConnectionError:
+            print(f"  [Cloud] ⚠️  Connection error (attempt {attempt}/{max_retries})")
+            if attempt < max_retries:
+                time.sleep(5)
 
         except Exception as e:
-            print(f"  [GLM-Flash] ⚠️  Error (attempt {attempt + 1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
+            print(f"  [Cloud] ⚠️  Error: {e} (attempt {attempt}/{max_retries})")
+            if attempt < max_retries:
                 time.sleep(2 ** attempt)
 
-    print(f"  [GLM-Flash] ❌ All {max_retries} attempts failed.")
+    print(f"  [Cloud] ❌ All {max_retries} attempts failed.")
     return None

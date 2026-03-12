@@ -1,7 +1,7 @@
 import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
-from utils.c_ia.cloud_client import query_deepseek_json
+from utils.c_ia.cloud_client import query_cloud_json
 from utils.c_ia.preselect_experiences import preselect_experiences
 from utils.c_ia.prompts.step_0.build_domain_classification_prompt import build_domain_classification_prompt
 from utils.c_ia.prompts.step_1.build_extraction_prompt import build_extraction_prompt
@@ -246,8 +246,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, 6
                 )
-                selection_result = query_deepseek_json(
-                    selection_prompt, temperature=0.0, max_tokens=400
+                selection_result = query_cloud_json(
+                    selection_prompt, temperature=0.0, num_predict=400
                 )
 
                 if selection_result and "selected_indexes" in selection_result:
@@ -289,8 +289,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, needed_from_ia
                 )
-                selection_result = query_deepseek_json(
-                    selection_prompt, temperature=0.0, max_tokens=400
+                selection_result = query_cloud_json(
+                    selection_prompt, temperature=0.0, num_predict=400
                 )
 
                 if selection_result and "selected_indexes" in selection_result:

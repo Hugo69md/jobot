@@ -49,21 +49,20 @@ D'autres expériences ont déjà été sélectionnées pour ce CV. Tu dois chois
 *** OFFRE ***:
 {json.dumps(offer_summary, ensure_ascii=False, indent=2)}
 
-*** INSTRUCTIONS ***:
-- Sélectionne exactement {n_to_select} expériences parmi les INDEX VALIDES ci-dessus: {valid_indexes_list}
-- Aide toi du champs "role" de chaque experience pour comprendre quel etait mon role dans cette experience et comment ce role peut il etre utile à la mission du stage proposé dans l'offre
-- Aide toi du champs "type" de chaque experience pour comprendre le domaine de cette experience et comment ce domaine peut il être utile à la mission du stage proposé dans l'offre
-- Aide toi du champs "description" de chaque experience pour comprendre les missions réalisées dans cette experience et comment ces missions peuvent elles être utiles à la mission du stage proposé dans l'offre
-- Aide toi du champ "offer_industry_type" de l'offre pour identifier les domaines communs
-- fais ta selection en suivant cette logique : role > type > description > specific_skills, 
-- Compare les "missions" et "competences_offre" de l'offre avec les "specific_skills" de CHAQUE expérience du pool
-- Choisis celles qui apportent le plus de valeur pour CETTE offre spécifique, certaines experiences apportent des soft skills non negligeables même si elles n'ont pas de match de compétences directes avec l'offre, prends en compte ce facteur dans ta sélection (ex : concours sur 1an avec 300h de travail, même si ce n'est pas directement lié à la mission du stage, ça montre une capacité de travail et de persévérance qui peut être très précieuse pour l'offre)
-- Une grande entreprise ne signifie pas forcément une expérience plus pertinente, concentre toi sur la valeur que chaque expérience apporte pour CETTE offre spécifique
+*** INSTRUCTIONS DE SÉLECTION (À SUIVRE DANS CET ORDRE STRICT) ***:
+1. ADÉQUATION SECTORIELLE (Niveau 1) : L'industrie de l'expérience ("type") correspond-elle à l'"offer_industry_type" de l'offre ? (ex: une asso crypto pour une banque est un excellent match sectoriel).
+2. ALIGNEMENT DE LA NATURE DU POSTE (Niveau 2) : Analyse la nature des "missions" de l'offre. 
+- Si l'offre est à dominante intellectuelle, analytique ou de gestion (ex: data, ingénierie, pilotage de projet), privilégie absolument les expériences démontrant des capacités de réflexion, d'organisation ou de création. Pénalise les tâches purement manuelles ou d'exécution basique pour ces offres.
+- À l'inverse, si l'offre est à dominante opérationnelle, manuelle ou d'exécution sur le terrain (ex: logistique physique, ouvrier, production), valorise les expériences de terrain et de manutention correspondantes. 
+Le niveau d'exécution (intellectuel vs manuel) de l'expérience doit être le miroir de l'offre.3. COMPÉTENCES DIRECTES (Niveau 3) : Les "missions" et "competences_offre" matchent-elles avec la "description" et les "specific_skills" de l'expérience ?
+4. SOFT SKILLS (Niveau 4) : Ne valorise les soft skills (persévérance, rigueur) que si l'expérience démontre une implication intellectuelle ou organisationnelle importante (ex: organisation d'un concours sur 1 an, création de projet). 
 
 *** ATTENTION ***
+- NE JUSTIFIE JAMAIS des compétences intellectuelles/analytiques par des tâches d'exécution manuelle (et vice-versa). L'argumentaire doit être cohérent avec la nature de l'offre.
 - EXACTEMENT {n_to_select} EXPÉRIENCES, PAS PLUS, PAS MOINS
 - UNIQUEMENT parmi ces index: {valid_indexes_list}
 - Tout index en dehors de {valid_indexes_list} est INTERDIT
+- Ne te laisse pas influencer par la taille de l'entreprise focus sur l'interet de l'expérience pour le poste visé. 
 
 *** FORMAT DE RÉPONSE ***:
 Réponds UNIQUEMENT avec ce JSON:

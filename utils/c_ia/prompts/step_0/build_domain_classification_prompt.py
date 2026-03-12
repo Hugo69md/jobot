@@ -14,7 +14,7 @@ DESCRIPTION (extrait): {offer.get("content", "")[:3000]}
    - "data"         → Data Analyst, Data Engineer, Data Science, BI, reporting, dashboards, Python/SQL, ML, ETL, analytics...
    - "supply_chain" → Logistique, Supply Chain, planification, S&OP, stocks, WMS, approvisionnement, transport, entrepôt...
 
-2. "type": Liste de 1 à 3 mots-clés décrivant le secteur d'activité et le domaine de travail de l'offre.
+2. "type": Liste de 1 à 3 mots-clés décrivant le secteur d'activité de manière tres large, et le domaine de travail de l'offre de maniere tres large egalement.
    Exemples :
    - Stage supply chain chez Sanofi → ["Supply_chain", "Medical"]
    - Stage data Python chez Thales → ["Data", "Defense"]

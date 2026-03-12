@@ -1,0 +1,79 @@
+{
+    "offer_name": "Growth Strategy Data Analyst - Intern (M/F/N)",
+    "offer_company": "HelloFresh France",
+    "offer_type": "data",
+    "score": 83,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+    ],
+    "selection_reasoning": "L'offre vise un rôle d'analyste de données en stratégie de croissance (Growth Strategy Data Analyst) dans le secteur Foodtech. L'index 3 est exclu car il s'agit d'un concours d'entreprenariat sans lien direct avec l'analyse de données ou la stratégie. L'index 7 est exclu car c'est un bénévolat médical sans compétences analytiques. L'index 8 est exclu car bien que dans le secteur tech, Kryptosphere se concentre sur les cryptomonnaies et non sur l'analyse de données ou la stratégie de croissance alimentaire. L'index 9 est exclu car il s'agit d'une initiation logistique purement opérationnelle (gestion de stocks, palettes) qui ne correspond pas aux missions intellectuelles d'analyse et de stratégie. L'index 10 est sélectionné car le stage chez Amazon en tant que manutentionnaire démontre une capacité d'exécution rigoureuse, l'apprentissage du système 5S et la préparation de routes, ce qui reflète une discipline organisationnelle et une pensée analytique appliquée aux processus, alignées avec les missions de suivi de KPIs et d'organisation des projets multiples demandées dans l'offre.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre équipe pour le poste de Growth Strategy Data Analyst - Intern. Mon profil académique et mes expériences pratiques alignent parfaitement les exigences de vos missions.\n\nVotre besoin en analyse approfondie sur l'acquisition, la rétention et la performance des canaux marketing résonne avec mon parcours récent. En tant que data analyst freelance depuis janvier 2025, j'ai créé un portfolio incluant des projets d'automatisation et d'analyse de données, démontrant ma capacité à transformer des données complexes en insights actionnables. J'ai également approfondi mes compétences via la formation HarvardX CS109x sur les modèles de prédiction avec Python.\n\nMes expériences professionnelles renforcent cette approche analytique. Mon stage chez Arrow (2024) m'a permis de créer des outils d'analyse et de monitoring, tandis que mon expérience en tant qu'assistant logistique chez VJ Logistique m'a initié à la gestion opérationnelle et aux processus de suivi. Ces missions ont développé ma rigueur dans le traitement de données et ma compréhension des flux complexes.\n\nJe maîtrise Python (pandas, numpy, scikitlearn) et Excel avancé, compétences essentielles pour concevoir des tableaux de bord et suivre les KPIs clés d'affaires. Ma formation m'a également permis d'acquérir une pensée analytique avancée et une capacité à traduire ces analyses en insights business clairs.\n\nJe suis convaincu que mon profil technique et ma motivation pour le domaine de la data me permettront de contribuer efficacement à vos projets de croissance et d'influencer l'allocation budgétaire. Je serais honoré de pouvoir échanger à nouveau avec vous sur la manière dont je peux soutenir les décisions stratégiques de votre équipe.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du candidat et au domaine de l'offre (gestion des flux), alors que les termes comme 'Logistique', 'Distribution', 'Gestion des stocks', 'Prévision de la demande', 'Planification de production', 'Warehouse Management', 'Transport', 'Réapprovisionnement', 'ERP Oracle', 'Qualité', 'Analyse de Non-conformités' sont déjà présents dans les compétences spécifiques ou le contexte original et ne doivent pas être réinjectés.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant des analyses data-driven pour optimiser la gestion des flux et soutenir la prise de décision stratégique.",
+            "keywords_injected": [
+                "Supply Chain Management",
+                "data-driven decision making"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il correspond à la compétence technique demandée pour l'automatisation et l'analyse de données, présent dans les compétences du candidat mais absent des mots-clés déjà injectés. Les autres compétences pertinentes comme 'Excel', 'Monitoring', 'Data pipelines' ou 'KPI' sont soit déjà présentes dans le CV (via 'monitoring', 'Reporting'), soit trop génériques par rapport à la spécificité de l'offre (Python est plus précis pour les tâches d'automatisation et d'analyse avancée).",
+            "description_tailored": "Création d'outils d'analyse de données et d'automatisation de processus en supply chain, notamment via le développement de scripts Python pour le monitoring des ruptures et la gestion des non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond à la compétence de l'offre et n'est pas déjà injecté dans le CV (contrairement à 'Supply Chain Management', 'data-driven decision making', 'Python'). Les termes comme 'Nettoyage des données', 'Dashboards', 'Reporting', 'KPI', 'Data Visualisation', 'Statistiques descriptives', 'Statistiques inferentielle', 'Automatisation', 'Bases de données', 'ETL', 'Data pipelines' sont soit déjà présents dans la description originale, soit trop spécifiques à l'offre pour être justifiés par une simple formation académique sans inventer d'expérience réelle.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement statistique descriptif et inferentiel ainsi que la visualisation de données.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Statistiques' est exclu car il figure dans la liste des mots-clés déjà injectés. Les autres compétences spécifiques (ScikitLearn, modèles de prédiction) sont déjà présentes ou trop génériques par rapport aux missions de l'offre qui privilégient les aspects opérationnels comme le reporting et les dashboards. Aucun nouveau mot-clé pertinent ne peut être injecté car la description originale se concentre sur l'apprentissage théorique des modèles de prédiction, tandis que l'offre cherche un stage axé sur l'analyse opérationnelle, le reporting et la visualisation de données pour les parties prenantes.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de conception de tableaux de bord et de suivi des KPIs dans l'offre, tout en étant présent dans les compétences du candidat mais pas encore injecté dans cette expérience spécifique. Les mots-clés comme 'SQL', 'Data pipelines', 'ETL' ou 'Web scraping' sont exclus car ils ne correspondent pas aux actions décrites (création de portfolio, add-on ERP) qui reposent sur Python et Excel, et certains pourraient être considérés comme trop spécifiques par rapport au contexte freelance décrit. Les mots-clés déjà injectés ('Supply Chain Management', 'data-driven decision making', 'Python', 'Statistiques') sont exclus par règle.",
+            "description_tailored": "Développement d'un portfolio de projets open source et semi-automatisés, ainsi qu'un add-on pour ERP comptable, axés sur le nettoyage et la préparation des données. Mise en place de solutions de Reporting automatisé et de Data Visualisation pour transformer les analyses statistiques en insights actionnables.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à l'action de préparation de routes et d'optimisation des flux logistiques (DAR1), ce qui implique le suivi en temps réel des opérations. Les autres compétences validées comme 'Supply Chain', 'Logistique', 'Distribution', 'Prévision de la demande', 'Gestion des stocks', 'Planification de production', 'Warehouse Management', 'Transport', 'TMS', 'Réapprovisionnement', 'Data-driven decision making' (déjà injecté), 'Analyse Pareto', 'Excel avancé', 'Power Query', 'Reporting', 'Analyse de données', 'Python', 'data processing', 'automation', 'Simulation', 'FlexSim', 'SimLAB VR', 'Automatisation', 'Reporting automatisé', 'Workflows', 'Web scraping', 'market/lead-time data', 'ERP Oracle', 'Qualité', 'Analyse de Non-conformités' sont soit déjà injectées ailleurs dans le CV, soit hors contexte d'un stage manutentionnaire en préparation de routes. Les termes spécifiques à l'expérience originale ('Préparation de routes', '5S', 'Picking') ne doivent pas être réinjectés.",
+            "description_tailored": "Stage ouvrier dédié à la préparation de routes et au picking, assurant le suivi des processus logistiques en temps réel dans le cadre d'une optimisation opérationnelle.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        }
+    ]
+}

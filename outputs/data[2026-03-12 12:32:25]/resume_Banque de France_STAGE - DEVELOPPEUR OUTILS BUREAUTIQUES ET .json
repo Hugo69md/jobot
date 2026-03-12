@@ -1,0 +1,76 @@
+{
+    "offer_name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+    "offer_company": "Banque de France",
+    "offer_type": "data",
+    "score": 72,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+    ],
+    "selection_reasoning": "Index 8 car c'est la seule expérience du pool située dans le secteur Finance (Kryptosphere/crypto), ce qui correspond parfaitement au critère Niv1 (Adéquation sectorielle) pour un stage à la Banque de France. Bien que le rôle soit associatif, il démontre un intérêt intellectuel pour la technologie financière, contrairement aux expériences 9 et 10 qui sont purement manuelles/logistiques et donc inadaptées à une offre de développement d'outils (Niv2). L'index 3 est trop généraliste sur l'entreprenariat sans lien direct avec la finance.",
+    "skills_section": [
+        "Python",
+        "Base de données",
+        "Automatisation",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre structure pour un stage de fin d'études dans le cadre du poste de \"Développeur outils bureautiques et Python\".\n\nMon parcours académique et professionnel m'a permis de développer des compétences techniques solides en analyse de données et en automatisation. Au sein de mon laboratoire chez Arrow, j'ai créé plusieurs outils d'analyse et d'automatisation de processus, utilisant Python et Excel avancés pour le monitoring. Parallèlement, ma période en tant qu'assistant freelance en data m'a permis de concevoir des add-ons pour ERP et d'approfondir la maîtrise du langage Python ainsi que des statistiques.\n\nJe suis particulièrement attiré par vos missions relatives à la réalisation technique d'outils et au développement de fonctionnalités. Mes expériences passées, notamment mon stage chez Amazon où j'ai initié le 5S et ma gestion logistique chez VJ Logistique, ont renforcé ma capacité à comprendre les flux complexes et à automatiser des tâches répétitives.\n\nJe possède une maîtrise approfondie de Python, Excel (incluant des fonctionnalités avancées), et des bases de données, compétences directement transférables aux exigences de votre offre. De plus, mon engagement dans le concours Campus Création m'a appris l'autonomie nécessaire pour estimer les charges et suivre la production.\n\nVotre recherche d'un profil ingénieur informatique correspond parfaitement à ma formation actuelle et à mes projets personnels en open source. Je serais ravi de mettre mes compétences en développement d'outils au service de votre équipe technique.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Excel avancé' n'est pas dans la liste des compétences de l'offre (seulement 'Excel'), il est donc exclu pour éviter le faux positif. Aucun nouveau mot-clé ne peut être injecté car tous les mots-clés pertinents de l'offre ('Supply Chain', 'Logistique', 'Gestion des stocks', 'Python', etc.) sont soit déjà présents dans la description originale, soit absents des compétences validées du candidat pour cette expérience spécifique.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il correspond à la compétence technique demandée et validée par le candidat pour l'automatisation. Les mots-clés comme 'Excel', 'VBA', 'Base de données', 'Tests unitaires' et 'Revue de code' sont exclus car ils ne figurent pas dans les compétences spécifiques du candidat fournies (seuls Python, Excel avancé et Power Query sont mentionnés, mais l'offre insiste sur VBA et Tests unitaires qui ne sont pas explicitement listés comme compétences validées pour cette expérience spécifique dans la liste fournie).",
+            "description_tailored": "Stage en supply chain au sein du laboratoire Arrow à Lyon, axé sur la création d'outils d'analyse de données et d'automatisation de processus. Développement de fonctionnalités de monitoring et gestion des non-conformités en entrepôt (WH) utilisant Python pour le traitement de données et l'exécution de scripts.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques descriptives' est pertinent car il correspond directement à la mission d'analyse et de reporting tout en étant présent dans les compétences du candidat. Les autres mots-clés pertinents comme 'Python', 'pandas', 'Matplotlib', 'Seaborn', 'Numpy' sont exclus car ils figurent déjà dans les compétences spécifiques ou sont déjà injectés ailleurs sur le CV.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant la maîtrise des bibliothèques NumPy, Pandas, Matplotlib et Seaborn pour traiter des jeux de données complexes. Application des statistiques descriptives à la construction de rapports visuels et au storytelling des données.",
+            "keywords_injected": [
+                "Statistiques descriptives"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'ScikitLearn' est pertinent car il correspond à la compétence spécifique du candidat et n'est pas dans les mots-clés déjà injectés ou exclus. Les autres compétences comme 'Python', 'Statistiques descriptives' sont déjà présentes ailleurs, et 'modèles de prédiction' est contenu dans la description originale.",
+            "description_tailored": "Formation axée sur l'apprentissage des modèles de prédiction avec Python et ScikitLearn pour maîtriser les bases du domaine de la data science.",
+            "keywords_injected": [
+                "ScikitLearn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Automatisation' est pertinent car il correspond à la mission de réalisation technique et aux compétences offertes, tout en étant présent dans les compétences du candidat mais pas encore injecté. Les mots-clés comme 'Python', 'Statistiques descriptives' et 'ScikitLearn' sont exclus car déjà injectés ailleurs. Les termes 'Excel avancé', 'Power Query', 'Reporting automatisé' et 'APIs' sont présents dans la description originale ou les compétences spécifiques, donc non réinjectés.",
+            "description_tailored": "Développement d'outils techniques semi-automatisés et d'un add-on ERP pour l'analyse de données, en s'appuyant sur une maîtrise approfondie de Python et Excel avancé. Mise en place de pipelines ETL et de scripts pour l'extraction et le traitement de données via Power Query et les APIs.",
+            "keywords_injected": [
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 8,
+            "name": "Kryptosphere",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la liste des compétences validées du candidat est vide [] et tous les mots-clés pertinents sont déjà présents dans les mots-clés déjà injectés (Python, Automatisation).",
+            "description_tailored": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
+            "keywords_injected": []
+        }
+    ]
+}

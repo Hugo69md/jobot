@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data pipelines'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5, École d'ingénieur) et recherche de stage fin d'études.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une entreprise privée de services.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage demandé est fin d'études, le candidat est en recherche de stage fin d'études. La période juin 2026 correspond au calendrier académique standard pour les stages fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 77,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain.t_prio) + Python (supply_chain.t_prio) = 5pts; Matchs prio: Data Visualisation (data.prio), Reporting (data.prio), Statistiques (data.prio), Automatisation (data.prio) = 3,5*4=14pts. Total C1: 29 pts.",
+                "score": 29
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5), recherche de stage fin d'études = max.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les catégories Big4/Big3/CAC40/S&P500. Renommée moyenne pour une entreprise locale/snc, score réduit.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). L'offre précise 'Lyon, Rhône'.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée par le candidat = max.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 72,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Base de données (3,5pts), VBA non trouvé. Matchs bonus: Macros/Scripts implicites dans automatisation (2pts). Total: 15+3,5+2 = 20,5 arrondi à 20.",
+                "score": 20
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent au profil recherché (M1/M2 ou équivalent).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 stricto sensu dans ce contexte spécifique, elle bénéficie d'une forte notoriété et stabilité.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001), ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant juin 2026, ce qui correspond exactement à la période demandée par l'offre (maximale).",
+                "score": 15
+            }
+        }
+    ]
+}

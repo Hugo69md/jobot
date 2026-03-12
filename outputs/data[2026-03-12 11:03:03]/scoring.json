@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data pipelines'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5, Stage fin d'études recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une offre de stage junior.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Offre demande stage fin d'études, début juin 2026. Candidat recherche stage fin d'études à partir juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 85,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain.t_prio) + Python (supply_chain.t_prio) = 5pts; Matchs prio: Power Query (supply_chain.prio), Reporting (supply_chain.prio), Data Visualisation (data.prio), Dashboards (data.prio), KPI (data.prio), Extraction de données (data.prio), Web scraping (data.prio), APIs (data.prio) = 3,5pts x 8 = 28pts. Total C1: 33 pts.",
+                "score": 33
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche stage fin d'études, correspondant exactement au profil recherché par l'offre.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "L'entreprise AOSTE SNC n'est pas dans les catégories Big4/Big3/CAC40/S&P500. En tant qu'entreprise spécialisée dans la distribution (Libre-Service), elle a une renommée sectorielle mais inférieure aux grands groupes, ce qui justifie un score réduit par rapport au maximum.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est située à Lyon. Le candidat est étudiant de l'ECAM Lyon. La localisation correspond parfaitement à une ville cible (Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage demandé commence en juin 2026. Le candidat est actuellement étudiant en fin d'études (ECAM Lyon) et recherche un stage de fin d'études, ce qui correspond parfaitement à la période visée.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 56,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Bases de données (3,5pts), VBA (non listé dans les skills du candidat, donc 0pts). Matchs bonus: Automatisation (2pts), Reporting automatisé (2pts), Web scraping (2pts). Total: 19 points.",
+                "score": 19
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (niveau M2/équivalent) en recherche de stage fin d'études. Correspond au profil recherché (Ecole ingénieur informatique niveau M1 ou M2).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 spécifiquement dans ce contexte, elle possède une très haute renommée et prestige institutionnel.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001). Le candidat est de Lyon. La distance entre Lyon et Paris est supérieure à 15km (environ 460km), donc score minimum.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant juin 2026. L'offre ne précise pas la période exacte, mais le contexte de fin d'études suggère une compatibilité potentielle avec les délais habituels (juin-août). On applique un score partiel car l'offre n'est pas explicitement 'fin d'études' dans le texte, mais le profil du candidat correspond.",
+                "score": 12
+            }
+        }
+    ]
+}

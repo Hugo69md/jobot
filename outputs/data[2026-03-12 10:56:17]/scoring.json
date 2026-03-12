@@ -1,0 +1,76 @@
+{
+    "scoring": [
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 78,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (supply_chain bonus), 'Python', 'Data Visualisation', 'Reporting', 'Dashboards' (data t_prio). Matchs prio: 'Analyse de données', 'Statistiques inférentielle/descriptive' (data prio), 'Gestion des stocks/Logistique' (supply_chain prio). Pas de match direct sur Power BI, Contrôle de gestion ou Grande distribution spécifique.",
+                "score": 28
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5. Recherche stage fin d'études. Correspondance parfaite avec le profil recherché (Bac+4/5, école d'ingénieur).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas listée parmi les grands groupes (CAC40/S&P500/Big4/Big3) ni dans les entreprises de prestige reconnues comme Mobile France ou Amazon. Score réduit.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Lieu: Lyon, Rhône (France). Lyon est une ville cible avec 15 pts maximum.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Période: Stage fin d'études à partir juin 2026. Correspondance parfaite avec la demande de l'offre (début juin 2026).",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 72,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: VBA (non listé dans les skills du candidat, 0pts), Base de données (bonus, 2pts). Total: 12 pts.",
+                "score": 12
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5/École Ingénieur) et recherche de stage fin d'études correspondent au profil recherché. Score maximum.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 spécifiquement dans ce contexte, elle possède une très haute renommée et prestige institutionnel. Score maximum attribué pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001). Paris est une ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant juin 2026. L'offre ne précise pas la période exacte, mais le démarrage en juin 2026 correspond au profil du candidat (maximisation de ce critère). Score maximum attribué.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 70,
+            "C1": {
+                "reason": "Matchs t_prio: Excel avancé (supply_chain), Python, pandas, numpy, scikit-learn (data). Matchs prio: Excel avancé (supply_chain), Python (data). Matchs bonus: Power Query (supply_chain), Reporting automatisé (supply_chain/data). Total: 5*2 + 3.5*2 + 2*4 = 10 + 7 + 8 = 25 pts.",
+                "score": 25
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspond au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les catégories Big4/Big3/CAC40/S&P500 spécifiées, renommée moyenne.",
+                "score": 5
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible avec 15 pts.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée par le candidat (max).",
+                "score": 15
+            }
+        }
+    ]
+}

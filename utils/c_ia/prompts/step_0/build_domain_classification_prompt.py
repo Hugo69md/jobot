@@ -2,7 +2,7 @@ def build_domain_classification_prompt(offer: dict) -> str:
     """
     STEP 0 — Classify the offer domain + extract industry type keywords.
     Lightweight prompt: only uses name + first 2000 chars of content.
-    Returns: {"domain": "data", "type": ["keyword1", "keyword2"]}
+    Returns: {"domain": "data", "type": ["keyword1", "keyword2"], "sector": ["keyword1"]}
     """
     return f"""Tu es un assistant RH. Classe cette offre de stage.
 
@@ -20,5 +20,16 @@ DESCRIPTION (extrait): {offer.get("content", "")[:3000]}
    - Stage data Python chez Thales → ["Data", "Defense"]
    - Stage logistique chez Airbus avec mention de programmation → ["Supply_chain", "Data", "Aerospace"]
 
+3. "sector": 1 à 2 mots-clés décrivant le SECTEUR D'ACTIVITÉ DE L'ENTREPRISE elle-même (pas la nature du poste).
+   C'est l'industrie dans laquelle la boite opère, pas ce que le stagiaire fera.
+   Exemples :
+   - Aoste → ["Food_Retail"]
+   - Chanel → ["Luxury"]
+   - Thales → ["Defense"]
+   - Sanofi → ["Medical"]
+   - Crédit Agricole → ["Finance"]
+   - Amazon → ["E_commerce", "Tech"]
+   - Airbus → ["Aerospace"]
+
 Réponds UNIQUEMENT avec ce JSON (pas de texte avant ou après):
-{{"domain": "data", "type": ["keyword1", "keyword2"]}}"""
+{{"domain": "data", "type": ["keyword1", "keyword2"], "sector": ["keyword1"]}}"""

@@ -33,6 +33,7 @@ def build_experience_selection_prompt(
         "missions":            best_offer.get("missions", []),
         "competences_offre":   best_offer.get("competences_offre", []),
         "offer_industry_type": best_offer.get("offer_industry_type", []),
+        "offer_sector":        best_offer.get("offer_sector", []),
     }
 
     valid_indexes_list = [exp["index"] for exp in pool_summary]

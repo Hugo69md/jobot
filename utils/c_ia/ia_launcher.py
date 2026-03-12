@@ -1,6 +1,7 @@
 import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
+from utils.c_ia.cloud_client import query_deepseek_json
 from utils.c_ia.preselect_experiences import preselect_experiences
 from utils.c_ia.prompts.step_0.build_domain_classification_prompt import build_domain_classification_prompt
 from utils.c_ia.prompts.step_1.build_extraction_prompt import build_extraction_prompt
@@ -59,10 +60,11 @@ def run_ia(date: str):
         print(f"  [{i+1}/{len(internships_data)}] {offer_name[:60]}...", end=" ")
 
         classification_prompt = build_domain_classification_prompt(offer)
-        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=96)
+        classification = query_ollama_json(classification_prompt, temperature=0.0, num_predict=128)
 
         domain = classification.get("domain", "") if classification else ""
         offer_industry_type = classification.get("type", []) if classification else []
+        offer_sector = classification.get("sector", []) if classification else []
 
         if domain not in ("data", "supply_chain"):
             print(f"❌ DROPPED (domain='{domain}')")
@@ -73,8 +75,9 @@ def run_ia(date: str):
             **offer,
             "offer_type": domain,
             "offer_industry_type": offer_industry_type,
+            "offer_sector": offer_sector,
         })
-        print(f"✅ {domain} | industry: {offer_industry_type}")
+        print(f"✅ {domain} | industry: {offer_industry_type} | sector: {offer_sector}")
 
     print(f"\n  [STEP 0] Kept {len(classified_offers)} / {len(internships_data)} "
           f"({dropped_count} dropped)")
@@ -243,8 +246,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, 6
                 )
-                selection_result = query_ollama_json(
-                    selection_prompt, temperature=0.0, num_predict=400
+                selection_result = query_deepseek_json(
+                    selection_prompt, temperature=0.0, max_tokens=400
                 )
 
                 if selection_result and "selected_indexes" in selection_result:
@@ -286,8 +289,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, needed_from_ia
                 )
-                selection_result = query_ollama_json(
-                    selection_prompt, temperature=0.0, num_predict=400
+                selection_result = query_deepseek_json(
+                    selection_prompt, temperature=0.0, max_tokens=400
                 )
 
                 if selection_result and "selected_indexes" in selection_result:

@@ -1,0 +1,196 @@
+{
+    "scoring": [
+        {
+            "name": "Commercial & Data Analyst Junior H/F",
+            "score": 92,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (5pts), 'Python' (5pts), 'Data Visualisation' (5pts), 'Reporting' (5pts), 'Statistiques' (5pts). Matchs prio: 'Analyse de données' (3.5pts), 'Extraction de données' (3.5pts), 'Web scraping' (3.5pts), 'Dashboards' (3.5pts), 'Data pipelines' (3.5pts). Matchs bonus: 'Power Query' (2pts), 'Automation' (2pts). Total estimé: 40 + 17.5 + 10 = 67.5 pts.",
+                "score": 68
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. En tant que société de distribution spécialisée (snacking), elle a une certaine notoriété mais un score inférieur aux grands groupes.",
+                "score": 12
+            },
+            "C4": {
+                "reason": "L'offre est à Lyon, qui correspond exactement à l'une des villes cibles principales.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Pour un étudiant en fin d'études (Bac+5), cette période correspond au début de la recherche active et du marché du travail, ce qui est considéré comme optimal pour le timing.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Supply Chain Data Analyst - (F/H)",
+            "score": 89,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Génie Mécanique'/Logistique implicite dans SC (0pts car pas exacte mais proche), 'Data-driven decision making' (5pts). Matchs prio: 'Excel avancé' (3.5pts), 'Python' (3.5pts), 'Analyse de données' (3.5pts). Matchs bonus: 'Power Query' (2pts), 'Reporting' (2pts), 'Automation' (2pts). Total estimé: 29 pts.",
+                "score": 29
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5/École d'ingénieur. Score maximum accordé.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Louis Vuitton est une entreprise CAC40 de très haut prestige (Luxe mondial). Score maximum accordé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Paris. Ville cible avec +15 pts.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période visée par le candidat (Stage fin d'études à partir juin 2026). Score maximum accordé.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Data Scientist - Systeme Multi-Agents IA & LLM (F/H)",
+            "score": 87,
+            "C1": {
+                "reason": "Matchs t_prio: Python (+5), scikit-learn (+5). Matchs prio: Statistiques inférentielle/descriptive (+3.5), Automatisation (+3.5). Pas de match pour LangChain, LLMs, NLP ou Agents IA.",
+                "score": 29
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM (Bac+5) et recherche de stage fin d'études correspondent au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Dassault Systèmes est une entreprise leader du CAC40 dans le domaine du logiciel et de la simulation industrielle, offrant un prestige élevé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Vélizy-Villacoublay se situe à environ 15-20 km de Paris. Selon les critères (plus de 2km du centre), la pénalité est de -2pts sur la base de 15pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026, ce qui correspond au maximum des critères de période.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chargé(e) de Revenue Management Junior",
+            "score": 86,
+            "C1": {
+                "reason": "Matchs t_prio: 'Excel avancé' (offre Maîtrise d'Excel), 'Python', 'pandas', 'scikitlearn', 'Data Visualisation', 'Dashboards', 'Reporting' (offre Power BI/Datavisualisation/Reportings). Matchs prio: 'Statistiques inférentielle/descriptive' (offre Notions contrôle de gestion - proximité conceptuelle), 'Analyse de données'. Matchs bonus: 'Automation', 'Data pipelines'.",
+                "score": 38
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5, École d'ingénieur) et recherche de stage fin d'études.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "AOSTE SNC n'est pas dans les indices CAC40/S&P500/Big4/Big3. Renommée moyenne pour une entreprise privée de services.",
+                "score": 8
+            },
+            "C4": {
+                "reason": "Lyon est une ville cible (15 pts). Le candidat est à Lyon (ECAM Lyon).",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage demandé est fin d'études, le candidat est en recherche de stage fin d'études. La période juin 2026 correspond au calendrier académique standard pour les stages fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développeur Commando VBA/Python H/F",
+            "score": 77,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts). Matchs prio: Excel avancé/Pack Office (3,5pts), Bases de données (3,5pts), API (3,5pts). Matchs bonus: Dashboards/Reporting (2pts), Automation (2pts). Non matchs critiques: VBA (0pt), GitLab CI/Jenkins/Ansible/Terraform (0pt).",
+                "score": 24
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5, recherche stage fin d'études. Correspond au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Crédit Agricole est une banque majeure (CAC40), relevant du secteur financier et bancaire de premier plan.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Montrouge se situe à environ 15-20 km de Paris. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', Montrouge étant à plus de 2km de Paris (ville cible), le score est réduit.",
+                "score": 8
+            },
+            "C5": {
+                "reason": "Le stage demandé commence en juin 2026. Le candidat est étudiant en 5A (fin d'études) et cherche un stage fin d'études, ce qui correspond parfaitement à la période.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+            "score": 65,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: VBA non trouvé, Base de données non trouvée explicitement dans les skills indexées bien que mentionné dans l'offre. Score total: 10 pts.",
+                "score": 10
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5), recherche de stage fin d'études. Correspond au profil recherché (M1/M2 ou équivalent). Score: 10 pts.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Banque de France est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 stricto sensu dans ce contexte spécifique, elle représente un prestige élevé et une stabilité. Score: 15 pts.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "L'offre est à Paris (75001). Paris est une ville cible avec 15 pts maximum. Score: 15 pts.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage débutant juin 2026. L'offre ne précise pas la période exacte, mais le contexte de fin d'études suggère une compatibilité avec les délais standards (juin-août). On applique le score maximum car l'intention du candidat correspond à la fenêtre idéale. Score: 15 pts.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Assistant(e) Chef de projet CRM & Engagement Clients - Mode EUROPE - Juillet 2026",
+            "score": 50,
+            "C1": {
+                "reason": "Aucune compétence demandée par l'offre (Excel, PowerPoint, Anglais, Adobe Campaign, Salesforce) ne correspond aux compétences du candidat indexées dans les catégories supply_chain ou data. Le candidat possède Excel avancé et Anglais C1, mais ces éléments ne sont pas explicitement listés comme des 'skills matchées' dans la structure de données fournie pour le calcul spécifique (t_prio/prio/bonus).",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM Lyon (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL n'est pas une entreprise CAC40/S&P500/Big4/Big3. Bien qu'il s'agisse d'une marque de luxe très connue, elle ne rentre pas dans les catégories strictes définies pour le score maximum.",
+                "score": 10
+            },
+            "C4": {
+                "reason": "Le stage est à Paris (75008). Paris est une ville cible avec un score maximal de 15 points.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "L'offre demande un début en Juillet 2026. Le candidat recherche un stage à partir de Juin 2026. La différence d'un mois est négligeable pour le scoring progressif défini.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - INGENIEUR SIG/PYTHON F/H",
+            "score": 35,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5 pts). Aucun match pour POO, Bases de données, SIG, Traitement spatial, ArcGIS ou PyQGIS dans les skills du candidat.",
+                "score": 5
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon = Bac+5 (max).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "INGEROP n'est pas dans les catégories Big4/Big3/CAC40/S&P500. Renommée moyenne.",
+                "score": 5
+            },
+            "C4": {
+                "reason": "Marseille est à plus de 15km de Lyon, Paris et Montpellier (environ 600-700km). Score minimum pour localisation non spécifiée ou hors rayon cible.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période recherchée par le candidat (max).",
+                "score": 15
+            }
+        }
+    ]
+}

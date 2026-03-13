@@ -1,0 +1,277 @@
+[
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/d75fb131-d4d1-4f4e-b1a8-035cd58b681f-ingerop-stage-ingenieur-sig-python-f-h",
+        "name": "STAGE - INGENIEUR SIG/PYTHON F/H",
+        "company": "INGEROP",
+        "location": "7 Rue du Devoir, 13015 Marseille (France)",
+        "content": "Description de l'entreprise Actierra est une nouvelle entreprise en ingénierie conseil spécialisée en transition écologique, de près de 300 collaborateurs et appartenant au groupe Ingérop. Créée en janvier 2024, Actierra réunit l'ensemble des compétences en ingénierie environnementale du Groupe Ingérop au sein de la même filiale : de l'aménagement et de la construction durable, à la biodiversité, en passant par l'hydraulique, le climat ou l'environnement réglementaire. Nous œuvrons, grâce à nos projets, pour un monde sobre et durable, favorisant l'harmonie entre les sociétés humaines, la faune, la flore et les écosystèmes. Notre engagement se traduit par un conseil responsable organisé autour d'une approche 360° des problématiques de nos clients et partenaires. Nous leur apportons les solutions opérationnelles adaptées à leur contexte comme aux enjeux environnementaux et climatiques. La culture de l'expertise et du service, l'innovation, la dimension humaine, l'investissement dans la formation des collaborateurs sont autant de raisons de nous rejoindre ! City Climate X est un spin-off de l'Université de Lyon et du laboratoire Environnement Ville Société UMR CNRS 5600. Incubée par la SATT Pulsalys depuis 2021, elle est reconnue par l'Agence Spatiale Européenne (incubée ESA-BIC Sud-France, promotion 2021), la BPI et la région Auvergne-Rhône Alpes pour son savoir-faire et sa qualité scientifique dans les modélisations du confort thermique, des vulnérabilités des populations et dans l'utilisation des données satellitaires à des fins de services opérationnels. Depuis août 2024, l'entreprise a rejoint le groupe INGEROP et fais partie de l'écosystème rapproché d'Actierra et de son pôle Climat & Territoires, le Service Climat et Résilience. City Climate X est en outre spécialisée dans les diagnostics des territoires et apporte des solutions pour aider à relever efficacement les défis du changement climatique. Elle apporte des réponses afin d'optimiser les projets de développement urbain pour atténuer l'impact du changement climatique en rendant les territoires plus résilient, plus durables et plus confortables pour leurs habitants. Elle accompagne les autorités locales et régionales pour qu'elles s'engagent davantage en faveur d'un développement durable et intelligent tout en améliorant la qualité de vie dans les zones urbanisées. Description du poste Missions Au sein de City Climate X, vous contribuerez au développement d'un logiciel innovant de modélisation des ilots de chaleur urbains et du confort thermique, destiné à accompagner les collectivités et bureaux d'ingénierie dans leurs décisions d'aménagement. Dans ce cadre, vous participerez activement au développement d'un logiciel de modélisation climatique dédié aux environnements urbains. Vos travaux porteront sur la conception et l'amélioration de modélisation climatique, afin de simuler différents scénarios d'aménagement. Le développement de ces différents modèles se fera en python, appliqué au traitement de données spatiales. Le projet combinera calcul scientifique et analyse spatial. Poste Nous recherchons un.e stagiaire ou un.e alternant.e pour le rôle d'Ingénieur Python/SIG dans nos bureaux basés à Marseille . En collaboration avec notre équipe, vous serez impliqué.e dans le développement, la mise en œuvre et l'optimisation de solutions logicielles orientées données géospatiales. Vos responsabilités incluront la programmation, la gestion des bases de données et la résolution de problèmes complexes liés aux systèmes d'information géographique (SIG). Qualifications Profil Ce stage s'adresse prioritairement à des étudiants avec une bonne maîtrise de Python, dès lors qu'ils disposent de bonnes bases en sciences de l'environnement et souhaitent appliquer leurs compétences en développement à la modélisation climatique en milieu urbain. Une maîtrise des technologies et outils SIG et traitement satellitaire notamment sur les technologies ESRI comme ArcGIS et sa librairie Arcpy ou son alternative open source PyQGIS serait appréciée. Qualifications Compétences en Programmation : Bonne maîtrise des langages de programmation, particulièrement Python, et des concepts de programmation orientée objet (POO). Compétences en Gestion de Bases de Données : Familiarité avec la création, la gestion et la maintenance de bases de données. D'autres qualifications appréciées incluent une bonne compréhension des SIG, un intérêt pour les problématiques environnementales et une capacité à collaborer dans des environnements techniques axés sur les projets. Aptitudes organisationnelles et professionnelles Capacité à travailler de manière autonome tout en s'inscrivant dans un cadre collectif Rigueur scientifique et méthodologique dans le traitement des données et des résultats Sens de l'organisation et gestion efficace des priorités Respect des échéances et des procédures établies Aptitudes intellectuelles et analytiques Capacité d'analyse et de synthèse de problématiques complexes Esprit critique appliqué à l'interprétation des résultats Aptitude à formaliser et documenter des méthodes de travail Capacité à apprendre rapidement de nouveaux outils ou concepts Aptitudes relationnelles et communicationnelles Capacité à échanger avec des interlocuteurs aux profils variés (chercheurs, ingénieurs, partenaires) Clarté dans la communication écrite et orale Capacité à rendre compte de l'avancement des travaux de manière structurée Aptitudes comportementales Curiosité scientifique et intérêt pour la recherche appliquée Persévérance face à des problématiques complexes ou itératives Sens des responsabilités et fiabilité au quotidien Informations supplémentaires Ce stage rémunéré se déroulera en présentiel. See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Data",
+            "Urban_planning",
+            "Climate"
+        ],
+        "offer_sector": [
+            "Consulting"
+        ],
+        "profil_recherche": "Étudiant ou alternant, spécialisation sciences de l'environnement et/ou ingénierie",
+        "missions": [
+            "Contribuer au développement d'un logiciel de modélisation des ilots de chaleur urbains et du confort thermique",
+            "Participer activement au développement d'un logiciel de modélisation climatique dédié aux environnements urbains",
+            "Concevoir et améliorer les modèles de simulation pour différents scénarios d'aménagement",
+            "Développer, mettre en œuvre et optimiser des solutions logicielles orientées données géospatiales",
+            "Programmer, gérer des bases de données et résoudre des problèmes complexes liés aux SIG"
+        ],
+        "competences_offre": [
+            "Python",
+            "Programmation orientée objet (POO)",
+            "Gestion de bases de données",
+            "SIG (Systèmes d'Information Géographique)",
+            "Traitement de données spatiales",
+            "ArcGIS et Arcpy",
+            "PyQGIS"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/bde1ce78-6779-47a3-a0f4-ddb8dd5dc343-credit-agricole-cib-developpeur-commando-vba-python-h-f",
+        "name": "Développeur Commando VBA/Python H/F",
+        "company": "Crédit Agricole CIB",
+        "location": "92120 Montrouge (France)",
+        "content": "Description du poste Vous recherchez un stage en Développement et vous avez un intérêt pour le domaine financier ? Alors cette offre est faite pour vous ! Au sein du département \" Capital Markets IT \" (CMI) qui gère le système d'information mondial sur l'intégralité de la chaine de valeur des Métiers des Marchés de Capitaux, l'IT Division Equity couvre le support applicatif, la maintenance et les évolutions du système d'information applicatif y compris la gestion de grands projets de refonte du système d'information de la Filière Marchés \" Equity Derivatives \". Dans un environnement en constante évolution, orienté agile et s'appuyant sur les dernières technologies et solutions leader du marché, vous intégrez l'équipe IT Commando Equity en charge des outils de pricing / risks et monitoring à destination des utilisateurs FO / MO et le département des risques de marché Vous contribuerez à l'automatisation et l'optimisation des outils utilisés pour la prise de décision et la gestion des risques. Concrètement vos missions seront les suivantes : Implémentation et maintenance d'outils d'aide à la décision (dashboards, outils de pricing) en VBA et/ou Python; Automatisation des processus et la gestion des flux de données (market data, données internes) via API ou bases de données; Participation à des projets transverses : maintenance, détection d'anomalies; Documentation et formalisation des process et outils développés Participation à la mise en place des pipelines CI/CD et des outils DevOps (GitLab CI, Jenkins, Ansible, Terraform, etc.). En tant que Développeur de la Delivery : Participer aux cérémonies agiles mise en places (Daily, Retrospectives, etc); Participer aux campagnes de non régression; Etre force de proposition sur les sujets techniques; Remonter les alertes de manière adéquate sur les risques rencontrés lors de la conception des features (coûts, délais, humains). Rejoindre Crédit Agricole CIB, c'est profiter d'une communauté importante de jeunes, évoluer sur un campus moderne offrant de nombreux services (boulangerie, salle de sport, etc.), bénéficier d'un suivi RH (matinée d'accueil, suivi régulier, etc.) et d'opportunités en alternance, VIE, CDD et CDI. Critères de candidature Date de prise de fonction 02/02/2026 Durée 6 mois Poste avec management Non Cadre / Non Cadre Non cadre Niveau d'étude minimum Bac + 4 / M1 Formation / Spécialisation Et si c'était vous ? Formation : Université, école de commerce ou d'ingénieurs Spécialisation : Informatique Niveau d'expérience minimum 0 - 2 ans Compétences recherchées Hard Skills : Python et VBA Maitrise du Pack Office ; Français & Anglais courants. Soft Skills : Autonomie Esprit d'équipe Appétence pour les cycles de développements courts et exigeants Crédit Agricole CIB s'engage en faveur de l'insertion des personnes en situation de handicap, ainsi ce poste est ouvert à toutes et à tous. Ce poste est éligible au télétravail dans les conditions prévues par notre accord reposant sur le double volontariat (collaborateur & manager) et après une période d'intégration réussie. Entreprise Crédit Agricole CIB Rejoignez les équipes de Crédit Agricole CIB, la banque de financement et d'investissement du groupe Crédit Agricole, 10e groupe bancaire mondial en taille de bilan*.Nous accompagnons les grandes entreprises et institutions financières dans leur développement et le financement de leurs projets. Pionniers dans la finance responsable, l'engagement social et environnemental sont au cœur de nos activités.Intégrer nos équipes c'est contribuer au développement d'une économie durable.Vous évoluerez dans un environnement multiculturel, à la fois dynamique et stimulant, dans lequel vous serez encouragé à innover et partager vos idées.Nous sommes une entreprise qui accompagne ses collaborateurs tout au long de leur parcours. Vous pourrez y développer vos compétences et accéder aux larges opportunités de carrière qu'offrent la diversité de nos métiers et nos 30 implantations internationales.Notre culture repose sur la force du collectif et l'esprit d'ouverture, où chacun est responsabilisé et valorisé.En agissant chaque jour dans l'intérêt de la société, Crédit Agricole CIB s'inscrit dans les valeurs du groupe qui est engagé en faveur des diversités et de l'inclusion et qui place l'humain au cœur de toutes ses transformations. Tous nos postes sont ouverts aux personnes en situation de handicap.Vous souhaitez prendre part à notre mission ? Rejoignez nos équipes !*The Banker, Juillet 2025 See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Finance",
+            "IT",
+            "Automation"
+        ],
+        "offer_sector": [
+            "Finance"
+        ],
+        "profil_recherche": "Bac+4 ou M1, spécialisation Informatique",
+        "missions": [
+            "Implémentation et maintenance d'outils d'aide à la décision (dashboards, outils de pricing) en VBA et/ou Python",
+            "Automatisation des processus et gestion des flux de données via API ou bases de données",
+            "Participation à des projets transverses : maintenance et détection d'anomalies",
+            "Documentation et formalisation des process et outils développés",
+            "Mise en place des pipelines CI/CD et des outils DevOps (GitLab CI, Jenkins, Ansible, Terraform)",
+            "Participation aux cérémonies agiles (Daily, Retrospectives) et campagnes de non régression"
+        ],
+        "competences_offre": [
+            "Python",
+            "VBA",
+            "Maitrise du Pack Office",
+            "API",
+            "Bases de données",
+            "GitLab CI",
+            "Jenkins",
+            "Ansible",
+            "Terraform"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/2505385d-1793-478a-a6b4-ea5df0abeed1-banque-de-france-stage-developpeur-outils-bureautiques-et-python-h-f",
+        "name": "STAGE - DEVELOPPEUR OUTILS BUREAUTIQUES ET PYTHON - H/F",
+        "company": "Banque de France",
+        "location": "75001 Paris (France)",
+        "content": "Présentation de la direction générale et du service La Direction Générale des Services à l'Économie et du Réseau (DGSER) pilote plusieurs activités : elle développe et déploie l'Indicateur Climat de la Banque de France (Direction Programme Indicateur Climat) ; elle assure la collecte, l'analyse et la diffusion d'informations sur les entreprises non financières ; le suivi des relations entre les particuliers et la sphère financière ; ainsi que l'organisation des actions de la Banque de France en matière d'éducation financière du public. La Direction Générale comprend également une direction en charge du réseau de succursales ainsi qu'une direction en charge des applicatifs et des projets informatiques. Le stage proposé se situe au sein du Service de Génération du Système d'Information (GENESIS), qui appartient à la Direction Programme Indicateur Climat (DICLI). Ce service est notamment en charge de développer le système d'information utilisé pour l'ensemble de cette activité. Descriptif de mission Dans le cadre du développement des outils informatiques utilisés pour l'analyse des données Climat des entreprises, la mission consistera à prendre en charge une partie des activités de réalisation technique des outils et du suivi de production. Les outils sont actuellement développés en utilisant excel, VBA, Python et interagissent avec une base de donnée. Les activités de réalisation technique peuvent comprendre des estimations de charge, des développements, des tests unitaires, des analyses et corrections d'anomalies. Cette mission se déroulera dans une équipe de 6 à 8 personnes. Profil recherché Formation recherchée : Ecole ingénieur informatique (niveau M1 ou M2) Compétences : Développer de nouvelles fonctionnalités Excel/VBA/Python Assurer une qualité de code en mettant en place des tests unitaires et des revues de codes régulières Prendre en main le code existant et contribuer à son évolution conforme aux décisions d'architecture d'entreprise Contribuer aux tests unitaires Qualités : Bonne maîtrise technique des fonctionnalités d'Excel (y compris macro) et de python Curiosité, autonomie, esprit d'analyse, écoute, esprit d'équipe See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Data",
+            "Finance"
+        ],
+        "offer_sector": [
+            "Finance"
+        ],
+        "profil_recherche": "Ecole ingénieur informatique (niveau M1 ou M2)",
+        "missions": [
+            "Prendre en charge une partie des activités de réalisation technique des outils",
+            "Suivre la production",
+            "Effectuer des estimations de charge",
+            "Développer, tester et corriger des anomalies",
+            "Contribuer au développement d'outils d'analyse des données Climat des entreprises"
+        ],
+        "competences_offre": [
+            "Excel (y compris macro)",
+            "VBA",
+            "Python",
+            "Tests unitaires",
+            "Base de données",
+            "Qualité de code et revues de codes"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/18ec4a7f-4cb9-41b5-8883-347b158651fc-louis-vuitton-stage-supply-chain-data-analyst-f-h",
+        "name": "Stage - Supply Chain Data Analyst - (F/H)",
+        "company": "Louis Vuitton",
+        "location": "Paris (France)",
+        "content": "Le poste Depuis plus de 150 ans, les femmes et les hommes de Louis Vuitton partagent le même esprit d'exigence, de passion et réinventent chaque jour leur métier, partout dans le monde. Chez nous, chaque parcours est un véritable voyage, nourri d'émotion et de conquête, d'envie et d'audace. La plus belle façon de vous révéler. Explorer, développer, innover, créer... A chacun son voyage. Aujourd'hui, Louis Vuitton vous invite à découvrir le vôtre. Votre environnement : Au sein de la Direction Supply Chain, Logistique et Achats, l'équipe Transformation accompagne les grands projets transversaux de l'entreprise, et anime une démarche agile d'amélioration continue, d'optimisation, de simplification des process, et d'excellence opérationnelle. Nous collaborons très étroitement avec les départements SI, Retail, Digital, et Supply chain de toutes les régions (Asie, Amériques, Europe). Dans cette équipe, vous aurez pour mission d'extraire tout le potentiel des données de planning et d'exécution de notre supply chain, end-to-end. Vos travaux aideront au bon pilotage des activités SC. Les missions Vos missions seront les suivantes : Réaliser des analyses/visualisation pour le pilotage des stratégies de distribution. Vous serez à même d'avoir un impact sur la prise de décision Récolter les besoins d'amélioration des jeux de données et rapports PowerBI auprès des équipes SC Prioriser les développements et les réaliser Communiquer autour des nouvelles fonctionnalités et mettre à jour la documentation Accompagner la migration de notre environnement de données vers la plateforme GCP. Votre profil Actuellement en école de commerce, d'ingénieur, université ou équivalent Vous êtes à l'aise avec les outils informatiques, la programmation, traitement de données, vous avez déjà travaillé sur Excel, SQL, et Power BI. Une connaissance de logiciel de RPA est un plus. Anglais Courant Bon relationnel, autonomie, rigueur Aisance avec les données quantitatives, capacités d'analyse et de synthèse. Informations complémentaires Type de contrat : Stage Date de démarrage : Septembre 2026 Durée : 6 mois Lieu : Paris Ce que ce voyage vous offrira La Maison Louis Vuitton vous offre des opportunités d'apprentissage continu et de développement professionnel. Vous serez immergé.e dans un environnement dynamique où votre autonomie sera renforcée à travers des missions variées et stimulantes. Tout au long de votre voyage, vous profiterez de l'expérience et de l'expertise de nos équipes pour développer vos compétences. Vous bénéficierez d'un accompagnement personnalisé tout au long de votre parcours qui vous permettra de consolider vos acquis, progresser et évoluer avec confiance. Nos engagements environnementaux sont aussi ancrés dans nos valeurs. Nos équipes participent activement à l'effort climatique et à la préservation des ressources naturelles. Au quotidien, dans vos missions, vous serez acteur.ice du respect des engagements de la Maison pour encourager la diversité, protéger l'environnement et avoir un impact positif sur l'entreprise et la société. See more",
+        "offer_type": "supply_chain",
+        "offer_industry_type": [
+            "Supply_chain",
+            "Data",
+            "Luxury"
+        ],
+        "offer_sector": [
+            "Luxury"
+        ],
+        "profil_recherche": "Actuellement en école de commerce, d'ingénieur, université ou équivalent",
+        "missions": [
+            "Réaliser des analyses et visualisations pour le pilotage des stratégies de distribution",
+            "Avoir un impact sur la prise de décision",
+            "Récolter les besoins d'amélioration des jeux de données et rapports Power BI auprès des équipes SC",
+            "Prioriser, réaliser et communiquer autour des nouvelles fonctionnalités",
+            "Mettre à jour la documentation",
+            "Accompagner la migration vers la plateforme GCP"
+        ],
+        "competences_offre": [
+            "Excel",
+            "SQL",
+            "Power BI",
+            "Logiciel de RPA (plus)",
+            "Programmation et traitement de données",
+            "Anglais courant",
+            "Aisance avec les données quantitatives"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/c26936d8-814b-4daf-88e7-8978ee516815-aoste-snc-commercial-data-analyst-junior-h-f",
+        "name": "Commercial & Data Analyst Junior H/F",
+        "company": "AOSTE SNC",
+        "location": "Lyon, Rhône (France)",
+        "content": "DECOUVREZ LE GROUPE AOSTE Nous, Groupe Aoste, sommes convaincus que se faire plaisir en mangeant est l'une des clés du bonheur. Depuis plus de 40 ans, vous nous faites confiance pour accompagner vos moments de plaisir et de partage. Pour cela, nous pouvons compter sur notre force d'innovation et la solidité de nos marques. Notre culture d’entreprise est orientée vers l’excellence opérationnelle et la convivialité. Notre force : une organisation à taille humaine au sein de Sigma, un grand groupe international où le management privilégie la proximité avec les équipes. En outre, le Groupe Aoste s’engage à être toujours plus responsable sur les questions environnementales, sociétales et économiques au travers des piliers de son programme de développement durable AGIR. Pour accompagner notre croissance, la volonté constante du Groupe Aoste est d’être à la recherche de nouveaux collaborateurs de talent. Rejoignez un univers d’excellence et de convivialité ! DECOUVREZ LE SITE Le site de St Priest, près de Lyon, héberge le siège administratif du groupe Aoste et ses 306 collaborateurs. Vous y trouverez les fonctions support du groupe (Qualité, Finance, RH et IT) ainsi que les équipes Supply Chain, Marketing et Commerce. Au sein de notre établissement, nous recherchons un(e) Commercial & Data Analyst Junior. VOS MISSIONS 1/ [Reporting] Analyse des données Forces de Ventes Participation au traitement des demandes d’analyse de nos clients finaux : Directeurs de région, Chefs de secteurs, Responsable Force de Vente, Category Manager, Compte-Clés, … Reportings des réalisations FDV envoyés tous les lundis avec 1 plan d’action, en fonction des objectifs Force de vente Circana ( données panel) : -Census Force de Ventes LS (Part de marché rayons Tranché Sec et Saucisson Sec) *Diffusion des tableaux de bord à la fin de chaque période en ajoutant une synthèse des résultats à destination de la population commerciale siège et terrain. -Suivi Focus famille (ex : Snacking) *Actualisation des rapports, ajout d’une synthèse des résultats de ce segment et diffusion auprès de la population commerciale siège et terrain. - Actualisation et téléchargement de la liste de la Forces de Ventes sur le site de Circana. Suivi DN frais-emballé (Data Sharing) : contrôles, synthèse (FDV Aoste LS - FDV supplétive) Extraction des données Datasharing (restitution des sorties caisses des enseignes à la Force de Vente). Mises à jour des fichiers nécessaires à la restitution du Reporting IRI (Scorecard, Census Fdv). Collabore au renforcement des process de contrôles des données. Participe à l’extraction et l’analyse des données Forces de Ventes (ex : suivi nb de visites/mois, suivi relevés obsolètes toutes les semaines, …Analyse FDV Supplétive tous les mois) Appui sur les projets en cours (test-contrôle) 2/ [Partie CRM ] Logiciel Force de Ventes Actualisation des assortiments enseignes Libre-Service. Création des magasins, changement d’enseignes, mises à jour sectorisation. Mises à jour des Typologies magasin. Commande interne des moyens (Ecos). Suivi de projets 3/ Matériels & Mobiliers Matériels : suivi des stocks (sur le périmètre d’Agnès et Stéphane), Brief achat, suivi commande et suivi de la livraison. VOTRE PROFIL ET VOS COMPETENCES Vous êtes en Année de césure / Fin d'études en Ecole de Commerce / Ingénieurs / Informatique ou équivalent. Maîtrise des outils informatiques (Excel,pack Office, Outlook, Teams) et aisance dans l’utilisation des bases de données. Connaissance Microstratégy & Power BI serait un plus. Organisation, esprit d’analyse, rigueur, dynamisme, travail en équipe et doit être capable de mener des actions en autonomie. Envie de tenter l’aventure et de vivre le Groupe Aoste au quotidien ? Postulez directement via Jobteaser (CV + lettre de motivation), en indiquant impérativement la référence du stage auquel vous postulez. See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Reporting",
+            "CRM",
+            "Sales_Analytics"
+        ],
+        "offer_sector": [
+            "Food_Retail"
+        ],
+        "profil_recherche": "Année de césure, fin d'études en école de commerce, ingénieurs ou informatique",
+        "missions": [
+            "Analyse des données et traitement des demandes d'analyse pour les clients finaux",
+            "Production de reportings hebdomadaires avec plans d'action basés sur les objectifs Force de Vente",
+            "Suivi des tableaux de bord et diffusion des synthèses aux équipes commerciales",
+            "Actualisation des rapports Focus famille et segment Snacking",
+            "Gestion et téléchargement des données Circana (Census FDV)",
+            "Contrôle, synthèse et extraction des données Datasharing (restitution des sorties caisses)",
+            "Mise à jour des fichiers nécessaires au Reporting IRI",
+            "Renforcement des processus de contrôle des données",
+            "Extraction et analyse des données Force de Vente (visites, relevés obsolètes)",
+            "Appui sur les projets en cours (test-contrôle)",
+            "Actualisation des assortiments enseignes Libre-Service dans le CRM",
+            "Création et mise à jour des magasins, sectorisation et typologies magasin",
+            "Commande interne des moyens et suivi de projets"
+        ],
+        "competences_offre": [
+            "Maîtrise des outils informatiques (Excel, pack Office, Outlook, Teams)",
+            "Aisance dans l'utilisation des bases de données",
+            "Connaissance Microstratégie & Power BI (souhaité)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/b98ac5a9-8a54-4a45-9de9-4b104ed658a6-aoste-snc-charge-e-de-revenue-management-junior",
+        "name": "Chargé(e) de Revenue Management Junior",
+        "company": "AOSTE SNC",
+        "location": "Lyon, Rhône (France)",
+        "content": "DECOUVREZ LE GROUPE AOSTE Nous, Groupe Aoste, sommes convaincus que se faire plaisir en mangeant est l'une des clés du bonheur. Depuis plus de 40 ans, vous nous faites confiance pour accompagner vos moments de plaisir et de partage. Pour cela, nous pouvons compter sur notre force d'innovation et la solidité de nos marques. Notre culture d’entreprise est orientée vers l’excellence opérationnelle et la convivialité. Notre force : une organisation à taille humaine au sein de Sigma, un grand groupe international où le management privilégie la proximité avec les équipes. En outre, le Groupe Aoste s’engage à être toujours plus responsable sur les questions environnementales, sociétales et économiques au travers des piliers de son programme de développement durable AGIR. Pour accompagner notre croissance, la volonté constante du Groupe Aoste est d’être à la recherche de nouveaux collaborateurs de talent. Rejoignez un univers d’excellence et de convivialité ! DECOUVREZ LE SITE Le site de St Priest, près de Lyon, héberge le siège administratif du groupe Aoste et ses 306 collaborateurs. Vous y trouverez les fonctions support du groupe (Qualité, Finance, RH et IT) ainsi que les équipes Supply Chain, Marketing et Commerce. Au sein de notre établissement, nous recherchons un/une Chargé(e) de Revenue Management Junior. VOS MISSIONS Vous êtes à la recherche d’un stage stimulant et vous voulez comprendre les coulisses des décisions stratégiques d’une entreprise agroalimentaire ? Rejoignez notre équipe Revenue Growth Management (RGM) et participez à des projets concrets au cœur du réacteur de l’entreprise. Le Revenue Growth Management (RGM) vise à maximiser la croissance du chiffre d'affaires et de la rentabilité via une approche stratégique des leviers business : prix, promotion, mix produits, canaux de distribution…. C’est une discipline analytique et stratégique, au cœur des décisions commerciales et marketing. Elle allie analyse du réel et travail de projection. Au sein de l’équipe RGM, et en collaboration avec les équipes commerciales, marketing et finance, vos missions principales seront de contribuer à la construction et à l’utilisation de nos outils existants pour mener des analyses et formuler des recommandations actionnables par les équipes commerciale et marketing, en lien avec les piliers principaux du Revenue Management comme : 1/ Promotion : Mettre à jour notre outil d’efficacité promotionnelle pour mener en lien avec nos problématiques commerciales et marketing à partir de diverses sources internes / externes (panels, veille prospectus…). 2/ Stratégie prix de nos gammes : Construire et développer les outils de pilotage de nos prix de vente en lien avec l’architecture de nos gammes et de notre portefeuille dans notre environnement concurrentiel, sur nos différents canaux de distribution. 3/ Reportings Contribuer à la construction et à la mise à jour de nos reportings / dashboards mensuels intégrant les principaux indicateurs de prix, promo, portefeuille, parts de marché pour piloter tous les leviers du mix. VOTRE PROFIL ET VOS COMPETENCES Vous êtes étudiant(e) au niveau Bac +4 / +5 (Ecole d’ingénieur, IAE, formation en statistiques, école de commerce,…) Vous avez un bon esprit analytique, tu es rigoureux(se) et à l’aise avec les chiffres ; Vous avez envie de comprendre les leviers business derrière la croissance d’une entreprise. Vous êtes curieux(se), aimez apprendre, êtes force de proposition, et vous avez une bonne aptitude à communiquer et travailler en équipe. Vous maîtrisez Excel ; la connaissance de Power BI ou d’outils de datavisualisation est un plus ; Vous maîtrisez l’anglais (écrit / oral : niveau B2 - C1) Vous serez un atout supplémentaire si vous connaissez le fonctionnement de la grande distribution (marketing/commercial) et/ou des notions de contrôle de gestion. Envie de tenter l’aventure et de vivre le Groupe Aoste au quotidien ? Postulez directement via Jobteaser (CV + lettre de motivation) See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Revenue_Management",
+            "Analytics",
+            "Retail"
+        ],
+        "offer_sector": [
+            "Food_Retail"
+        ],
+        "profil_recherche": "Bac+4 ou Bac+5 (École d'ingénieur, IAE, formation en statistiques, école de commerce)",
+        "missions": [
+            "Contribuer à la construction et l'utilisation des outils existants pour mener des analyses",
+            "Formuler des recommandations actionnables pour les équipes commerciale et marketing",
+            "Mettre à jour l'outil d'efficacité promotionnelle en lien avec les problématiques commerciales",
+            "Construire et développer les outils de pilotage des prix de vente",
+            "Contribuer à la construction et la mise à jour des reportings et dashboards mensuels"
+        ],
+        "competences_offre": [
+            "Maîtrise d'Excel",
+            "Connaissance de Power BI ou d'autres outils de datavisualisation (plus)",
+            "Anglais niveau B2-C1",
+            "Notions de contrôle de gestion (plus)",
+            "Connaissance du fonctionnement de la grande distribution (plus)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/fd529a99-3830-4349-b477-4a0ad46761eb-dassault-systemes-stage-data-scientist-systeme-multi-agents-ia-llm-f-h",
+        "name": "STAGE - Data Scientist - Systeme Multi-Agents IA & LLM (F/H)",
+        "company": "Dassault Systèmes",
+        "location": "78140 Vélizy-Villacoublay (France)",
+        "content": "La plate-forme 3DEXPERIENCE est un environnement collaboratif qui permet aux entreprises et aux particuliers d'innover par le biais de moyens inédits, mais aussi de créer des produits et services à l'aide d'expériences virtuelles. Elle offre une vue en temps réel de l'activité et de l'écosystème d'entreprise, en connectant les personnes, les idées et les données. Portée par la plate-forme 3DEXPERIENCE, le vaste portefeuille d'applications de la marque ENOVIA aide tous les utilisateurs d'une entreprise à collaborer et à innover en toute sécurité. Vous rejoindrez l'équipe Generative Experiences de la marque ENOVIA, qui conçoit et implémente des solutions permettant d'assister les utilisateurs dans leurs prises de décision en leur fournissant des informations contextualisées, intelligentes et actionnables. Vos missions Vous participerez au développement d'un assistant virtuel intelligent (multi-agents IA) basé sur des Large Language Models (LLMs), destiné à aider les ingénieurs produit à garantir la complétude des définitions d'ingénierie et leur préparation pour la fabrication et le service. Ce projet innovant s'inscrit dans l'écosystème de la plateforme 3DEXPERIENCE, qui permet à nos grands clients industriels de concevoir le jumeau virtuel de leurs produits. Vos principales activités seront : Définir l'architecture et le positionnement de la solution par rapport aux besoins et à la concurrence. Identifier et collecter les données pertinentes issues de sources internes ou externes. Concevoir et développer un Système Multi-Agents IA basés sur des Large Language Models (LLMs) et des frameworks comme LangGraph. Mettre en œuvre des stratégies avancées de raisonnement telles que ReAct et Plan & Execute. Intégrer les Agents IA dans les applications ENOVIA sur la plate-forme 3DEXPERIENCE. Tester, évaluer et optimiser les performances du système. Documenter le processus technique, les choix de conception et les résultats obtenus. Valoriser la solution via des démonstrations claires et un storytelling engageant. Vos qualifications Actuellement en Master 2 / Bac+5 en Ecole d'ingénieur ou Université, avec une spécialisation en Data Science, Machine Learning ou domaine connexe. Vous avez : Une expérience pratique avec les Agents IA basés sur des Large Language Models (LLMs) et des frameworks comme LangChain et LangGraph. De solides compétences en Python et intégration via API REST. Une maîtrise des fondamentaux en traitement du langage naturel (NLP) et en apprentissage automatique (Machine Learning). De nature curieuse et rigoureuse, vous avez un bon esprit d'équipe et avez un intérêt fort pour l'IA générative, les LLMs et les Agents IA. Vous êtes à l'aise en anglais, à l'écrit comme à l'oral. Nous rejoindre c'est aussi Intégrer une entreprise scientifique au cœur de l'innovation technologique, portée par une forte croissance depuis plus de 40 ans Principaux avantages et bénéfices : Environnement multiculturel Cadre de travail convivial axé sur le bien-être et la santé Engagement en faveur de la diversité et de l'inclusion Politique dynamique de développement de carrière : plan de formation, mobilités internes... Déclaration de diversité Dassault Systèmes, avant-gardiste en matière de technologie et d'innovation durable, s'efforce de créer des équipes toujours plus inclusives et diverses à travers le monde. Nous avons la forte conviction que nos employés sont notre atout numéro 1 et nous voulons que tous, se sentent libres d'être pleinement qui ils sont vraiment. Notre objectif est qu'ils ressentent fierté et sentiment d'appartenance. En tant qu'entreprise à la pointe du changement, il nous incombe de favoriser l'inclusion de tous et participer à création du monde de demain. See more",
+        "offer_type": "data",
+        "offer_industry_type": [
+            "Data Science",
+            "Generative_AI",
+            "Software_Development"
+        ],
+        "offer_sector": [
+            "Industrial_Software"
+        ],
+        "profil_recherche": "Master 2 ou Bac+5 en école d'ingénieur ou Université, spécialisation Data Science, Machine Learning",
+        "missions": [
+            "Définir l'architecture et le positionnement de la solution",
+            "Identifier et collecter les données pertinentes",
+            "Concevoir et développer un Système Multi-Agents IA basé sur des LLMs",
+            "Mettre en œuvre des stratégies avancées de raisonnement (ReAct, Plan & Execute)",
+            "Intégrer les Agents IA dans les applications ENOVIA",
+            "Tester, évaluer et optimiser les performances du système",
+            "Documenter le processus technique et les résultats obtenus",
+            "Valoriser la solution via des démonstrations"
+        ],
+        "competences_offre": [
+            "Agents IA basés sur des Large Language Models (LLMs)",
+            "Frameworks LangChain et LangGraph",
+            "Python",
+            "Intégration via API REST",
+            "Traitement du langage naturel (NLP)",
+            "Machine Learning",
+            "Anglais (écrit et oral)"
+        ]
+    },
+    {
+        "URL": "https://www.jobteaser.com/en/job-offers/a87f9f99-1dfa-4b97-aa03-00e661a959a9-chanel-stage-assistant-e-chef-de-projet-crm-engagement-clients-mode-europe-juillet-2026",
+        "name": "STAGE - Assistant(e) Chef de projet CRM & Engagement Clients - Mode EUROPE - Juillet 2026",
+        "company": "CHANEL",
+        "location": "52/60 AVENUE DES CHAMPS ELYSEES&#xa;75008 PARIS&#xa; (France)",
+        "content": "La Mode est l'activité originelle de la Marque. Chaque collection traduit les valeurs chères à Gabrielle Chanel à travers un style unique et audacieux : liberté, féminité, créativité. La Maison CHANEL valorise une création radicale et des savoir-faire d'exception pour offrir une silhouette unique et faire vivre à ses clientes un rêve continu. Dans un environnement international et dynamique, ce rôle régional vous permettra d’être le lien entre la Division Mode et les marchés et avoir une vision globale et locale. Au sein de l’équipe Marketing Client Mode Europe, vous assisterez le pôle en charge de la communication et de l’engagement client. Plus précisément, vous améliorez la connaissance client des boutiques Mode, vous soutiendrez les besoins de plus de 60 boutiques en Europe et vous participerez à élaborer les stratégies d’engagement qui permettront de renforcer la fidélité des clients à la Maison CHANEL. L'impact que vous créez chez Chanel : Vous jouerez un rôle clé qui vous permettra de mieux connaître nos clients et d’avoir un impact dans le développement des outils relation client (clienteling et communication client) en synergie avec les équipes expérience client et évènements. Vous êtes stimulé par : Vous participez à la construction d’un plan de communication Europe et d'un plan CRM de ciblage Vous coordonnez des campagnes CRM (digitale, on et off) en collaboration avec les autres divisions (F&B, WFJ) et les marchés Europe ainsi qu’avec les équipes e-commerce. Vous pilotez notre prestataire CRM en interne dans la mise en place opérationnelle des campagnes Vous analysez des résultats de campagne et identifiez des best practices afin d’ajuster la stratégie Vous gérez des commandes outils CRM pour la zone Europe (mailings, catalogues, brochures) Vous supportez des marchés Europe pour les orchestrations retail et les outils one-to-one clienteling Vous aidez ponctuellement sur la création des présentations stratégiques à la Direction Marketing Europe & Comités CRM avec nos marchés Vous construisez des benchmark (veille concurrentielle on-line, off-line) et analysez les stratégies emailing des marques sur des produits ou des évènements (ex : Fashion week) Ce que vous apporterez : Etudiant(e) issu(e) d'une Ecole de commerce ou d'Université (niveau Bac+5), vous justifiez d'une première expérience réussie dans le Marketing Client et/ou CRM. Doté(e) d'un véritable esprit d'analyse et de synthèse, vous avez une sensibilité pour les chiffres et souhaitez découvrir l'environnement du Retail et du Luxe Votre dynamisme, votre réactivité et votre fiabilité associées à votre sens du détail seront des atouts indispensables pour mener à bien vos missions. Vous maîtrisez impérativement Excel (recherche V, tableau croisé dynamique, formules...) et PowerPoint. Vous parlez anglais couramment. La maitrise d’Adobe Campaign et/ou de Salesforce serait un plus Ce que Chanel peut vous offrir : Vous travaillerez en forte collaboration avec nombreuses équipes au niveau Europe (gestion de campagne, évènements, expérience client, data, merchandising etc) ainsi que des équipes au niveau global, marché et à l’International Ceci vous permettra de comprendre et d’avoir de la visibilité sur de nombreux projets globaux stratégiques ainsi que sur de projets locaux Vous approfondirez vos connaissances CRM A l’occasion d’événements internes, vous intégrerez une Communauté de Jeunes Talents et ainsi construirez votre réseau professionnel. Chez Chanel, nous sommes axés sur la création d'une culture inclusive qui favorise la croissance personnelle, contribuant au progrès collectif. Nous croyons que l'unicité de chaque individu accroît la diversité, la complémentarité et l'efficacité de nos équipes. Nous encourageons vivement votre candidature, car nous apprécions la perspective, l'expérience et le potentiel que vous pourriez apporter à Chanel. Paris 8eme Stage de 6 mois à partir de juillet 2026 See more",
+        "offer_type": "supply_chain",
+        "offer_industry_type": [
+            "CRM",
+            "Retail",
+            "Marketing"
+        ],
+        "offer_sector": [
+            "Luxury"
+        ],
+        "profil_recherche": "Bac+5 (Ecole de commerce ou Université), spécialisation Marketing Client et/ou CRM",
+        "missions": [
+            "Améliorer la connaissance client des boutiques Mode",
+            "Soutenir les besoins de plus de 60 boutiques en Europe",
+            "Elaborer les stratégies d'engagement pour renforcer la fidélité",
+            "Participer à la construction du plan de communication Europe et du plan CRM",
+            "Coordonner des campagnes CRM (digitale, on et off)",
+            "Piloter le prestataire CRM dans la mise en place opérationnelle",
+            "Analyser les résultats de campagne et identifier des best practices",
+            "Gérer les commandes d'outils CRM pour la zone Europe",
+            "Supporter les marchés Europe pour les orchestrations retail et clienteling",
+            "Aider sur la création de présentations stratégiques",
+            "Construire des benchmark (veille concurrentielle) et analyser les stratégies emailing"
+        ],
+        "competences_offre": [
+            "Excel (recherche V, tableau croisé dynamique, formules)",
+            "PowerPoint",
+            "Anglais courant",
+            "Adobe Campaign (plus)",
+            "Salesforce (plus)"
+        ]
+    }
+]

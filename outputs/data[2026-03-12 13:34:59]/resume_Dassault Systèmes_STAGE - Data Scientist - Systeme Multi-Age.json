@@ -1,0 +1,72 @@
+{
+    "offer_name": "STAGE - Data Scientist - Systeme Multi-Agents IA & LLM (F/H)",
+    "offer_company": "Dassault Systèmes",
+    "offer_type": "data",
+    "score": 87,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "L'offre est un stage de Data Scientist à forte dominante intellectuelle, analytique et créative (architecture de solution, conception de systèmes multi-agents, stratégies de raisonnement). Parmi le pool disponible, l'expérience index 3 (Campus Création) est la seule qui démontre des capacités de réflexion, d'autonomie et de création de projet (entreprenariat, carte blanche sur le sujet), ce qui correspond au niveau d'exécution intellectuel requis par l'offre. Les expériences 9 et 10 sont purement manuelles/opérationnelles (manutention, préparation de palettes) et ne peuvent pas justifier des compétences analytiques ou de conception sans violer la règle de cohérence. Les expériences 7 et 8 manquent de description détaillée sur les compétences transférables spécifiques à la conception de systèmes complexes. Donc, seul l'index 3 est retenu pour son alignement sur la nature intellectuelle et créative du poste.",
+    "skills_section": [
+        "Python",
+        "Machine Learning",
+        "Data Visualisation",
+        "Reporting automatisé",
+        "Storytelling",
+        "Data-driven decision making"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre entreprise pour un stage de fin d'études au poste de Data Scientist. Mon profil correspond aux exigences de vos missions concernant la conception et le développement de systèmes avancés.\n\nJe possède des compétences solides en Python, que j'ai développées à travers plusieurs formations et projets. En effet, j'ai suivi une formation \"Data analysis with python\" chez Freecodecamp et un cours HarvardX sur l'introduction à la data science, m'ayant permis d'approfondir l'utilisation de librairies comme NumPy, Pandas, Matplotlib et ScikitLearn. Ces bases techniques me permettent de traiter des données complexes et d'appliquer des stratégies d'apprentissage.\n\nPar ailleurs, mon parcours professionnel inclut une expérience significative en data analysis freelance où j'ai créé un portfolio avec des projets d'automatisation et d'analyse. J'ai également réalisé des stages chez Arrow et Amazon, m'initiant à la création d'outils d'analyse de données et au monitoring de processus. Ces expériences ont renforcé ma capacité à identifier et collecter des données pertinentes, compétence clé pour votre mission.\n\nMa maîtrise de l'anglais (niveau C1) me permet de travailler dans un environnement international. Je suis particulièrement motivé par le défi technique d'intégrer des agents IA dans des applications complexes, comme celles que vous proposez via ENOVIA. Mon approche structurée et ma curiosité pour les nouvelles technologies alignent parfaitement avec la vision de Dassault Systèmes.\n\nJe serais honoré de pouvoir échanger à nouveau avec vous sur la manière dont mes compétences en data science et en ingénierie peuvent contribuer à vos projets innovants.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il relie directement la spécialisation du candidat aux missions d'analyse et de gestion des flux de l'offre. Les autres compétences validées (Python, Data-driven decision making) sont exclues car elles ne figurent pas dans les compétences spécifiques du candidat pour cette expérience, et les termes comme 'Génie Mécanique' ou 'Industriel' sont déjà présents dans la description originale.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme d'ingénierie avec une expertise pointue en gestion des chaînes d'approvisionnement industrielles.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il est présent dans les compétences de l'offre et validé par le candidat, mais n'est pas encore injecté dans ce CV (contrairement à Supply Chain Management). Les autres compétences comme 'Excel', 'Data-driven decision making' ou 'Monitoring' sont soit déjà présentes dans la description originale ('outils d'analyse', 'monitoring'), soit absentes des compétences validées du candidat pour cette expérience spécifique. Aucun autre mot-clé de l'offre ne peut être injecté sans inventer une compétence.",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la supply chain, création d'outils d'analyse et d'automatisation de processus en utilisant Python pour le monitoring des ruptures et non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Aucun mot-clé pertinent de l'offre (Agents IA, LangChain, LLMs, Python, NLP, Machine Learning, API REST) n'est présent dans les compétences validées du candidat pour cette expérience spécifique. Les compétences disponibles sont limitées au nettoyage, à la visualisation et aux statistiques avec des outils comme Pandas, NumPy et Matplotlib, qui ne correspondent pas aux missions techniques de l'offre (développement d'agents IA, frameworks LangChain). Par conséquent, aucun nouveau mot-clé ne peut être injecté sans inventer des compétences ou des expériences inexistantes.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de l'analyse de données avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Aucun mot-clé pertinent de l'offre (Agents IA, LLMs, LangChain, Python, NLP, Machine Learning, API REST) n'est disponible dans les compétences validées du candidat pour cette expérience spécifique. Les compétences disponibles sont limitées au nettoyage, à la préparation des données, aux visualisations et aux statistiques avec ScikitLearn, sans lien direct avec le développement d'agents ou de LLMs requis par l'offre.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Python' est exclu car déjà injecté dans d'autres expériences. Les compétences spécifiques du candidat incluent déjà les statistiques et l'analyse de données. Aucun nouveau mot-clé pertinent n'est disponible pour être injecté sans inventer des faits ou compétences non listées (comme LangChain, Agents IA, etc.), ce qui violerait la règle absolue de ne jamais inventer.",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets, open source, semi-automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boîtes de comptabilités.",
+            "keywords_injected": []
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car les compétences spécifiques du candidat sont limitées à 'Autonomie' et 'Entreprenariat', qui ne correspondent pas aux missions techniques (LLMs, Python, Agents IA) ni aux compétences générales déjà présentes dans le CV ('Supply Chain Management', 'Python'). La description originale est donc conservée telle quelle pour respecter la règle de non-invention.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

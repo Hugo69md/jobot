@@ -1,0 +1,76 @@
+{
+    "offer_name": "Stage - Supply Chain Data Analyst - (F/H)",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 89,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'expérience de 'Data analyst freelance' correspond parfaitement à la nature analytique et intellectuelle du poste (Niveau 2), démontrant une maîtrise directe de Python, Excel et des statistiques (Niveau 3) requises pour les missions de pilotage et d'analyse de données chez Louis Vuitton. Index 3 car le projet 'Campus Création' illustre des capacités d'autonomie, de gestion de projet et de proposition stratégique (Niveau 2 et 4), compétences essentielles pour prioriser les fonctionnalités et avoir un impact sur la prise de décision dans la supply chain.",
+    "skills_section": [
+        "Dashboards",
+        "Power BI",
+        "Reporting automatisé",
+        "Data-driven decision making",
+        "Gestion des stocks",
+        "Process monitoring"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite rejoindre Louis Vuitton pour un stage de fin d'études au poste de Supply Chain Data Analyst à partir du 1er juin 2026.\n\nMon parcours se distingue par une double compétence en data et en logistique. J'ai déjà réalisé plusieurs stages en supply chain, notamment chez Arrow et Amazon, où j'ai créé des outils d'analyse de données et automatisé des processus pour le monitoring des ruptures et non-conformités. Ces expériences m'ont permis de développer une aisance avec les données quantitatives et une compréhension concrète des enjeux de pilotage stratégique.\n\nEn parallèle, je maîtrise Python (pandas, numpy, scikitlearn) et Excel avancé, compétences directement transférables aux missions d'analyse et de visualisation que vous recherchez. Mon projet freelance en tant qu'analyste data a renforcé ma capacité à réaliser des dashboards et à raconter des données pour éclairer la prise de décision.\n\nJe suis particulièrement motivé par l'opportunité d'accueillir la migration vers la plateforme GCP et de collaborer sur les fonctionnalités Power BI. Ma maîtrise de l'anglais (C1) me permettra de communiquer efficacement avec vos équipes internationales, tout comme je le ferai pour documenter et prioriser les nouvelles fonctionnalités.\n\nConvaincu que ma formation en ingénierie mécanique et électrique, alliée à mes compétences techniques en data, correspondra aux attentes de votre profil, je serais honoré de pouvoir échanger avec vous sur la manière dont je peux contribuer au pilotage des stratégies de distribution de Louis Vuitton.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Data-driven decision making' n'apparaît ni dans l'offre (missions/competences_offre) ni dans les compétences validées du candidat, il ne peut donc pas être injecté. Aucun nouveau mot-clé de l'offre ne peut être ajouté car tous les mots-clés pertinents ('Supply Chain', 'Distribution', 'Analyse de données', etc.) sont soit déjà présents dans la description originale ou les compétences spécifiques, soit absents des deux listes (offre et candidat).",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il relie directement l'analyse de données à l'impact sur la prise de décision mentionné dans les missions. Les autres compétences validées comme 'Python', 'Excel avancé', 'Power Query', 'Nettoyage des données', 'Reporting', 'KPI', 'Dashboards', 'Data Visualisation', 'Process monitoring', 'Statistiques', 'ETL', 'Automation' et 'Data pipelines' sont déjà présentes dans la description originale ou les compétences spécifiques, donc ils ne sont pas réinjectés pour éviter la répétition.",
+            "description_tailored": "Stage en supply chain axé sur la prise de décision data-driven, consistant à créer des outils d'analyse et d'automatisation de processus. Le travail a impliqué le nettoyage et la préparation des données (ETL) via Python et Power Query pour générer des rapports automatisés et des tableaux de bord KPI, tout en surveillant les processus et les non-conformités.",
+            "keywords_injected": [
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement à une mission de l'offre (pilotage des stratégies) et est présent dans les compétences du candidat mais pas encore injecté. Les autres mots-clés pertinents comme 'Supply Chain', 'Logistique', 'Distribution', 'Excel avancé', 'Power Query', 'Reporting', 'Analyse de données' ou 'Automation' sont soit déjà présents dans la description originale ('gestion de stocks, arrivées et departs...'), soit trop génériques pour cette expérience spécifique sans inventer de détails. Seul 'Gestion des stocks' peut être reformulé naturellement pour renforcer le lien avec l'offre sans altérer les faits.",
+            "description_tailored": "Initiation à la logistique et gestion d'entrepôt, avec un focus sur la gestion des stocks, le suivi des arrivées et départs de camions ainsi que la préparation et le transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à l'analyse des flux de préparation de routes et s'aligne avec la mission d'impact sur la prise de décision de l'offre. Les autres compétences validées (Supply Chain, Logistique, Distribution, etc.) sont soit trop générales pour décrire une tâche manuelle spécifique, soit déjà injectés ailleurs dans le CV.",
+            "description_tailored": "Stage ouvrier dédié à la préparation de routes et au suivi des processus logistiques en tant que manutentionnaire, avec initiation aux principes d'optimisation (5S).",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de création de rapports et aligne avec les compétences du candidat (Reporting, Reporting automatisé). Les mots-clés comme 'Power BI', 'SQL', 'ETL', 'Data pipelines' sont exclus car ils ne figurent pas dans les compétences validées spécifiques de cette expérience ('Nettoyage des données', 'Preparation des données', etc.) ou sont déjà injectés ailleurs. Le mot-clé 'Storytelling' est exclu car il apparaît implicitement dans la compétence 'storytelling' du candidat mais le terme exact n'est pas dans la liste des compétences offertes à injecter (seulement 'Data Visualisation', 'Reporting', etc.), et de plus, l'instruction demande d'intégrer les mots-clés de l'offre qui apparaissent aussi dans les compétences validées ; 'Storytelling' n'est pas dans la liste 'competences_offre'.",
+            "description_tailored": "Développement de solutions analytiques et automatisées via Python (pandas, numpy) et Excel avancé pour le nettoyage et la préparation des données. Création de dashboards et de rapports automatisés basés sur des statistiques inférentielles et descriptives afin d'assurer une analyse de data rigoureuse.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car la description originale mentionne déjà 'création d'une entreprise', 'risques', 'équipe', 'business plan'. Les compétences spécifiques du candidat sont 'Autonomie' et 'Entreprenariat'. Aucun mot-clé de l'offre n'est présent dans ces éléments, mais aucun mot-clé de l'offre ne peut être ajouté sans inventer des détails (comme des outils utilisés ou des résultats chiffrés) qui ne figurent pas dans les données fournies. Le sens original est conservé sans ajout d'informations non vérifiées.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

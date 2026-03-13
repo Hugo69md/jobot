@@ -12,7 +12,7 @@ from utils.c_ia.prompts.step_3b.build_cover_letter_prompt import build_cover_let
 from utils.c_ia.prompts.step_4.build_skills_section_prompt import build_skills_section_prompt
 
 
-SCORE_THRESHOLD = 60  # Only generate CV + cover letter for offers above this score
+SCORE_THRESHOLD = 80  # Only generate CV + cover letter for offers above this score
 
 USER_PROMPT = (
     "Je suis Hugo MANIPOUD, étudiant en 5ème année d'école d'ingénieur à l'ECAM Lyon. "

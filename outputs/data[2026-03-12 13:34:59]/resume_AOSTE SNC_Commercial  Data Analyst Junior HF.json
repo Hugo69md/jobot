@@ -1,0 +1,78 @@
+{
+    "offer_name": "Commercial & Data Analyst Junior H/F",
+    "offer_company": "AOSTE SNC",
+    "offer_type": "data",
+    "score": 92,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 sélectionné car le concours 'Campus Création' démontre des capacités d'analyse, de structuration de projet et d'autonomie intellectuelle, qui sont le miroir exact des missions analytiques et de gestion de l'offre (Data Analyst, reporting, plans d'action). Les expériences 9 et 10 sont pénalisées car elles sont de nature purement manuelle et opérationnelle (manutention, picking), ce qui ne correspond pas au niveau intellectuel requis pour un poste de Junior Data Analyst. Les indices 7 et 8 manquent de compétences spécifiques transférables directement à l'analyse de données commerciales.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Dashboards",
+        "Reporting",
+        "Power Query",
+        "Data Visualisation",
+        "Statistiques"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise pour un stage de fin d'études dans le cadre du poste de Commercial & Data Analyst Junior. Mon profil allie une formation solide en Supply Chain Management et des compétences techniques pointues en analyse de données.\n\nVotre mission consistant à analyser les données clients et produire des reportings basés sur les objectifs de vente résonne parfaitement avec mes expériences passées. Lors de mon stage chez Arrow, j'ai créé des outils d'analyse de données et automatisé des processus, développant une aisance dans l'utilisation d'Excel avancé et de Python. Ma maîtrise de pandas, numpy et scikit-learn me permettrait de traiter efficacement les données Circana ou Datasharing mentionnées dans vos missions.\n\nEn tant que data analyst freelance, j'ai déjà construit un portfolio incluant des projets d'automatisation et d'analyse statistique, démontrant ma capacité à transformer des données brutes en insights actionnables. Je suis également capable de gérer des bases de données et de produire des dashboards clairs pour la diffusion aux équipes.\n\nMa formation en ingénierie mécanique et électrique, couplée à une spécialisation en industrial supply chain management, me donne une vision transversale des flux et des processus. Mon anglais C1 (IELTS 7,5/9) et mon sens de l'autonomie, acquis lors de mon stage chez Amazon DAR1, complètent ce profil.\n\nJe serais ravi de mettre mes compétences au service de vos projets en cours et d'appuyer votre équipe commerciale par une analyse rigoureuse des données. Je suis disponible à partir du 1er juin 2026 pour un stage de 4 à 6 mois.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au domaine de l'offre (gestion des flux), alors que les termes comme 'Logistique', 'Distribution', 'Gestion des stocks', 'Prévision de la demande', 'Forecasting', 'Data-driven decision making', 'Analyse de données', 'Excel avancé', 'Power Query', 'Reporting', 'Python', 'ERP Oracle' sont déjà présents dans le CV ou l'offre sans nécessiter d'injection spécifique pour cette expérience académique pure.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, je m'appuie sur mes compétences en analyse de données et gestion des processus pour optimiser les flux logistiques et soutenir la prise de décision basée sur les données.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond directement à la création d'outils de monitoring mentionnée dans l'expérience originale et s'aligne avec les missions de contrôle des données. Les autres compétences validées (Python, Excel, Data-driven decision making) sont soit déjà injectées ailleurs sur le CV, soit trop génériques par rapport aux besoins spécifiques de l'offre (gestion stocks, prévision, non-conformités).",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la Supply Chain, avec création d'outils d'analyse et d'automatisation de processus. Travail approfondi sur les schémas de ruptures et les non-conformités en entrepôt, tout en mettant en place un système de Process monitoring.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux missions d'analyse et de traitement des données de l'offre sans être déjà injecté dans le CV. Les autres compétences validées (comme Python, pandas, numpy) sont déjà présentes dans la description originale ou les specific_skills, et les mots-clés comme 'Supply Chain Management' ou 'Process monitoring' sont exclus car déjà injectés ailleurs.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le nettoyage et la préparation des données, ainsi que l'application de statistiques descriptives et inferentielles pour l'interprétation des résultats.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à la création de dashboards et reportings mentionnés dans l'offre, tout en étant présent dans les compétences du candidat mais absent des mots-clés déjà injectés. Les autres compétences techniques (Python, pandas, scikitlearn) sont trop spécifiques au cours d'introduction et ne correspondent pas directement aux missions opérationnelles de l'offre (reporting, données, dashboards).",
+            "description_tailored": "Développement de modèles prédictifs en Python pour l'analyse des données, avec une mise en valeur des résultats sous forme de tableaux de bord interactifs.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions d'analyse et de production de rapports de l'offre, et n'est pas déjà injecté ni présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Statistiques', 'Data Visualisation' ou 'Automatisation' sont exclus car ils figurent déjà dans la liste des mots-clés à ne pas réutiliser.",
+            "description_tailored": "Développement d'un portfolio de projets open source et semi-automatisés, incluant un add-on pour ERP comptable, axé sur le nettoyage et la préparation des données. Mise en place de scripts Python (pandas, numpy) pour l'extraction et l'analyse statistique descriptive, aboutissant à la création de dashboards interactifs et de rapports automatisés.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car les compétences spécifiques du candidat sont limitées à 'Autonomie' et 'Entreprenariat', qui ne correspondent pas aux missions (analyse, reporting, bases de données) ni aux compétences techniques souhaitées (Excel, Power BI, Microstratégie). De plus, aucune compétence spécifique n'a été fournie pour cette expérience dans la section 'COMPÉTENCES VALIDÉES DU CANDIDAT' (liste vide), ce qui empêche toute injection basée sur des faits vérifiés.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

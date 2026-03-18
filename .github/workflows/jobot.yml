@@ -18,6 +18,7 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      OLLAMA_API_KEY:     ${{ secrets.OLLAMA_API_KEY }}
       # Poll for Telegram YES/NO callbacks for 2 minutes after sending all offers.
       # Set to 0 to disable callback polling entirely.
       TELEGRAM_POLL_TIMEOUT: "120"
@@ -64,9 +65,9 @@ jobs:
         run: ollama pull ${{ env.OLLAMA_MODEL }}
 
       # ── 7. Run the pipeline ──────────────────────────────────────
-      - name: Run jobot pipeline (max_offers=30)
+      - name: Run jobot pipeline (max_offers=2)
         env:
-          MAX_OFFERS: "30"
+          MAX_OFFERS: "2"
         run: python main.py
 
       # ── 8. Upload outputs as artifacts (for debugging) ───────────

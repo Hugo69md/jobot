@@ -36,9 +36,11 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      # ── 3. Python dependencies ───────────────────────────────────
+      # ── 3. Python dependencies ──────────────────────────────────
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
 
       # ── 4. Ollama — restore model cache ─────────────────────────
       - name: Cache Ollama model

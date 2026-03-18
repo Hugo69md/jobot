@@ -1,0 +1,12 @@
+# Web scraping
+scrapy
+scrapy-playwright
+
+# PDF generation
+reportlab
+
+# AI / LLM
+requests
+
+# Telegram bot
+python-telegram-bot>=21.0,<22.0

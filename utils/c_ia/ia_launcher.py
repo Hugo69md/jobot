@@ -24,7 +24,6 @@ USER_PROMPT = (
     "Privilégier les offres qui matchent mes compétences data ET/OU supply chain."
 )
 
-
 def run_ia(date: str):
     print("=" * 60)
     print("[C_IA] Starting AI analysis (full description pipeline)...")
@@ -177,83 +176,14 @@ def run_ia(date: str):
     for i, s in enumerate(scoring_list[:10]):
         print(f"    {i+1:2d}. [{s['score']:3d}/100] {s['name'][:55]}")
 
-    # Build lookup early — needed for Step 2b re-scoring
+    # Build lookup for STEP 3
     enriched_lookup = {offer.get("name", ""): offer for offer in enriched_offers}
-
-    # ══════════════════════════════════════════════════════════════
-    # STEP 2b — Re-score borderline offers (below threshold)
-    # ══════════════════════════════════════════════════════════════
-    scored_above_threshold = [s for s in scoring_list if s["score"] >= SCORE_THRESHOLD]
-    scored_below_threshold = [s for s in scoring_list if s["score"] < SCORE_THRESHOLD]
-
-    rescued_count = 0
-
-    if scored_below_threshold:
-        print(f"\n  [STEP 2b] Re-scoring {len(scored_below_threshold)} borderline offers (score < {SCORE_THRESHOLD})...")
-
-        for i, scored_entry in enumerate(scored_below_threshold):
-            offer_name   = scored_entry["name"]
-            score_r1     = scored_entry["score"]
-            offer_for_rescore = enriched_lookup.get(offer_name)
-            if offer_for_rescore is None:
-                continue
-
-            print(f"\n  [2b] [{i+1}/{len(scored_below_threshold)}] Re-scoring: {offer_name[:55]}... (R1={score_r1})")
-
-            # ── Round 2 ──
-            prompt_r2 = build_single_offer_scoring_prompt(cv_data, offer_for_rescore)
-            result_r2 = query_ollama_json(prompt_r2, temperature=0.0, num_predict=1000)
-            score_r2  = _compute_score(result_r2) if result_r2 and all(k in result_r2 for k in ("C1", "C2", "C3", "C4", "C5")) else 0
-
-            print(f"    R2 score: {score_r2}/100", end=" ")
-
-            if score_r2 < SCORE_THRESHOLD:
-                print(f"→ ❌ DROPPED (R1={score_r1}, R2={score_r2})")
-                continue
-
-            print(f"→ ✅ R2 passed, running R3...")
-
-            # ── Round 3 ──
-            prompt_r3 = build_single_offer_scoring_prompt(cv_data, offer_for_rescore)
-            result_r3 = query_ollama_json(prompt_r3, temperature=0.0, num_predict=1000)
-            score_r3  = _compute_score(result_r3) if result_r3 and all(k in result_r3 for k in ("C1", "C2", "C3", "C4", "C5")) else 0
-
-            print(f"    R3 score: {score_r3}/100", end=" ")
-
-            if score_r3 >= SCORE_THRESHOLD:
-                avg_score = int((score_r2 + score_r3) / 2)
-                print(f"→ ✅ RESCUED (2/3 passed, avg={avg_score})")
-
-                scored_entry["score"] = avg_score
-                scored_entry["rescue_detail"] = {
-                    "R1": score_r1,
-                    "R2": score_r2,
-                    "R3": score_r3,
-                    "passes": 2,
-                    "avg": avg_score,
-                }
-                scored_above_threshold.append(scored_entry)
-                rescued_count += 1
-            else:
-                print(f"→ ❌ DROPPED (only 1/3 passed: just R2)")
-
-        print(f"\n  [STEP 2b] Rescued {rescued_count} / {len(scored_below_threshold)} borderline offers")
-
-        # Re-sort after adding rescued offers
-        scored_above_threshold.sort(key=lambda x: x["score"], reverse=True)
-
-        # Save updated scoring.json with rescue info
-        rescued_names = {e["name"] for e in scored_above_threshold if "rescue_detail" in e}
-        all_scoring_final = scored_above_threshold + [
-            s for s in scored_below_threshold if s["name"] not in rescued_names
-        ]
-        all_scoring_final.sort(key=lambda x: x["score"], reverse=True)
-        with open(os.path.join(output_dir, "scoring.json"), "w", encoding="utf-8") as f:
-            json.dump({"scoring": all_scoring_final}, f, ensure_ascii=False, indent=4)
 
     # ══════════════════════════════════════════════════════════════
     # STEP 3 — Filter offers above threshold + build lookup
     # ══════════════════════════════════════════════════════════════
+    scored_above_threshold = [s for s in scoring_list if s["score"] >= SCORE_THRESHOLD]
+
     if not scored_above_threshold:
         print(f"\n  [WARN] No offer scored ≥ {SCORE_THRESHOLD} — using best offer only.")
         scored_above_threshold = [scoring_list[0]]
@@ -507,7 +437,7 @@ def run_ia(date: str):
             "resume":       tailored_resume,
         })
 
-    # ════���═════════════════════════════════════════════════════════
+    # ══════════════════════════════════════════════════════════════
     # SAVE — match.json (all qualifying offers, for d_files_gen)
     # ══════════════════════════════════════════════════════════════
     match_output_path = os.path.join(output_dir, "match.json")
@@ -523,7 +453,6 @@ def run_ia(date: str):
     print(f"  Offers scraped:   {len(internships_data)}")
     print(f"  Offers kept:      {len(enriched_offers)} ({dropped_count} dropped)")
     print(f"  Offers scored:    {len(scoring_list)}")
-    print(f"  Offers rescued:   {rescued_count} (from Step 2b re-scoring)")
     print(f"  Offers ≥ {SCORE_THRESHOLD}/100:  {len(all_matches)} → CV + LM generated")
     print("=" * 60)
 

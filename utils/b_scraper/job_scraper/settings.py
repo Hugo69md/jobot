@@ -101,4 +101,4 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
 # Optional: Set to True if you want to see the browser pop up while testing
 PLAYWRIGHT_BROWSER_TYPE = "chromium"
-PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": False}
+PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": True}

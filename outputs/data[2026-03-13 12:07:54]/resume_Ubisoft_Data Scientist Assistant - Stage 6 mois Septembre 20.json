@@ -1,0 +1,75 @@
+{
+    "offer_name": "Data Scientist Assistant - Stage (6 mois) Septembre 2026 (F/H/NB)",
+    "offer_company": "Ubisoft",
+    "offer_type": "data",
+    "score": 89,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 car c'est la seule expérience du pool démontrant une capacité de réflexion, de modélisation et de création de projet (concours d'entreprenariat avec carte blanche), ce qui correspond au niveau intellectuel et analytique requis par l'offre de Data Scientist (modélisation, veille méthodologique, gestion de projet). Les autres expériences (7, 8, 9, 10) sont soit du bénévolat d'exécution/event, soit des rôles purement manuels/logistiques (manutention, picking) qui ne reflètent pas la nature analytique et intellectuelle des missions proposées par Ubisoft.",
+    "skills_section": [
+        "Statistiques",
+        "Python",
+        "Data processing",
+        "Monitoring",
+        "Statistiques inférentielle",
+        "Storytelling"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nÉtudiant en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite vous proposer ma candidature pour le stage de Data Scientist Assistant chez Ubisoft.\n\nActuellement en formation, je possède des bases solides en statistiques et en modélisation prédictive, acquises notamment lors de mon parcours HarvardX CS109x. Mon intérêt pour l'analyse de données s'est concrétisé par un stage freelance où j'ai créé un portfolio incluant des projets d'automatisation et d'analyse.\n\nMes expériences professionnelles m'ont permis de développer une approche data-driven. En tant qu'assistant supply chain chez Arrow, j'ai conçu des outils d'analyse et de monitoring en Python et Excel, travaillant sur les schémas de ruptures. Parallèlement, mon stage chez Amazon a initié ma rigueur opérationnelle dans la gestion logistique.\n\nJe suis particulièrement attiré par vos missions concernant la modélisation de l'engagement des joueurs. Ma maîtrise de Python, pandas, numpy et scikit-learn me permettrait d'aider à définir des indicateurs et de réaliser des analyses statistiques descriptives. De plus, mon expérience en création d'outils d'analyse m'est utile pour communiquer sur les résultats de manière pédagogique.\n\nJe suis disponible pour un stage de 6 mois débutant en septembre 2026 et je serais ravi de contribuer à vos projets avec ma curiosité analytique et ma capacité à travailler sur des données complexes.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Analyse de données' n'apparaît pas dans l'offre (seulement 'analyses statistiques descriptives', 'modéliser', 'veille méthodologique'), il est donc exclu pour éviter le faux positif. Aucun nouveau mot-clé de l'offre ne peut être injecté car tous les termes pertinents ('Supply Chain', 'Logistique', 'Prévision', 'Gestion des stocks', 'Planification', 'Data-driven', 'Analyse', 'Python') sont soit déjà dans les compétences spécifiques du candidat, soit absents de la liste d'expérience à réécrire.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il couvre les missions d'analyse et de modélisation sans inventer de détails. Les autres compétences validées comme 'Python', 'Data processing', 'Automation', 'Monitoring', 'Supply Chain', 'Warehouse Management', 'Non-conformités', 'Demand forecasting', 'Time series', 'Scraping', 'ETL', 'Dashboards' sont soit déjà présentes dans la description originale ('outils d'analyse', 'automatisation de process', 'monitoring'), soit trop spécifiques pour être injectés sans inventer des actions (ex: ne pas dire 'scraping' si on n'a pas spécifié de source, ne pas dire 'forecasting' si on n'a pas mentionné la demande). On se concentre sur les concepts larges validés par le candidat.",
+            "description_tailored": "Stage en supply chain au Laboratoire Arrow, création d'outils d'analyse et d'automatisation de processus. Mise en œuvre de solutions basées sur des statistiques et du data processing pour le monitoring des stocks et la gestion des non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Supply Chain",
+                "Statistiques",
+                "Data processing",
+                "Monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques descriptives' est exclu car il apparaît déjà dans les compétences spécifiques de l'expérience originale. Aucun autre mot-clé pertinent de l'offre (comme 'modélisation', 'séries temporelles', 'scoring') ne peut être injecté sans inventer des expériences ou compétences non validées par le candidat.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de l'analyse de données avec Python comme support, incluant un travail approfondi sur les statistiques descriptives et la visualisation de données.",
+            "keywords_injected": []
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'modèles de prédiction' est présent dans la description originale et les compétences spécifiques, donc exclu. Les autres mots-clés pertinents (Python, ScikitLearn) sont déjà utilisés ou trop génériques pour cette expérience spécifique sans inventer de nouveaux faits. Aucun nouveau mot-clé ne peut être injecté car l'offre demande des concepts avancés (séries temporelles, clustering, scoring) qui n'existent pas dans les compétences validées du candidat pour cette expérience.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Statistiques inférentielle' est pertinent car il correspond à la compétence de l'offre et n'est pas dans les mots-clés déjà injectés ou présents dans le candidat. Les autres compétences comme 'Statistiques', 'Analyse de data', 'Data processing' sont soit déjà injectées, soit déjà présentes dans les spécificités du candidat.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création d'un portfolio open source en statistiques inférentielle et semi-automatisation.",
+            "keywords_injected": [
+                "Statistiques inférentielle"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car la description originale mentionne uniquement 'entreprise', 'risques d'addictions au smartphone' et 'business plan'. Les mots-clés pertinents comme 'modélisation', 'analyse statistique', 'Python', 'SQL' ou 'jeux' sont absents des faits accomplis du candidat. De plus, les mots-clés déjà injectés ('Supply Chain', 'Statistiques', 'Data processing', 'Monitoring', 'Statistiques inférentielle') couvrent déjà le domaine analytique général, mais l'offre demande spécifiquement des compétences techniques (Python, SQL) et théoriques (séries temporelles, clustering) qui ne sont pas attestées dans cette expérience spécifique.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

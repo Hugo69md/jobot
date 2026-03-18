@@ -1,0 +1,76 @@
+{
+    "offer_name": "STAGE - Assistant Data Analyst (H/F)",
+    "offer_company": "Volkswagen Group France",
+    "offer_type": "data",
+    "score": 80,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 car c'est la seule expérience du pool démontrant une capacité intellectuelle, analytique et de gestion de projet (création d'entreprise, analyse de risques, stratégie), ce qui correspond au niveau d'exécution requis pour un poste de Data Analyst (analyse de demandes, stratégie data, gouvernance). Les autres expériences (7, 8, 9, 10) sont soit trop éloignées sectoriellement, soit de nature purement opérationnelle/manuelle (logistique, manutention) ou bénévole sans dimension analytique marquée, ce qui créerait une incohérence avec la nature intellectuelle de l'offre.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre entreprise pour un stage de fin d'études au poste d'Assistant Data Analyst.\n\nMon parcours se distingue par une double compétence : la maîtrise des outils analytiques et une expérience terrain solide en supply chain. J'ai notamment réalisé un stage chez Arrow où j'ai créé des outils d'analyse de données et d'automatisation de processus pour le monitoring des ruptures. Parallèlement, mon travail freelance en tant qu'analyste data m'a permis de développer une maîtrise approfondie de Python, pandas et scikit-learn, ainsi que de concevoir des dashboards et des scripts d'extraction de données.\n\nJe suis particulièrement attiré par vos missions concernant l'analyse de la qualité des données et la préparation de jeux de données. Mes compétences en nettoyage et préparation des données, acquises via mes formations HarvardX et FreeCodeCamp, me permettent d'intervenir efficacement sur les flux et modèles nécessaires à votre stratégie Data. De plus, mon expérience chez Amazon m'a initié à une rigueur opérationnelle et à la gestion de processus, des qualités essentielles pour interagir avec les métiers et comprendre leurs besoins.\n\nMon anglais niveau C1 (IELTS 7,5/9) me permet également de communiquer avec fluidité au sein de votre environnement international. Je suis convaincu que ma capacité à transformer des données brutes en informations actionnables, couplée à ma curiosité pour le secteur automobile, correspondra aux attentes de vos équipes.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au domaine de l'offre (gestion des flux), mais il est déjà présent dans les compétences spécifiques du candidat. Les autres termes comme 'Logistique', 'ERP Oracle', 'Python' ou 'Reporting' sont soit trop génériques pour cette expérience spécifique, soit absents des compétences validées pour ce poste précis sans inventer de faits. Aucun nouveau mot-clé ne peut être injecté car l'offre demande des compétences techniques (SQL, AWS) et sectorielles spécifiques qui ne sont pas explicitement listées dans les compétences validées du candidat pour cette expérience, tandis que 'Supply Chain Management' est déjà présent.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en Supply Chain Management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il correspond à la mission principale et n'est pas encore injecté (contrairement à 'Logistique', 'Distribution', etc. qui sont déjà dans les compétences validées ou l'offre). Les autres termes comme 'Monitoring', 'Python', 'Excel', 'Process', 'Data', 'Automatisation', 'Non-conformités', 'WH', 'Ruptures' sont soit déjà présents dans la description originale, soit trop génériques pour être ajoutés sans inventer de détails. Seul 'Supply Chain' offre une valeur ajoutée stratégique alignée sur les missions d'analyse et de reporting.",
+            "description_tailored": "Stage en Supply Chain au Laboratoire Arrow à Lyon, consistant en la création d'outils d'analyse de données et l'automatisation des processus pour le monitoring des ruptures et non-conformités dans les entrepôts (WH).",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond à la compétence de l'offre et n'est pas déjà injecté dans le CV (contrairement à 'Statistiques descriptives' qui est présent dans les compétences spécifiques du candidat). Les autres mots-clés comme 'Reporting', 'Data pipelines', 'ETL', 'Base de données', 'Manipulation de données' sont soit déjà présents dans la description originale, soit absents des compétences validées du candidat pour cette expérience.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement et la préparation des données via pandas et numpy, ainsi que l'application de statistiques pour l'interprétation des résultats.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Analyse de données' est pertinent car il correspond à la mission d'analyse et de qualification des besoins tout en étant absent du CV actuel (contrairement aux mots-clés déjà injectés comme 'Statistiques'). Les autres compétences validées comme 'Python', 'ScikitLearn' ou 'Modèles de prédiction' sont soit déjà présentes dans la description originale, soit trop spécifiques pour s'intégrer naturellement sans inventer de contexte.",
+            "description_tailored": "Formation axée sur l'analyse de données et la construction de modèles de prédiction utilisant Python et ScikitLearn.",
+            "keywords_injected": [
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions d'analyse et de qualification des demandes métiers tout en étant présent dans les compétences du candidat (et non dans les mots-clés déjà injectés). Les autres compétences comme 'SQL', 'Gestion de bases de données', ou 'Data pipelines' ne sont pas explicitement mentionnées dans la description originale ou les specific_skills fournis, mais l'injection de 'Reporting' permet de couvrir le besoin d'analyse et de mise en forme des données sans inventer de nouvelles actions.",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets open source, semi-automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boîtes de comptabilités, incluant la production de rapports détaillés.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la description originale ne contient aucun élément permettant de valider les compétences techniques requises (SQL, AWS, gestion de données, reporting métier) et aucune compétence spécifique n'a été fournie pour le candidat. Les mots-clés 'Supply Chain', 'Statistiques', 'Analyse de données' et 'Reporting' sont déjà exclus par la règle d'injection.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

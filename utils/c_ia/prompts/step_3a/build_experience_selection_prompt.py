@@ -55,7 +55,8 @@ D'autres expériences ont déjà été sélectionnées pour ce CV. Tu dois chois
 2. ALIGNEMENT DE LA NATURE DU POSTE (Niveau 2) : Analyse la nature des "missions" de l'offre. 
 - Si l'offre est à dominante intellectuelle, analytique ou de gestion (ex: data, ingénierie, pilotage de projet), privilégie absolument les expériences démontrant des capacités de réflexion, d'organisation ou de création. Pénalise les tâches purement manuelles ou d'exécution basique pour ces offres.
 - À l'inverse, si l'offre est à dominante opérationnelle, manuelle ou d'exécution sur le terrain (ex: logistique physique, ouvrier, production), valorise les expériences de terrain et de manutention correspondantes. 
-Le niveau d'exécution (intellectuel vs manuel) de l'expérience doit être le miroir de l'offre.3. COMPÉTENCES DIRECTES (Niveau 3) : Les "missions" et "competences_offre" matchent-elles avec la "description" et les "specific_skills" de l'expérience ?
+Le niveau d'exécution (intellectuel vs manuel) de l'expérience doit être le miroir de l'offre.
+3. COMPÉTENCES DIRECTES (Niveau 3) : Les "missions" et "competences_offre" matchent-elles avec la "description" et les "specific_skills" de l'expérience ?
 4. SOFT SKILLS (Niveau 4) : Ne valorise les soft skills (persévérance, rigueur) que si l'expérience démontre une implication intellectuelle ou organisationnelle importante (ex: organisation d'un concours sur 1 an, création de projet). 
 
 *** ATTENTION ***

@@ -16,7 +16,7 @@ from utils.c_ia.ollama_client import SYSTEM_PROMPT
 
 # ── Ollama Cloud config ────────────────────────────────────────
 OLLAMA_CLOUD_HOST  = "https://ollama.com"
-OLLAMA_CLOUD_MODEL = "qwen3.5:cloud "
+OLLAMA_CLOUD_MODEL = "qwen3.5:cloud"
 
 
 def query_cloud_json(

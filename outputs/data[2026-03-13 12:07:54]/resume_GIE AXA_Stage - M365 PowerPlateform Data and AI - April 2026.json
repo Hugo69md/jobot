@@ -1,0 +1,75 @@
+{
+    "offer_name": "Stage - M365 PowerPlateform, Data and AI - April 2026",
+    "offer_company": "GIE AXA",
+    "offer_type": "data",
+    "score": 82,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 car l'offre est à dominante intellectuelle, analytique et de gestion de projet (développement d'applications, analyse de besoins, animation de communauté, élaboration de modèles). L'expérience 'Campus Création' (index 3) est la seule du pool qui démontre des capacités de réflexion, de création d'entreprise et de gestion de projet complexe, faisant ainsi le miroir parfait de la nature du poste visé. Les autres expériences (7, 8, 9, 10) sont soit du bénévolat d'exécution simple, soit des rôles opérationnels/manuels (logistique, manutention) qui ne correspondent pas au niveau d'abstraction et d'analyse requis par les missions de l'offre (Power Platform, Data, AI, TOM).",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite rejoindre GIE AXA pour un stage de fin d'études au sein de votre Data and AI team à partir du 1er juin 2026. Mon profil allie une solide formation en ingénierie avec des compétences techniques pointues en data et automatisation.\n\nVotre mission consistant à développer des workflows personnalisés sur la M365 Power Platform résonne particulièrement avec mon parcours. En tant que freelance data analyst depuis janvier 2025, j'ai créé plusieurs outils d'automatisation semi-automatisée et un add-on pour ERP, démontrant ma capacité à concevoir des solutions techniques concrètes. Mon stage chez Arrow m'a également permis de créer des outils de monitoring en utilisant Python et Excel, compétences directement transférables aux connecteurs que vous recherchez (JIRA, Teams).\n\nAu-delà du développement, votre besoin d'analyser les besoins business et prioriser les demandes correspond à mon approche data-driven. J'ai suivi la formation HarvardX CS109x pour maîtriser les modèles de prédiction avec ScikitLearn et j'utilise régulièrement pandas, numpy et scikitlearn pour l'analyse statistique inférentielle et descriptive. Ma maîtrise d'Excel avancé me permettrait également de faciliter la communication entre équipes dans le cadre de votre Data Office.\n\nMon anglais niveau C1 (IELTS 7,5/9) me permettra de suivre les initiatives de veille technologique sur les tendances Data and AI, notamment celles liées à l'intégration de M365 Copilot. Je suis convaincu que ma rigueur ingénieur et ma curiosité pour l'innovation seront des atouts pour contribuer aux projets de votre entreprise.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il relie directement la spécialisation du candidat aux missions d'analyse des besoins et de priorisation commerciale. Les autres compétences validées (comme Python, Power Query, Excel avancé) sont exclues car elles ne figurent pas dans les mots-clés spécifiques de l'offre ('competences_offre') ni dans les missions principales, et le sens original du diplôme ne nécessite pas leur injection explicite pour ce stage.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, je prépare un projet axé sur l'optimisation des processus logistiques et la gestion de données dans les chaînes d'approvisionnement.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il synthétise l'analyse des non-conformités et la création d'outils pour la prise de décision, présent dans les compétences du candidat mais absent des mots-clés déjà injectés. Les autres compétences techniques (Python, Excel, Power Query) sont trop spécifiques ou redondantes avec le contexte général, tandis que 'Supply Chain Management' est exclu car déjà injecté.",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la supply chain, axée sur la prise de décision data-driven pour optimiser les processus d'entrepôt et gérer les non-conformités. Création d'outils de monitoring et d'automatisation de workflows via Python et Excel avancés.",
+            "keywords_injected": [
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data pipelines' est pertinent car il correspond à la pratique d'ETL et de préparation des données décrite dans les compétences du candidat (Power Query, pandas, extraction), ce qui s'aligne avec les missions d'automatisation et de gestion de données de l'offre. Les autres mots-clés pertinents comme 'Data Science', 'Intelligence Artificielle', ou 'M365 Power Platform' ne peuvent pas être injectés car ils n'apparaissent pas dans les compétences validées du candidat pour cette expérience spécifique.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant la construction de data pipelines et d'ETL pour le nettoyage et la préparation des données. Utilisation intensive de NumPy, Pandas et Matplotlib pour l'extraction, la transformation et la visualisation des données.",
+            "keywords_injected": [
+                "Data pipelines"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Data Science' est présent dans le nom de l'expérience et dans les compétences spécifiques, donc il n'est pas réinjecté. Les autres compétences validées (Python, ScikitLearn, modèles de prédiction) sont déjà couvertes par la description originale ou les compétences spécifiques. Aucun nouveau mot-clé pertinent de l'offre ne peut être ajouté sans inventer des faits ou modifier le sens original.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Automatisation' est pertinent car il correspond à la mission de développement d'un add-on et aux compétences spécifiques du candidat (scripts, semi-automatisations) sans être déjà injecté. Les autres mots-clés pertinents comme 'Data pipelines', 'ETL', 'Reporting automatisé' ou 'Statistiques inférentielle' sont exclus car ils figurent dans la liste des MOTS-CLÉS DÉJÀ INJECTÉS.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création de projets open source visant à optimiser les processus via l'automatisation. Conception d'un portfolio basé sur l'analyse de données, le nettoyage et la préparation des données pour soutenir la prise de décision.",
+            "keywords_injected": [
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 3,
+            "reasoning": "Aucun nouveau mot-clé ne peut être injecté car l'offre contient des compétences techniques (M365 Power Platform, Data Science, IA, Connecteurs) et le candidat n'a aucune expérience validée dans ces domaines. La description originale est déjà concise et ne nécessite pas d'ajout de mots-clés non pertinents pour ce stage spécifique.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

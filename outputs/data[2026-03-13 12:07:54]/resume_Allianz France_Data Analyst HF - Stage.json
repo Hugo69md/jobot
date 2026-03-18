@@ -1,0 +1,76 @@
+{
+    "offer_name": "Data Analyst (H/F) - Stage",
+    "offer_company": "Allianz France",
+    "offer_type": "data",
+    "score": 80,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+    ],
+    "selection_reasoning": "Index 8 car l'appartenance à une association étudiante focalisée sur la finance et les nouvelles technologies (Kryptosphere) démontre un intérêt sectoriel direct pour l'analyse de marchés financiers et technologiques, ce qui correspond parfaitement aux missions de veille concurrentielle et d'analyse de ratios financiers de l'offre chez Allianz. Contrairement aux expériences logistiques (9, 10) qui sont trop opérationnelles/manuelles pour un poste d'analyste de données stratégique, ou au bénévolat scientifique (7) et au concours généraliste (3) moins ciblés, cette expérience reflète le niveau d'exécution intellectuel et la curiosité marché requis.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite rejoindre Allianz France pour un stage de fin d'études au poste de Data Analyst.\n\nVotre mission consistant à analyser le positionnement concurrentiel et à construire des modèles de prévision de marché correspond parfaitement à mon profil. Ma formation m'a permis de développer une maîtrise approfondie du traitement des données via Python, pandas et scikit-learn, acquise notamment lors de mes formations FreeCodeCamp et HarvardX. J'ai également consolidé ces compétences en réalisant un projet freelance d'analyse de données, où j'ai créé des outils d'automatisation et enrichi mon portfolio avec des analyses statistiques.\n\nParallèlement à mes bases techniques, j'ai acquis une solide expérience opérationnelle dans le domaine de la supply chain. Mon stage chez Arrow m'a permis de créer des outils de monitoring et d'automatisation de processus, tandis que mon passage chez Amazon m'a initié aux fondamentaux logistiques. Ces expériences m'ont doté d'un sens du chiffre et d'une rigueur indispensable pour analyser les ratios financiers et optimiser les bases historiques demandées par votre entreprise.\n\nMa capacité à synthétiser des données complexes en rapports clairs, combinée à mon autonomie et mon esprit d'initiative, me permettront de contribuer efficacement aux projets de veille concurrentielle et d'analyse statistique chez Allianz France. Je suis particulièrement motivé par l'opportunité d'appliquer mes compétences en data analysis à un secteur stratégique.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du candidat et aux missions d'analyse concurrentielle de l'offre. Les autres compétences validées (comme Excel avancé, Python, Web scraping) sont soit déjà présentes dans le CV sous forme générale ('Traitement des données', 'Analyse de données'), soit ne correspondent pas directement au contexte académique décrit sans inventer d'actions.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme avec une expertise pointue dans la gestion logistique et l'analyse de données pour optimiser les chaînes d'approvisionnement.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'automatisation' est pertinent car l'offre mentionne explicitement l'automatisation du suivi et des processus, et le candidat a créé des outils d'automatisation. Les mots-clés comme 'Python', 'Excel avancé', 'Data-driven decision making', 'Analyse de données', 'Monitoring', 'Process monitoring' ou 'Reporting' sont soit déjà injectés ailleurs dans le CV, soit trop génériques pour être prioritaires par rapport à l'action principale décrite. L'exclusion des mots-clés déjà présents ('Supply Chain Management') et de la description originale est respectée.",
+            "description_tailored": "Développement d'outils d'automatisation et de monitoring en Python et Excel pour optimiser les processus de gestion des stocks et de rupture dans le domaine de la supply chain.",
+            "keywords_injected": [
+                "automatisation"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux missions d'analyse et de modélisation de l'offre et n'est pas déjà injecté dans le CV. Les autres compétences validées (comme 'Data Visualisation', 'Reporting', 'Dashboards') sont déjà présentes dans la description originale ou les specific_skills, donc elles ne sont pas réinjectées pour éviter la duplication.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement et le nettoyage des données via pandas et NumPy, ainsi que la réalisation d'analyses statistiques descriptives et inferentielles.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'prédiction' est exclu car il apparaît déjà dans la description originale. Aucun autre mot-clé pertinent de l'offre (comme 'analyse statistique', 'modèles', 'Python') n'est disponible pour injection car ils sont soit déjà présents dans les compétences spécifiques du candidat, soit déjà injectés ailleurs dans le CV, ou bien ne correspondent pas aux missions spécifiques d'Allianz (veille concurrentielle, ratios financiers) sans inventer de nouvelles actions.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de création de panoramas et de suivi du marché, et n'est pas dans les mots-clés exclus. Les autres compétences validées comme 'Statistiques', 'Automatisation', 'Excel avancé' ou 'Data Visualisation' sont soit déjà injectées ailleurs sur le CV, soit trop génériques par rapport aux missions spécifiques (veille concurrentielle, ratios financiers).",
+            "description_tailored": "Développement de solutions analytiques et automatisées via Python et Power Query pour la préparation et le nettoyage des données. Création de rapports automatisés et dashboards visuels afin d'analyser les tendances du marché et évaluer la rentabilité.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 8,
+            "name": "Kryptosphere",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car la liste des compétences validées du candidat est vide []. De plus, les mots-clés déjà présents dans le CV (Supply Chain Management, automatisation, Statistiques, Reporting) couvrent déjà les concepts pertinents de l'offre (traitement des données, analyse statistique, automatisation), rendant toute injection nouvelle impossible sans inventer des compétences.",
+            "description_tailored": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
+            "keywords_injected": []
+        }
+    ]
+}

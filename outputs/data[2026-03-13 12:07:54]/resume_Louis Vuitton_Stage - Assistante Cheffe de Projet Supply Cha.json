@@ -1,0 +1,78 @@
+{
+    "offer_name": "Stage - Assistant.e Chef.fe de Projet Supply Chain (F/H) - Septembre 2026",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 100,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'expérience de Data Analyst Freelance démontre une maîtrise approfondie d'Excel et des capacités d'analyse statistique (descriptive et inférentielle), répondant directement aux missions de prévision de flux et de suivi de plans (Sell Through) ainsi qu'aux compétences requises en Excel et analyse de données. Index 3 car le projet Campus Création illustre une capacité concrète à initier et structurer un processus d'entreprise (création de processus), ce qui fait écho à la mission d'établir des processus de prévision et de planification des capacités, tout en démontrant l'esprit de synthèse et l'organisation nécessaires pour un rôle de Chef de Projet.",
+    "skills_section": [
+        "Power BI",
+        "SQL (plus)",
+        "Maîtrise courante de l'anglais",
+        "Capacité d'analyse",
+        "Esprit de synthèse",
+        "Rigueur"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nÉtudiant en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je souhaite vivement intégrer votre entreprise pour le stage de fin d'études intitulé \"Assistant.e Chef.fe de Projet Supply Chain\".\n\nActuellement en recherche active depuis juin 2026, mon parcours se distingue par une double compétence : la maîtrise des outils data et l'expérience terrain en logistique. Mon stage chez Arrow m'a permis de créer plusieurs outils d'analyse et d'automatisation de processus, tout en travaillant sur les schémas de ruptures et les non-conformités en entrepôt. Parallèlement, mon expérience chez Amazon DAR1 m'a initié aux fondamentaux de la manutention et du picking.\n\nJe suis particulièrement attiré par vos missions relatives à l'établissement d'un processus de prévision des flux et au suivi du Sell Through Plan. Mes compétences en Python (pandas, numpy, scikitlearn) et Excel avancé me permettent d'analyser les données pour soutenir la prise de décision data-driven. De plus, ma formation HarvardX sur les modèles de prédiction et mon travail freelance en tant que data analyst renforcent ma capacité à traiter des volumes importants d'informations.\n\nMa maîtrise courante de l'anglais (C1) me permet également de collaborer efficacement avec vos équipes internationales, notamment celles travaillant sur les systèmes d'information. Je suis convaincu que mes compétences techniques et mon esprit d'analyse seront un atout pour contribuer à la planification des capacités et à l'optimisation des processus chez Louis Vuitton.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Gestion des stocks' est pertinent car il correspond à la mission de planification des capacités (stockage) et n'est pas déjà injecté ou présent dans les données sources.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, avec une expertise en Gestion des stocks et analyse de données pour optimiser les processus logistiques.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Prévision de la demande' est pertinent car il correspond aux missions d'établissement de processus de prévision et s'appuie sur les compétences du candidat en forecasting et analyse de données. Les autres mots-clés pertinents comme 'Excel avancé', 'Python', 'Reporting', 'Data-driven decision making' ou 'Process monitoring' sont soit déjà injectés dans d'autres expériences, soit trop génériques par rapport aux missions spécifiques (comme la gestion des stocks qui est déjà injectée).",
+            "description_tailored": "Développement d'outils d'analyse de données et d'automatisation de processus pour soutenir la prévision de la demande et le monitoring des opérations dans le cadre d'une première immersion en supply chain.",
+            "keywords_injected": [
+                "Prévision de la demande"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à la surveillance des flux et des opérations décrite dans l'offre (suivi ST, processus de planification) et n'est pas déjà injecté ni présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Excel avancé', 'Reporting', 'Data-driven decision making' ou 'Automation' sont soit déjà présents dans la description originale ('administratif lié'), soit trop génériques par rapport à l'action de surveillance des processus, donc 'Process monitoring' est le seul choix valide pour enrichir sans inventer.",
+            "description_tailored": "Initiation à la logistique avec le chef d'entrepôt, gestion des arrivées et départs de camions, préparation et transport de palettes, ainsi que suivi des processus opérationnels (process monitoring).",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Logistique' est pertinent car il englobe l'activité de préparation de routes et de manutention sans inventer de nouvelles tâches. Les autres compétences validées (Supply Chain, SCM, Forecasting, etc.) ne s'appliquent pas à une expérience d'étudiant en tant qu'ouvrier préparant des routes, donc elles sont exclues pour respecter la règle de non-invention.",
+            "description_tailored": "Stage ouvrier dédié aux opérations logistiques, préparation de routes et manutention. Initiation au système 5S et optimisation des flux de picking.",
+            "keywords_injected": [
+                "Logistique"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Forecasting' est pertinent car il correspond directement à la mission d'établir un processus de prévision des flux et au fait que le candidat maîtrise les bases de séries temporelles. Les autres compétences comme 'Statistiques', 'Reporting', 'Data Visualisation' ou 'Automatisation' sont soit déjà injectées dans d'autres expériences, soit trop génériques par rapport aux missions spécifiques (comme la gestion de capacité ou l'intégration DSI).",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable et création d'un portfolio open source incluant des semi-automatisations. Mise en œuvre de techniques de Forecasting pour analyser les séries temporelles et soutenir la prise de décision stratégique.",
+            "keywords_injected": [
+                "Forecasting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car la description originale mentionne déjà 'création d'une entreprise', 'risques', 'addictions au smartphone', 'équipe', 'business plan'. Les mots-clés pertinents comme 'processus', 'planification', 'analyse' ou 'gestion' sont soit absents, soit trop génériques pour être ajoutés sans inventer de faits. Le candidat a déjà utilisé 'Gestion des stocks', 'Prévision de la demande', 'Process monitoring', 'Logistique', 'Forecasting' ailleurs dans le CV, et aucune compétence spécifique n'est fournie pour cette expérience.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

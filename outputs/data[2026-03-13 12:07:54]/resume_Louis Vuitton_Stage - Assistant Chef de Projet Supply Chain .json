@@ -1,0 +1,76 @@
+{
+    "offer_name": "Stage - Assistant Chef de Projet Supply Chain (F/H)",
+    "offer_company": "Louis Vuitton",
+    "offer_type": "supply_chain",
+    "score": 86,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'expérience de Data Analyst Freelance démontre des capacités analytiques et de gestion de projets (création de portfolio, analyse de processus) qui sont le miroir intellectuel des missions de l'offre (analyse de processus métiers, optimisation, reporting), tout en validant directement les compétences techniques requises (Python, Excel, statistiques). Index 3 car le concours Campus Création illustre une capacité à initier et structurer un projet d'entreprise de A à Z, ce qui correspond parfaitement à la nature 'Chef de Projet' et 'innovation' de l'offre, démontrant des soft skills d'organisation et de pilotage supérieurs à une simple participation associative.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre entreprise pour un stage de fin d'études dans le cadre du poste d'Assistant Chef de Projet Supply Chain.\n\nMon parcours se distingue par une double compétence : la maîtrise des outils analytiques et l'expérience terrain en logistique. J'ai ainsi créé plusieurs outils d'analyse de données et d'automatisation de processus au sein du laboratoire Arrow, où j'ai travaillé sur les schémas de ruptures et les non-conformités en entrepôt. Parallèlement, mon stage chez Amazon m'a permis d'initier la gestion d'entrepôts, le picking de routes et l'application des principes 5S.\n\nJe suis particulièrement attiré par vos missions liées à l'analyse des processus métiers Supply Chain pour identifier les leviers d'optimisation. Ma maîtrise approfondie de Python, pandas, numpy et scikit-learn me permettrait de contribuer efficacement au traitement de données et à la création de dashboards, tout en m'appuyant sur mes compétences en Excel avancé pour le reporting. Mon expérience récente en tant que data analyst freelance a également renforcé ma capacité à analyser les données et à proposer des améliorations dans une logique d'agilité.\n\nMon anglais courant (C1) me permettrait de coordonner les échanges entre les équipes IT, Retail et Supply Chain, ainsi que de maintenir l'in-app guidance utilisé par vos utilisateurs internationaux. Je suis convaincu que mon profil ingénieur, alliant pratique en supply chain et expertise data, correspondra aux attentes de votre équipe projet.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Génie Mécanique' est également présent dans les compétences spécifiques et exclu. Aucun nouveau mot-clé de l'offre ne peut être injecté car tous les mots-clés pertinents ('Supply Chain', 'Logistique', 'Distribution', 'Planification', 'Reporting', 'Analyse de données', etc.) sont soit absents des compétences du candidat, soit déjà présents dans la description originale ou les compétences spécifiques.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il définit le domaine d'expertise du candidat et correspond à la mission principale de l'offre. Les autres compétences validées (Python, Excel, Data-driven decision making, etc.) sont soit déjà présentes dans la description originale ('outils d'analyse', 'automatisation'), soit trop spécifiques pour s'intégrer naturellement sans inventer des détails (comme les outils exacts ou le nombre d'utilisateurs).",
+            "description_tailored": "Stage en Supply Chain au sein du laboratoire Arrow, où j'ai créé plusieurs outils de monitoring et automatisé des processus métiers.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement à une mission de l'offre (gestion des processus métiers) et est présent dans les compétences du candidat mais pas encore injecté. Les autres mots-clés pertinents comme 'Planification', 'Reporting', 'Data-driven decision making' ou 'Python' ne peuvent être injectés car ils sont soit absents des actions décrites par le candidat (qui a fait de la logistique opérationnelle et non de la planification stratégique ou du reporting technique), soit déjà présents dans la description originale ('Gestion d'entrepôt', 'Préparation'), soit hors contexte de l'expérience. Le mot-clé 'Supply Chain' est exclu car il figure dans les mots-clés déjà injectés.",
+            "description_tailored": "Initiation à la logistique avec le chef d'entrepôt, gestion des stocks, arrivées et départs de camions, administratif lié à la logistique, préparation et transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à l'analyse des processus métiers et au suivi requis par l'offre, tout en étant présent dans les compétences du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Distribution', 'Gestion des stocks' ou 'Excel avancé' sont exclus car ils apparaissent déjà dans la description originale ('préparation de routes'), dans les compétences spécifiques ('Picking') ou ont été déjà injectés ailleurs sur le CV.",
+            "description_tailored": "Stage ouvrier dédié à la préparation de routes en tant que manutentionnaire, avec initiation au processus d'organisation et de suivi (5S) et monitoring des opérations.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions d'analyse et de suivi de l'offre et n'est pas encore injecté dans le CV (contrairement à 'Dashboards', 'KPI' ou 'Statistiques' qui sont déjà présents). Les autres compétences comme 'Python', 'Excel', 'Statistiques' ou 'Automatisation' sont soit déjà utilisées, soit trop génériques par rapport aux besoins spécifiques de l'offre (gestion de données, visualisation).",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création d'un portfolio de projets open source, axés sur le nettoyage et la préparation des données afin de produire des rapports automatisés et fiables.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car les compétences spécifiques du candidat sont vides et tous les mots-clés pertinents (Supply Chain, Reporting, etc.) sont déjà présents dans la liste des mots-clés à exclure ou n'existent pas dans le contexte original pour être naturellement intégrés sans inventer.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "offer_name": "Stage Conseil en Supply Chain F/H",
+    "offer_company": "Deloitte France",
+    "offer_type": "supply_chain",
+    "score": 98,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'expérience de Data Analyst freelance démontre des capacités d'analyse, de synthèse et de gestion de projets autonomes (création de portfolio), qui sont directement transférables aux missions de conseil en optimisation et pilotage de projets de l'offre. Index 3 car le concours Campus Création implique la conception d'un projet d'entreprise et la résolution de problèmes complexes, reflétant l'esprit de conseil, la créativité et la capacité à accompagner la transformation requise pour le stage chez Deloitte.",
+    "skills_section": [
+        "Supply Chain",
+        "Gestion des stocks",
+        "Process monitoring",
+        "Data-driven decision making",
+        "Reporting automatisé",
+        "Storytelling"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite rejoindre Deloitte France pour un stage de fin d'études au sein de votre équipe Conseil en Supply Chain.\n\nMon parcours se distingue par une double compétence : une solide base technique en data et une expérience opérationnelle concrète dans la logistique. J'ai ainsi pu créer des outils d'analyse et d'automatisation de processus chez Arrow, où j'ai travaillé sur les schémas de ruptures et les non-conformités en WH. Parallèlement, mes stages chez Amazon et VJ Logistique m'ont permis d'initier une gestion d'entrepôt réelle, la préparation de routes et le respect des normes 5S.\n\nAu-delà de ces expériences terrain, j'ai développé des compétences analytiques pointues grâce à des formations en Data Science (HarvardX) et un stage freelance où j'ai maîtrisé Python, pandas et scikit-learn. J'ai notamment créé un add-on pour un ERP comptable, démontrant ma capacité à concevoir des solutions concrètes.\n\nJe suis particulièrement attiré par vos missions d'accompagnement de la transformation des fonctions supply chain et de conception de méthodes d'optimisation. Mon profil hybride me permet d'apporter une vision à la fois opérationnelle et data-driven pour piloter des projets en mode AMOA. De plus, mon niveau C1 en anglais (IELTS 7,5/9) me permet de communiquer efficacement dans un environnement international.\n\nConvaincu que mes compétences en analyse de données et ma connaissance du terrain répondront aux exigences de votre cabinet, je serais honoré de pouvoir échanger avec vous sur la manière dont je peux contribuer à vos projets clients.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Aucun autre mot-clé de l'offre (missions ou compétences) n'apparaît dans la liste des compétences validées du candidat ni dans la description originale, car le CV ne mentionne que le diplôme et sa spécialisation sans détails d'actions concrètes.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il correspond à la mission principale et n'est pas déjà injecté dans cette expérience (il figure dans les compétences globales mais pas ici). Les autres mots-clés comme 'Python', 'Excel', 'Monitoring', 'Process', 'Analyse de données', 'Data-driven decision making' sont soit déjà présents dans la description originale, soit trop génériques pour être prioritaires par rapport à l'intégration du terme métier central. Le mot-clé 'Supply Chain Management' est exclu car il est synonyme et déjà couvert par 'Supply Chain'.",
+            "description_tailored": "Stage en Supply Chain au sein du laboratoire Arrow, où j'ai créé des outils d'analyse de données et automatisé des processus pour optimiser la gestion des stocks et des non-conformités.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond à une mission de l'offre (optimisation des supply chains) et est présent dans les compétences du candidat mais pas encore injecté. Les autres mots-clés pertinents comme 'Analyse de données', 'Process monitoring' ou 'Reporting' ne peuvent être injectés car ils nécessitent des actions d'analyse ou de pilotage de projets qui n'étaient pas décrites dans l'expérience originale (qui se limitait à la gestion opérationnelle et administrative).",
+            "description_tailored": "Initiation à la logistique avec le chef d'entrepôt, gestion des stocks, arrivées et départs de camions, administratif lié à la logistique, préparation et transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à la mission de pilotage et suivi de projets en mode AMOA mentionnée dans l'offre, tout en reflétant le travail d'observation des flux lors du picking. Les autres compétences validées (Supply Chain, Gestion des stocks) sont déjà injectées ailleurs ou trop génériques pour cette tâche manuelle spécifique.",
+            "description_tailored": "Stage de manutention et préparation de routes, impliquant un suivi rigoureux des processus opérationnels en mode AMOA et une application pratique du principe 5S pour optimiser les flux.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Analyse de data' est présent dans les compétences spécifiques du candidat et donc exclu. Les mots-clés de l'offre ('Capacités d'analyse', 'Synthèse', 'Service client', 'Esprit d'équipe', 'Communication') ne sont pas présents dans les compétences validées du candidat pour cette expérience, il n'est donc pas possible d'en injecter de nouveaux sans inventer des faits.",
+            "description_tailored": "Approfondissement de mon intérêt pour le domaine de la data et des statistiques, création d'un portfolio avec plusieurs projets, open source, semi-automatisations ainsi qu'un projet lucratif : un add-on pour un ERP spécialisé pour les boîtes de comptabilités.",
+            "keywords_injected": []
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car la description originale ne contient aucun des termes recherchés et les compétences spécifiques du candidat sont vides. Les mots-clés pertinents comme 'analyse', 'synthèse', 'gestion de projet' ou 'communication' ne peuvent pas être ajoutés car cela violerait la règle absolue d'invention de compétences absentes des données fournies.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

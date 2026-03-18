@@ -1,0 +1,78 @@
+{
+    "offer_name": "STAGE - Développeur Full Stack Java/Python - IA & Analyse de données (F/H)",
+    "offer_company": "Dassault Systèmes",
+    "offer_type": "data",
+    "score": 95,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 car c'est la seule expérience du pool démontrant une capacité de conception, de réflexion analytique et de création de projet (entrepreneuriat, définition d'un sujet, proposition de solution), ce qui correspond au niveau intellectuel et aux missions de développement/analyse de l'offre Full Stack/IA. Les autres expériences (7, 8, 9, 10) sont soit trop éloignées techniquement (bénévolat événementiel, réseau crypto sans détails techniques), soit purement opérationnelles/manuelles (logistique, manutention), ce qui créerait une dissonance cognitive avec un poste d'ingénieur R&D en IA.",
+    "skills_section": [
+        "Python",
+        "Data Visualisation",
+        "Automatisation",
+        "Data-driven decision making",
+        "Supply Chain Management",
+        "Data pipelines"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise pour un stage de fin d'études au sein du poste de Développeur Full Stack Java/Python - IA & Analyse de données. Mon profil technique et mes expériences précédentes alignent parfaitement avec vos missions.\n\nAu cours de mon parcours, j'ai développé une maîtrise approfondie de Python, notamment via des formations certifiantes comme HarvardX CS109x et Freecodecamp. J'ai ainsi acquis des compétences solides en nettoyage et préparation des données, visualisation avec Matplotlib et Seaborn, ainsi qu'en utilisation de Scikit-learn pour les modèles de prédiction. Ces bases m'ont permis de créer un portfolio incluant des projets d'automatisation et d'analyse.\n\nParallèlement à mes compétences data, j'ai acquis une expérience concrète en supply chain chez Arrow et Amazon DAR1, où j'ai créé des outils d'analyse et de monitoring avec Python. Cette double compétence me permet d'aborder vos missions sur l'assistant conversationnel d'analyse de données avec une perspective unique.\n\nJe suis particulièrement motivé par l'intégration d'applications IA et LLM dans les processus décisionnels, domaine que j'ai exploré lors de mon stage freelance en data. Ma capacité à interagir avec des bases de données via des requêtes automatisées et à explorer différentes approches techniques correspond directement aux attentes de votre équipe produit.\n\nJe serais honoré de pouvoir échanger à nouveau avec vous pour discuter de la manière dont mes compétences en développement Python et en analyse de données peuvent contribuer au prototype d'assistant conversationnel. En attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il lie directement la spécialisation du candidat aux missions d'analyse de données et de gestion des flux de l'offre. Les autres compétences validées (comme Python, Data-driven decision making, Forecasting) sont exclues car elles ne figurent pas dans les compétences spécifiques du candidat pour cette expérience, ou bien 'Supply Chain Management' est le seul lien fort entre la spécialisation mécanique/électrique et les missions d'analyse de l'offre sans inventer de nouvelles actions.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme d'ingénierie avec une expertise pointue dans ce domaine.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Data-driven decision making' est pertinent car il synthétise l'objectif d'utiliser les données pour la prise de décision dans le contexte supply chain sans être déjà injecté. Les autres compétences techniques (Python, Excel, Power Query) et métiers (Supply Chain Management, WH, WMS) sont soit déjà présentes ailleurs dans le CV, soit trop génériques par rapport aux besoins spécifiques de l'offre (IA/LLM, Full Stack).",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la supply chain, création d'outils d'analyse et d'automatisation pour soutenir des décisions data-driven.",
+            "keywords_injected": [
+                "Data-driven decision making"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à l'utilisation de Matplotlib et Seaborn pour créer des graphiques mentionnés dans les compétences spécifiques. Les autres mots-clés pertinents (Python, pandas, numpy, statistiques) sont déjà présents ou trop génériques par rapport aux missions spécifiques de l'offre (IA/LLM, automatisation).",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, se concentrant sur le nettoyage et la préparation des données pour la visualisation. Utilisation approfondie de NumPy, Pandas et des bibliothèques Matplotlib/Seaborn pour générer des graphiques et appliquer des statistiques descriptives.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Python' est pertinent car c'est la technologie principale mentionnée dans l'offre et validée par le candidat. Les autres compétences (ScikitLearn, modèles de prédiction) sont déjà présentes ou trop spécifiques pour s'intégrer naturellement sans inventer des détails. 'Data Visualisation' et 'Data-driven decision making' sont exclus car déjà injectés ailleurs.",
+            "description_tailored": "Formation axée sur le développement d'applications de data science en Python, avec un focus sur la construction de modèles prédictifs et l'automatisation des analyses.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Automatisation' est pertinent car il correspond à la mission de 'répondre aux questions des utilisateurs' via des scripts et s'appuie sur les compétences validées (scripts, Power Query), tout en étant absent des mots-clés déjà injectés. Les autres compétences comme 'Python' ou 'Data Visualisation' sont exclues car elles figurent dans la liste des mots-clés déjà injectés.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création de projets open source visant à automatiser les processus d'analyse et de reporting. Mise en œuvre de scripts Python pour l'extraction, le nettoyage et la transformation de données complexes, permettant une automatisation des flux ETL et la génération de visualisations dynamiques.",
+            "keywords_injected": [
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car la description originale mentionne uniquement 'création d'une entreprise', 'réduire les risques d'addictions au smartphone' et 'business plan'. Les mots-clés pertinents comme 'développement', 'analyse de données', 'LLM', 'Java/Python' ou 'IA' ne sont ni dans l'expérience du candidat, ni dans les compétences validées fournies. Tous les mots-clés de l'offre sont donc exclus car ils n'existent pas dans le contexte original.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

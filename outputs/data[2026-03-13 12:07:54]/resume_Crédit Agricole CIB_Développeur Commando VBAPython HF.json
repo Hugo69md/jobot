@@ -1,0 +1,76 @@
+{
+    "offer_name": "Développeur Commando VBA/Python H/F",
+    "offer_company": "Crédit Agricole CIB",
+    "offer_type": "data",
+    "score": 87,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+    ],
+    "selection_reasoning": "Index 8 car l'expérience au sein de l'association Kryptosphere (finance/crypto) présente une adéquation sectorielle directe avec l'offre en Finance (Crédit Agricole CIB). De plus, la nature du rôle de 'membre actif' dans un réseau technologique implique une veille, une compréhension des concepts et une implication intellectuelle qui correspondent mieux à la dominante analytique et technique du poste de développeur (Python/VBA, automatisation) que les expériences purement manuelles d'exécution logistique (indices 9 et 10). Les indices 3, 7 et 9/10 sont moins pertinents soit par manque de lien sectoriel fort, soit par une nature d'activité trop opérationnelle/manuelle pour un rôle de développement et d'automatisation de processus financiers.",
+    "skills_section": [
+        "Python",
+        "Data pipelines",
+        "Dashboards",
+        "Scikit-learn",
+        "Excel avancé",
+        "Power Query"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite rejoindre Crédit Agricole CIB pour le poste de Développeur Commando VBA/Python.\n\nMon parcours m'a permis de développer des compétences solides en automatisation et analyse de données. J'ai notamment créé plusieurs outils d'analyse et d'automatisation de processus lors de mon stage chez Arrow, où j'ai utilisé Python et Excel pour le monitoring. En tant que freelance data analyst depuis janvier 2025, je travaille sur la création de dashboards et l'automatisation via des scripts Python, ce qui correspond directement aux missions d'implémentation et de maintenance d'outils d'aide à la décision chez vous.\n\nJe maîtrise Python, Excel avancé (incluant les fonctionnalités similaires au VBA) et les librairies pandas, numpy et scikit-learn. Mon expérience en supply chain m'a également appris l'importance de la gestion des flux de données et de la détection d'anomalies, compétences transférables à votre projet transversal sur la maintenance et la détection d'anomalies.\n\nBien que mon profil soit orienté Data Analyst/Supply Chain, ma formation en ingénierie mécanique et électrique m'a donné une rigueur technique et une capacité d'adaptation rapide aux environnements informatiques. Je suis motivé par l'idée de contribuer à vos projets agiles et de formaliser des processus efficaces.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Aucun autre mot-clé de l'offre (Python, VBA, GitLab CI, Jenkins, Ansible, Terraform, etc.) n'apparaît dans les compétences validées du candidat pour cette expérience spécifique. Selon la règle absolue d'injection uniquement des mots-clés validés restants, aucune injection n'est possible sans inventer des compétences.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il correspond à une compétence de l'offre et n'est pas encore injecté dans cette expérience (il figure dans les compétences générales mais pas spécifiquement ici). Les mots-clés comme 'Supply Chain', 'Excel avancé', 'Power Query', 'Dashboards', 'Monitoring', 'Non-conformités', 'WH' sont exclus car ils apparaissent déjà dans la description originale ou les compétences spécifiques fournies.",
+            "description_tailored": "Stage en supply chain axé sur l'automatisation de processus et la création d'outils d'aide à la décision via Python, incluant le monitoring des flux et l'analyse des non-conformités dans les entrepôts.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data pipelines' est pertinent car l'offre mentionne explicitement la mise en place de pipelines et gestion des flux de données, ce qui correspond au contexte d'apprentissage des ETL et scripts Python du candidat. Les autres compétences validées comme 'Dashboards', 'Reporting', 'Statistiques', 'APIs', 'Web scraping' ou 'Data Visualisation' sont soit déjà injectées ailleurs dans le CV (selon les règles de non-répétition implicites sur l'ensemble du document), soit trop spécifiques à la formation théorique pour être crédibles comme expérience pratique sans inventer des résultats. Seul 'Data pipelines' permet de lier l'apprentissage technique aux missions d'automatisation et de flux de données de l'offre sans exagérer.",
+            "description_tailored": "Formation intensive en analyse de données avec Python, axée sur la construction de Data pipelines pour l'extraction, le nettoyage et la transformation de données via des scripts automatisés. Utilisation approfondie des librairies NumPy, Pandas et Matplotlib pour le traitement statistique et la visualisation.",
+            "keywords_injected": [
+                "Data pipelines"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Scikit-learn' est pertinent car il correspond à la compétence spécifique du candidat et n'est pas dans les mots-clés déjà injectés ou exclus. Les autres compétences validées (comme 'Python', 'Data pipelines') sont déjà présentes ailleurs dans le CV ou ont été explicitement exclues par les instructions.",
+            "description_tailored": "Formation axée sur l'approfondissement de Scikit-learn et la maîtrise des modèles de prédiction en Python pour l'analyse de données.",
+            "keywords_injected": [
+                "Scikit-learn"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Dashboards' est pertinent car il correspond à la mission d'implémentation d'outils de décision et n'est pas déjà injecté ni présent dans les compétences spécifiques. Les autres mots-clés pertinents comme 'Python', 'Data pipelines', 'Statistiques inférentielle' sont exclus car ils figurent dans 'MOTS-CLÉS DÉJÀ INJECTÉS'. Les termes 'Excel avancé', 'Power Query', 'Reporting', 'APIs', 'Web scraping' et 'Automation' sont exclus car ils apparaissent déjà dans la description originale ou les compétences spécifiques.",
+            "description_tailored": "Développement de dashboards et d'outils d'aide à la décision via Python et Excel, ainsi que création de scripts d'extraction et d'automatisation de processus pour un add-on ERP.",
+            "keywords_injected": [
+                "Dashboards"
+            ]
+        },
+        {
+            "index": 8,
+            "name": "Kryptosphere",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car la liste des compétences validées du candidat est vide [], et tous les mots-clés pertinents (VBA, Python, GitLab CI, Jenkins, Ansible, Terraform) sont soit déjà injectés ailleurs dans le CV, soit absents des données fournies pour cette expérience spécifique.",
+            "description_tailored": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "offer_name": "OFFRE DE STAGE - Constitution et analyse de bases de données pour la sécurité des matières susceptibles de polymériser",
+    "offer_company": "Ineris: Institut national de l'environnement industriel et des risques",
+    "offer_type": "data",
+    "score": 90,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 3 sélectionné car l'offre est à dominante intellectuelle et analytique (constitution de bases de données, analyse QSPR, recherche). L'expérience 'Campus Création' (index 3) démontre des capacités de réflexion, de structuration de projet et d'initiative ('carte blanche sur le sujet', 'proposition de création'), ce qui correspond au niveau d'exécution requis par l'offre. Les expériences 9 et 10 sont purement manuelles/opérationnelles (manutention, préparation de palettes) et ne reflètent pas la nature analytique du poste. Les expériences 7 et 8, bien que pertinentes sectoriellement (médical/tech), sont décrites comme du bénévolat d'exécution ou de réseau sans mention explicite de traitement de données ou d'analyse structurelle contrairement à la dimension entrepreneuriale et créative de l'index 3.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Data Visualisation",
+        "Statistiques inferentielle",
+        "Storytelling",
+        "Reporting automatisé"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation en Supply Chain Management, je souhaite rejoindre Ineris pour un stage de fin d'études au sein de votre équipe dédiée à la sécurité des matières susceptibles de polymériser.\n\nVotre mission consiste à consolider et structurer des bases de données complexes tout en analysant les relations structure-propriétés. Mon parcours académique et professionnel s'aligne parfaitement sur ces enjeux. En tant qu'étudiant ingénieur, j'ai développé une rigueur analytique indispensable pour la manipulation de données sensibles.\n\nMon expérience chez Arrow m'a permis de créer des outils d'analyse et de monitoring en utilisant Python et Excel, tout en travaillant sur des schémas de non-conformités. Parallèlement, mon stage chez Amazon DAR1 a initié ma compréhension des processus logistiques et de gestion de flux. Ces expériences professionnelles se combinent avec mes compétences techniques acquises via la formation HarvardX CS109x et FreeCodeCamp, me permettant d'exploiter Python, pandas, numpy et scikit-learn pour le traitement et l'analyse de données.\n\nJ'ai également mené un travail d'automatisation et de création de dashboards en tant que data analyst freelance, démontrant ma capacité à transformer des données brutes en informations actionnables. Ma maîtrise du nettoyage et de la préparation des données me permettrait de contribuer efficacement à la constitution de votre base sur les stabilisants et les monomères.\n\nMon anglais niveau C1 (IELTS 7,5/9) et ma curiosité scientifique, illustrée par mes stages en milieu médical, renforcent ma capacité à traiter des enjeux techniques complexes. Je suis convaincu que mon profil hybride Supply Chain/Data Science sera un atout pour vos projets de recherche.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au contexte de l'offre (gestion des données pour la sécurité), mais il est déjà présent dans les compétences spécifiques du candidat, donc exclu. Aucun autre mot-clé de l'offre ('Rigueur', 'Autonomie', 'Goût pour la manipulation et l'analyse de données') n'apparaît dans les compétences validées du candidat, donc aucun nouveau mot-clé ne peut être injecté sans inventer des faits.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Analyse de données' est pertinent car il correspond directement à la mission d'analyse des relations structure-propriétés et au goût pour l'analyse mentionné dans l'offre. Les autres compétences validées (Supply Chain, Python, Excel avancé, etc.) sont soit déjà présentes dans la description originale ('outils d'analyse de données', 'python / excel'), soit trop génériques par rapport aux missions spécifiques de constitution et analyse de bases de données sur les polymères.",
+            "description_tailored": "Stage en supply chain au Laboratoire Arrow à Lyon, dédié à l'analyse de données pour la sécurité des matières susceptibles de polymériser. Création d'outils automatisés et monitoring des processus dans le cadre de missions incluant la constitution et l'analyse de bases de données structurées.",
+            "keywords_injected": [
+                "Analyse de données"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (statistiques descriptives) et n'est pas déjà injecté dans le CV ni présent dans l'offre. Les autres mots-clés de l'offre ('Rigueur', 'Autonomie', 'Goût pour la manipulation et l'analyse de données') sont trop génériques ou ne correspondent pas spécifiquement aux compétences techniques validées du candidat pour cette expérience.",
+            "description_tailored": "Formation visant à acquérir les bases de l'analyse de données avec Python, incluant le nettoyage et la préparation des données ainsi que l'application de statistiques.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Automatisation' est pertinent car il correspond à la compétence de l'offre et n'est pas déjà injecté dans le CV (contrairement à 'Analyse de données' ou 'Statistiques'). Les autres compétences comme 'Data pipelines' ou 'ETL' sont trop spécifiques aux missions de base de données de l'offre, tandis que 'Automatisation' couvre bien l'apprentissage des scripts Python et ScikitLearn pour la prédiction.",
+            "description_tailored": "Formation axée sur l'automatisation de processus de prédiction avec Python et ScikitLearn, visant à maîtriser les bases des modèles prédictifs.",
+            "keywords_injected": [
+                "Automatisation"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Rigueur' est pertinent car il correspond à la compétence demandée pour consolider et structurer des données sensibles sans être déjà injecté. Les autres mots-clés de l'offre ('Autonomie', 'Goût pour la manipulation et l'analyse de données') sont soit trop génériques par rapport aux compétences techniques validées, soit déjà couverts implicitement par les actions décrites. Aucun mot-clé technique spécifique (comme 'ETL' ou 'Data pipelines') n'est explicitement mentionné dans l'offre comme un critère de sélection absolu, contrairement à la rigueur méthodologique requise pour ce type de projet.",
+            "description_tailored": "Développement d'un add-on pour ERP et création d'un portfolio open source en appliquant une approche rigoureuse au nettoyage, à la préparation et à l'analyse des données. Automatisation de processus semi-automatisés via Python et Excel avancé pour produire des rapports et dashboards fiables.",
+            "keywords_injected": [
+                "Rigueur"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (Consolider, Structurer, Constituer, Analyser, Relations structure-propriétés, QSPR, Rigueur, Autonomie, Goût pour la manipulation) ne peut être injecté car 'Analyse de données', 'Statistiques', 'Automatisation' et 'Rigueur' sont déjà présents dans les compétences validées ou les mots-clés exclus. Le sens original concernant le business plan sur les addictions au smartphone doit donc rester inchangé.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "offer_name": "Chef de Projets Supply Chain RSE H/F/X",
+    "offer_company": "Ferrero France",
+    "offer_type": "supply_chain",
+    "score": 93,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'offre requiert la construction de dashboards, l'analyse de KPIs et la maîtrise d'Excel/Python pour des simulations de flux ; cette expérience freelance démontre exactement ces compétences analytiques (statistiques inférentielles/descriptives, Python, Excel) et la capacité à gérer des projets de données de A à Z, faisant le miroir intellectuel des missions de l'offre. Index 3 car le poste est un rôle de 'Chef de Projets' nécessitant proactivité et force de proposition ; ce concours d'entrepreneuriat avec 'carte blanche' prouve la capacité à initier, structurer et proposer des solutions sur un sujet complexe, validant les soft skills de gestion de projet transversal et d'autonomie demandés.",
+    "skills_section": [
+        "Data Visualisation",
+        "Dashboards",
+        "Reporting",
+        "Power BI",
+        "Excel avancé",
+        "Python"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite mettre mes compétences techniques et opérationnelles au service de vos projets environnementaux. Votre offre pour le poste de Chef de Projets Supply Chain RSE correspond parfaitement à mon profil.\n\nMon parcours professionnel m'a permis d'intégrer des concepts avancés en gestion des flux et analyse de données. Durant mon stage chez Arrow, j'ai créé des outils de monitoring et automatisé des processus grâce à Python et Excel, compétences directement transférables pour la construction de simulateurs de flux et l'analyse de données complexes. J'ai également acquis une expérience terrain solide en tant qu'assistant logistique chez VJ Logistique et manutentionnaire chez Amazon, où j'ai maîtrisé les principes 5S et la gestion d'entrepôt.\n\nPour le poste chez Ferrero France, je suis particulièrement intéressé par vos missions de veille sur le transport bas carbone et les études de flux. Ma formation en HarvardX (CS109x) m'a permis d'approfondir mes bases en modèles de prédiction avec ScikitLearn, ce qui me permettrait de soutenir vos simulations environnementales. De plus, mon expérience en tant que data analyst freelance a renforcé ma maîtrise de l'automatisation et du reporting, des éléments clés pour l'animation de la communauté Power BI Supply Chain et la construction de dashboards.\n\nJe suis convaincu que mon autonomie, ma force de proposition et ma capacité à travailler transversalement seront des atouts pour coordonner vos actions correctives et mesurer l'emprunte carbone. Je serais honoré de pouvoir discuter de la manière dont je peux contribuer aux objectifs RSE de Ferrero France.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Simulation' est pertinent car il correspond à la mission d'études de flux et aux compétences validées (FlexSim, SimLAB VR), contrairement aux autres termes génériques déjà présents ou non pertinents pour l'offre.",
+            "description_tailored": "Étudiant en ingénierie spécialisé en Supply Chain Management, réalisation de simulations de flux logistiques et d'équivalence carbone pour des projets environnementaux.",
+            "keywords_injected": [
+                "Simulation"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Monitoring' est pertinent car il correspond à la mission de suivi mensuel et aux outils d'analyse créés, et n'est pas dans les mots-clés exclus. Les autres compétences validées (Python, Excel, Data-driven decision making) sont soit déjà injectées ailleurs sur le CV, soit trop génériques par rapport aux besoins spécifiques de l'offre (Power BI, flux, simulation).",
+            "description_tailored": "Développement d'outils de monitoring et d'automatisation de processus en supply chain via Python et Excel avancé. Analyse approfondie des schémas de ruptures et des non-conformités dans le contexte du Warehouse Management.",
+            "keywords_injected": [
+                "Monitoring"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond à une mission de l'offre (gestion de flux) et est présent dans les compétences du candidat mais pas encore injecté. Les mots-clés 'Simulation', 'Monitoring' sont exclus car déjà injectés ailleurs. 'Excel avancé' est exclu car déjà présent dans la description originale ('administratif lié').",
+            "description_tailored": "Gestion des stocks, arrivées et départs de camions ainsi que préparation et transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Logistique' est pertinent car il englobe l'activité de préparation de routes et de manutention sans être déjà injecté ni présent dans les compétences spécifiques. Les autres mots-clés pertinents comme 'Transport', 'TMS', 'Forecasting', 'Gestion des stocks', 'Simulation', 'Monitoring' sont exclus car ils apparaissent soit dans la liste des mots-clés déjà injectés, soit ne correspondent pas directement à l'action de préparation de routes décrite (qui relève davantage de la logistique opérationnelle que du transport ou de la prévision).",
+            "description_tailored": "Stage en logistique au sein d'Amazon DAR1, dédié à la préparation et à l'exécution des routes de manutention.",
+            "keywords_injected": [
+                "Logistique"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de suivi mensuel et aux compétences du candidat (Reporting, Reporting automatisé) sans être déjà injecté. Les autres mots-clés pertinents comme 'Dashboard', 'KPI', 'Data Visualisation' ou 'Statistiques' sont soit déjà présents dans la description originale ('création d'un portfolio'), soit exclus car déjà injectés ailleurs sur le CV ('Monitoring', 'Gestion des stocks').",
+            "description_tailored": "Développement de projets data et semi-automatisations, incluant la construction de dashboards et la production de rapports automatisés basés sur l'analyse statistique.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la description originale mentionne déjà 'création', 'entreprise', 'équipe', 'business plan'. Les mots-clés pertinents comme 'gestion de projet', 'transversal', 'Power BI', 'Excel', 'simulation' ou 'veille' sont absents des données du candidat et ne peuvent être inventés sans mentir sur les compétences acquises.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

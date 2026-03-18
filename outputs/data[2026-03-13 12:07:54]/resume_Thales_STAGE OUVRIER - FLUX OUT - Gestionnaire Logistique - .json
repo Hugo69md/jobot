@@ -1,0 +1,76 @@
+{
+    "offer_name": "STAGE OUVRIER - FLUX OUT - Gestionnaire Logistique - F/H",
+    "offer_company": "Thales",
+    "offer_type": "supply_chain",
+    "score": 82,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "selection_reasoning": "Index 6 car l'expérience de 'Data analyst freelance' démontre une capacité d'analyse et de résolution de problèmes (création de portfolio, statistiques) qui correspond directement à la mission d'offre 'Analyser les litiges afin de faciliter leur résolution' et à la compétence requise 'Systèmes informatiques'. La nature analytique de cette expérience sert le besoin de gestion et de suivi des expéditions décrit dans l'offre. Index 3 car le concours 'Campus Création' implique la gestion de projet et l'organisation (proposition de création d'entreprise), ce qui valide les soft skills de 'Rigueur', 'Respect des procédures' et 'Agilité' nécessaires pour orchestrer les flux physiques et préparer l'intégration robotique, sans inventer de compétences manuelles inexistantes dans le pool.",
+    "skills_section": [
+        "Supply Chain",
+        "Gestion des stocks",
+        "Process monitoring",
+        "Reporting",
+        "Data-driven decision making",
+        "Statistiques"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon avec une spécialisation Supply Chain Management, je souhaite intégrer votre entreprise Thales pour un stage de fin d'études au poste de Gestionnaire Logistique.\n\nMon parcours m'a permis de développer des compétences solides dans la gestion d'entrepôt et l'analyse de données. J'ai acquis une première expérience professionnelle en tant qu'assistant supply chain chez Arrow, où j'ai créé des outils de monitoring et automatisé des processus grâce à Python et Excel. Par ailleurs, mon stage en tant qu'assistant logistique chez VJ Logistique m'a initié aux opérations concrètes de la gestion d'entrepôt, y compris la préparation et le transport de palettes.\n\nLes missions que vous proposez correspondent parfaitement à mes intérêts et à mes acquis. En particulier, l'analyse des litiges pour faciliter leur résolution résonne avec mon expérience en analyse de non-conformités chez Arrow. De plus, ma maîtrise du respect des procédures, acquise lors de mon initiation au 5S chez Amazon, me permettrait de m'intégrer rapidement à vos flux physiques.\n\nEn tant qu'étudiant ingénieur, je possède une rigueur et une agilité essentielles pour scanner les documents et orienter les flux selon les priorités client. Mon profil hybride, alliant pratique terrain sur la logistique et expertise technique en data-driven decision making, me permettrait d'apporter une valeur ajoutée immédiate à vos équipes.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et au domaine de l'offre (gestionnaire logistique), mais il est déjà présent dans les compétences spécifiques du candidat. Les autres mots-clés pertinents comme 'Logistique', 'Gestion des stocks', 'Planification de production', 'Warehouse Management', 'Transport', 'TMS', 'ERP Oracle', 'Qualité', 'Analyse de Non-conformités' sont soit trop génériques pour une description d'étudiant sans expérience pratique, soit déjà présents dans les compétences spécifiques ou la description originale. Aucun nouveau mot-clé ne peut être injecté car tous les mots-clés validés par l'intersection des offres et du candidat sont soit déjà utilisés, soit hors contexte de l'expérience décrite.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en industrial supply chain management, préparant un diplôme avec une expertise en logistique et gestion des stocks.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il correspond à la mission globale et n'est pas encore injecté dans cette expérience (il est présent dans les compétences validées du candidat mais pas dans la description originale ou les specific_skills). Les autres mots-clés comme 'Logistique', 'Gestion des stocks', 'WMS', 'TMS', 'Excel avancé', 'Reporting', 'Data-driven decision making' sont soit déjà présents dans la description originale ('outils d'analyse de données'), soit trop génériques par rapport aux missions spécifiques (scanner, notifier T1), ou ne correspondent pas directement aux actions décrites sans inventer de nouveaux faits. On exclut donc tout mot-clé qui n'est pas explicitement lié à la création d'outils de monitoring et d'automatisation dans le contexte supply chain.",
+            "description_tailored": "Stage en Supply Chain au sein du laboratoire Arrow, où j'ai créé plusieurs outils de monitoring et automatisé des processus logistiques. J'ai travaillé sur l'analyse des ruptures et non-conformités en entrepôt pour optimiser les flux physiques et assurer la conformité des opérations.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement à la mission de préparation et au contexte logistique sans être déjà injecté ou présent dans les compétences spécifiques. Les autres mots-clés pertinents comme 'Logistique', 'Entrepôt', 'Transport', 'WMS', 'Reporting', 'Data-driven decision making' sont soit déjà présents dans la description originale ('gestion d'entrepôt', 'logistique'), soit trop génériques pour s'appuyer sur des faits concrets de cette expérience spécifique sans inventer de détails. Seul 'Gestion des stocks' permet de reformuler le fait de gérer les arrivées et départs de camions et les palettes en utilisant un terme validé par l'offre et non encore utilisé dans ce CV.",
+            "description_tailored": "Assisté(e) au chef d'entrepôt dans la gestion des stocks, y compris le suivi des arrivées et départs de camions ainsi que la préparation et le transport de palettes.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond à l'analyse des flux et de la préparation de routes sans inventer de nouveaux résultats. Les autres compétences validées (Logistique, Distribution, WMS, etc.) sont soit trop générales pour décrire spécifiquement une tâche d'ouvrier en préparation de route, soit déjà injectés ailleurs dans le CV.",
+            "description_tailored": "Stage ouvrier dédié au suivi et à l'optimisation des processus de préparation de routes via la mise en œuvre du système 5S.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la mission de création d'avis simplifiés et de suivi des expéditions, tout en étant présent dans les compétences validées du candidat. Les mots-clés comme 'Systèmes informatiques', 'Rigueur', 'Respect des procédures', 'Esprit d'équipe', 'Agilité', 'Dashboards', 'KPI', 'Data Visualisation', 'Storytelling', 'Excel avancé', 'Power Query', 'Power Pivot', 'Python', 'pandas', 'numpy', 'scikitlearn', 'Automatisation', 'Base de données', 'ETL', 'Data pipelines', 'Statistiques', 'Statistiques descriptive', 'Statistiques inferentielle', 'Reporting automatisé', 'Scripts', 'APIs', 'JSON', 'Extraction de données', 'Web scraping', 'Urllib', 'Scrapy', 'Chromium', 'Html parsing', 'Forecasting', 'Time series basics', 'Github basics' sont soit déjà injectés ailleurs, soit trop spécifiques pour s'intégrer naturellement à la description sans inventer des détails. Le mot-clé 'Analyse de data' est présent dans les compétences spécifiques du candidat et donc exclu.",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable en automatisant le reporting et l'extraction de données via Python, tout en garantissant la rigueur des procédures analytiques.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences_offre) ne peut être injecté car les compétences spécifiques du candidat sont vides et aucun mot-clé pertinent n'est disponible pour enrichir la description sans inventer des faits.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

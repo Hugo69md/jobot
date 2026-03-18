@@ -1,0 +1,74 @@
+{
+    "offer_name": "STAGE - Supply Chain - Magasinier - F/H",
+    "offer_company": "Thales",
+    "offer_type": "supply_chain",
+    "score": 85,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        3,
+        7
+    ],
+    "selection_reasoning": "Index 3 car le projet d'entrepreneuriat 'Campus Création' démontre des capacités d'organisation, de gestion de projet et de rigueur nécessaires pour participer au déploiement de projets d'amélioration (5S, procédures) cités dans l'offre, alignant la nature intellectuelle de l'expérience avec les missions de gestion du stage. Index 7 car le bénévolat pour la Fondation pour la recherche médicale implique une organisation logistique sur le terrain (événement 'Fête de la science'), ce qui fait écho aux missions opérationnelles de réception, magasinage et adaptation des supports de stockage, validant l'aspect 'terrain' et 'polyvalence' requis pour un poste de magasinier.",
+    "skills_section": [
+        "Supply Chain",
+        "Gestion des stocks",
+        "Logistique",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, spécialisée en Supply Chain Management, je souhaite intégrer votre entreprise pour un stage de fin d'études. Votre offre de stagiaire magasinier correspond parfaitement à ma recherche.\n\nMon parcours professionnel m'a permis d'acquérir une solide expérience terrain dans le domaine logistique. J'ai notamment effectué des stages chez Amazon et Arrow, où j'ai développé des compétences en manutention, gestion des stocks et préparation de routes. Chez Arrow, j'ai créé des outils d'analyse et d'automatisation pour optimiser les processus, tout en travaillant sur la gestion des ruptures et non-conformités en entrepôt. Ces missions m'ont permis de comprendre l'importance du suivi rigoureux et de l'amélioration continue.\n\nEn parallèle, j'ai acquis une maîtrise avancée d'Excel et Python, ce qui me permettrait de contribuer aux projets d'amélioration que vous proposez, tels que la mise à jour des procédures RMS ou les campagnes 5S. Ma formation en ingénierie mécanique et électrique renforce également ma capacité à comprendre les flux physiques et les contraintes techniques liées au magasinage.\n\nJe suis particulièrement intéressé par l'opportunité de servir les ordres de fabrication et d'assurer la réception des pièces, tout en m'investissant activement dans les activités quotidiennes du magasin. Mon esprit d'équipe et ma rigueur sont mes atouts principaux pour réussir cette mission.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. Le mot-clé 'Gestion des stocks' est pertinent car il correspond à la mission de gestion de mise en stock, n'est pas dans les compétences spécifiques du candidat, et n'a pas été injecté précédemment.",
+            "description_tailored": "Application des principes de Supply Chain Management pour optimiser la Gestion des stocks via l'identification FIFO et l'adaptation des supports de stockage.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Supply Chain' est pertinent car il correspond directement au titre de l'offre et à la nature du stage décrit, tout en étant présent dans les compétences validées. Les autres termes comme 'Warehouse Management', 'WMS', 'Logistique', 'Distribution', 'Transport', 'TMS', 'Réapprovisionnement', 'Data-driven decision making', 'Process monitoring', 'SOP', 'Reporting', 'KPI', 'Dashboards', 'Data Visualisation' sont soit trop génériques par rapport au contexte spécifique de l'offre (qui insiste sur les missions opérationnelles et projets d'amélioration), soit déjà implicitement couverts par la description originale ('outils d'analyse', 'automatisation de process', 'monitoring'). L'injection de 'Supply Chain' renforce le lien avec le titre du poste sans inventer de nouvelles tâches.",
+            "description_tailored": "Stage en Supply Chain au sein du laboratoire Arrow, dédié à la création d'outils d'analyse de données et d'automatisation des processus dans un contexte logistique complexe.",
+            "keywords_injected": [
+                "Supply Chain"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Logistique' est pertinent car il correspond aux missions de réception et de transport sans être déjà injecté. Les autres compétences validées comme 'Supply Chain' ou 'Gestion des stocks' sont exclues car elles figurent dans la liste des mots-clés déjà injectés ou sont trop génériques par rapport à l'action décrite (transport/stock).",
+            "description_tailored": "Initiation à la logistique avec le chef d'entrepôt, gestion des arrivées et départs de camions, préparation et transport de palettes.",
+            "keywords_injected": [
+                "Logistique"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé '5S' est exclu car il figure dans les compétences spécifiques de l'expérience originale. Aucun autre mot-clé pertinent de l'offre (comme 'Supply Chain', 'Magasinage', 'Rigueur', 'Esprit d'équipe') n'est directement applicable à une tâche de préparation de routes sans inventer des faits, donc aucun nouveau mot-clé ne peut être injecté.",
+            "description_tailored": "Stage ouvrier, préparation de routes en tant que manutentionnaire, initiation au 5S.",
+            "keywords_injected": []
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun nouveau mot-clé ne peut être injecté car les mots-clés pertinents de l'offre (Supply Chain, Magasinage, Polyvalence, Rigueur, Esprit d'équipe) sont soit absents des compétences validées du candidat, soit déjà présents dans les mots-clés déjà injectés ('Gestion des stocks', 'Supply Chain', 'Logistique'). La description originale ne contient aucun de ces termes et ne décrit pas d'activité liée au magasinage ou à la supply chain, donc elle reste inchangée pour respecter l'instruction de ne jamais inventer de compétences.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        },
+        {
+            "index": 7,
+            "name": "Fondation pour la recherche médicale",
+            "reasoning": "Aucun mot-clé de l'offre (Supply Chain, Magasinage, Polyvalence, Rigueur, Esprit d'équipe) ne peut être injecté car le candidat n'a aucune expérience professionnelle validée dans ce domaine et les compétences spécifiques sont vides. De plus, aucun mot-clé de l'offre n'est présent dans la description originale ('Organisation de la représentation...') ni dans les mots-clés déjà injectés du CV. Selon les règles strictes, on ne peut inventer de compétences ou réinjecter des termes non pertinents pour une expérience sans données validées.",
+            "description_tailored": "Organisation de la représentation de la FRM à la fête de la science 2024.",
+            "keywords_injected": []
+        }
+    ]
+}

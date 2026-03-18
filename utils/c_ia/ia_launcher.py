@@ -484,6 +484,7 @@ def run_ia(date: str):
                 "offer_name":       offer_name,
                 "offer_company":    offer_full.get("company", ""),
                 "offer_type":       offer_type,
+                "offer_URL":        offer_full.get("URL", ""),
                 "score":            scored["score"],
                 "selected_indexes": selected_indexes,
                 "selection_reasoning":  selection_reasoning,

@@ -1,0 +1,80 @@
+name: jobot — scrape, score & notify
+
+on:
+  schedule:
+    # 11:00 AM UTC+1  →  10:00 UTC
+    - cron: "0 10 * * *"
+    # 4:00 PM UTC+1   →  15:00 UTC  (16:00 in 24h = 15:00 UTC)
+    - cron: "0 15 * * *"
+  workflow_dispatch: # allow manual runs from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300   # 5-hour hard limit (well under GHA's 6-hour wall)
+    permissions:
+      contents: read
+
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      # Poll for Telegram YES/NO callbacks for 2 minutes after sending all offers.
+      # Set to 0 to disable callback polling entirely.
+      TELEGRAM_POLL_TIMEOUT: "120"
+      OLLAMA_MODEL: "qwen3.5:4b"
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Python ────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ── 3. Python dependencies ───────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Ollama — restore model cache ─────────────────────────
+      - name: Cache Ollama model
+        id: ollama-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ env.OLLAMA_MODEL }}
+
+      # ── 5. Ollama — install & start ──────────────────────────────
+      - name: Install and start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          # Wait until Ollama is responsive
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:11434/api/tags && break
+            sleep 2
+          done
+
+      # ── 6. Ollama — pull model (only on cache miss) ──────────────
+      - name: Pull Ollama model (cache miss only)
+        if: steps.ollama-cache.outputs.cache-hit != 'true'
+        run: ollama pull ${{ env.OLLAMA_MODEL }}
+
+      # ── 7. Run the pipeline ──────────────────────────────────────
+      - name: Run jobot pipeline (max_offers=30)
+        env:
+          MAX_OFFERS: "30"
+        run: python main.py
+
+      # ── 8. Upload outputs as artifacts (for debugging) ───────────
+      - name: Upload run outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobot-outputs-${{ github.run_id }}
+          path: outputs/
+          retention-days: 7
+          if-no-files-found: warn

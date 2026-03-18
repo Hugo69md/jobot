@@ -1,5 +1,7 @@
 import os
 import json
+import glob
+import shutil
 import datetime
 from utils.d_files_gen.pdf_generator import generate_cv_pdf, generate_cover_letter_pdf
 
@@ -120,6 +122,21 @@ def run_pdf_generation(date: str):
             date=date,
         )
         print(f"    ✅ LM  → {cl_filename}")
+
+        # ── Move resume JSON into the offer subfolder ─────────────
+        data_dir = os.path.dirname(pdf_output_dir)
+        for json_path in glob.glob(os.path.join(data_dir, "resume_*.json")):
+            try:
+                with open(json_path, "r", encoding="utf-8") as jf:
+                    jdata = json.load(jf)
+                if jdata.get("offer_name") == offer_name:
+                    dest = os.path.join(offer_dir, os.path.basename(json_path))
+                    shutil.move(json_path, dest)
+                    print(f"    ✅ JSON → {dest}")
+                    break
+            except Exception as exc:
+                print(f"    [WARN] Could not process {json_path}: {exc}")
+
         print()
 
     print("=" * 60)

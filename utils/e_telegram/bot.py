@@ -7,6 +7,7 @@ All public functions are async and must be awaited inside an asyncio event loop.
 import asyncio
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, InputFile
 from telegram.error import TelegramError
+import os
 
 
 async def send_text(bot: Bot, chat_id: str, text: str) -> None:
@@ -16,9 +17,17 @@ async def send_text(bot: Bot, chat_id: str, text: str) -> None:
 
 async def send_document(bot: Bot, chat_id: str, file_path: str, caption: str = "") -> None:
     """Send a file (PDF) as a Telegram document."""
-    with open(file_path, "rb") as fh:
-        await bot.send_document(chat_id=chat_id, document=InputFile(fh), caption=caption)
-
+    try:
+        with open(file_path, "rb") as fh:
+            await bot.send_document(
+                chat_id=chat_id,
+                document=InputFile(fh, filename=os.path.basename(file_path)),
+                caption=caption,
+            )
+    except TelegramError as exc:
+        print(f"  [E_TG] Failed to send {file_path}: {exc}")
+    except OSError as exc:
+        print(f"  [E_TG] Could not open {file_path}: {exc}")
 
 async def send_offer_summary(
     bot: Bot,

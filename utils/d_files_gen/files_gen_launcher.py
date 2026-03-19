@@ -100,7 +100,7 @@ def run_pdf_generation(date: str):
         os.makedirs(offer_dir, exist_ok=True)
 
         # ── Generate CV PDF ───────────────────────────────────────
-        cv_filename = os.path.join(offer_dir, "CV.pdf")
+        cv_filename = os.path.join(offer_dir, f"CV_{folder_name}.pdf")
         generate_cv_pdf(
             output_path=cv_filename,
             cv_data=cv_data,
@@ -113,7 +113,7 @@ def run_pdf_generation(date: str):
         print(f"    ✅ CV  → {cv_filename}")
 
         # ── Generate Cover Letter PDF ─────────────────────────────
-        cl_filename = os.path.join(offer_dir, "LM.pdf")
+        cl_filename = os.path.join(offer_dir, f"LM_{folder_name}.pdf")
         generate_cover_letter_pdf(
             output_path=cl_filename,
             cv_data=cv_data,

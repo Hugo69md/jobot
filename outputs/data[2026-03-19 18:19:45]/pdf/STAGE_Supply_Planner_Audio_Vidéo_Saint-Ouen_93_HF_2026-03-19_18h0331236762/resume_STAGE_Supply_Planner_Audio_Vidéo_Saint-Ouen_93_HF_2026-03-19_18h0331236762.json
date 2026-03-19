@@ -1,0 +1,80 @@
+{
+    "offer_name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+    "offer_company": "Samsung Electronics France",
+    "offer_type": "supply_chain",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/04e0f07c-4a3f-4049-9461-55396ecdb589-samsung-electronics-france-stage-supply-planner-audio-video-saint-ouen-93-h-f",
+    "score": 85,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        6,
+        3
+    ],
+    "skills_section": [
+        "Excel avancé",
+        "Power Query",
+        "Preparation des données",
+        "Reporting",
+        "Gestion des stocks",
+        "Prévision de la demande"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'ingénieur à l'ECAM Lyon, je souhaite rejoindre Samsung Electronics France pour un stage de fin d'études en tant que Supply Planner, à partir du 1er juin 2026.\n\nMon parcours m'a permis d'acquérir une solide expérience opérationnelle et analytique. J'ai notamment effectué un stage chez Arrow, où j'ai créé des outils d'analyse de données et de monitoring en utilisant Python et Excel, tout en travaillant sur les schémas de ruptures et les non-conformités en WH. Parallèlement, j'ai travaillé comme assistant logistique chez VJ Logistique, ce qui m'a initié à la gestion d'entrepôt, aux arrivées et départs de camions, ainsi qu'à la préparation de palettes.\n\nJe suis particulièrement intéressé par les missions de suivi des approvisionnements et de gestion des arrivages que vous proposez. Ma maîtrise d'Excel avancé, incluant Power Query, me permettrait de contribuer efficacement à la mise à jour des outils de suivi et de reporting, ainsi qu'à l'établissement des prévisions de ventes. De plus, mon expérience dans la gestion de la disponibilité des produits et les alertes de ruptures, acquise lors de mes stages chez Amazon et Arrow, est directement pertinente pour garantir le bon déroulement des flux logistiques usine-client.\n\nMa formation en Supply Chain Management, combinée à mes compétences en data analysis et en gestion de stocks, me permettrait de participer activement à l'optimisation des flux et à la disponibilité des produits sur l'e-store.\n\nJe serais honoré de pouvoir échanger à nouveau avec vous sur la manière dont je peux contribuer aux objectifs de Samsung Electronics France.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat et donc exclu. 'Gestion des stocks' est pertinent car il correspond à la mission de suivi de disponibilité et de ruptures, et n'est pas déjà injecté. 'Prévision de la demande' est pertinent car il correspond à la participation aux prévisions de ventes, et n'est pas déjà injecté. 'Reporting' est pertinent car il correspond à la mise à jour des outils de suivi, et n'est pas déjà injecté.",
+            "description_tailored": "Étudiant en ingénierie spécialisé en Supply Chain Management, j'ai participé à la gestion des stocks et à la prévision de la demande pour optimiser les flux logistiques. J'ai également contribué à la production de reporting pour assurer le suivi des approvisionnements et des arrivages.",
+            "keywords_injected": [
+                "Gestion des stocks",
+                "Prévision de la demande",
+                "Reporting"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Process monitoring' est pertinent car il correspond directement à la création d'outils de monitoring mentionnée dans l'expérience originale et n'est pas déjà injecté ni présent dans les compétences spécifiques. Les autres mots-clés pertinents de l'offre (comme 'Excel', 'SAP', 'Reporting', 'Prévision de la demande') sont soit déjà injectés dans le CV, soit déjà présents dans les compétences spécifiques de cette expérience, et doivent donc être exclus pour éviter la répétition.",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la supply chain, avec création d'outils d'analyse et d'automatisation de processus. Travail approfondi sur les schémas de ruptures et les non-conformités en entrepôt, tout en mettant en place un système de process monitoring utilisant Python et Excel.",
+            "keywords_injected": [
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Logistique' est pertinent car il correspond à la mission de suivi des flux et est présent dans les compétences du candidat mais pas déjà injecté dans ce CV. Les autres mots-clés pertinents de l'offre (Supply Chain, SCM, Warehouse Management, WMS, Transport, TMS, Forecasting, Réapprovisionnement, Data-driven decision making, Excel avancé, Power Query, Reporting automatisé) sont soit trop larges pour une expérience d'initiation, soit déjà injectés dans d'autres sections du CV, soit ne correspondent pas aux tâches spécifiques décrites (gestion de palettes, arrivées/departs).",
+            "description_tailored": "Initiation à la logistique et à la gestion d'entrepôt, avec suivi des flux d'approvisionnement et de distribution, préparation et transport de palettes.",
+            "keywords_injected": [
+                "Logistique"
+            ]
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Warehouse Management' est pertinent car il correspond directement à la mission de suivi des stocks et de flux usine-client, et il n'est pas dans la liste des mots-clés déjà injectés ou présents dans l'expérience originale. Les autres compétences comme 'Supply Chain' ou 'Logistique' sont soit trop génériques, soit déjà injectées ailleurs. '5S' et 'Picking de routes' sont exclus car déjà présents dans la description originale.",
+            "description_tailored": "Stage de manutention et préparation de routes, impliquant la mise en œuvre de principes Warehouse Management pour optimiser les flux et la préparation des commandes.",
+            "keywords_injected": [
+                "Warehouse Management"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Forecasting' est pertinent car il correspond à la mission de 'prévisions de ventes' et est présent dans les compétences du candidat (time series basics), contrairement aux mots-clés exclus comme 'Gestion des stocks' ou 'Reporting' déjà injectés ailleurs.",
+            "description_tailored": "Développement d'outils d'automatisation et de prévision de la demande (Forecasting) via Python et Excel pour optimiser les flux logistiques et la disponibilité des produits.",
+            "keywords_injected": [
+                "Forecasting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences SAP/Excel) ne peut être injecté car la description originale ne mentionne ni gestion de stock, ni prévisions, ni reporting, ni logistique, et aucune compétence spécifique n'a été fournie pour cette expérience. Les mots-clés 'Gestion des stocks', 'Prévision de la demande', 'Reporting', 'Process monitoring', 'Logistique', 'Warehouse Management' et 'Forecasting' sont déjà injectés ailleurs dans le CV.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

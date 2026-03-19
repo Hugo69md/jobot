@@ -17,7 +17,7 @@ async def send_text(bot: Bot, chat_id: str, text: str) -> None:
 async def send_document(bot: Bot, chat_id: str, file_path: str, caption: str = "") -> None:
     """Send a file (PDF) as a Telegram document."""
     with open(file_path, "rb") as fh:
-        await bot.send_document(chat_id=chat_id, document=InputFile(fh), caption=caption)
+        await bot.send_document(chat_id=chat_id, ocumentd=InputFile(fh), caption=caption)
 
 
 async def send_offer_summary(

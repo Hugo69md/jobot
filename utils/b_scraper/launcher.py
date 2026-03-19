@@ -23,7 +23,7 @@ def run_scraper(date):
     })
 
     # Allow MAX_OFFERS to be set via environment variable (default 3 for local testing)
-    max_offers = int(os.environ.get("MAX_OFFERS", 3))
+    max_offers = int(os.environ.get("MAX_OFFERS", 2))
 
     process = CrawlerProcess(settings)
     process.crawl(JobteaserSpider, max_offers=max_offers)  # Pass max_offers to limit the number of scraped offers

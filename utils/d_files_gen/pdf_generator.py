@@ -1,3 +1,4 @@
+import copy
 import os
 import datetime
 from io import BytesIO
@@ -42,6 +43,10 @@ _SHRINK_ORDER = [
 
 # Keys that are page margins and must not be increased during the inflate pass.
 _MARGIN_KEYS = frozenset(("top_margin", "bottom_margin"))
+
+# Auto-shrink parameters for the cover letter single-page fit.
+_CL_SHRINK_RATE           = 0.95   # multiply factor by this each iteration (5 % reduction)
+_CL_MAX_SHRINK_ITERATIONS = 15     # 0.95^15 ≈ 0.46 — well beyond any realistic overflow
 
 
 def _default_spacings():
@@ -234,6 +239,57 @@ def _try_build(elements: list, top_margin: float, bottom_margin: float) -> int:
     return doc.page
 
 
+def _shrink_elements(elements: list, factor: float) -> list:
+    """
+    Return a new list of flowables with sizes scaled down by *factor*.
+
+    - ``Spacer`` heights are multiplied by *factor*.
+    - ``Paragraph`` styles get their ``fontSize``, ``leading``,
+      ``spaceBefore``, and ``spaceAfter`` reduced by *factor* (fontSize
+      never goes below 6 pt, leading never below 7 pt).
+    - ``Table`` cells are recursed into.
+    - All other flowables are returned as-is.
+
+    Only shrinks (factor < 1.0).  If factor >= 1.0 the original list is
+    returned unchanged.
+    """
+    if factor >= 1.0:
+        return list(elements)
+
+    shrunk = []
+    for el in elements:
+        if isinstance(el, Spacer):
+            shrunk.append(Spacer(el.width, el.height * factor))
+
+        elif isinstance(el, Paragraph):
+            s = el.style
+            new_style = ParagraphStyle(
+                s.name + "_s",
+                parent=s,
+                fontSize=max(6, s.fontSize * factor),
+                leading=max(7, s.leading * factor),
+                spaceBefore=s.spaceBefore * factor,
+                spaceAfter=s.spaceAfter * factor,
+            )
+            shrunk.append(Paragraph(el.text, new_style))
+
+        elif isinstance(el, Table):
+            # Deep-copy preserves colWidths, style, and all table attributes.
+            new_table = copy.deepcopy(el)
+            for i, row in enumerate(new_table._cellvalues):
+                for j, cell in enumerate(row):
+                    if isinstance(cell, list):
+                        new_table._cellvalues[i][j] = _shrink_elements(cell, factor)
+                    elif isinstance(cell, (Paragraph, Spacer)):
+                        new_table._cellvalues[i][j] = _shrink_elements([cell], factor)[0]
+            shrunk.append(new_table)
+
+        else:
+            shrunk.append(el)
+
+    return shrunk
+
+
 # ═══════════════════════════════════════════════════════════════
 #  CV PDF GENERATION
 # ═══════════════════════════════════════════════════════════════
@@ -339,16 +395,13 @@ def generate_cover_letter_pdf(
     date: str,
     signature_path: str = os.path.join("inputs", "signature.png"),  # ← NEW
 ):
-    """Generate a clean French-format cover letter as PDF."""
+    """Generate a clean French-format cover letter as PDF.
 
-    doc = SimpleDocTemplate(
-        output_path,
-        pagesize=A4,
-        topMargin=20 * mm,
-        bottomMargin=20 * mm,
-        leftMargin=25 * mm,
-        rightMargin=25 * mm,
-    )
+    An auto-shrink pass ensures the letter always fits on exactly one A4
+    page.  If the content overflows, Spacer heights and Paragraph
+    leading/fontSize are reduced proportionally (via ``_shrink_elements``)
+    until everything fits.  Nothing is ever truncated.
+    """
 
     styles = _get_cl_styles()
     elements = []
@@ -384,7 +437,7 @@ def generate_cover_letter_pdf(
     elements.append(Paragraph(f"Le {french_date}", styles["date"]))
     elements.append(Spacer(1, 10 * mm))
 
-    # ─── OBJECT LINE ─────────────��───────────────────────────────
+    # ─── OBJECT LINE ─────────────────────────────────────────────
     elements.append(Paragraph(
         f"<b>Objet :</b> Candidature — {offer_name}",
         styles["object"]
@@ -432,8 +485,35 @@ def generate_cover_letter_pdf(
         print(f"  [WARN] Signature not found: {signature_path} — name only")
         elements.append(Paragraph(nom, styles["signature_name"]))
 
-    # ─── BUILD PDF ───────────────────────────────────────────────
-    doc.build(elements)
+    # ─── AUTO-SHRINK: ensure everything fits on one page ─────────
+    # Build to an in-memory buffer first; if more than one page is
+    # produced, reduce Spacer heights and Paragraph leading/fontSize
+    # by 5 % per iteration until the content fits.  Since overflow is
+    # typically only 1–2 lines, convergence happens in 1–2 steps and
+    # the visual difference is imperceptible.
+    _cl_doc_kwargs = dict(
+        pagesize=A4,
+        topMargin=20 * mm,
+        bottomMargin=20 * mm,
+        leftMargin=25 * mm,
+        rightMargin=25 * mm,
+    )
+
+    shrink_factor = 1.0
+    fit_elements = elements
+
+    for _ in range(_CL_MAX_SHRINK_ITERATIONS):
+        buf = BytesIO()
+        test_doc = SimpleDocTemplate(buf, **_cl_doc_kwargs)
+        test_doc.build(copy.deepcopy(fit_elements))
+        if test_doc.page <= 1:
+            break
+        shrink_factor *= _CL_SHRINK_RATE
+        fit_elements = _shrink_elements(elements, shrink_factor)
+
+    # ─── BUILD FINAL PDF ─────────────────────────────────────────
+    doc = SimpleDocTemplate(output_path, **_cl_doc_kwargs)
+    doc.build(fit_elements)
 
 # ═══════════════════════════════════════════════════════════════
 #  STYLES

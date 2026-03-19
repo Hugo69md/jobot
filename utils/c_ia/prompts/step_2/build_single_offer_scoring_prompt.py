@@ -63,7 +63,7 @@ Tu es en recherche de stage. tu dois appliquer un score à cette offre pour dete
    - prio skills match avec section competence = 3,5 points pour chaque compétence matchée
    - bonus skills match avec section competence = 2 points pour chaque compétence matchée
 2. *Formation/niveau* (10 pts): Bac+4/5, école ingénieur, stage fin d'études = max
-3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, sinon baisse en fonction de la renommée de l'entreprise
+3. *Prestige entreprise* (20 pts): CAC40/S&P500/Big4/Big3 = max, boite de conseil = max, sinon baisse en fonction de la renommée de l'entreprise
 4. *Localisation* (15 pts): 
 - Lyon = 15 pts
 - Paris = 15 pts

@@ -1,0 +1,74 @@
+{
+    "offer_name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+    "offer_company": "CHANEL",
+    "offer_type": "data",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/242b7119-a614-4d01-b4d6-1e926a95304c-chanel-stage-assistant-e-projets-techniques-audiovisuel-base-de-donnees-h-f-x-juillet-2026",
+    "score": 89,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "selection_reasoning": "L'offre de stage chez Chanel est à dominante intellectuelle, analytique et organisationnelle (gestion de bases de données, création de procédures, optimisation de plateformes, gestion de projet). Elle requiert des capacités de réflexion et de structuration. \n\nAnalyse du pool :\n- Index 9 (VJ Logistique) et Index 10 (Amazon) : Ces expériences sont purement opérationnelles et manuelles (manutention, picking, préparation de palettes). Bien qu'elles touchent à la 'logistique', la nature du travail (exécution physique) est en totale contradiction avec le niveau d'exécution intellectuel demandé par l'offre (création de guides, conception SharePoint, reporting). Les valoriser serait incohérent.\n- Index 8 (Kryptosphere) : Bien que dans le secteur Tech/Finance, la description 'membre actif' est trop vague et ne démontre pas explicitement les compétences de gestion de projet ou de structuration de données requises sans invention de détails.\n- Index 7 (FRM) : L'organisation d'un événement ponctuel est pertinente pour l'organisation, mais reste limitée en scope par rapport à la gestion de processus internes.\n- Index 3 (Campus Création) : Cette expérience d'entrepreneuriat implique la 'création d'une entreprise' et la gestion d'un projet de A à Z ('carte blanche'). Cela démontre directement les soft skills et hard skills implicites nécessaires à l'offre : capacité à structurer un projet, rédiger des concepts (procédures/business plan), et organiser une activité complexe. C'est la seule expérience du pool qui reflète le niveau intellectuel et la nature 'gestion de projet/création' des missions chez Chanel.",
+    "skills_section": [
+        "Dashboards",
+        "Reporting",
+        "Excel avancé",
+        "Power Query",
+        "Data Visualisation",
+        "Data pipelines"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite postuler au stage d'assistant(e) aux projets techniques chez CHANEL, un poste qui correspond parfaitement à ma recherche de stage de fin d'études à partir de juin 2026.\n\nMon profil allie une solide formation en ingénierie avec une spécialisation en Supply Chain Management et une maîtrise des outils data. Mon expérience en tant qu'assistant supply chain chez Arrow m'a permis de créer des outils d'analyse et d'automatisation de processus, tout en travaillant sur des schémas de ruptures et de non-conformités. Parallèlement, mon travail freelance en tant que data analyst m'a conduit à développer un portfolio incluant des projets d'automatisation et d'analyse de données.\n\nJe suis particulièrement intéressé par les missions de mise à jour et de structuration de bases de données, ainsi que par la création de fichiers récapitulatifs d'indicateurs clés. Mes compétences en Python, pandas et numpy, combinées à une maîtrise avancée d'Excel, me permettent d'aborder ces tâches avec rigueur. De plus, mon expérience en gestion d'entrepôt chez VJ logistique et mon initiation au 5S chez Amazon m'ont donné une vision pratique de la logistique et de l'organisation, des éléments clés pour la gestion du matériel audiovisuel chez CHANEL.\n\nMa capacité à rédiger des procédures internes et à concevoir des guides utilisateurs, acquise lors de ma création d'outils d'automatisation, sera un atout pour l'élaboration de guides utilisateurs et la rédaction de procédures internes demandés dans votre offre. Enfin, ma formation en data science et ma pratique du reporting m'appréparent à suivre l'activité maintenance et à contribuer à la conception d'une feuille de route pour les lives entreprise.\n\nJe serais honoré de pouvoir échanger à nouveau avec vous pour vous exposer plus en détail ma motivation et mes compétences.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et à la mission de gestion de projet, mais il est déjà présent dans les compétences spécifiques du candidat et donc exclu. Aucun autre mot-clé de l'offre (comme 'Excel', 'Power BI', 'Gestion de bases de données', 'SOP', 'Reporting') n'apparaît dans les compétences validées du candidat, qui sont majoritairement liées à la logistique, la simulation et l'analyse de données pure (Python, FlexSim). Par conséquent, aucun nouveau mot-clé ne peut être injecté sans inventer des compétences ou des expériences.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, spécialisation en industrial supply chain management.",
+            "keywords_injected": []
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "description_tailored": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de process dans le contexte des missions données",
+            "keywords_injected": []
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data pipelines' est pertinent car il correspond à l'automatisation et au traitement de données évoqué implicitement par l'utilisation de pandas et numpy, et il n'est pas dans la liste des mots-clés déjà injectés ou présents dans la description originale. Les autres compétences comme 'Reporting' ou 'Dashboards' sont déjà présentes dans la description originale ou dans les compétences spécifiques.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de l'analyse de données avec Python comme support, incluant la construction de Data pipelines pour le traitement et l'automatisation des flux de données.",
+            "keywords_injected": [
+                "Data pipelines"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (Statistiques descriptive/inferentielle) et n'est pas dans l'exclusion, contrairement à 'Data pipelines' déjà injecté. Les autres compétences techniques (Python, ScikitLearn, etc.) sont déjà présentes dans la description originale ou les specific_skills, donc exclues pour éviter la répétition.",
+            "description_tailored": "Formation axée sur l'analyse et la modélisation de données avec Python, incluant des cours avancés en statistiques et l'utilisation de ScikitLearn pour la prédiction.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions de création de fichiers récapitulatifs et de dashboards de l'offre, et n'est pas dans les mots-clés déjà injectés ni dans la description originale. Les autres compétences validées comme 'Power BI', 'Power Platform', 'SharePoint' ou 'Gestion de projet' ne sont pas présentes dans les compétences spécifiques du candidat fournies, donc elles ne peuvent être injectées sans inventer des faits.",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable et création d'un portfolio de projets open source, axés sur le Reporting automatisé et les semi-automatisations.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car la description originale ne contient aucune compétence technique (bases de données, Excel, GMAO, etc.) ni compétence de gestion de projet, et les compétences spécifiques du candidat sont vides. Les mots-clés pertinents de l'offre (Gestion de projet, Rédaction de procédures, etc.) ne sont pas présents dans le texte original ni dans les compétences validées du candidat, ce qui rend toute injection impossible sans inventer de faits.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

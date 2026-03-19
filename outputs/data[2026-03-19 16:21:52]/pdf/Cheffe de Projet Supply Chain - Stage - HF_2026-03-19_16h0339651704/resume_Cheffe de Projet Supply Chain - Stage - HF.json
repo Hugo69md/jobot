@@ -1,0 +1,83 @@
+{
+    "offer_name": "Chef(fe) de Projet Supply Chain - Stage - H/F",
+    "offer_company": "Laboratoires Pierre Fabre",
+    "offer_type": "supply_chain",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/660c7ff7-8497-428e-b9c1-a65795d55a0d-laboratoires-pierre-fabre-chef-fe-de-projet-supply-chain-stage-h-f",
+    "score": 85,
+    "selected_indexes": [
+        1,
+        2,
+        9,
+        10,
+        3,
+        4
+    ],
+    "skills_section": [
+        "Nettoyage des données",
+        "Dashboards",
+        "Reporting",
+        "Power Query",
+        "Python",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise en tant que stagiaire pour le poste de Chef(fe) de Projet Supply Chain. Mon profil correspond aux exigences de l'offre, notamment la maîtrise des principes fondamentaux de la Supply Chain et la capacité à analyser et optimiser les flux d'approvisionnement.\n\nMon parcours professionnel m'a permis d'acquérir une solide expérience terrain. J'ai effectué un stage chez Arrow où j'ai créé des outils d'analyse de données et d'automatisation de processus pour le monitoring des ruptures et non-conformités en entrepôt. J'ai également travaillé en tant qu'assistant logistique chez VJ Logistique, où j'ai géré les stocks, les arrivées et départs de camions, ainsi que les préparations de palettes. Ces expériences m'ont inculqué une rigueur et une organisation essentielles pour les missions de planification et de distribution.\n\nSur le plan technique, je possède une maîtrise approfondie de Python, pandas, numpy et scikit-learn, acquise via des formations comme HarvardX et FreeCodeCamp. Ces compétences me permettent de collecter, nettoyer et synthétiser des données relatives à la performance de la Supply Chain, ainsi qu'élaborer des reportings réguliers. Mon expérience en tant que data analyst freelance a également renforcé ma capacité à proposer des axes d'amélioration des processus basés sur des données concrètes.\n\nJe suis convaincu que mes compétences en analyse de données, combinées à ma formation en ingénierie et ma pratique en supply chain, me permettront de contribuer efficacement à vos projets d'amélioration continue concernant les coûts, délais et qualité. Mon anglais C1 et ma rigueur analytique sont des atouts pour travailler en équipe avec vos services achats, logistique et usines.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est présent dans les compétences spécifiques du candidat, donc exclu. 'Génie Mécanique' et 'Génie Électrique' sont dans la description originale, donc exclus. Les mots-clés 'Supply Chain', 'Logistique', 'Distribution', 'Planification de production', 'Gestion des stocks', 'Prévision de la demande', 'Analyse de données', 'Reporting', 'Data-driven decision making' et 'Process monitoring' sont pertinents car ils apparaissent dans les missions ou compétences de l'offre ET dans les compétences validées du candidat, mais ne sont pas dans la description originale ou les compétences spécifiques. 'Supply Chain Management' est exclu car déjà présent dans les compétences spécifiques.",
+            "description_tailored": "Étudiant en ingénierie spécialisé en Supply Chain Management, j'ai appliqué mes compétences en Logistique, Distribution et Planification de production pour analyser les flux. J'ai utilisé des outils d'analyse de données et de Reporting pour soutenir la prise de décision basée sur les données (Data-driven decision making) et surveiller les processus (Process monitoring).",
+            "keywords_injected": [
+                "Supply Chain",
+                "Logistique",
+                "Distribution",
+                "Planification de production",
+                "Analyse de données",
+                "Reporting",
+                "Data-driven decision making",
+                "Process monitoring"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est pertinent car il correspond directement à l'analyse des 'schémas de ruptures' et des 'non conformités en WH' mentionnée dans les compétences spécifiques, sans être déjà injecté. Les autres compétences validées comme 'Planification de production', 'Prévision de la demande', 'ERP Oracle' ou 'Data-driven decision making' sont soit déjà injectées dans le CV, soit trop générales par rapport aux tâches spécifiques décrites (ruptures/non-conformités).",
+            "description_tailored": "Développement d'outils d'analyse et d'automatisation de processus pour optimiser la gestion des stocks et analyser les schémas de ruptures ainsi que les non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Gestion des stocks"
+            ]
+        },
+        {
+            "index": 9,
+            "name": "Assistant gestion d'entrepôt - VJ logistique",
+            "reasoning": "Le mot-clé 'Gestion des stocks' est exclu car il est déjà injecté dans d'autres expériences du CV. Les autres compétences validées (Prévision de la demande, Planification de production, ERP Oracle, etc.) ne correspondent pas aux tâches réelles décrites dans la description originale (gestion physique, administrative, préparation de palettes). Aucun nouveau mot-clé ne peut être injecté sans inventer des compétences ou des actions non attestées.",
+            "description_tailored": "Initiation à la logistique avec le chef d'entrepôt, gestion d'entrepôt, arrivées et départs de camions, administratif lié à la logistique, préparation et transport de palettes.",
+            "keywords_injected": []
+        },
+        {
+            "index": 10,
+            "name": "Stage - Amazon DAR1",
+            "reasoning": "Le mot-clé 'Optimisation des processus' est pertinent car il correspond à la mission d'analyse et d'amélioration des flux, et il n'est ni dans les mots-clés déjà injectés, ni dans la description originale, ni dans les compétences spécifiques. Les autres mots-clés pertinents de l'offre (comme 'Analyse de données', 'Reporting', 'Process monitoring') sont déjà injectés ailleurs dans le CV ou sont trop génériques par rapport à l'action manuelle décrite. '5S' est conservé car c'est une compétence spécifique du candidat.",
+            "description_tailored": "Stage ouvrier dédié à l'optimisation des processus de préparation de routes et à l'application des principes 5S pour améliorer l'organisation du lieu de travail.",
+            "keywords_injected": [
+                "Optimisation des processus"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun nouveau mot-clé de l'offre ne peut être injecté car la description originale ne contient aucun des termes spécifiques de l'offre (Supply Chain, ERP, Planification, etc.) et les compétences validées du candidat sont vides. Les mots-clés déjà injectés dans d'autres expériences ne s'appliquent pas à ce contexte de création d'entreprise sur les addictions au smartphone.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond à l'utilisation de Matplotlib et Seaborn pour créer des graphiques, ce qui est une compétence non injectée et utile pour l'offre. Les autres compétences comme 'Reporting' ou 'Analyse de données' sont déjà présentes dans le CV ou dans la description originale.",
+            "description_tailored": "Développement de dashboards et visualisation de données complexes via Python (Matplotlib, Seaborn) pour transformer des données brutes en insights actionnables.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        }
+    ]
+}

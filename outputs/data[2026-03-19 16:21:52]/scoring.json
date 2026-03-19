@@ -1,0 +1,196 @@
+{
+    "scoring": [
+        {
+            "name": "Data Ingénieur Transport et Relation Client (F/H) en Stage",
+            "score": 85,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Automatisation' (5pts), 'Reporting' (5pts), 'Excel' (5pts), 'Data Visualisation' (5pts), 'KPI' (5pts), 'Analyse de données' (5pts). Matchs prio: 'Data-driven decision making' (3.5pts), 'Process monitoring' (3.5pts), 'Analyse de données' (3.5pts), 'Reporting automatisé' (3.5pts), 'Automatisation' (3.5pts), 'Excel' (3.5pts), 'Dashboards' (3.5pts), 'Statistiques' (3.5pts). Matchs bonus: 'Forecasting' (2pts), 'Power Query' (2pts), 'Python' (2pts). Total: 6*5 + 8*3.5 + 10*2 = 30 + 28 + 20 = 78 pts.",
+                "score": 78
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond au profil recherché (Étudiant en école d'ingénieur, stage fin d'études). Score maximal.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Carrefour France est une entreprise CAC40 (leader mondial du détail), correspondant au critère CAC40. Score maximal.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Évry (91000). Évry est à environ 30-35 km de Paris. Selon les critères, Paris est une ville cible. Évry étant à plus de 15km de Paris, le score est 0.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Période: Juin 2026. Le candidat est en recherche de stage fin d'études à partir de juin 2026. Correspondance parfaite avec la période demandée. Score maximal.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Chef(fe) de Projet Supply Chain - Stage - H/F",
+            "score": 85,
+            "C1": {
+                "reason": "Matchs t_prio: Supply Chain Management (5pts), Planification de production (5pts), Gestion des stocks (5pts), Warehouse Management (5pts), Entrepôt (5pts), Data-driven decision making (5pts), Analyse de données (5pts), Excel avancé (5pts), Python (5pts). Matchs prio: Forecasting (3.5pts), Réapprovisionnement (3.5pts), Data Visualisation (3.5pts), Reporting (3.5pts), Automatisation (3.5pts), Data processing (3.5pts). Matchs bonus: Power Query (2pts), Reporting automatisé (2pts), Web scraping (2pts), Analyse de données (déjà compté dans t_prio mais confirmé), ERP Oracle (2pts). Total estimé: 5+5+5+5+5+5+5+5+5+5+3.5+3.5+3.5+3.5+3.5+3.5+2+2+2 = 76 points.",
+                "score": 76
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5, école d'ingénieur) et recherche un stage fin d'études. Correspond parfaitement aux critères de formation et de niveau.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Laboratoires Pierre Fabre est une entreprise majeure du secteur pharmaceutique, cotée en CAC40. Renommée et prestige élevé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est située à Lavaur (Tarn). Lavaur est à environ 150km de Toulouse et à environ 200km de Montpellier. Selon les critères, les villes cibles sont Lyon, Paris, Montpellier. Lavaur est à plus de 15km de Montpellier (environ 200km). Le critère dit '<15km = 0'. Comme Lavaur n'est pas à moins de 15km de Lyon, Paris ou Montpellier, le score est 0.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en recherche de stage fin d'études (Bac+5). Si le stage commence en juin 2026, cela correspond au moment idéal pour un stage fin d'études (souvent débuté en juin/juillet). Score maximal.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+            "score": 85,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Supply Chain Management' (5pts), 'Logistique' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Gestion des stocks' (5pts), 'Warehouse Management' (5pts), 'Entrepôt' (5pts), 'Transport' (5pts), 'Excel avancé' (5pts), 'Python' (5pts), 'data processing' (5pts), 'Automation' (5pts), 'Reporting' (5pts), 'Analyse de données' (5pts). Matchs prio: 'Data-driven decision making' (3.5pts), 'Process monitoring' (3.5pts), 'SOP' (3.5pts), 'Excel avancé' (3.5pts), 'Reporting' (3.5pts), 'Python' (3.5pts), 'data processing' (3.5pts), 'Automation' (3.5pts), 'Reporting automatisé' (3.5pts). Matchs bonus: 'Power Query' (2pts), 'Reporting' (2pts), 'Excel avancé' (2pts), 'Python' (2pts), 'data processing' (2pts), 'Automation' (2pts), 'Reporting automatisé' (2pts). Total: 105 pts (max théorique ajusté à 40 pour le scoring).",
+                "score": 40
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Samsung Electronics France est une entreprise du CAC40 et un leader mondial de l'électronique, correspondant au critère Big3/CAC40.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Saint-Ouen (93). Saint-Ouen est situé à environ 15-20 km de Paris. Selon les règles: >15km = 0 pts. (Note: Si l'interprétation était <20km sans spécificité, ce serait 5pts, mais la règle dit <15km=0. Saint-Ouen est souvent considéré comme proche de Paris mais techniquement au-delà de 15km. Cependant, pour être prudent avec la règle stricte '<15km', on note que Saint-Ouen est à ~18km de Paris, donc 0 pts selon la règle stricte. Si on considère la proximité relative, on pourrait argumenter 5pts, mais je respecte la règle mathématique: 18km > 15km -> 0 pts).",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en recherche de stage fin d'études (Bac+5) et l'offre demande un stage fin d'études. La période correspond parfaitement au profil de fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développeur Python F/H",
+            "score": 81,
+            "C1": {
+                "reason": "Matchs t_prio: Python (2 pts), Excel avancé (2 pts). Matchs prio: Langages de programmation (3,5 pts), Bases de données (3,5 pts), Power BI (0 pts - non listé dans les skills du candidat). Matchs bonus: Automatisation (2 pts), Reporting automatisé (2 pts), Data processing (2 pts). Total: 15+3,5+3,5+2+2+2 = 28,5 pts arrondis à 28.",
+                "score": 28
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond parfaitement aux critères de formation et de niveau.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Bpifrance est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 stricto sensu, elle possède une très haute renommée et un prestige institutionnel élevé.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Lieu: Maisons-Alfort. Distance à Paris: environ 15-20 km. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', Maisons-Alfort étant à plus de 2km de Paris, le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période souhaitée par le candidat (maximale).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+            "score": 79,
+            "C1": {
+                "reason": "Matchs t_prio: 'Gestion de bases de données' (Data) + 'Excel' (Data/Supply Chain bonus) = 10 pts. Matchs prio: 'Création de fichiers récapitulatifs d'indicateurs clés' (Data reporting) + 'Optimisation de la plateforme de GMAO' (Data/Supply Chain automation) + 'Rédaction de procédures internes' (Data reporting) = 10,5 pts. Matchs bonus: 'Power BI' (Data bonus) + 'Power Platform' (Data bonus) + 'SharePoint' (Data bonus) + 'Excel' (Supply Chain bonus) = 8 pts. Total: 28,5 pts.",
+                "score": 29
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche stage fin d'études, correspondant parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise CAC40 de très haut prestige, justifiant le score maximum.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Neuilly-sur-Seine. Neuilly fait partie de la couronne parisienne. Selon les critères, Paris et ses environs immédiats (1km) sont des villes cibles. Néanmoins, Neuilly est distincte de Paris proprement dit. En appliquant la règle de distance stricte (Paris = 15pts, 1km = 14pts, 2km = 13pts), et considérant que Neuilly est à environ 10-12km de Paris, le score est réduit. Cependant, l'offre mentionne 'Paris' comme ville cible dans le contexte général. Si on considère Neuilly comme 'Paris' pour le scoring (ville cible), score=15. Si on applique strictement la distance (12km > 2km), score=5. En tant qu'expert, je note que Neuilly est souvent incluse dans la zone parisienne pour les stages, mais selon la règle mathématique stricte donnée (1km=14, 2km=13), et sachant que Neuilly est à ~10km, le score est faible. Je vais opter pour une interprétation prudente basée sur la distance réelle : 5 pts.",
+                "score": 5
+            },
+            "C5": {
+                "reason": "Début juillet 2026. Le candidat recherche un stage à partir juin 2026. La période correspond exactement au début de la fenêtre de recherche du candidat (juin 2026 = max).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Consultant Data Analyst H/F – Stage de fin d'études",
+            "score": 75,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Data Visualisation (3.5pts), Reporting (3.5pts), Automatisation (3.5pts), Statistiques (3.5pts). Matchs bonus: Power Query (2pts), Data processing (2pts). Total: 32 pts.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Primexis n'est pas dans les catégories CAC40, S&P500, Big4 ou Big3. Son prestige est inférieur aux grandes entreprises, ce qui entraîne une réduction significative par rapport au maximum.",
+                "score": 5
+            },
+            "C4": {
+                "reason": "L'offre est à Puteaux. Puteaux est situé à environ 10-12 km de Paris. Selon la règle de pénalité (-2pts pour >2km), le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en recherche de stage fin d'études, ce qui correspond parfaitement à la période visée (max).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire chargé(e) d'études Développement Territorial H/F",
+            "score": 58,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées (Excel, QGIS, Anglais, Rigueur, Rédaction, Connaissances politiques, Cartographie). Le candidat maîtrise Excel mais pas QGIS, ni les compétences spécifiques en affaires publiques ou cartographie.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché (Bac+5/Master, école d'ingénieurs).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev est une entreprise majeure du secteur des transports et de la mobilité, cotée en Bourse (CAC40), ce qui lui confère un prestige élevé.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Issy-les-Moulineaux. Cette ville est située à environ 10-12 km de Paris. Selon les critères (2km au-delà de Paris = -2pts), le score est de 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026, ce qui correspond exactement à la période souhaitée par le candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 56,
+            "C1": {
+                "reason": "Matchs t_prio: Python (1pt). Matchs prio: Aucun (FastAPI, Vue.js, TypeScript, PostgreSQL, Docker, Kubernetes absents). Matchs bonus: Aucun. Score total: 1.",
+                "score": 1
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM (Bac+5) et recherche stage fin d'études. Correspond au profil recherché. Score: 10.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services (TCS) est une entreprise internationale majeure (Big3/Big4), bien que souvent perçue comme moins prestigieuse que les CAC40 français en tech pure, elle reste une référence mondiale. Score: 15.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "L'offre est à Paris. Paris est une ville cible avec 15 pts. Score: 15.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en fin d'études (5A), ce qui correspond généralement à la période de recherche de stage fin d'études (juin 2026). Score: 15.",
+                "score": 15
+            }
+        }
+    ]
+}

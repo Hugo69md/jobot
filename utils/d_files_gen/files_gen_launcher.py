@@ -123,7 +123,7 @@ def run_pdf_generation(date: str):
 
         # ── Write resume JSON directly into the offer subfolder ───
         # (avoids fragile file-move matching; always in sync with match data)
-        resume_json_path = os.path.join(offer_dir, f"resume_{safe_offer}.json")
+        resume_json_path = os.path.join(offer_dir, f"resume_{safe_offer.replace(' ', '_')}.json")
         resume_payload = {
             "offer_name":          offer_name,
             "offer_company":       company,

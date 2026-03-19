@@ -1,0 +1,77 @@
+{
+    "offer_name": "STAGE - Développeur Python F/H",
+    "offer_company": "Bpifrance",
+    "offer_type": "data",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/d4e85e9f-63e7-4c65-96c4-a54b776b6016-bpifrance-stage-developpeur-python-f-h",
+    "score": 81,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+    ],
+    "selection_reasoning": "L'offre est un stage de Développeur Python dans le secteur de la Finance de marché, avec des missions à dominante intellectuelle, analytique et d'automatisation (conception de KPI, reporting, solutions analytiques). Selon la règle de niveau 2, il faut privilégier les expériences démontrant des capacités de réflexion et pénaliser les tâches purement manuelles. Les expériences 9 (Assistant logistique) et 10 (Manutentionnaire Amazon) sont des rôles d'exécution physique et ne reflètent pas le niveau d'abstraction requis pour le poste de développeur/analyste. L'expérience 7 (Bénévolat FRM) est trop ponctuelle et opérationnelle (organisation d'un stand). L'expérience 3 (Campus Création) montre l'esprit d'entreprise mais manque de lien direct avec la finance ou la tech. L'expérience 8 (Kryptosphere) est la seule qui combine une adéquation sectorielle forte (Finance/Crypto/Tech) avec une nature de rôle impliquant une compréhension des nouvelles technologies financières et un réseau professionnel, ce qui correspond au contexte 'Finance de marché' et 'Tech' de l'offre, contrairement aux rôles purement logistiques.",
+    "skills_section": [
+        "Nettoyage des données",
+        "Preparation des données",
+        "Dashboards",
+        "Reporting",
+        "KPI",
+        "Data Visualisation"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite mettre mes compétences techniques et mon esprit d'analyse au service de vos équipes en tant que stagiaire développeur Python. Mon profil correspond aux exigences de votre offre, notamment la maîtrise des langages de programmation et l'automatisation de processus.\n\nMon parcours académique et professionnel s'est construit sur une double compétence : l'ingénierie et l'analyse de données. En tant qu'étudiant spécialisé en Supply Chain Management, j'ai acquis une solide expérience pratique, notamment lors de mon stage chez Arrow où j'ai créé des outils d'analyse et d'automatisation de processus. Parallèlement, mon stage chez Amazon m'a permis de développer une rigueur opérationnelle et une compréhension des flux logistiques.\n\nAu-delà de ces expériences, j'ai approfondi mes compétences techniques via des formations reconnues, dont HarvardX (CS109x) et FreeCodeCamp. J'ai ainsi acquis une maîtrise approfondie de Python, pandas, numpy et scikit-learn, ainsi que des bases solides en statistiques inférentielle et descriptive. Mon travail en tant qu'analyste freelance m'a également permis de concevoir des dashboards et des scripts d'automatisation, démontrant ma capacité à transformer des données brutes en informations actionnables.\n\nJe suis particulièrement intéressé par vos missions de conception d'automatisation de KPI et de reporting. Ma capacité à manipuler des données complexes et à créer des solutions analytiques me permettrait de contribuer efficacement à la mise en place de solutions analytiques de coûts par produits et au rapprochement de données avec vos prestataires.\n\nMon anglais niveau C1 (IELTS 7,5/9) me permet de communiquer avec aisance dans un environnement international, et ma curiosité pour les nouvelles technologies me pousse à explorer des solutions innovantes.\n\nJe serais ravi de vous présenter mon portfolio et de discuter de la manière dont mes compétences en Python et en analyse de données peuvent soutenir les objectifs de Bpifrance.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il relie directement la spécialisation du candidat aux missions d'automatisation et d'analyse de coûts de l'offre, tout en étant présent dans les compétences validées. Les autres compétences validées (Logistique, Distribution, etc.) sont trop spécifiques au domaine opérationnel et ne correspondent pas aux missions analytiques et de reporting de l'offre, donc elles sont exclues pour éviter de déformer l'expérience.",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un diplôme d'ingénierie avec une expertise en Supply Chain Management.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il est central dans les missions d'automatisation de l'offre et présent dans les compétences du candidat, contrairement à 'Supply Chain Management' qui est déjà injecté ailleurs dans le CV. Les autres compétences comme 'Excel', 'Power Query' ou 'Reporting' sont trop génériques ou déjà présentes dans la description originale, donc seul 'Python' est sélectionné pour maximiser le score ATS sans inventer de faits.",
+            "description_tailored": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de process en utilisant Python dans le contexte des missions données.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (Statistiques descriptives/inferentiel) et n'est pas dans les mots-clés déjà injectés ou présents dans l'offre. Les autres compétences de l'offre (Finance de marché, VBA, Power BI, etc.) ne sont pas validées par les compétences spécifiques du candidat pour cette expérience.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement et la préparation des données, ainsi que l'application de statistiques descriptives et inferentielles.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Statistiques' est exclu car déjà injecté dans d'autres expériences. Les autres compétences spécifiques (ScikitLearn, modèles de prédiction) sont déjà présentes dans la description originale ou les skills spécifiques. Aucun nouveau mot-clé de l'offre ne peut être injecté sans inventer des faits ou compétences non listées dans les données fournies.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions d'automatisation de reporting de l'offre et n'est pas dans les mots-clés déjà injectés ou présents dans la description originale. Les autres compétences comme 'Statistiques' sont déjà injectées ailleurs, et 'Python' est dans les mots-clés à exclure.",
+            "description_tailored": "Développement de solutions analytiques et automatisées via Python et Excel, incluant la création de dashboards et de rapports automatisés pour la visualisation de données et le storytelling.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 8,
+            "name": "Kryptosphere",
+            "reasoning": "Aucun mot-clé de l'offre (Finance de marché, Instruments négociés, Pack Office, VBA, Langages de programmation, Bases de données, Power BI, Anglais) ne peut être injecté car les compétences spécifiques du candidat sont vides et les mots-clés déjà injectés (Supply Chain Management, Python, Statistiques, Reporting) ne correspondent pas aux missions de l'offre (qui demandent de la finance, du reporting financier, de l'automatisation, etc.). La description originale ne contient aucun de ces mots-clés, mais comme aucune compétence n'est validée pour l'injecter, il est impossible de respecter la contrainte de ne réinjecter que des mots-clés validés restants sans inventer des faits.",
+            "description_tailored": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
+            "keywords_injected": []
+        }
+    ]
+}

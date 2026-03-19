@@ -1,0 +1,172 @@
+{
+    "scoring": [
+        {
+            "name": "Alternance BAC+4/5 Data product manager - sustainability & digitalization pour la supply chain H/F",
+            "score": 98,
+            "C1": {
+                "reason": "Matchs t_prio: Supply Chain Management (5pts), Data analysis (5pts), Data processing (5pts), Forecasting (5pts), Data Visualisation (5pts), Reporting (5pts), Python (5pts), Excel avancé (5pts). Matchs prio: Data-driven decision making (3.5pts), Warehousing/Entrepôt (3.5pts), Data pipelines (3.5pts), Web scraping (3.5pts). Matchs bonus: Power Query (2pts), Automation (2pts), Data processing (2pts). Total: 44.5 pts.",
+                "score": 44
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond parfaitement au profil Bac+4/5 et niveau d'études requis.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "VOLVO GROUP est une entreprise du CAC40 et un leader mondial dans son secteur, correspondant au critère Big3/CAC40.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Saint-Priest (69). Lyon est à environ 10-12 km de Saint-Priest. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', et étant donné que Saint-Priest est à l'ouest de Lyon (vers 12km), cela dépasse le seuil de 2km. Score: 15 - 2 = 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Offre demande début juin 2026. Candidat est en 5A (fin d'études) et recherche stage fin d'études. Si le stage commence en juin 2026, cela correspond au début de la période de recherche pour un étudiant en 5ème année (fin d'études). Score maximal.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+            "score": 89,
+            "C1": {
+                "reason": "Matchs t_prio: 'Gestion de bases de données' (Data) + 'Excel' (Data/Supply Chain bonus) = 10 pts. Matchs prio: 'Création de fichiers récapitulatifs d'indicateurs clés' (Data reporting) + 'Optimisation de la plateforme de GMAO' (Data/Supply Chain automation) + 'Rédaction de procédures internes' (Data reporting) = 10,5 pts. Matchs bonus: 'Power BI' (Data bonus) + 'Power Platform' (Data bonus) + 'SharePoint' (Data bonus) + 'PowerPoint' (Data bonus) + 'Excel' (Data/Supply Chain) = 10 pts. Total: 30,5 pts.",
+                "score": 30
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche stage fin d'études, correspondant parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise du luxe de renommée mondiale, classée dans les grands groupes internationaux (Big3/Big4 équivalent en termes de prestige et stabilité), justifiant un score maximal.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Neuilly-sur-Seine. Neuilly est une ville satellite de Paris. Selon les critères, si la ville est à 1km d'un centre cible (Paris), on applique -1pt. Neuilly est très proche de Paris (généralement <1km du centre), donc 15 - 1 = 14 pts.",
+                "score": 14
+            },
+            "C5": {
+                "reason": "L'offre est pour un stage débutant en Juillet 2026. Le candidat recherche un stage à partir de Juin 2026. Le début de l'offre (Juillet) est très proche de la période cible (Juin), donc le score est maximal.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE - Développeur Python F/H",
+            "score": 81,
+            "C1": {
+                "reason": "Matchs t_prio: Python (2 pts), Excel avancé (2 pts). Matchs prio: Langages de programmation (3,5 pts), Bases de données (3,5 pts), Power BI (0 pts - non listé dans les skills du candidat). Matchs bonus: Automatisation (2 pts), Reporting automatisé (2 pts), Data processing (2 pts). Total: 15+3,5+3,5+2+2+2 = 28,5 pts arrondis à 28.",
+                "score": 28
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond parfaitement aux critères de formation et de niveau.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Bpifrance est une institution publique majeure, bien que non classée CAC40/S&P500/Big4/Big3 stricto sensu, elle possède une très haute renommée et un prestige institutionnel élevé.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "Lieu: Maisons-Alfort. Distance à Paris: environ 15-20 km. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', Maisons-Alfort étant à plus de 2km de Paris, le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Début juin 2026 correspond exactement à la période souhaitée par le candidat (maximale).",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+            "score": 75,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Supply Chain Management' (5pts), 'Logistique' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Gestion des stocks' (5pts), 'Warehouse Management' (5pts), 'Entrepôt' (5pts), 'Transport' (5pts), 'Excel avancé' (5pts), 'Python' (5pts), 'data processing' (5pts), 'Automation' (5pts), 'Reporting' (5pts), 'Analyse de données' (5pts). Matchs prio: 'Data-driven decision making' (3.5pts), 'Analyse Pareto' (3.5pts), 'Process monitoring' (3.5pts), 'SOP' (3.5pts), 'Excel avancé' (3.5pts), 'Reporting' (3.5pts), 'Python' (3.5pts), 'data processing' (3.5pts), 'Automation' (3.5pts), 'Reporting automatisé' (3.5pts). Matchs bonus: 'Power Query' (2pts), 'Reporting' (2pts), 'Analyse de données' (2pts), 'Python' (2pts), 'data processing' (2pts), 'Automation' (2pts), 'Reporting automatisé' (2pts). Note: SAP n'est pas dans les compétences du candidat.",
+                "score": 100
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond au profil recherché (Bac+5, stage fin d'études).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Samsung Electronics France est une entreprise du CAC40 et un leader mondial de l'électronique, correspondant au critère CAC40/Big3.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Saint-Ouen (93). Saint-Ouen est situé à environ 15-20 km de Paris. Selon les règles fournies, Paris est une ville cible. Si la distance est >15km, le score est 0. Si elle est entre 15km et 2km de Paris, la règle dit '-2pt' si '2Km au dela'. Saint-Ouen est généralement considéré comme faisant partie de la couronne parisienne. Cependant, la règle dit '<15km = 0'. Saint-Ouen est souvent considéré comme à plus de 15km du centre de Paris (environ 18-20km). Donc score 0.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026. L'offre ne précise pas la date de début, mais le contexte général de la recherche de stage fin d'études implique souvent des périodes futures. En l'absence de date spécifique dans l'offre, on applique la règle 'non spécifié = 5pt'. Cependant, le candidat précise 'à partir juin 2026', ce qui correspond au 'max' si l'offre était ouverte à partir de cette date. Comme l'offre ne précise pas la date, on ne peut pas confirmer le 'max'. On applique la règle par défaut pour les offres sans date explicite dans le texte de l'offre : 5pts.",
+                "score": 5
+            }
+        },
+        {
+            "name": "Consultant Data Analyst H/F – Stage de fin d'études",
+            "score": 75,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Data Visualisation (3.5pts), Reporting (3.5pts), Automatisation (3.5pts), Statistiques (3.5pts). Matchs bonus: Power Query (2pts), Data processing (2pts). Total: 32 pts.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Primexis n'est pas dans les catégories CAC40, S&P500, Big4 ou Big3. Son prestige est inférieur aux grandes entreprises, ce qui entraîne une réduction significative par rapport au maximum.",
+                "score": 5
+            },
+            "C4": {
+                "reason": "L'offre est à Puteaux. Puteaux est situé à environ 10-12 km de Paris. Selon la règle de pénalité (-2pts pour >2km), le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en recherche de stage fin d'études, ce qui correspond parfaitement à la période visée (max).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire chargé(e) d'études Développement Territorial H/F",
+            "score": 58,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées (Excel, QGIS, Rigueur, Rédaction, Connaissances politiques, Cartographie). Le candidat maîtrise Excel mais pas QGIS, ni les aspects politiques/territoriaux spécifiques.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev est une entreprise majeure du secteur des transports et de la mobilité, souvent classée dans les indices boursiers (CAC40/S&P500), ce qui justifie un score maximal.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Issy-les-Moulineaux. Cette ville est située à environ 10-12 km de Paris. Selon les critères (2km au-delà de la ville cible = -2pts), le score est de 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026, ce qui correspond exactement à la période demandée par l'offre.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 42,
+            "C1": {
+                "reason": "Le candidat possède Python (bonus), mais manque totalement de Vue.js, JavaScript, TypeScript, FastAPI, PostgreSQL, Git, Docker, Kubernetes et API REST. Aucun match sur les compétences techniques principales de l'offre.",
+                "score": 2
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services (TCS) est une entreprise internationale majeure (Big3/Big4), bien que souvent perçue comme moins prestigieuse que les leaders français ou américains dans le domaine de l'IA, elle reste une grande entreprise.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "L'offre est à Paris. Le candidat est à Lyon. La distance est supérieure à 15km (environ 500km), donc aucun point n'est accordé.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026. L'offre ne précise pas la date de début, mais l'alignement sur la période visée par le candidat est un atout positif.",
+                "score": 15
+            }
+        }
+    ]
+}

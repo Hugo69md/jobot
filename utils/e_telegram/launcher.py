@@ -27,16 +27,16 @@ from utils.e_telegram.decisions import save_decisions
 CALLBACK_POLL_TIMEOUT = int(os.environ.get("TELEGRAM_POLL_TIMEOUT", "60"))
 
 
-def _find_resume_json(offer_dir: str) -> dict | None:
-    """Return the parsed content of the resume_*.json inside offer_dir, or None."""
-    matches = glob.glob(os.path.join(offer_dir, "resume_*.json"))
-    if not matches:
+def _find_resume_json(offer_dir: str, folder_name: str) -> dict | None:
+    """Return the parsed content of resume_{folder_name}.json inside offer_dir, or None."""
+    path = os.path.join(offer_dir, f"resume_{folder_name}.json")
+    if not os.path.exists(path):
         return None
     try:
-        with open(matches[0], "r", encoding="utf-8") as fh:
+        with open(path, "r", encoding="utf-8") as fh:
             return json.load(fh)
     except (json.JSONDecodeError, OSError) as exc:
-        print(f"  [E_TG] Could not read {matches[0]}: {exc}")
+        print(f"  [E_TG] Could not read {path}: {exc}")
         return None
 
 
@@ -71,7 +71,7 @@ async def _send_all_offers(bot: Bot, chat_id: str, pdf_dir: str) -> list[str]:
         offer_dir = os.path.join(pdf_dir, folder_name)
 
         # ── Load offer metadata ──────────────────────────────────
-        resume_data = _find_resume_json(offer_dir)
+        resume_data = _find_resume_json(offer_dir, folder_name)
         if resume_data is None:
             print(f"  [E_TG] Skipping {folder_name} — no resume JSON found")
             continue

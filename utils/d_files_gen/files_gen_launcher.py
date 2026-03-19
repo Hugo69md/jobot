@@ -94,7 +94,8 @@ def run_pdf_generation(date: str):
 
         # ── Create subfolder: pdf/{offer_name}_{gen_datetime}/ ────
         safe_offer  = _sanitize_filename(offer_name)
-        folder_name = f"{safe_offer}_{gen_dt_str}"
+        folder_name_0 = f"{safe_offer}_{gen_dt_str}"
+        folder_name = folder_name_0.replace(" ", "_")
         offer_dir   = os.path.join(pdf_output_dir, folder_name)
         os.makedirs(offer_dir, exist_ok=True)
 
@@ -123,7 +124,7 @@ def run_pdf_generation(date: str):
 
         # ── Write resume JSON directly into the offer subfolder ───
         # (avoids fragile file-move matching; always in sync with match data)
-        resume_json_path = os.path.join(offer_dir, f"resume_{safe_offer.replace(' ', '_')}.json")
+        resume_json_path = os.path.join(offer_dir, f"resume_{folder_name}.json")
         resume_payload = {
             "offer_name":          offer_name,
             "offer_company":       company,

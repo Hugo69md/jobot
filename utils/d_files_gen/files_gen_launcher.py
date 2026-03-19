@@ -5,7 +5,6 @@ import shutil
 import datetime
 from utils.d_files_gen.pdf_generator import generate_cv_pdf, generate_cover_letter_pdf
 
-
 def run_pdf_generation(date: str):
     """
     Main entry point for PDF generation.
@@ -20,7 +19,7 @@ def run_pdf_generation(date: str):
     print("[D_PDF] Starting PDF generation...")
     print("=" * 60)
 
-    # ─── Paths ��──────────────────────────────────────────────────
+    # ─── Paths ───────────────────────────────────────────────────
     cv_path        = os.path.join("inputs", "cv.json")
     photo_path     = os.path.join("inputs", "photo.jpeg")
     match_path     = os.path.join("outputs", f"data[{date}]", "match.json")
@@ -72,8 +71,7 @@ def run_pdf_generation(date: str):
         # ── offer_type comes directly from the match entry (set in ia_launcher STEP 0) ──
         offer_type      = match.get("offer_type", "")
         is_supply_chain = (offer_type == "supply_chain")
-        print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} "
-              f"({'from match.json ✅' if offer_type else 'default → data'})")
+        print(f"    Type  : {'Supply Chain' if is_supply_chain else 'Data'} ( {'from match.json ✅' if offer_type else 'default → data'})")
 
         # ── skills_section comes directly from the match entry (set in ia_launcher STEP 4) ──
         cv_skills_section = match.get("skills_section", [])
@@ -123,19 +121,23 @@ def run_pdf_generation(date: str):
         )
         print(f"    ✅ LM  → {cl_filename}")
 
-        # ── Move resume JSON into the offer subfolder ─────────────
-        data_dir = os.path.dirname(pdf_output_dir)
-        for json_path in glob.glob(os.path.join(data_dir, "resume_*.json")):
-            try:
-                with open(json_path, "r", encoding="utf-8") as jf:
-                    jdata = json.load(jf)
-                if jdata.get("offer_name") == offer_name:
-                    dest = os.path.join(offer_dir, os.path.basename(json_path))
-                    shutil.move(json_path, dest)
-                    print(f"    ✅ JSON → {dest}")
-                    break
-            except Exception as exc:
-                print(f"    [WARN] Could not process {json_path}: {exc}")
+        # ── Write resume JSON directly into the offer subfolder ───
+        # (avoids fragile file-move matching; always in sync with match data)
+        resume_json_path = os.path.join(offer_dir, f"resume_{safe_offer}.json")
+        resume_payload = {
+            "offer_name":          offer_name,
+            "offer_company":       company,
+            "offer_type":          offer_type,
+            "offer_URL":           match.get("URL", ""),
+            "score":               score,
+            "selected_indexes":    skill_indexes,
+            "skills_section":      cv_skills_section,
+            "cover_letter":        match.get("cover_letter", ""),
+            "resume":              match.get("resume", []),
+        }
+        with open(resume_json_path, "w", encoding="utf-8") as jf:
+            json.dump(resume_payload, jf, ensure_ascii=False, indent=4)
+        print(f"    ✅ JSON → {resume_json_path}")
 
         print()
 

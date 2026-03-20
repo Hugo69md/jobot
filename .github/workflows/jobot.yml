@@ -11,7 +11,7 @@ on:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 300   # 5-hour hard limit (well under GHA's 6-hour wall)
+    timeout-minutes: 359   # 5-hour hard limit (well under GHA's 6-hour wall)
     permissions:
       contents: read
 
@@ -69,7 +69,7 @@ jobs:
       # ── 7. Run the pipeline ──────────────────────────────────────
       - name: Run jobot pipeline (max_offers=2)
         env:
-          MAX_OFFERS: "2"
+          MAX_OFFERS: "5"
         run: python main.py
 
       # ── 8. Upload outputs as artifacts (for debugging) ───────────

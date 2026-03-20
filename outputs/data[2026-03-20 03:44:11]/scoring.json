@@ -1,0 +1,105 @@
+{
+    "scoring": [
+        {
+            "name": "Consultant Data Analyst H/F – Stage de fin d'études",
+            "score": 98,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts), Data Visualisation (5pts), Reporting (5pts), Dashboards (5pts), KPI (5pts), Data analysis (5pts). Matchs prio: Data pipelines (3.5pts), Statistiques (3.5pts), Automatisation (3.5pts), Reporting automatisé (3.5pts). Matchs bonus: Power Query (2pts), Power Pivot (2pts), Forecasting (2pts), Web scraping (2pts). Total: 42 pts.",
+                "score": 42
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Primexis est une entreprise cotée en CAC40, ce qui correspond au critère de prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Puteaux. Puteaux est situé à environ 10-12 km de Paris. Selon les règles (1km = -1pt, 2km au-delà = -2pt), Puteaux étant à plus de 2km de Paris, la pénalité est de -2pts. Score de base 15 - 2 = 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat est en recherche de stage fin d'études pour juin 2026. L'offre demande un stage fin d'études à partir de juin 2026. La correspondance est parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+            "score": 85,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Supply Chain Management' (5pts), 'Logistique' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Warehouse Management' (5pts), 'Entrepôt' (5pts), 'Transport' (5pts), 'Analyse de données' (5pts), 'Python' (5pts), 'data processing' (5pts), 'Automation' (5pts), 'Reporting' (5pts), 'Reporting automatisé' (5pts), 'Excel avancé' (5pts). Matchs prio: 'Forecasting' (3.5pts), 'Data-driven decision making' (3.5pts), 'Process monitoring' (3.5pts), 'SOP' (3.5pts). Matchs bonus: 'Power Query' (2pts), 'Power Pivot' (2pts), 'VBA' (2pts), 'Web scraping' (2pts). Total: 84.5 pts.",
+                "score": 84.5
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Samsung Electronics France est une entreprise du CAC40 et un leader mondial de l'électronique, correspondant au critère CAC40/Big3.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Saint-Ouen (93). Saint-Ouen est situé à environ 15-20 km de Paris. Selon les critères, Paris est une ville cible. Si la distance est >15km, le score est 0. Si elle est entre 15km et 2km de Paris, on applique une pénalité. Saint-Ouen est généralement considéré comme faisant partie de la couronne parisienne. En l'absence de distance exacte dans les données, et sachant que Saint-Ouen est à ~15-18km de Paris, on applique la règle '<15km = 0'. Cependant, si on considère qu'il est proche de Paris (dans la région), on pourrait attribuer un score réduit. Pour être strict avec '<15km = 0', et sachant que Saint-Ouen est souvent cité comme étant à ~15-18km, on prendra 0 car il dépasse le seuil de 15km. *Correction basée sur la logique stricte du prompt*: Le prompt dit '<15km = 0'. Saint-Ouen est à environ 15-18km de Paris. Donc score = 0.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026. L'offre ne précise pas la date de début, mais le contexte de recherche correspond au maximum possible.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire chargé(e) d'études Développement Territorial H/F",
+            "score": 58,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées (Excel, QGIS, Anglais, Rigueur, Rédaction, Connaissances collectivités, Données statistiques/cartographie). Le candidat maîtrise Excel et Python mais pas QGIS, ni les spécificités du développement territorial.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché (Bac+5/Master, école d'ingénieurs).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev est une entreprise majeure du secteur des transports et de la mobilité, cotée en CAC40, ce qui correspond au critère 'CAC40'.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Issy-les-Moulineaux. Cette ville est située à environ 10-12 km de Paris. Selon les critères (2km au-delà de Paris = -2pts), le score est de 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026, ce qui correspond exactement à la période demandée par l'offre.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 53,
+            "C1": {
+                "reason": "Matchs t_prio: Python (1pt). Matchs prio: Aucun (FastAPI, Vue.js, TypeScript, PostgreSQL, Docker, Kubernetes absents). Matchs bonus: Aucun. Score total: 1.",
+                "score": 1
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM (Bac+5) et recherche stage fin d'études. Correspond au profil recherché. Score: 10.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services (TCS) est une entreprise du secteur du conseil et de l'IT, souvent classée dans les grands groupes mondiaux (Big 4/Big 3 contextuel), mais moins prestigieuse que les CAC40 technologiques pures. Score: 15.",
+                "score": 15
+            },
+            "C4": {
+                "reason": "L'offre est à Paris. Paris est une ville cible avec 15 pts. Score: 15.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir juin 2026. L'offre ne précise pas la date de début exacte, mais le contexte de recherche correspond. Score: 12.",
+                "score": 12
+            }
+        },
+        {
+            "name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+            "score": 0,
+            "reason": "parse_error"
+        }
+    ]
+}

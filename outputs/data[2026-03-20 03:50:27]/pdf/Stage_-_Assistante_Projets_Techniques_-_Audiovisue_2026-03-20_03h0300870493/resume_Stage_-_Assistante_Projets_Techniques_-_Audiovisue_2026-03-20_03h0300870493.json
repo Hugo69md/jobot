@@ -1,0 +1,78 @@
+{
+    "offer_name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+    "offer_company": "CHANEL",
+    "offer_type": "data",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/242b7119-a614-4d01-b4d6-1e926a95304c-chanel-stage-assistant-e-projets-techniques-audiovisuel-base-de-donnees-h-f-x-juillet-2026",
+    "score": 84,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "skills_section": [
+        "Power BI",
+        "Reporting",
+        "Data Visualisation",
+        "Excel avancé",
+        "Power Query",
+        "Gestion de bases de données"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite postuler au stage de fin d'études au sein de CHANEL, intitulé \"Assistant(e) Projets Techniques - Audiovisuel & Base de Données\". Mon profil correspond aux exigences de l'offre, notamment la maîtrise des outils de gestion et d'analyse de données.\n\nMon parcours académique m'a permis de développer une expertise solide en supply chain et en ingénierie, complétée par une expérience significative en data. J'ai notamment créé plusieurs outils d'analyse et d'automatisation de processus lors de mon stage chez Arrow, où j'ai travaillé sur le monitoring et la gestion des non-conformités. Parallèlement, en tant que data analyst freelance, j'ai approfondi ma maîtrise de Python, pandas et scikit-learn, tout en produisant des dashboards et des rapports d'indicateurs clés.\n\nLes missions de votre offre résonnent particulièrement avec mes compétences. Ma capacité à structurer et mettre à jour des bases de données, ainsi qu'à créer des fichiers récapitulatifs d'indicateurs, s'appuie directement sur mes projets personnels et mes formations en data science. De plus, mon expérience en logistique et ma rigueur opérationnelle, acquises lors de mes stages chez Amazon et VJ Logistique, me permettent de m'intégrer rapidement aux procédures internes et de contribuer à l'optimisation de la gestion de projet.\n\nMon anglais niveau C1 et ma curiosité pour les nouvelles technologies me permettront d'apporter une valeur ajoutée à vos équipes. Je suis convaincu que mon profil hybride, alliant ingénierie, data et gestion, sera un atout pour le suivi de l'activité maintenance et la conception de guides utilisateurs au sein de CHANEL.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et à la mission de gestion de projet/procédures de l'offre, et il n'est pas dans la liste des mots-clés déjà injectés. Les autres compétences validées (Logistique, ERP Oracle, etc.) sont soit trop spécifiques par rapport à la description générale fournie, soit déjà présentes implicitement dans le contexte d'étudiant en ingénierie, ou ne correspondent pas directement aux missions décrites (bases de données, procédures, GMAO) sans inventer de détails.",
+            "description_tailored": "Étudiant en ingénierie spécialisé en Supply Chain Management, préparant un diplôme en génie mécanique et électrique.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Monitoring' est pertinent car il correspond directement à la mission d'optimisation de la plateforme GMAO et au suivi de l'activité maintenance, et il n'est pas déjà injecté dans le CV. Les autres compétences comme 'Python', 'Excel', 'Data-driven decision making' ou 'Analyse de données' sont soit déjà présentes dans la description originale, soit trop génériques par rapport aux missions spécifiques (GMAO, maintenance) pour être prioritaires ici. 'Supply Chain Management' est exclu car déjà injecté.",
+            "description_tailored": "Développement d'outils de monitoring et d'automatisation de processus dans le domaine de la maintenance et de la gestion des stocks, en s'appuyant sur l'analyse de données et la création de tableaux de bord pour le suivi de l'activité.",
+            "keywords_injected": [
+                "Monitoring"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Data Visualisation' est pertinent car il correspond aux compétences du candidat (Matplotlib, Seaborn) et à la mission de l'offre (fichiers récapitulatifs, dashboards), contrairement aux mots-clés déjà injectés ou présents dans l'expérience originale.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant la manipulation de données avec pandas et numpy, ainsi que la Data Visualisation pour la création de graphiques et de dashboards.",
+            "keywords_injected": [
+                "Data Visualisation"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (Statistiques descriptive/inferentielle) et n'est pas dans l'exclusion, contrairement à 'Data Visualisation' déjà injecté. 'Reporting' est exclu car il est implicite dans 'Reporting automatisé' et 'Dashboards' déjà présents. 'Python' est exclu car il est dans les specific_skills. 'ScikitLearn' est exclu car dans les specific_skills.",
+            "description_tailored": "Formation axée sur l'analyse de données et l'application de méthodes statistiques (descriptive et inferentielle) pour la prédiction, utilisant Python, pandas et scikit-learn.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond à la création de fichiers récapitulatifs et aux dashboards mentionnés dans l'offre, et il n'est pas dans les mots-clés déjà injectés ni dans la description originale. Les autres compétences comme 'Statistiques' ou 'Data Visualisation' sont déjà injectées ailleurs dans le CV.",
+            "description_tailored": "Développement d'un add-on pour un ERP comptable et création d'un portfolio de projets open source, axés sur le Reporting automatisé et les semi-automatisations.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la description originale ne mentionne ni gestion de projet, ni bases de données, ni Excel, ni SharePoint, etc. Les compétences spécifiques sont vides et les mots-clés déjà injectés (Supply Chain Management, Monitoring, Data Visualisation, Statistiques, Reporting) ne correspondent pas aux actions décrites (création d'entreprise, business plan).",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

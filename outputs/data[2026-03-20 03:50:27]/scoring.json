@@ -1,0 +1,124 @@
+{
+    "scoring": [
+        {
+            "name": "Consultant Data Analyst H/F – Stage de fin d'études",
+            "score": 98,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts), Data Visualisation (5pts), Reporting (5pts), Dashboards (5pts), KPI (5pts), Data analysis (5pts). Matchs prio: Data pipelines (3.5pts), Statistiques (3.5pts), Automatisation (3.5pts), Reporting automatisé (3.5pts). Matchs bonus: Power Query (2pts), Power Pivot (2pts), Forecasting (2pts), Web scraping (2pts). Total: 42 pts.",
+                "score": 42
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Primexis est une entreprise cotée en CAC40, ce qui correspond au critère de prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Puteaux. Puteaux est situé à environ 10-12 km de Paris. Selon les règles (1km = -1pt, 2km au-delà = -2pt), Puteaux étant à plus de 2km de Paris, la pénalité est de -2pts. Score de base 15 - 2 = 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat est en recherche de stage fin d'études pour juin 2026. L'offre demande un stage fin d'études à partir de juin 2026. La correspondance est parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+            "score": 98,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Supply Chain Management' (5pts), 'Logistique' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Gestion des stocks' (5pts), 'Warehouse Management' (5pts), 'Entrepôt' (5pts), 'Transport' (5pts), 'Analyse de données' (5pts), 'Python' (5pts), 'data processing' (5pts), 'Automation' (5pts), 'Reporting' (5pts), 'Reporting automatisé' (5pts). Matchs prio: 'Excel avancé' (3.5pts), 'Analyse de données' (3.5pts), 'Python' (3.5pts), 'data processing' (3.5pts), 'Automation' (3.5pts), 'Reporting' (3.5pts), 'Reporting automatisé' (3.5pts). Matchs bonus: 'Excel avancé' (2pts), 'Power Query' (2pts), 'Reporting' (2pts), 'Analyse de données' (2pts), 'Python' (2pts), 'data processing' (2pts), 'Automation' (2pts), 'Reporting automatisé' (2pts). Note: SAP n'est pas dans les compétences du candidat.",
+                "score": 84
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond au profil recherché (Bac+5, stage fin d'études).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Samsung Electronics France est une entreprise cotée en CAC40, correspondant au critère CAC40/S&P500/Big4/Big3.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Saint-Ouen-sur-Seine (93). Lyon est à environ 150km, Paris à environ 25km, Montpellier à plus de 500km. Saint-Ouen est à plus de 2km de Paris (critère -2pts).",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Offre demande stage à partir de juin 2026. Candidat est en recherche de stage fin d'études à partir de juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+            "score": 84,
+            "C1": {
+                "reason": "Matchs t_prio: 'Gestion de bases de données' (Data) + 'Excel' (Data/Supply Chain bonus) = 10 pts. Matchs prio: 'Rédaction de procédures' (Supply Chain prio) + 'Gestion de projet' (Supply Chain prio) + 'Power BI' (Data bonus/Excel) = 10.5 pts. Matchs bonus: 'Power Platform' (Data bonus), 'SharePoint' (Data bonus), 'Optimisation' (Data/SCM prio) = 6 pts. Total: 26.5 pts.",
+                "score": 26.5
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche stage fin d'études, correspondant parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise de luxe de renommée mondiale, classée parmi les plus prestigieuses (équivalent Big3/Big4 en termes de prestige global), mais pas CAC40/S&P500 stricto sensu dans ce contexte de scoring technique spécifique. Score maximal attribué pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Neuilly-sur-Seine est une ville proche de Paris (environ 10-12 km). Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', et étant donné qu'elle est à plus de 2km de Paris (ville cible), on applique la pénalité de -2pts par rapport au maximum de 15pts. Score: 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "L'offre est pour un stage débutant en Juillet 2026. Le candidat recherche un stage débutant en Juin 2026. La correspondance est parfaite (maximale).",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 62,
+            "C1": {
+                "reason": "Le candidat possède Python (bonus), mais manque totalement de Vue.js, JavaScript, TypeScript, FastAPI, PostgreSQL, Git, Docker, Kubernetes et API REST. Aucun match sur les compétences techniques principales de l'offre.",
+                "score": 2
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services (TCS) est une entreprise internationale majeure (Big3/Big4), offrant une forte notoriété.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Paris, ville cible avec un score maximal.",
+                "score": 15
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026, ce qui correspond au profil de stage fin d'études du candidat.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire chargé(e) d'études Développement Territorial H/F",
+            "score": 58,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées (Excel, QGIS, Allemand, Rigueur, Rédaction, Connaissances politiques, Cartographie). Le candidat maîtrise Excel mais pas QGIS, ni les compétences spécifiques en affaires publiques ou cartographie politique.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché (Bac+5/Master, école d'ingénieurs).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev est une entreprise majeure du secteur des transports et de la mobilité, souvent classée dans les indices boursiers (CAC40/S&P500), ce qui justifie un score maximal pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est située à Issy-les-Moulineaux. Cette ville se trouve à environ 10-12 km de Paris. Selon les critères (2km au-delà de Paris = -2pts), le score est de 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026, ce qui correspond exactement à la période demandée par l'offre.",
+                "score": 15
+            }
+        }
+    ]
+}

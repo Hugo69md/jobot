@@ -42,7 +42,7 @@ def _find_resume_json(offer_dir: str, folder_name: str) -> dict | None:
 
 def _find_pdf(offer_dir: str, prefix: str) -> str | None:
     """Return path to a PDF file starting with prefix inside offer_dir, or None."""
-    candidates = glob.glob(os.path.join(offer_dir, f"{prefix}*.pdf"))
+    candidates = glob.glob(os.path.join(glob.escape(offer_dir), f"{prefix}*.pdf"))
     return candidates[0] if candidates else None
 
 

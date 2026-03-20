@@ -1,0 +1,76 @@
+{
+    "offer_name": "Consultant Data Analyst H/F – Stage de fin d'études",
+    "offer_company": "Primexis",
+    "offer_type": "data",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/f965ee7f-56e1-4170-9897-df38ba245476-primexis-consultant-data-analyst-h-f-stage-de-fin-d-etudes",
+    "score": 83,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3
+    ],
+    "skills_section": [
+        "Power BI",
+        "Python",
+        "Reporting automatisé",
+        "Data Visualisation",
+        "Power Query",
+        "Dashboards"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise Primexis en tant que Consultant Data Analyst pour un stage de fin d'études à partir du 1er juin 2026.\n\nMon parcours en Supply Chain Management s'est enrichi par des expériences concrètes chez Arrow et Amazon, où j'ai créé des outils de monitoring et automatisé des processus. Parallèlement, j'ai approfondi mes compétences techniques via des formations HarvardX et Freecodecamp, maîtrisant Python, pandas, numpy et scikitlearn. Mon portfolio personnel illustre cette double compétence data et supply chain.\n\nJe suis particulièrement attiré par vos missions de développement de solutions de reporting automatisés et interactifs. Ma capacité à concevoir des dashboards et à transformer des données brutes en informations actionnables correspond directement à votre besoin de moderniser les processus de refacturation et d'intégrer des indicateurs clés de performance dans un reporting BI. Mon expérience en création d'outils d'analyse et d'automatisation me permettrait de contribuer efficacement à la production de reports fluides et intuitifs pour la Direction Financière.\n\nBien que ma spécialisation soit orientée supply chain, ma formation en ingénierie et mes projets personnels en data analysis me permettent d'aborder vos défis avec une rigueur analytique et une vision orientée métier. Je suis également familier avec les environnements cloud et les bases de données, ce qui me permettrait de participer au déploiement d'une infrastructure data adaptée.\n\nJe serais honoré de pouvoir échanger à nouveau avec vous pour discuter de la manière dont mes compétences en Python, en statistiques et en automatisation peuvent soutenir les objectifs de Primexis.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et à la mission de l'offre, et il n'est pas déjà injecté dans cette expérience. Les autres compétences validées comme 'Python', 'Power Query', 'Reporting', 'Data-driven decision making' ou 'Analyse de données' ne sont pas explicitement mentionnées dans la description originale ou les compétences spécifiques fournies pour cette expérience, mais la description originale est très générale ('Préparation d'un diplôme...'). Cependant, pour respecter strictement la règle de ne pas inventer d'actions et de rester fidèle au sens original tout en maximisant l'ATS, je vais intégrer 'Supply Chain Management' car c'est le seul terme qui relie directement la spécialisation du diplôme aux missions de l'offre sans nécessiter d'invention d'action. Les autres termes comme 'Python' ou 'Power Query' ne sont pas confirmés comme étant utilisés dans cette expérience spécifique par les données fournies, donc je ne les injecterai pas pour éviter le mensonge.",
+            "description_tailored": "Préparation d'un diplôme d'ingénierie en génie mécanique et électrique, avec une spécialisation en Supply Chain Management.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il est explicitement mentionné dans les compétences spécifiques du candidat pour la création d'outils d'analyse, et il figure dans les compétences de l'offre. Les autres compétences de l'offre (SQL, Power BI, Tableau, etc.) ne sont pas présentes dans les compétences spécifiques du candidat pour cette expérience, donc elles ne peuvent pas être injectées sans inventer des faits.",
+            "description_tailored": "Stage en supply chain axé sur l'automatisation de processus et l'analyse de données via Python, avec une immersion professionnelle dans le monitoring des ruptures et des non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (Statistiques descriptives/inferentiel) et n'est pas déjà injecté dans d'autres expériences, contrairement à 'Python' qui est déjà présent. Les autres compétences comme 'Data pipelines' ou 'ETL' ne sont pas explicitement couvertes par les compétences spécifiques de cette expérience (Nettoyage/Préparation de données via Pandas/Numpy), donc on se concentre sur le cœur de l'apprentissage : les statistiques.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, se concentrant sur le codage, l'utilisation de librairies (NumPy, Pandas, Matplotlib, Seaborn) et l'application de statistiques.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'prédiction' est exclu car il fait partie des 'MOTS-CLÉS DÉJÀ INJECTÉS'. Les compétences spécifiques mentionnées ('modèles de prédiction', 'ScikitLearn') sont déjà couvertes par les mots-clés injectés précédemment ou sont trop génériques pour cette expérience académique sans inventer de résultats. Aucun nouveau mot-clé pertinent de l'offre (comme 'automatisation', 'cloud', 'design', 'UX') ne peut être validement injecté car l'expérience est une formation théorique de base sans réalisation de projet concret impliquant ces aspects.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting' est pertinent car il correspond aux missions de création de solutions de reporting automatisés et de dashboards, et il n'est pas dans la liste des mots-clés déjà injectés ni dans les compétences spécifiques du candidat. Les autres compétences validées comme 'Power Query', 'Python', 'Statistiques' ou 'Automatisation' sont soit déjà injectées ailleurs, soit déjà présentes dans les compétences spécifiques du candidat, donc elles sont exclues pour éviter la répétition.",
+            "description_tailored": "Développement de solutions de reporting automatisés et de dashboards interactifs pour visualiser des indicateurs clés de performance, tout en automatisant la production de données via des scripts Python et des pipelines ETL.",
+            "keywords_injected": [
+                "Reporting"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Campus Création Edition 2023-2024",
+            "reasoning": "Aucun mot-clé de l'offre (missions ou compétences) ne peut être injecté car la description originale ne contient aucun élément permettant de valider des compétences techniques (SQL, Python, Power BI, etc.) ou des missions spécifiques (automatisation, cloud, design UX) au-delà du contexte général de création d'entreprise. Les mots-clés 'Supply Chain Management', 'Python', 'Statistiques', 'Reporting' sont déjà exclus par les règles de non-répétition.",
+            "description_tailored": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
+            "keywords_injected": []
+        }
+    ]
+}

@@ -44,9 +44,10 @@ async def send_offer_summary(
     where callback_prefix is a short identifier for the offer (e.g. a sanitized name).
     """
     text = (
-        f"📋 *Offre :* {offer_name}\n"
-        f"🏢 *Entreprise :* {company}\n"
-        f"⭐ *Score :* {score}/100"
+        "Regarde un peu ça :\n\n"
+        f"*Offre :* {offer_name}\n"
+        f"*Entreprise :* {company}\n"
+        f"*Score :* {score}/100"
     )
     keyboard = InlineKeyboardMarkup(
         [

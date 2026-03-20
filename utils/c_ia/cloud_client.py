@@ -60,7 +60,7 @@ def query_cloud_json(
 
     for attempt in range(1, max_retries + 1):
         try:
-            print(f"  [Cloud] 🌐 GLM-4.7 via Ollama Cloud (attempt {attempt}/{max_retries})...")
+            print(f"  [Cloud] 🌐 {OLLAMA_CLOUD_MODEL} via Ollama Cloud (attempt {attempt}/{max_retries})...")
             start = time.time()
 
             # ── Non-streaming call: collect full response at once ──

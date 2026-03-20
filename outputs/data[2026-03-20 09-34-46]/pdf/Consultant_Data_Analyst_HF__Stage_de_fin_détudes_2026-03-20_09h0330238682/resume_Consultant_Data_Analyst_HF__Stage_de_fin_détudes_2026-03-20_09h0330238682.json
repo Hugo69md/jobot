@@ -1,0 +1,76 @@
+{
+    "offer_name": "Consultant Data Analyst H/F – Stage de fin d'études",
+    "offer_company": "Primexis",
+    "offer_type": "data",
+    "offer_URL": "https://www.jobteaser.com/en/job-offers/f965ee7f-56e1-4170-9897-df38ba245476-primexis-consultant-data-analyst-h-f-stage-de-fin-d-etudes",
+    "score": 90,
+    "selected_indexes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+    ],
+    "skills_section": [
+        "Power BI",
+        "Reporting automatisé",
+        "Python",
+        "Data Visualisation",
+        "Power Query",
+        "Dashboards"
+    ],
+    "cover_letter": "Madame, Monsieur,\n\nActuellement en 5ème année d'école d'ingénieur à l'ECAM Lyon, je souhaite intégrer votre entreprise Primexis en tant que Consultant Data Analyst pour un stage de fin d'études à partir du 1er juin 2026.\n\nMon parcours académique et professionnel m'a permis de développer une double compétence en Data et Supply Chain. Au-delà de mes bases théoriques en génie mécanique et électrique, j'ai acquis une expérience concrète dans la création d'outils d'analyse et d'automatisation de processus, notamment lors de mon stage chez Arrow où j'ai conçu des outils de monitoring avec Python et Excel. Parallèlement, mon travail freelance en tant que Data Analyst freelance m'a permis de construire un portfolio incluant des projets d'automatisation et d'analyse de données, renforçant ainsi ma maîtrise de Python, pandas, numpy et scikitlearn.\n\nJe suis particulièrement attiré par vos missions visant à développer des solutions de reporting automatisés et interactifs. Mes compétences en création de dashboards et en storytelling data correspondent directement à votre besoin de mettre le design au service de la Direction Financière. De plus, ma formation HarvardX en Data Science et mes connaissances en statistiques inférentielle et descriptive me permettent de contribuer à la qualité des modèles de données et à la production de KPI pertinents.\n\nMa maîtrise de SQL, Python et Power Query, ainsi que mon intérêt pour l'infrastructure data dans le cloud, me permettent de m'intégrer rapidement à vos équipes. Je suis convaincu que mon profil hybride et ma motivation pour l'analyse de données orientée métier font de moi un candidat idéal pour ce stage.\n\nEn attendant de pouvoir échanger à nouveau avec vous, veuillez accepter mes sincères salutations.",
+    "resume": [
+        {
+            "index": 1,
+            "name": "Etudiant - ECAM Lyon",
+            "reasoning": "Le mot-clé 'Supply Chain Management' est pertinent car il correspond à la spécialisation du diplôme et à la mission de 'développement de solutions' de l'offre, et il n'est pas déjà injecté dans cette expérience. Les autres compétences validées comme 'Python', 'Power Query' ou 'Analyse de données' sont soit absentes des compétences spécifiques du candidat pour cette expérience, soit déjà présentes dans la description originale ('Préparation d'un diplôme...').",
+            "description_tailored": "Étudiant en génie mécanique et électrique spécialisé en Supply Chain Management, préparant un stage de fin d'études.",
+            "keywords_injected": [
+                "Supply Chain Management"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Stage - Laboratoire Arrow, Lyon France",
+            "reasoning": "Le mot-clé 'Python' est pertinent car il est explicitement mentionné dans les compétences spécifiques du candidat et correspond aux missions d'automatisation de l'offre. Les autres compétences validées (comme 'Power Query', 'Excel avancé', 'Analyse de données') sont déjà présentes dans la description originale ou les compétences spécifiques, et les mots-clés comme 'Supply Chain' sont exclus car déjà injectés ailleurs.",
+            "description_tailored": "Première immersion professionnelle dans le domaine de la logistique et de la gestion des stocks, axée sur la création d'outils d'analyse et d'automatisation de processus via Python pour le monitoring des ruptures et des non-conformités en entrepôt.",
+            "keywords_injected": [
+                "Python"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "Freecodecamp - Data analysis with python",
+            "reasoning": "Le mot-clé 'Statistiques' est pertinent car il correspond aux compétences du candidat (Statistiques descriptives/inferentiel) et n'est pas déjà injecté dans d'autres expériences, contrairement à 'Python' qui est déjà présent. Les autres compétences comme 'Data pipelines' ou 'ETL' ne sont pas explicitement couvertes par les compétences spécifiques de cette expérience (Nettoyage/Préparation vs Pipelines complets), donc on se concentre sur l'aspect statistique pur.",
+            "description_tailored": "Formation axée sur l'analyse de données avec Python, incluant le traitement de données et l'application de méthodes de statistiques descriptives et inferentielles.",
+            "keywords_injected": [
+                "Statistiques"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "HarvardX - CS109x, Introduction to Data science",
+            "reasoning": "Le mot-clé 'modèles de prédiction' est présent dans la description originale et les compétences spécifiques, donc exclu. 'Python' est dans les mots-clés déjà injectés, donc exclu. 'ScikitLearn' est dans les compétences spécifiques, donc exclu. Aucun nouveau mot-clé de l'offre ne peut être injecté sans inventer des compétences ou des expériences non mentionnées dans les données fournies.",
+            "description_tailored": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec Python comme support.",
+            "keywords_injected": []
+        },
+        {
+            "index": 6,
+            "name": "Data analyst freelance",
+            "reasoning": "Le mot-clé 'Reporting automatisé' est pertinent car il correspond à la mission de création d'un add-on pour ERP et à la compétence 'Automatisation' du candidat, tout en étant absent des mots-clés déjà injectés et des compétences spécifiques du candidat. Les autres mots-clés pertinents de l'offre (comme 'Power BI', 'SQL', 'Python') sont soit déjà injectés ailleurs dans le CV, soit déjà présents dans les compétences spécifiques du candidat, donc ils ne sont pas réinjectés pour éviter la répétition.",
+            "description_tailored": "Développement d'un add-on pour ERP comptable et création d'un portfolio de projets open source, axés sur le nettoyage, la préparation et l'automatisation des données via Python et Excel. Mise en œuvre de solutions de reporting automatisé et semi-automatisé pour la visualisation de données et la production de dashboards.",
+            "keywords_injected": [
+                "Reporting automatisé"
+            ]
+        },
+        {
+            "index": 8,
+            "name": "Kryptosphere",
+            "reasoning": "Aucun mot-clé de l'offre ne peut être injecté car la liste des compétences validées du candidat est vide [], et tous les mots-clés pertinents de l'offre (comme 'Analyse de données', 'Esprit analytique', 'Communication') ne sont pas présents dans la description originale ni dans les compétences spécifiques.",
+            "description_tailored": "Membre actif de l'association étudiante Kryptosphere à l'antenne de Lyon, réseau étudiant tech promouvant les nouvelles technologies liées aux cryptomonnaies",
+            "keywords_injected": []
+        }
+    ]
+}

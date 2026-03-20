@@ -1,0 +1,124 @@
+{
+    "scoring": [
+        {
+            "name": "STAGE Supply Planner Audio Vidéo, Saint-Ouen, 93 (H/F)",
+            "score": 98,
+            "C1": {
+                "reason": "Matchs t_prio: 'Supply Chain' (5pts), 'Supply Chain Management' (5pts), 'Logistique' (5pts), 'Gestion des stocks' (5pts), 'Prévision de la demande' (5pts), 'Gestion des stocks' (5pts), 'Warehouse Management' (5pts), 'Entrepôt' (5pts), 'Transport' (5pts), 'Analyse de données' (5pts), 'Python' (5pts), 'data processing' (5pts), 'Automation' (5pts), 'Reporting' (5pts), 'Reporting automatisé' (5pts). Matchs prio: 'Excel avancé' (3.5pts), 'Analyse de données' (3.5pts), 'Python' (3.5pts), 'data processing' (3.5pts), 'Automation' (3.5pts), 'Reporting' (3.5pts), 'Reporting automatisé' (3.5pts). Matchs bonus: 'Excel avancé' (2pts), 'Power Query' (2pts), 'Reporting' (2pts), 'Analyse de données' (2pts), 'Python' (2pts), 'data processing' (2pts), 'Automation' (2pts), 'Reporting automatisé' (2pts). Note: SAP n'est pas dans les compétences du candidat.",
+                "score": 84
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+5), recherche stage fin d'études. Correspond au profil recherché (Bac+5, stage fin d'études).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Samsung Electronics France est une entreprise cotée en CAC40, correspondant au critère CAC40/S&P500/Big4/Big3.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Lieu: Saint-Ouen-sur-Seine (93). Lyon est à environ 150km, Paris à environ 25km, Montpellier à plus de 500km. Saint-Ouen est à plus de 2km de Paris (critère -2pts).",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Offre demande stage à partir de juin 2026. Candidat est en recherche de stage fin d'études à partir de juin 2026. Correspondance parfaite.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Consultant Data Analyst H/F – Stage de fin d'études",
+            "score": 90,
+            "C1": {
+                "reason": "Matchs t_prio: Python (5pts), Excel avancé (5pts). Matchs prio: Data Visualisation (3.5pts), Reporting (3.5pts), Automatisation (3.5pts), Statistiques (3.5pts). Matchs bonus: Power Query (2pts), Data processing (2pts). Total: 32 pts.",
+                "score": 32
+            },
+            "C2": {
+                "reason": "Ingénieur 5A ECAM Lyon (Bac+5) et recherche de stage fin d'études correspondent exactement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Primexis n'est pas dans les catégories CAC40, S&P500, Big4 ou Big3. En tant que cabinet de conseil spécialisé (audit et conseil en gestion), elle obtient un score maximal pour la catégorie 'boite de conseil'.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Puteaux. Puteaux est situé à environ 10-12 km de Paris. Selon la règle 'si 2Km au dela de ces 3 villes, -2pt', et étant donné que Paris est une ville cible, Puteaux étant à plus de 2km de Paris, le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le stage est recherché à partir de juin 2026. Le candidat est en recherche de stage fin d'études (Bac+5), ce qui correspond parfaitement au profil recherché pour un stage de fin d'études.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stage - Assistant(e) Projets Techniques - Audiovisuel & Base de Données (H/F/X) – Juillet 2026",
+            "score": 77,
+            "C1": {
+                "reason": "Matchs t_prio: 'Gestion de bases de données' (Data) + 'Excel' (Data/Supply Chain bonus) = 10 pts. Matchs prio: 'Création de fichiers récapitulatifs d'indicateurs clés' (Data reporting) + 'Gestion de l'inventaire' (Supply Chain) = 7 pts. Matchs bonus: 'Excel' (Supply Chain bonus) = 2 pts. Total: 19 pts.",
+                "score": 19
+            },
+            "C2": {
+                "reason": "Candidat est Ingénieur 5A ECAM Lyon (Bac+4/5) et recherche un stage fin d'études, correspondant au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "CHANEL est une entreprise de luxe de renommée mondiale, classée dans les grands groupes internationaux (équivalent Big3/Big4 en termes de prestige et stabilité), mais pas CAC40/S&P500 stricto sensu. Score maximal attribué pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "Neuilly-sur-Seine est une ville proche de Paris (environ 10-12 km). Selon la règle de pénalité (-2pts pour >2km de Paris), le score est de 13 pts.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "L'offre est pour juillet 2026 et le candidat recherche un stage à partir de juin 2026. La période correspond parfaitement au maximum.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Stagiaire chargé(e) d'études Développement Territorial H/F",
+            "score": 58,
+            "C1": {
+                "reason": "Aucune compétence du candidat (Supply Chain, Data) ne correspond aux compétences demandées (Excel, QGIS, Allemand, Rigueur, Rédaction, Connaissances politiques, Données statistiques géographiques). Le candidat maîtrise Excel et Python mais pas QGIS, ni les compétences spécifiques en affaires publiques et géographie politique.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché (Bac+5/Master, école d'ingénieurs).",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Transdev est une entreprise majeure du secteur des transports et de la mobilité, souvent classée dans les indices boursiers (CAC40/S&P500), ce qui justifie un score maximal pour le prestige.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est située à Issy-les-Moulineaux. Cette ville se trouve à environ 10-12 km de Paris. Selon les critères (2km au-delà de Paris = -2pts), le score est de 13.",
+                "score": 13
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026, ce qui correspond exactement à la période demandée par l'offre.",
+                "score": 15
+            }
+        },
+        {
+            "name": "Développement IA / Full Stack Python / Vue.js",
+            "score": 45,
+            "C1": {
+                "reason": "Aucune compétence de l'offre (Vue.js, JavaScript, TypeScript, FastAPI, Docker, Kubernetes, etc.) n'est présente dans les compétences du candidat (Supply Chain, Data, Python basique). Le candidat maîtrise Python mais pas les frameworks web, les bases de données relationnelles avancées ou les outils de déploiement.",
+                "score": 0
+            },
+            "C2": {
+                "reason": "Le candidat est Ingénieur 5A ECAM (Bac+5) et recherche un stage fin d'études, ce qui correspond parfaitement au profil recherché.",
+                "score": 10
+            },
+            "C3": {
+                "reason": "Tata Consultancy Services (TCS) est une entreprise internationale majeure (Big3/Big4), offrant une forte notoriété et un prestige reconnu.",
+                "score": 20
+            },
+            "C4": {
+                "reason": "L'offre est à Paris. Le candidat est de Lyon. La distance est supérieure à 15 km (environ 500-600 km), ce qui ne donne aucun point selon la règle '<15km = 0'.",
+                "score": 0
+            },
+            "C5": {
+                "reason": "Le candidat recherche un stage à partir de juin 2026. L'offre ne précise pas de date de début, mais le contexte de recherche correspond à la période cible (maximale).",
+                "score": 15
+            }
+        }
+    ]
+}

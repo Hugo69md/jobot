@@ -21,7 +21,7 @@ def run_pdf_generation(date: str):
 
     # ─── Paths ───────────────────────────────────────────────────
     cv_path        = os.path.join("inputs", "cv.json")
-    photo_path     = os.path.join("inputs", "photo.jpeg")
+    photo_path     = os.path.join("inputs", "photo.jpg")
     match_path     = os.path.join("outputs", f"data[{date}]", "match.json")
     pdf_output_dir = os.path.join("outputs", f"data[{date}]", "pdf")
 

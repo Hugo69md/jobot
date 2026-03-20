@@ -12,7 +12,6 @@ For each offer subfolder inside outputs/data[date]/pdf/:
 """
 
 import asyncio
-import glob
 import json
 import os
 
@@ -40,10 +39,10 @@ def _find_resume_json(offer_dir: str, folder_name: str) -> dict | None:
         return None
 
 
-def _find_pdf(offer_dir: str, prefix: str) -> str | None:
-    """Return path to a PDF file starting with prefix inside offer_dir, or None."""
-    candidates = glob.glob(os.path.join(glob.escape(offer_dir), f"{prefix}*.pdf"))
-    return candidates[0] if candidates else None
+def _find_pdf(offer_dir: str, prefix: str, folder_name: str) -> str | None:
+    """Return path to {prefix}_{folder_name}.pdf inside offer_dir, or None."""
+    path = os.path.join(offer_dir, f"{prefix}_{folder_name}.pdf")
+    return path if os.path.exists(path) else None
 
 
 async def _send_all_offers(bot: Bot, chat_id: str, pdf_dir: str) -> list[str]:
@@ -90,14 +89,14 @@ async def _send_all_offers(bot: Bot, chat_id: str, pdf_dir: str) -> list[str]:
             await send_text(bot, chat_id, f"🔗 (URL not available for: {offer_name})")
 
         # ── 2. CV PDF ────────────────────────────────────────────
-        cv_path = _find_pdf(offer_dir, "CV")
+        cv_path = _find_pdf(offer_dir, "CV", folder_name)
         if cv_path:
             await send_document(bot, chat_id, cv_path, caption=f"📄 CV — {offer_name}")
         else:
             print(f"    [WARN] CV.pdf not found in {offer_dir}")
 
         # ── 3. Cover letter PDF ───────────────────────────────────
-        lm_path = _find_pdf(offer_dir, "LM")
+        lm_path = _find_pdf(offer_dir, "LM", folder_name)
         if lm_path:
             await send_document(bot, chat_id, lm_path, caption=f"✉️ LM — {offer_name}")
         else:

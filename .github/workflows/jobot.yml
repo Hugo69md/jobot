@@ -66,11 +66,16 @@ jobs:
         if: steps.ollama-cache.outputs.cache-hit != 'true'
         run: ollama pull ${{ env.OLLAMA_MODEL }}
 
-      # ── 7. Run the pipeline ──────────────────────────────────────
+       # ── 7. Run the pipeline ──────────────────────────────────────
       - name: Run jobot pipeline (max_offers=2)
+        id: pipeline
         env:
           MAX_OFFERS: "5"
-        run: python main.py
+        run: |
+          python main.py
+          # Find the most recent data folder created in this run
+          LATEST_DIR=$(ls -dt outputs/data\[*\] | head -1)
+          echo "output_dir=$LATEST_DIR" >> "$GITHUB_OUTPUT"
 
       # ── 8. Upload outputs as artifacts (for debugging) ───────────
       - name: Upload run outputs
@@ -78,6 +83,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jobot-outputs-${{ github.run_id }}
-          path: outputs/
+          path: ${{ steps.pipeline.outputs.output_dir }}
           retention-days: 7
           if-no-files-found: warn

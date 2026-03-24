@@ -76,7 +76,7 @@ jobs:
       - name: Run jobot pipeline (max_offers=2)
         id: pipeline
         env:
-          MAX_OFFERS: "5"
+          MAX_OFFERS: "7"
         run: |
           python main.py
           # Find the most recent data folder created in this run

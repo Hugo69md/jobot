@@ -54,18 +54,24 @@ jobs:
       - name: Install and start Ollama
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
-          ollama serve &
-          # Wait until Ollama is responsive
+          # Install script starts ollama via systemd — no need for "ollama serve &"
           for i in $(seq 1 30); do
             curl -sf http://localhost:11434/api/tags && break
             sleep 2
           done
 
-      # ── 6. Ollama — pull model (only on cache miss) ──────────────
-      - name: Pull Ollama model (cache miss only)
-        if: steps.ollama-cache.outputs.cache-hit != 'true'
-        run: ollama pull ${{ env.OLLAMA_MODEL }}
-
+      # ── 6. Ollama — ensure model is registered & loaded ──────────
+      - name: Ensure Ollama model is ready
+        run: |
+          # Always pull: on cache hit it just re-registers the model (instant, no download).
+          # On cache miss it downloads the full model.
+          ollama pull ${{ env.OLLAMA_MODEL }}
+          # Warm-up: load model into memory
+          curl -sf http://localhost:11434/api/generate \
+            -d '{"model": "${{ env.OLLAMA_MODEL }}", "prompt": "hi", "stream": false}' \
+            > /dev/null
+          echo "✅ Model ${{ env.OLLAMA_MODEL }} is loaded and ready"
+          
        # ── 7. Run the pipeline ──────────────────────────────────────
       - name: Run jobot pipeline (max_offers=2)
         id: pipeline

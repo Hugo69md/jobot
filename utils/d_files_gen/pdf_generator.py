@@ -97,7 +97,7 @@ def _build_cv_elements(
     name_block.append(Paragraph(intro, styles["intro"]))
 
     if photo_path and os.path.exists(photo_path):
-        photo = Image(photo_path, width=30 * mm, height=30 * mm)
+        photo = Image(photo_path, width=22.7 * mm, height=30 * mm)
         photo.hAlign = "LEFT"
         header_table = Table(
             [[photo, name_block]],

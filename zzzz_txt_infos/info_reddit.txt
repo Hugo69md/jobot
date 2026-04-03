@@ -1,0 +1,59 @@
+Ambitious-Storm-8008
+
+J'ai eu 4 entretiens en 10 jours après des mois de silence. Je vais essayer d'expliquer ce que j'ai fait.
+
+Je sais que ça va sonner bizarre mais je vais quand même partager.
+
+Pendant 4 mois : silence complet. 50+ candidatures. 3 réponses dont 2 automatiques.
+
+J'ai commencé à me demander si le problème était vraiment moi, ou si quelque chose dans le système. J'ai lu des trucs sur les ATS mais personne donnait les vrais détails techniques. Alors j'ai décidé de comprendre le mécanisme moi-même.
+
+Voilà ce que j'ai trouvé. Et certains trucs m'ont vraiment choqué.
+
+Ce que les ATS font vraiment (jamais entendu qq dire ca) :
+
+1. Ils ne cherchent pas le sens. Ils cherchent le token exact.
+
+"Gestion de projet" et "pilotage de projet" = même chose pour vous. Pour l'ATS = deux tokens différents. Score : 0 pour celui qui n'est pas dans l'offre. J'avais systématiquement les bons synonymes, jamais les bons mots.
+
+2. Le même mot dans la section "Compétences" vaut moins que dans "Expériences".
+
+J'avais "Python" dans ma liste de compétences. L'ATS le score moins parce qu'une liste de skills sans contexte = déclaration. Le même mot dans un bullet point d'expérience ("développement d'outils Python pour l'analyse de données clients") = preuve. Score complètement différent.
+
+3. Les mots qui apparaissent une seule fois peuvent ne pas compter.
+
+Certains ATS ont un seuil de fréquence minimum. Si un terme clé n'apparaît qu'une fois dans ton CV, certains systèmes le considèrent comme accidentel. Il faut que le mot apparaisse dans 2 sections différentes (expérience ET compétences, par exemple) pour être vraiment compté.
+
+4. Les ATS lisent les mots "requis" de l'offre avec un poids 3x supérieur.
+
+Une offre qui dit "expérience requise en reporting financier" → ce mot est flaggé comme obligatoire. Si c'est absent de ton CV, ton score chute massivement. Les mots après "souhaité" ou "un plus" pèsent beaucoup moins. Mon script distinguait ces deux catégories.
+
+5. Ton titre de poste actuel est le mot-clé le plus lourd du CV.
+
+Si l'offre dit "Chargé de projet" et ton CV dit "Project Manager" (même en boîte française) → match nul sur le titre. Et le titre pèse autant que 5 bullet points combinés dans certains systèmes.
+
+6. Workday, Taleo, et SAP n'ont pas les mêmes règles.
+
+Workday fait du matching quasi-littéral. Taleo tolère un peu plus de variation. SAP SuccessFactors est le plus strict des trois. Savoir lequel utilise la boîte change complètement la stratégie. Les grandes boîtes mentionnent souvent leur ATS dans les paramètres de candidature.
+
+Du coup voilà ce que j'ai fait :
+
+J'ai pris 20 offres dans mon secteur. Copié dans un fichier texte. Demandé à ChatGPT de m'écrire un script Python basique qui :
+
+- comptait la fréquence de chaque mot non-générique
+
+- séparait les mots après "requis/indispensable" vs "souhaité"
+
+- identifiait les mots présents dans 15+ offres sur 20 (= ce que TOUS les ATS du secteur cherchent)
+
+Ce que j'ai trouvé : 11 termes que j'utilisais jamais dans mon CV. Pas parce que je n'avais pas les compétences — parce que je les appelais autrement.
+
+J'ai remplacé ces 11 formulations. Rien d'inventé. Juste reformulé ce que je faisais déjà avec leur vocabulaire.
+
+Et j'ai ajouté les mots-clés critiques dans deux sections différentes (expérience ET compétences) pour passer le seuil de fréquence.
+
+Semaine suivante : 3 calls de présélection. La semaine d'après : entretien RH, entretien technique dans une startup.
+
+Même profil. Même expérience. 11 mots et 1 règle de fréquence.
+
+Je peux pas garantir que ça marche pour tout le monde. Mais voilà exactement ce que j'ai fait.

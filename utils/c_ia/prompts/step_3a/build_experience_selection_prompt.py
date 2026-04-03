@@ -30,6 +30,7 @@ def build_experience_selection_prompt(
     offer_summary = {
         "name":                best_offer.get("name", ""),
         "company":             best_offer.get("company", ""),
+        "description":         best_offer.get("description", ""),
         "missions":            best_offer.get("missions", []),
         "competences_offre":   best_offer.get("competences_offre", []),
         "offer_industry_type": best_offer.get("offer_industry_type", []),
@@ -40,9 +41,9 @@ def build_experience_selection_prompt(
 
     return f"""*** CONTEXTE ***:
 Tu es un expert recrutement. Tu aides un étudiant ingénieur à compléter la sélection d'expériences pour son CV.
-D'autres expériences ont déjà été sélectionnées pour ce CV. Tu dois choisir parmi le pool ci-dessous UNIQUEMENT.
+D'autres expériences ont déjà été sélectionnées pour ce CV. Tu dois choisir parmi celles proposées dans experiences candidat UNIQUEMENT.
 
-*** EXPÉRIENCES CANDIDATES (pool de sélection) ***:
+*** EXPÉRIENCES CANDIDAT ***:
 {json.dumps(pool_summary, ensure_ascii=False, separators=(',', ':'))}
 
 *** INDEX VALIDES ***: {valid_indexes_list}

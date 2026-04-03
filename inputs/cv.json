@@ -27,7 +27,7 @@
         "medical"
       ],
       "role":"assistant supply chain",
-      "period": "Juin / Octobre 2024",
+      "period": "Juin 2024 / Octobre 2024",
       "description": "Stage en supply chain, création de plusieurs outils d'analyse de données et d'automatisation de process dans le contexte des missions données",
       "specific_skills": [
         "Première immersion professionnelle dans le monde de la supply chain",
@@ -44,7 +44,7 @@
         "entreprenariat"
       ],
       "role":"Participant",
-      "period": "2023-2024",
+      "period": "Année scolaire 2023-2024",
       "description": "Concours initiant à l'entreprenariat avec carte blanche sur le sujet abordé, proposition de création d'une entreprise visant à réduire les risques d'addictions au smartphone en équipe, création complète d'un business plan.",
       "specific_skills": [],
       "link": "",
@@ -73,7 +73,7 @@
         "data"
       ],
       "role":"apprenant",
-      "period": "Décembre 25 / Janvier 26",
+      "period": "Décembre 2025 / Janvier 2026",
       "description": "Formation visant à apprendre les bases du domaine de la data science axé sur les modèles de prédiction avec python comme support",
       "specific_skills": [
         "Approfondissement de la librairie ScikitLearn",
@@ -129,20 +129,16 @@
     },
     {
       "index": 9,
-      "name": "Assistant gestion d'entrepôt - VJ logistique",
+      "name": "CSCA certification - 'Certified supply chain analyst'",
       "type":[
         "supply_chain"
       ],
-      "role":"Assistant logistique",
-      "period": "Aout / Septembre 2023 - 2 mois",
-      "description": "Initiation à la logistique avec le chef d'entrepôt, gestion de stocks, arrivées et departs de camions, administratif lié à la logistique, Préparation et transport de palettes.",
-      "specific_skills": [
-        "Initiation à la gestion logistique",
-        "Gestion d'entrepôt",
-        "Préparation et transport de palettes"
-      ],
+      "role":"apprenant",
+      "period": "Janvier 2026 / avril 2026",
+      "description": "Certification de l'organisme 'International supply chain education alliance' attestant de mes compétences dans le domaine de la supply chain ",
+      "specific_skills": [],
       "link": "",
-      "categorization": "experiences_pro"
+      "categorization": "certifications"
     },
     {
       "index": 10,
@@ -152,7 +148,7 @@
         "supply_chain" 
       ],
       "role":"manutentionnaire",
-      "period": "Juin / Août 2021 - 2 mois",
+      "period": "Juin 2021 / Août 2021",
       "description": "Stage ouvrier, préparation de routes en tant que manutentionnaire, initiation au 5S.",
       "specific_skills": [
         "Picking de routes",

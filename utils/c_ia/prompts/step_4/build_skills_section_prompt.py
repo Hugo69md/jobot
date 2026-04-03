@@ -51,8 +51,8 @@ Ces mots-clés apparaissent déjà dans les expériences. PRIVILÉGIE des compé
 {already_text}
 *** INSTRUCTIONS ***:
 1. Identifie les compétences du CATALOGUE qui correspondent aux besoins de l'offre ("competences_offre" + "missions")
-2. PRIORITÉ aux compétences qui sont pertinentes pour l'offre ET pas encore dans "MOTS-CLÉS DÉJÀ PRÉSENTS"
-3. Si moins de 6 compétences nouvelles sont pertinentes, complète avec des compétences déjà présentes (la répétition ATS reste utile)
+2. PRIORITÉ aux compétences qui sont pertinentes pour l'offre ET dans "MOTS-CLÉS DÉJÀ PRÉSENTS"
+3. Si moins de 6 compétences nouvelles sont pertinentes, complète avec des compétences présentes dans le catalogue mais pas encore utilisées dans les descriptions,
 4. Sélectionne exactement 6 compétences
 
 *** ATTENTION ***:

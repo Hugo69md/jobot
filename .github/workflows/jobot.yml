@@ -73,10 +73,10 @@ jobs:
           echo "✅ Model ${{ env.OLLAMA_MODEL }} is loaded and ready"
           
        # ── 7. Run the pipeline ──────────────────────────────────────
-      - name: Run jobot pipeline (max_offers=2)
+      - name: Run jobot pipeline (max_offers=9)
         id: pipeline
         env:
-          MAX_OFFERS: "7"
+          MAX_OFFERS: "9"
         run: |
           python main.py
           # Find the most recent data folder created in this run

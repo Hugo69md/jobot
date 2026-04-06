@@ -64,7 +64,7 @@ def build_resume_prompt(
 - les logiciels ATS ne cherchent pas le sens. Ils cherchent le token exact. : ("Gestion de projet" et "pilotage de projet" = même chose pour un humain. Pour l'ATS = deux tokens différents. Score : 0 pour celui qui n'est pas dans l'offre. Il faut donc injecter les mots-clés EXACTS de l'offre, meme si le mot clé present dans "all_candidate_skills" est un synonyme de ce qui est dans l'offre, il faut privilégier la formulation de l'offre pour maximiser le matching ATS)
 
 *** INSTRUCTIONS ***:
-1. Identifie les mots-clés de l'offre ("missions" + "competences_offre") QUI sont similaire à ceux presnet dans "COMPÉTENCES VALIDÉES DU CANDIDAT"
+1. Identifie les mots-clés de l'offre ("competences_offre") QUI sont similaire à ceux present dans "COMPÉTENCES VALIDÉES DU CANDIDAT"
 2. EXCLUS tout mot-clé listé dans "MOTS-CLÉS DÉJÀ INJECTÉS" — ils sont déjà dans le CV
 3. EXCLUS tout mot-clé déjà présent dans la description originale ou dans specific_skills — pas besoin de le réinjecter
 4. Selectionne le ou les mots-clés restants les PLUS PERTINENTS pour cette expérience, garde la forme presente dans l'offre comme precisé dans "INFORMATIONS IMPORTANTES" 

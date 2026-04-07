@@ -1,7 +1,7 @@
 import os
 import json
 from utils.c_ia.ollama_client import query_ollama_json
-from utils.c_ia.cloud_client import query_cloud_json
+from utils.c_ia.glm_client import query_glm_json
 from utils.c_ia.preselect_experiences import preselect_experiences
 from utils.c_ia.prompts.step_0.build_domain_classification_prompt import build_domain_classification_prompt
 from utils.c_ia.prompts.step_1.build_extraction_prompt import build_extraction_prompt
@@ -139,7 +139,7 @@ def run_ia(date: str):
         print(f"\n  [{i+1}/{len(enriched_offers)}] Scoring: {offer_name[:60]}...")
 
         prompt = build_single_offer_scoring_prompt(cv_data, offer)
-        result = query_ollama_json(prompt, temperature=0.0, num_predict=1000)
+        result = query_glm_json(prompt, temperature=0.0, max_tokens=1000)
 
         if result and all(k in result for k in ("C1", "C2", "C3", "C4", "C5")):
             final_score = _compute_score(result)
@@ -245,8 +245,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, 6
                 )
-                selection_result = query_cloud_json(
-                    selection_prompt, temperature=0.0, num_predict=800
+                selection_result = query_glm_json(
+                    selection_prompt, temperature=0.0, max_tokens=800
                 )
 
                 if selection_result and "selected_indexes" in selection_result:
@@ -288,8 +288,8 @@ def run_ia(date: str):
                 selection_prompt = build_experience_selection_prompt(
                     pool_experiences, offer_full, needed_from_ia
                 )
-                selection_result = query_cloud_json(
-                    selection_prompt, temperature=0.0, num_predict=800
+                selection_result = query_glm_json(
+                    selection_prompt, temperature=0.0, max_tokens=800
                 )
 
                 if selection_result and "selected_indexes" in selection_result:
@@ -342,8 +342,8 @@ def run_ia(date: str):
                 cv_data, offer_full, exp,
                 already_injected=list(all_keywords_injected),
             )
-            resume_result_single = query_ollama_json(
-                resume_prompt, temperature=0.1, num_predict=350
+            resume_result_single = query_glm_json(
+                resume_prompt, temperature=0.1, max_tokens=350
             )
 
             if resume_result_single and "description_tailored" in resume_result_single:
